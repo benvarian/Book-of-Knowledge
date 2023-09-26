@@ -1,0 +1,114 @@
+{
+  "CITS3005": {
+    "code": "CITS3005",
+    "title": "Knowledge Representation",
+    "level": "3",
+    "Description": "Knowledge Representation will cover tools and methodologies for the formal representation of knowledge in a machine readable format, and automated reasoning technologies. These technologies are important for capturing domain specific details and supporting and automating decision making processes. The course will cover: logical foundations of artificial intelligence, including first order, probabilistic and fuzzy logics; formal representation of knowledge domains, including description logics, ontologies and graphical models; reasoning techniques including logic programming and theorem proving; and applications to planning domains.",
+    "Credit": "6",
+    "Outcomes": [
+      " formulate complex concepts, rules and arguments in an appropriate logical language.",
+      " select suitable tools and formalisms to capture domain specific knowledge in a machine readable format.",
+      " describe the theoretical foundation of logic programming.",
+      " design, verify and implement logic programs.",
+      " design and implement planning systems for a given domain.."
+    ],
+    "Assessment": [
+      " workshops",
+      " planning project",
+      " final examination"
+    ],
+    "Prerequisites": [
+      "CITS2200",
+      "CITS2211"
+    ]
+  },
+  "CITS3200": {
+    "code": "CITS3200",
+    "title": "Professional Computing",
+    "level": "3",
+    "Description": "Unlike other computing units you will have taken, which are about different aspects of computer or data science, CITS3200 Professional Computing is deliberately outward facing - to your future role in industry. For example, the unit teaches an appreciation of the ethical and social implications of computing projects, and aspects of project management, in the context of a large-scale computing projects. The bulk of the unit is then taken up with a large group project involving five or six students per group. The project will give you the opportunity to practice various project management techniques and communication skills, and to try different roles in a computing project team.",
+    "Credit": "6",
+    "Majors": [
+      "Computer Science",
+      "Data Science",
+      "International Cybersecurity",
+      "Computing and Data Science",
+      "Artificial Intelligence",
+      "Cybersecurity",
+      "Software Engineering"
+    ],
+    "Outcomes": [
+      " apply computer systems knowledge and skills in project situations",
+      " use agile methodology in software development",
+      " solve problems in computer systems and software development",
+      " justify the professional responsibility to produce reliable software",
+      " assess the social impacts of computing projects",
+      " perform effectively as part of a multidisciplinary and multicultural team."
+    ],
+    "Assessment": [
+      " project and ",
+      " professional development portfolio"
+    ],
+    "Prerequisites": [
+      "CITS2002",
+      "CITS2200",
+      "CITS2402"
+    ],
+    "Incompatibility": [
+      "CITS5206"
+    ]
+  },
+  "CITS3006": {
+    "code": "CITS3006",
+    "title": "Penetration Testing",
+    "level": "3",
+    "Description": "Students learn how to conduct basic computer system vulnerability analysis and penetration testing looking from an attacker's perspectives to find and exploit vulnerabilities, as well as looking from the defender's perspectives to patch vulnerabilities and conduct forensics to mitigate attacks.",
+    "Credit": "6",
+    "Majors": [
+      "International Cybersecurity",
+      "Cybersecurity"
+    ],
+    "Outcomes": [
+      " identify security vulnerabilities in computer systems",
+      " demonstrate an understanding of different penetration testing methods and skills",
+      " design basic penetration testing methods",
+      " select appropriate penetration testing tools for different applications/platforms/environments",
+      " evaluate security design, implementation and penetration testing practices."
+    ],
+    "Assessment": [
+      " 3 tests ",
+      " project"
+    ],
+    "Prerequisites": [],
+    "Advisable prior study": []
+  },
+  "CITS3007": {
+    "code": "CITS3007",
+    "title": "Secure Coding",
+    "level": "3",
+    "Description": "This unit covers different types of security vulnerabilities of computer systems and how to prevent and mitigate the effects of them.  Topics include: (1) memory and Arithmetic Errors; (2) validated input and inter-process communication; (3) race conditions and file operations; (4) cryptographic practises; and (5) development practices.",
+    "Credit": "6",
+    "Majors": [
+      "International Cybersecurity",
+      "Artificial Intelligence",
+      "Cybersecurity",
+      "Software Engineering"
+    ],
+    "Outcomes": [
+      " demonstrate an understanding of the basic execution model of computer programs and how programs represent and access their resources",
+      " explain a range of common software vulnerabilities, the threats that they pose to correct execution, and steps to mitigate them",
+      " validate a program's input data and external connections",
+      " apply industry standard secure programming practices",
+      " develop a systems approach to the evaluation of a software system to identify security vulnerabilities."
+    ],
+    "Assessment": [
+      " tests",
+      " project",
+      " exam"
+    ],
+    "Prerequisites": [],
+    "Advisable prior study": [
+      "CITS2002"
+    ]
+  }
+}
