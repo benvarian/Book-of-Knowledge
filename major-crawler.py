@@ -28,10 +28,13 @@ for major in major_dict.keys():
     page = requests.get(link, headers=headers)
     soup = BeautifulSoup(page.content, "lxml")
     desc = soup.find('dt', string="Description")
-    desc = desc.findNext('dd').contents[2].contents[0]
+    desc = desc.findNext('p')
+    if(len(desc.text) == 0): desc = desc.findNext('p').getText(separator="")
     major_dict[major]["Description"] = desc
     outcomes = soup.find('dt', string="Outcomes")
     outcomes = outcomes.findNext('p').contents[0]
     major_dict[major]["Outcomes"] = outcomes
 
-print("done")
+with open("datafile.json", "w") as file:
+    for item in major_dict.items():
+        file.write(str(item))
