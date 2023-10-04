@@ -22,6 +22,7 @@ for major in majors:
     id = major.contents[1].replace('[', '').replace(']', '').strip()
     major_dict[id] = {}
 
+
 base = "https://handbooks.uwa.edu.au/majordetails?code="
 for major in major_dict.keys():
     link = base + major
@@ -29,12 +30,14 @@ for major in major_dict.keys():
     soup = BeautifulSoup(page.content, "lxml")
     desc = soup.find('dt', string="Description")
     desc = desc.findNext('p')
-    if(len(desc.text) == 0): desc = desc.findNext('p').getText(separator="")
+    if(len(desc.text) == 0): 
+        desc = desc.findNext('p').getText(separator="")
+    else:
+        desc = desc.getText(separator="")
     major_dict[major]["Description"] = desc
     outcomes = soup.find('dt', string="Outcomes")
     outcomes = outcomes.findNext('p').contents[0]
     major_dict[major]["Outcomes"] = outcomes
 
 with open("datafile.json", "w") as file:
-    for item in major_dict.items():
-        file.write(str(item))
+    json.dump(major_dict, file, indent=4)
