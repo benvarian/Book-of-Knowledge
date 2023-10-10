@@ -10,17 +10,33 @@ headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 QIHU 360SE"
 }
 
-# unit codes is a textfile containing the 8 character unit codes, 1 to a line.
-# test only with small lists of units (e.g. CITS units)
-codes = open("unit-codes.txt", "r")
+unit_code = []
 
-# the unit currently being crawled
-code = codes.readline().strip()
+# reading in datafile
+code = open("datafile.json", "r")
+code = json.load(code)
+
+for i in code.items():
+    for level in range(1, 5):
+        key = f"Level{level}Units"
+        for unit in i[1][key]:
+            print(unit)
+            if unit not in unit_code:
+                unit_code.append(unit)
+        # print(level)
+
+print(unit_code)
+# # unit codes is a textfile containing the 8 character unit codes, 1 to a line.
+# # test only with small lists of units (e.g. CITS units)
+# codes = open("unit-codes.txt", "r")
+
+# # the unit currently being crawled
+# code = codes.readline().strip()
 
 # the dictionary of units.
 units = {}
 
-while code:
+for code in unit_code:
     print(code)
     page = requests.get(url + code, headers=headers)
 
@@ -48,10 +64,12 @@ while code:
         elif key == "Offering":
             offer = {}
             for row in value.find_all("tbody tr"):
-                for h, d in list(zip(value.find_all("thead th"), row.find_all("td"))):
+                for h, d in list(
+                        zip(value.find_all("thead th"), row.find_all("td"))):
                     offer[h.get_text().strip()] = d.get_text().strip()
             unit[key] = offer
-        # Find Majors in which the course appears (note, only name, not code is given.
+        # Find Majors in which the course appears (note, only name, not code is
+        # given.
         elif key == "Details for undergraduate courses":
             majors = value.find("li").get_text().strip()
             unit["Majors"] = re.findall(r"([A-Z][^;]*)", majors[5:-16])
@@ -66,7 +84,8 @@ while code:
         # find Unit Coordinator name
         elif key == "Unit Coordinator":
             unit[key] = value.get_text().strip()
-        # find description of contact hours with class type and time per week (working?)
+        # find description of contact hours with class type and time per week
+        # (working?)
         elif key == "Contact Hours":
             classes = {}
             for d, h in list(
@@ -75,20 +94,21 @@ while code:
                 classes[desc[i]] = classes[hours[i]]
             unit["Contact"] = classes
         # find prerequisites. Format is vague, should probably convert to CNF.
-        elif (
-            key == "Unit rules"
-        ):  # deeply unsatisfactory. Should aim to capture the Boolean rules here. Will accept as disjunct.
+        # deeply unsatisfactory. Should aim to capture the Boolean rules here.
+        # Will accept as disjunct.
+        elif (key == "Unit rules"):
             for k, v in list(zip(value.find_all("dt"), value.find_all("dd"))):
                 unit[k.get_text().strip()] = list(
                     map(lambda x: x.get_text().strip(), v.find_all("a"))
                 )
         # textbooks
         elif key == "Texts":
-            texts = list(map(lambda x: x.get_text().strip(), value.find_all("p")))
+            texts = list(
+                map(lambda x: x.get_text().strip(), value.find_all("p")))
     units[code] = unit
-    code = codes.readline().strip()
+    # code = codes.readline().strip()
 
-codes.close()
+# codes.close()
 out = open("units.json", "w")
-# write to file with indent set to 2.
-json.dump(units, out, indent=2)
+# # write to file with indent set to 2.
+json.dump(units, out, indent=4)
