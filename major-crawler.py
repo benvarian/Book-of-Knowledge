@@ -32,7 +32,7 @@ for major in major_dict.keys():
     # Description
     desc = soup.find('dt', string="Description")
     desc = desc.findNext('p')
-    if(len(desc.text) == 0): 
+    if (len(desc.text) == 0):
         desc = desc.findNext('p').getText(separator="")
     else:
         desc = desc.getText(separator="")
@@ -46,44 +46,44 @@ for major in major_dict.keys():
     prereq = prereq.findNext('p').getText(separator="")
     major_dict[major]["Prerequisites"] = prereq
     # First Year Units
-    y1 = soup.find('h4', {'id':"dsmlevel1"})
+    y1 = soup.find('h4', {'id': "dsmlevel1"})
     y1codes = []
-    if(y1):
+    if (y1):
         y1 = y1.findNext('tbody')
         y1 = y1.findChildren(name='td')
         for line in y1:
-            if(line.find('a', recursive=False)):
+            if (line.find('a', recursive=False)):
                 y1codes.append(line.getText(separator=""))
     major_dict[major]["Level1Units"] = y1codes
     # Second Year Units
-    y2 = soup.find('h4', {'id':"dsmlevel2"})
+    y2 = soup.find('h4', {'id': "dsmlevel2"})
     y2codes = []
-    if(y2):
+    if (y2):
         y2 = y2.findNext('tbody')
         y2 = y2.findChildren(name='td')
-        
+
         for line in y2:
-            if(line.find('a', recursive=False)):
+            if (line.find('a', recursive=False)):
                 y2codes.append(line.getText(separator=""))
     major_dict[major]["Level2Units"] = y2codes
     # Third Year Units
-    y3 = soup.find('h4', {'id':"dsmlevel3"})
+    y3 = soup.find('h4', {'id': "dsmlevel3"})
     y3codes = []
-    if(y3):
+    if (y3):
         y3 = y3.findNext('tbody')
         y3 = y3.findChildren(name='td')
         for line in y3:
-            if(line.find('a', recursive=False)):
+            if (line.find('a', recursive=False)):
                 y3codes.append(line.getText(separator=""))
     major_dict[major]["Level3Units"] = y3codes
     # Fourth Year Units
-    y4 = soup.find('h4', {'id':"dsmlevel4"})
+    y4 = soup.find('h4', {'id': "dsmlevel4"})
     y4codes = []
-    if(y4):
+    if (y4):
         y4 = y4.findNext('tbody')
         y4 = y4.findChildren(name='td')
         for line in y4:
-            if(line.find('a', recursive=False)):
+            if (line.find('a', recursive=False)):
                 y4codes.append(line.getText(separator=""))
     major_dict[major]["Level4Units"] = y4codes
 
