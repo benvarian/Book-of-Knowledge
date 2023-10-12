@@ -87,5 +87,5 @@ for major in major_dict.keys():
                 y4codes.append(line.getText(separator=""))
     major_dict[major]["Level4Units"] = y4codes
 
-with open("datafile.json", "w") as file:
+with open("majors.json", "w") as file:
     json.dump(major_dict, file, indent=4)
