@@ -12,8 +12,8 @@ headers = {
 
 unit_code = []
 
-# reading in datafile
-code = open("datafile.json", "r")
+# reading in majors
+code = open("majors.json", "r")
 code = json.load(code)
 
 for i in code.items():

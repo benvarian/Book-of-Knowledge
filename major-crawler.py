@@ -19,8 +19,9 @@ major_div = soup.find('div', {'class': 'folio-device folio-accordion'})
 majors = major_div.find_all('li')
 major_dict = {}
 for major in majors:
+    name = major.contents[0].getText()
     id = major.contents[1].replace('[', '').replace(']', '').strip()
-    major_dict[id] = {}
+    major_dict[id] = {'Name': name}
 
 
 base = "https://handbooks.uwa.edu.au/majordetails?code="
@@ -40,11 +41,28 @@ for major in major_dict.keys():
     # Outcomes
     outcomes = soup.find('dt', string="Outcomes")
     outcomes = outcomes.findNext('p').getText(separator="")
-    major_dict[major]["Outcomes"] = outcomes
+    # major_dict[major]["Outcomes"] = outcomes # UNCOMMENT TO ADD OUTCOMES AS ONE STRING
+
+    newstring = outcomes.replace("Students are able to ", "")
+    pattern = r"\(\d+\)"
+    num_matches = re.findall(pattern, newstring)
+    text_list = []
+    for i in range(len(num_matches) - 1):
+        pattern = rf"\({i+1}\)(.*?)\({i+2}\)"
+        match = re.search(pattern, newstring)
+        if match:
+            text_list.append(match.group(1).strip().capitalize())
+    pattern = rf"\({len(num_matches)}\)(.*?)$"
+    match = re.search(pattern, newstring)
+    if match:
+        text_list.append(match.group(1).strip())
+    major_dict[major]["Outcomes"] = text_list
     # Prerequisites
-    prereq = soup.find('dt', string="Prerequisites")
-    prereq = prereq.findNext('p').getText(separator="")
-    major_dict[major]["Prerequisites"] = prereq
+    prereq = soup.find('dl', {'class': "columns ruled"})
+    prereq = prereq.find(name='dt', string="Prerequisites")
+    if(prereq):
+        prereq = prereq.find_next(name='p').getText(separator="")
+        major_dict[major]["Prerequisites"] = prereq
     # First Year Units
     y1 = soup.find('h4', {'id': "dsmlevel1"})
     y1codes = []
@@ -87,5 +105,5 @@ for major in major_dict.keys():
                 y4codes.append(line.getText(separator=""))
     major_dict[major]["Level4Units"] = y4codes
 
-with open("datafile.json", "w") as file:
+with open("majors.json", "w") as file:
     json.dump(major_dict, file, indent=4)

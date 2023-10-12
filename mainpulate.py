@@ -1,7 +1,7 @@
 import json
 import re
 
-with open("datafile.json", "r") as outfile:
+with open("majors.json", "r") as outfile:
     file = json.load(outfile)
     for code in file.items():
         newstring = code[1]["Outcomes"].replace("Students are able to ", "")
@@ -19,5 +19,5 @@ with open("datafile.json", "r") as outfile:
             text_list.append(match.group(1).strip())
         code[1]["Outcomes"] = text_list
 
-    with open("datafile_2.json", "w") as outfile:
+    with open("majors_2.json", "w") as outfile:
         json.dump(file, outfile, indent=4)
