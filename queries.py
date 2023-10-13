@@ -27,3 +27,38 @@ for i in g.query(query1):
     count = i["count"]
     print(f"{title}")
 
+# query 2
+# Find all level 3 units that do not have an exam,
+# and where none of their prerequisites have an exam.
+query2 = """
+Prefix code: <https://uwa.handbook/code/> 
+Prefix rel: <https://uwa.handbook/relation/> 
+Prefix uwa: <https://uwa.handbook/> 
+Prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+"""
+
+# query 3
+# Find all units that appear in more than 3 majors.
+query3 = """
+Prefix code: <https://uwa.handbook/code/> 
+Prefix rel: <https://uwa.handbook/relation/> 
+Prefix uwa: <https://uwa.handbook/> 
+Prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+"""
+
+# query 4
+# Basic search functionality: Given a query string
+# (eg "environmental policy"), can you find the units
+# that contain this string in the description or outcomes?
+query4 = """
+Prefix code: <https://uwa.handbook/code/> 
+Prefix rel: <https://uwa.handbook/relation/> 
+Prefix uwa: <https://uwa.handbook/> 
+Prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+"""
