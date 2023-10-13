@@ -14,14 +14,14 @@ majors = {}
 
 page = requests.get(url, headers=headers)
 soup = BeautifulSoup(page.content, "lxml")
-major_div = soup.find('div', {'class': 'folio-device folio-accordion'})
+major_div = soup.find("div", {"class": "folio-device folio-accordion"})
 
-majors = major_div.find_all('li')
+majors = major_div.find_all("li")
 major_dict = {}
 for major in majors:
     name = major.contents[0].getText()
-    id = major.contents[1].replace('[', '').replace(']', '').strip()
-    major_dict[id] = {'Name': name}
+    id = major.contents[1].replace("[", "").replace("]", "").strip()
+    major_dict[id] = {"Name": name}
 
 
 base = "https://handbooks.uwa.edu.au/majordetails?code="
@@ -31,17 +31,18 @@ for major in major_dict.keys():
     page = requests.get(link, headers=headers)
     soup = BeautifulSoup(page.content, "lxml")
     # Description
-    desc = soup.find('dt', string="Description")
-    desc = desc.findNext('p')
-    if (len(desc.text) == 0):
-        desc = desc.findNext('p').getText(separator="")
+    desc = soup.find("dt", string="Description")
+    desc = desc.findNext("p")
+    if len(desc.text) == 0:
+        desc = desc.findNext("p").getText(separator="")
     else:
         desc = desc.getText(separator="")
     major_dict[major]["Description"] = desc
     # Outcomes
-    outcomes = soup.find('dt', string="Outcomes")
-    outcomes = outcomes.findNext('p').getText(separator="")
-    # major_dict[major]["Outcomes"] = outcomes # UNCOMMENT TO ADD OUTCOMES AS ONE STRING
+    outcomes = soup.find("dt", string="Outcomes")
+    outcomes = outcomes.findNext("p").getText(separator="")
+    # major_dict[major]["Outcomes"] = outcomes # UNCOMMENT TO ADD OUTCOMES AS
+    # ONE STRING
 
     newstring = outcomes.replace("Students are able to ", "")
     pattern = r"\(\d+\)"
@@ -58,50 +59,50 @@ for major in major_dict.keys():
         text_list.append(match.group(1).strip())
     major_dict[major]["Outcomes"] = text_list
     # Prerequisites
-    prereq = soup.find('dl', {'class': "columns ruled"})
-    prereq = prereq.find(name='dt', string="Prerequisites")
-    if(prereq):
-        prereq = prereq.find_next(name='p').getText(separator="")
+    prereq = soup.find("dl", {"class": "columns ruled"})
+    prereq = prereq.find(name="dt", string="Prerequisites")
+    if prereq:
+        prereq = prereq.find_next(name="p").getText(separator="")
         major_dict[major]["Prerequisites"] = prereq
     # First Year Units
-    y1 = soup.find('h4', {'id': "dsmlevel1"})
+    y1 = soup.find("h4", {"id": "dsmlevel1"})
     y1codes = []
-    if (y1):
-        y1 = y1.findNext('tbody')
-        y1 = y1.findChildren(name='td')
+    if y1:
+        y1 = y1.findNext("tbody")
+        y1 = y1.findChildren(name="td")
         for line in y1:
-            if (line.find('a', recursive=False)):
+            if line.find("a", recursive=False):
                 y1codes.append(line.getText(separator=""))
     major_dict[major]["Level1Units"] = y1codes
     # Second Year Units
-    y2 = soup.find('h4', {'id': "dsmlevel2"})
+    y2 = soup.find("h4", {"id": "dsmlevel2"})
     y2codes = []
-    if (y2):
-        y2 = y2.findNext('tbody')
-        y2 = y2.findChildren(name='td')
+    if y2:
+        y2 = y2.findNext("tbody")
+        y2 = y2.findChildren(name="td")
 
         for line in y2:
-            if (line.find('a', recursive=False)):
+            if line.find("a", recursive=False):
                 y2codes.append(line.getText(separator=""))
     major_dict[major]["Level2Units"] = y2codes
     # Third Year Units
-    y3 = soup.find('h4', {'id': "dsmlevel3"})
+    y3 = soup.find("h4", {"id": "dsmlevel3"})
     y3codes = []
-    if (y3):
-        y3 = y3.findNext('tbody')
-        y3 = y3.findChildren(name='td')
+    if y3:
+        y3 = y3.findNext("tbody")
+        y3 = y3.findChildren(name="td")
         for line in y3:
-            if (line.find('a', recursive=False)):
+            if line.find("a", recursive=False):
                 y3codes.append(line.getText(separator=""))
     major_dict[major]["Level3Units"] = y3codes
     # Fourth Year Units
-    y4 = soup.find('h4', {'id': "dsmlevel4"})
+    y4 = soup.find("h4", {"id": "dsmlevel4"})
     y4codes = []
-    if (y4):
-        y4 = y4.findNext('tbody')
-        y4 = y4.findChildren(name='td')
+    if y4:
+        y4 = y4.findNext("tbody")
+        y4 = y4.findChildren(name="td")
         for line in y4:
-            if (line.find('a', recursive=False)):
+            if line.find("a", recursive=False):
                 y4codes.append(line.getText(separator=""))
     major_dict[major]["Level4Units"] = y4codes
 
