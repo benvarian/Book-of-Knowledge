@@ -47,9 +47,27 @@ Prefix rel: <https://uwa.handbook/relation/>
 Prefix uwa: <https://uwa.handbook/>
 Prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 
-
+SELECT ?Title  ?unit
+WHERE {
+{
+?unit a uwa:code.
+?p a uwa:unit.
+?p rel:Title ?Title.
+}
+UNION
+{
+?p a uwa:major.
+?p rel:L1Unit ?L1Unit.
+?p rel:L2Unit ?L2Unit.
+?p rel:L3Unit ?L3Unit.
+FILTER(?Title in (?L1Unit))
+}
+}
 """
-
+# for i in g.query(query3):
+#     title = i["Title"]
+#     code = i["unit"]
+#     print(f"{title}, {code}")
 # query 4
 # Basic search functionality: Given a query string
 # (eg "environmental policy"), can you find the units
@@ -70,6 +88,6 @@ FILTER(REGEX(?Description, "environmental policy") ||
 REGEX(?Outcome, "environmental policy")).
 }
 """
-for i in g.query(query4):
-    title = i["Title"]
-    print(f"{title}")
+# for i in g.query(query4):
+#     title = i["Title"]
+#     print(f"{title}")
