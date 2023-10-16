@@ -1,0 +1,53 @@
+@prefix code: <https://uwa.handbook/code/> .
+@prefix rel: <https://uwa.handbook/relation/> .
+@prefix uwa: <https://uwa.handbook/> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+schema:PrereqShape a sh:NodeShape ;
+    sh:targetClass uwa:unit ;
+    sh:or (
+        [
+            sh:property [
+                sh:path rel:Level ;
+                sh:hasValue "1"^^xsd:integer ;
+            ]
+        ]
+        [
+            sh:sparql [
+                a sh:SPARQLConstraint ;
+                sh:message "Prerequisite must have a lower unit level than unit" ;
+                sh:prefixes rel: ;
+                sh:select """
+                    SELECT $this
+                    WHERE {
+                        $this rel:Level ?level .
+                        $this rel:Prerequisite ?prereq .
+                        ?prereq rel:Level ?prereqLevel
+                        FILTER (?prereqLevel >= ?level)
+                    }
+                """ ;
+            ] 
+        ]
+        [
+            sh:property [
+                sh:path rel:Prerequisite ;
+                sh:maxCount 0 ;
+            ]
+        ]
+     ) .
+
+schema:SelfPrereqShape a sh:NodeShape ;
+    sh:targetClass uwa:unit ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:message "Unit cannot be a prerequisite of itself." ;
+        sh:prefixes rel: ;
+        sh:select """
+            SELECT $this
+            WHERE {
+                $this rel:Prerequisite $this .
+            }
+        """ ;
+    ] .
