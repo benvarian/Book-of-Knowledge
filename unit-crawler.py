@@ -26,6 +26,44 @@ for i in code.items():
         # print(level)
 
 print(unit_code)
+
+def get_contact(html):
+    weekly_keywords = ["PER WEEK", "LECTURE", "WORKSHOP", "TUTORIAL", "SEMINAR"]
+    classes = {}
+    contact_list = html.find_all("br")
+    if(not contact_list): # no <i> flag inside html string
+        for d, h in list(zip(contact_list, re.findall(r"(\d+)", html.get_text()))):
+            if(any(keyword in d.getText().upper() for keyword in weekly_keywords)):
+                classes[d.getText()] = int(h) * 12
+            else:
+                classes[d.getText()] = int(h)
+    else:
+        contact_list = [i.find_previous() for i in contact_list] 
+        # If there is a set of hours in the format 'a x b' hours
+        for d, h in list(zip(contact_list, re.findall(r"(\d+\s*x\s*\d+)", html.get_text()))):
+                    if(any(keyword in d.getText().upper() for keyword in weekly_keywords)):
+                        semester_hours = int(h[0]) * int(h[-1]) * 12
+                        classes[d.getText()] = semester_hours
+                        # print(d.getText(), semester_hours)
+                    else:
+                        semester_hours = int(h[0]) * int(h[-1])
+                        classes[d.getText()] = semester_hours
+        # If there is a set of hours in the format 'a hours'
+        for d, h in list(zip(contact_list, re.findall(r"(\d+)", html.get_text()))):
+                    if(d.getText() not in classes):
+                        if(any(keyword in d.getText().upper() for keyword in weekly_keywords) and int(h) <= 5): 
+                            classes[d.getText()] = int(h)*12
+                            # print(d.getText(), int(h)*12)
+                        else:
+                            classes[d.getText()] = int(h)
+                            # print(d.getText(), int(h))
+    
+    # Sum all hours to get semester contact hours
+    sum = 0
+    for value in classes.values():
+        sum += value
+
+    return sum
 # # unit codes is a textfile containing the 8 character unit codes, 1 to a line.
 # # test only with small lists of units (e.g. CITS units)
 # codes = open("unit-codes.txt", "r")
@@ -37,12 +75,10 @@ print(unit_code)
 units = {}
 
 for code in unit_code:
-    print(code)
     page = requests.get(url + code, headers=headers)
 
     soup = BeautifulSoup(page.content, "lxml")
     # put all data into units dictionary
-
     # specify code
     unit = {"code": code}
     # take title (dropping off code at the end)
@@ -86,13 +122,11 @@ for code in unit_code:
             unit[key] = value.get_text().strip()
         # find description of contact hours with class type and time per week
         # (working?)
-        elif key == "Contact Hours":
-            classes = {}
-            for d, h in list(
-                zip(value.find_all("i"), re.findall(r"(\d)", value.get_text()))
-            ):
-                classes[desc[i]] = classes[hours[i]]
-            unit["Contact"] = classes
+        elif key == "Contact hours":
+            classes = get_contact(value)
+            print(f"{code} - {classes} hours per semester")
+            unit[key] = classes
+            
         # find prerequisites. Format is vague, should probably convert to CNF.
         # deeply unsatisfactory. Should aim to capture the Boolean rules here.
         # Will accept as disjunct.

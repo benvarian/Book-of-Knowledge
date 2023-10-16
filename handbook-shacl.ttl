@@ -25,7 +25,7 @@ schema:PrereqShape a sh:NodeShape ;
                         $this rel:Level ?level .
                         $this rel:Prerequisite ?prereq .
                         ?prereq rel:Level ?prereqLevel
-                        FILTER (?prereqLevel >= ?level)
+                        FILTER (?prereqLevel > ?level)
                     }
                 """ ;
             ] 
