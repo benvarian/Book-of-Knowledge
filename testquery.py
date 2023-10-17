@@ -25,5 +25,6 @@ query = """
             HAVING (SUM(?hours) / ?semesters > 40)
 """
 
-for line in g.query(query):
-    print(f"{line['major']}")
+qresults = g.query(query)
+for line in qresults:
+    print(f"{line['major']} - {line['semesters']} - {line['totalhours']}")

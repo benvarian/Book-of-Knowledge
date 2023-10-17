@@ -25,7 +25,7 @@ schema:PrereqShape a sh:NodeShape ;
                         $this rel:Level ?level .
                         $this rel:Prerequisite ?prereq .
                         ?prereq rel:Level ?prereqLevel
-                        FILTER (?prereqLevel > ?level)
+                        FILTER (?prereqLevel >= ?level)
                     }
                 """ ;
             ] 
@@ -65,10 +65,11 @@ schema:ContactShape a sh:NodeShape ;
                 $this a uwa:major.
                 OPTIONAL { $this rel:L4Unit ?any }
                 BIND(IF(bound(?any), 8, 6) AS ?semesters)
-                ?major ?level ?unit.
+                $this ?level ?unit.
                 ?unit a uwa:unit.
                 ?unit rel:ContactHours ?hours.
             }
+            GROUP BY $this
             HAVING (SUM (?hours) / ?semesters > 40)
         """ ;
     ] .
