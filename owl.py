@@ -2,10 +2,12 @@ from owlready2 import get_ontology, Thing, onto_path, ObjectProperty, Functional
 import json
 
 with open("majors.json", "r") as file:
-    data = json.load(file)
+    majors = json.load(file)
+
+with open("units.json", "r") as output:
+    units = json.load(output)
 
 
-# onto_path.append("./")
 onto = get_ontology("http://test.org/onto.owl#")
 
 
@@ -17,13 +19,13 @@ def extract_units(list_of_units):
 
 
 def handle_outcomes(list_of_outcomes):
-    # concat an array of strings into one big one
     main = ""
     for i in list_of_outcomes:
         main += i
     return main
 
-# Add some data to the ontology
+
+# Add some majors to the ontology
 with onto:
     # classes
     class Major(Thing):
@@ -47,6 +49,12 @@ with onto:
     class Outcome(Major):
         pass
 
+    class Credit(Unit):
+        pass
+
+    class Level(Unit):
+        pass
+
     class has_level_one_units(Unit >> Title):
         pass
 
@@ -65,56 +73,17 @@ with onto:
     class has_outcome(Major >> Title, FunctionalProperty):
         pass
 
-    # class Outcomes(ObjectProperty):
-    #     domain = [Major, Unit]
+    class has_pre_requisites(Unit >> Title):
+        pass
 
-    # class Prerequisites(ObjectProperty):
-    #     domain = [Major, Unit]
+    class has_credit_points(Unit >> Credit, FunctionalProperty):
+        pass
 
-    # class Level1Unit(Major >> Unit):
-    #     domain = [Major]
+    class has_level(Unit >> Level, FunctionalProperty):
+        pass
 
-    # class Level2Unit(ObjectProperty):
-    #     domain = [Major]
 
-    # class Level3Unit(ObjectProperty):
-    #     domain = [Major]
-
-    # class Level4Unit(ObjectProperty):
-    #     domain = [Major]
-
-    # class Code(ObjectProperty):
-    #     domain = [Unit]
-    #     range = [str]
-
-    # class Title(ObjectProperty):
-    #     domain = [Unit]
-    #     range = [str]
-
-    # class Level(ObjectProperty):
-    #     domain = [Unit]
-    #     range = [str]
-
-    # class CreditPoints(ObjectProperty):
-    #     domain = [Unit]
-    #     range = [str]
-
-    # class Majors(ObjectProperty):
-    #     domain = [Unit]
-    #     range = [str]
-
-    # class Assessments(ObjectProperty):
-    #     domain = [Unit]
-    #     range = [str]
-
-    # class Incompatibility(ObjectProperty):
-    #     domain = [Unit]
-    #     range = [str]
-
-    # class CoRequisites(ObjectProperty):
-    #     domain = [Unit]
-    #     range = [str]
-for major in data.items():
+for major in majors.items():
     units_level_one = extract_units(major[1]["Level1Units"])
     units_level_two = extract_units(major[1]["Level2Units"])
     units_level_three = extract_units(major[1]["Level3Units"])
@@ -128,7 +97,23 @@ for major in data.items():
         has_level_three_units=units_level_three,
         has_name=name,
         has_description=desc,
-        has_outcome=outcome
+        has_outcome=outcome,
+    )
+for unit in units.items():
+    level = Level(unit[1]["level"])
+    credit = Credit(unit[1]["Credit"])
+    desc = Description(unit[1]["Description"])
+    outcome = Outcome(handle_outcomes(unit[1]["Outcomes"]))
+    title = Name(unit[1]["title"])
+    prereq = extract_units(unit[1].get("Prerequisites", ""))
+    unit_owl = Unit(
+        unit[0],
+        has_name=title,
+        has_description=desc,
+        has_outcome=outcome,
+        has_credit_points=credit,
+        has_level=level,
+        has_pre_requisites=prereq,
     )
 
 
