@@ -16,6 +16,13 @@ def extract_units(list_of_units):
     return units
 
 
+def handle_outcomes(list_of_outcomes):
+    # concat an array of strings into one big one
+    main = ""
+    for i in list_of_outcomes:
+        main += i
+    return main
+
 # Add some data to the ontology
 with onto:
     # classes
@@ -37,6 +44,9 @@ with onto:
     class Description(Major):
         pass
 
+    class Outcome(Major):
+        pass
+
     class has_level_one_units(Unit >> Title):
         pass
 
@@ -50,6 +60,9 @@ with onto:
         pass
 
     class has_description(Major >> Title, FunctionalProperty):
+        pass
+
+    class has_outcome(Major >> Title, FunctionalProperty):
         pass
 
     # class Outcomes(ObjectProperty):
@@ -107,6 +120,7 @@ for major in data.items():
     units_level_three = extract_units(major[1]["Level3Units"])
     name = Name(major[1]["Name"])
     desc = Description(major[1]["Description"])
+    outcome = Outcome(handle_outcomes(major[1]["Outcomes"]))
     major_owl = Major(
         major[0],
         has_level_one_units=units_level_one,
@@ -114,6 +128,7 @@ for major in data.items():
         has_level_three_units=units_level_three,
         has_name=name,
         has_description=desc,
+        has_outcome=outcome
     )
 
 
