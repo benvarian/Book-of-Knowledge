@@ -41,32 +41,28 @@ Prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 
 # query 3
 # Find all units that appear in more than 3 majors.
-# ?Title ?code ?Name ?Level2Unit ?Level3Unit
 query3 = """
 Prefix code: <https://uwa.handbook/code/>
 Prefix rel: <https://uwa.handbook/relation/>
 Prefix uwa: <https://uwa.handbook/>
 Prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 
-SELECT DISTINCT ?name ?Major (COUNT(?Major) AS ?count)
+SELECT ?code (COUNT(?unit) AS ?count)
 WHERE {
   {
-    ?p a uwa:unit.
-    ?p rel:Title ?name.
-    ?p rel:inMajor ?Major.
+    ?major a uwa:major.
+    ?major ?level ?unit.
+    ?unit a uwa:unit.
+    BIND(REPLACE(STR(?unit), "https://uwa.handbook/code/", "") AS ?code).
   }
 }
-GROUP BY ?name
-HAVING (COUNT(?Major) > 3)
+GROUP BY ?unit
+HAVING (COUNT(?unit) > 3)
 """
 for i in g.query(query3):
-    # title = i["Title"]
-    # p = i["code"]
-    name = i["name"]
-    inMajor = i["Major"]
+    name = i["code"]
     count = i["count"]
-    # print(f"{title}, {p}, {name}, {level1units}")
-    print(f"{name} {count}")
+    print(f"{name} appears in {count} majors")
 # query 4
 # Basic search functionality: Given a query string
 # (eg "environmental policy"), can you find the units
