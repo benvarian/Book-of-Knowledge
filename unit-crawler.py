@@ -16,10 +16,10 @@ unit_code = []
 code = open("majors.json", "r")
 code = json.load(code)
 
-for i in code.items():
+for j in code.items():
     for level in range(1, 5):
         key = f"Level{level}Units"
-        for unit in i[1][key]:
+        for unit in j[1][key]:
             print(unit)
             if unit not in unit_code:
                 unit_code.append(unit)
@@ -86,12 +86,13 @@ for code in unit_code:
             unit[key] = value.get_text().strip()
         # find description of contact hours with class type and time per week
         # (working?)
-        elif key == "Contact Hours":
+        elif key == "Contact hours":
             classes = {}
             for d, h in list(
                 zip(value.find_all("i"), re.findall(r"(\d)", value.get_text()))
-            ):
-                classes[desc[i]] = classes[hours[i]]
+            ):  
+                print(f"\n{d},{h}\n")
+                classes[desc[i]] = classes[h[i]]
             unit["Contact"] = classes
         # find prerequisites. Format is vague, should probably convert to CNF.
         # deeply unsatisfactory. Should aim to capture the Boolean rules here.

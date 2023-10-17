@@ -25,7 +25,7 @@ HAVING (COUNT(?Outcome) > 6)
 # for i in g.query(query1):
 #     title = i["Title"]
 #     count = i["count"]
-#     print(f"{title}")
+#     print(f"{title}, {count}")
 
 # query 2
 # Find all level 3 units that do not have an exam,
@@ -41,33 +41,29 @@ Prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 
 # query 3
 # Find all units that appear in more than 3 majors.
+# ?Title ?code ?Name ?Level2Unit ?Level3Unit
 query3 = """
 Prefix code: <https://uwa.handbook/code/>
 Prefix rel: <https://uwa.handbook/relation/>
 Prefix uwa: <https://uwa.handbook/>
 Prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 
-SELECT ?Title  ?unit
+SELECT ?name ?Level1Unit
 WHERE {
-{
-?unit a uwa:code.
-?p a uwa:unit.
-?p rel:Title ?Title.
-}
-UNION
-{
-?p a uwa:major.
-?p rel:L1Unit ?L1Unit.
-?p rel:L2Unit ?L2Unit.
-?p rel:L3Unit ?L3Unit.
-FILTER(?Title in (?L1Unit))
-}
+  {
+    ?p a uwa:major.
+    ?p rel:Name ?name.
+    ?p rel:L1Unit ?Level1Unit.
+  }
 }
 """
-# for i in g.query(query3):
-#     title = i["Title"]
-#     code = i["unit"]
-#     print(f"{title}, {code}")
+for i in g.query(query3):
+    # title = i["Title"]
+    # p = i["code"]
+    name = i["name"]
+    level1units = i["Level1Unit"]
+    # print(f"{title}, {p}, {name}, {level1units}")
+    print(f"{name}, {level1units}")
 # query 4
 # Basic search functionality: Given a query string
 # (eg "environmental policy"), can you find the units
@@ -78,7 +74,7 @@ Prefix rel: <https://uwa.handbook/relation/>
 Prefix uwa: <https://uwa.handbook/>
 Prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 
-SELECT DISTINCT ?Title 
+SELECT DISTINCT ?Title
 WHERE {
 ?p a uwa:unit.
 ?p rel:Title ?Title.
