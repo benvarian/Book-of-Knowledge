@@ -48,22 +48,25 @@ Prefix rel: <https://uwa.handbook/relation/>
 Prefix uwa: <https://uwa.handbook/>
 Prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 
-SELECT ?name ?Level1Unit
+SELECT DISTINCT ?name ?Major (COUNT(?Major) AS ?count)
 WHERE {
   {
-    ?p a uwa:major.
-    ?p rel:Name ?name.
-    ?p rel:L1Unit ?Level1Unit.
+    ?p a uwa:unit.
+    ?p rel:Title ?name.
+    ?p rel:inMajor ?Major.
   }
 }
+GROUP BY ?name
+HAVING (COUNT(?Major) > 3)
 """
 for i in g.query(query3):
     # title = i["Title"]
     # p = i["code"]
     name = i["name"]
-    level1units = i["Level1Unit"]
+    inMajor = i["Major"]
+    count = i["count"]
     # print(f"{title}, {p}, {name}, {level1units}")
-    print(f"{name}, {level1units}")
+    print(f"{name} {count}")
 # query 4
 # Basic search functionality: Given a query string
 # (eg "environmental policy"), can you find the units
