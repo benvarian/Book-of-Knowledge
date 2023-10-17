@@ -36,9 +36,15 @@ Prefix rel: <https://uwa.handbook/relation/>
 Prefix uwa: <https://uwa.handbook/>
 Prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 
-
+SELECT ?unit
+WHERE {
+  ?unit a uwa:unit.
+  ?unit rel:Level ?level.
+}
+FILTER(?level = 3)
 """
-
+for i in g.query(query2):
+    print(i["unit"])
 # query 3
 # Find all units that appear in more than 3 majors.
 query3 = """
@@ -59,10 +65,10 @@ WHERE {
 GROUP BY ?unit
 HAVING (COUNT(?unit) > 3)
 """
-for i in g.query(query3):
-    name = i["code"]
-    count = i["count"]
-    print(f"{name} appears in {count} majors")
+# for i in g.query(query3):
+#     name = i["code"]
+#     count = i["count"]
+#     print(f"{name} appears in {count} majors")
 # query 4
 # Basic search functionality: Given a query string
 # (eg "environmental policy"), can you find the units
