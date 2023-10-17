@@ -28,7 +28,7 @@ for i in code.items():
 print(unit_code)
 
 def get_contact(html):
-    weekly_keywords = ["PER WEEK", "LECTURE", "WORKSHOP", "TUTORIAL", "SEMINAR"]
+    weekly_keywords = ["PER WEEK", "WEEKLY", "LECTURE", "WORKSHOP", "TUTORIAL", "SEMINAR"]
     classes = {}
     contact_list = html.find_all("br")
     if(not contact_list): # no <i> flag inside html string
@@ -52,7 +52,8 @@ def get_contact(html):
         for d, h in list(zip(contact_list, re.findall(r"(\d+)", html.get_text()))):
                     if(d.getText() not in classes):
                         if(any(keyword in d.getText().upper() for keyword in weekly_keywords) and int(h) <= 5): 
-                            classes[d.getText()] = int(h)*12
+                            hours = int(h)*12
+                            classes[d.getText()] = hours
                             # print(d.getText(), int(h)*12)
                         else:
                             classes[d.getText()] = int(h)

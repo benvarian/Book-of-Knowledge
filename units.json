@@ -1913,6 +1913,30 @@
         ],
         "Contact hours": 48
     },
+    "ARCT1150": {
+        "code": "ARCT1150",
+        "title": "Architecture Studio 1",
+        "level": "1",
+        "Description": "This unit introduces students to studio practice in design and explores, at a basic level, the primary issues informing design\u2014firmness, commodity and delight. The range of problems extends from objects to built environments and their social and physical contexts. The projects offered are designed to develop students' conceptual and compositional abilities to an introductory level, imparting the necessary skills to communicate concepts of modest complexity in a tangible form, and encouraging individual creative work within a supportive environment. Projects also introduce students to significant historical examples and concepts of design.  Case studies relevant to the curriculum are presented and students are required to analyse them in establishing relevant design principles.",
+        "Credit": "6",
+        "Majors": [
+            "Architecture "
+        ],
+        "Outcomes": [
+            " demonstrate an elementary competence in design strategies, theories and methods",
+            " implement a basic knowledge of technical areas of study relevant to design",
+            " identify and interpret architectural precedents and ideas",
+            " apply at a basic level various graphical and modelling communication media",
+            " combine text and image in design presentations",
+            " describe and explain their design propositions."
+        ],
+        "Assessment": [
+            " an interim project assessment\n and ",
+            " a final folio "
+        ],
+        "Incompatibility": [],
+        "Contact hours": 6
+    },
     "ARLA1030": {
         "code": "ARLA1030",
         "title": "Structures and Systems",
@@ -1932,6 +1956,119 @@
             " project 3 Site / Structure & Material Systems"
         ],
         "Incompatibility": [],
+        "Contact hours": 36
+    },
+    "ARCT2001": {
+        "code": "ARCT2001",
+        "title": "Architecture Studio 2",
+        "level": "2",
+        "Description": "This unit introduces a series of tools for the analysis of sites and the production of design speculations within them. There is an emphasis on testing, assessing, and refining design speculations continually before implementation. Digital design tools and skills will be introduced as a means to critically examine the shifts in technologies affecting conceptual and practical aspects of the design process. Students are given the opportunity to verbally present their work within the studio, and to give and receive critique throughout the semester. \nThe main objective is for students to explore the design process in a collaborative environment. Emphasis will be placed on understanding the relationship between architecture and site. This is within the context of contemporary issues affecting design, including ecological impact, sustainability and emerging technologies.",
+        "Credit": "12",
+        "Majors": [
+            "Architecture "
+        ],
+        "Outcomes": [
+            " comprehend and model existing contexts in a detailed manner",
+            " make conceptual architectural proposals of modest complexity",
+            " propose, appraise, and test the merits of design propositions in an iterative process",
+            " develop ecologically innovative concepts as a component of design proposals."
+        ],
+        "Assessment": [
+            " interim project assessment and ",
+            " final folio"
+        ],
+        "Prerequisites": [
+            "ARCT1150",
+            "ARCT1010",
+            "ARCT1011",
+            "ARLA1040",
+            "ARLA1030",
+            "ARCT1001"
+        ],
+        "Incompatibility": [
+            "IDES2000",
+            "IDES2040"
+        ],
+        "Contact hours": 9
+    },
+    "ARCT2030": {
+        "code": "ARCT2030",
+        "title": "Materials and Small Constructions",
+        "level": "2",
+        "Description": "Through studies of the relationship between technology and design, this unit presents various construction systems and building materials. By using a methodological analysis based on analytical drawings/diagrams, the unit teaches the act of drawing by hand as a way of thinking as well as a mode of representation. The analytical drawings aim to reveal the underlying patterns of organisation that exist within buildings (e.g. structure, services, envelope) in order to highlight the relationship between architectural design and construction systems. Through highly selective drawings and written analysis, students break down and clarify the different constructional, services and cladding systems which define a building.",
+        "Credit": "6",
+        "Majors": [
+            "Architecture "
+        ],
+        "Outcomes": [
+            " analyse building constructional systems, components and construction sequences",
+            " identify and examine a range of materials and technologies",
+            " demonstrate a developing understanding of structural characteristics and limitations of building materials, and thus be able to critically apply general structural and servicing principles to specific architectural case studies",
+            " demonstrate developing skills in graphical and written analysis of building assemblies."
+        ],
+        "Assessment": [
+            " A4 Booklet ",
+            ": steel and concrete construction case study and ",
+            " A4 Booklet ",
+            ": Masonry and Timber case studies "
+        ],
+        "Prerequisites": [
+            "ARLA1030",
+            "ARLA1040"
+        ],
+        "Contact hours": 34
+    },
+    "ARCT3000": {
+        "code": "ARCT3000",
+        "title": "Architecture Studio 3",
+        "level": "3",
+        "Description": "This unit builds upon earlier architectural design units by exposing students to programs of greater technical, programmatic and conceptual complexity. Students demonstrate their capacity to synthesise the various fields of study towards the development of a comprehensive and convincing architectural design proposition. Studio programs require design at a detailed level in projects of intermediate complexity (e.g. a school, museum or library). Emphasis is placed on the integration of theoretical concepts and building construction, both of which are introduced elsewhere in the course, and there is an introduction to both the regulatory framework that controls building projects, and an emphasis upon the understanding of contemporary architectural discourse through both study of theoretical texts and architectural case studies.",
+        "Credit": "12",
+        "Majors": [
+            "Architecture "
+        ],
+        "Outcomes": [
+            " analyse site, statutory and constructional requirements",
+            " architecturally design constructions of moderate complexity through conceptual development, schematic and developed design stages",
+            " develop familiarity with and understanding of contemporary architectural discourse and terminology",
+            " develop substantial competence in technical development of architectural projects",
+            " understand social and ethical responsibilities impacting upon production of architecture."
+        ],
+        "Assessment": [
+            " interim submissions and ",
+            " a folio of final drawings and process work"
+        ],
+        "Prerequisites": [
+            "ARCT2001",
+            "ARCT2010",
+            "ARCT2030",
+            "ARCT2000",
+            "ARCT2050"
+        ],
+        "Contact hours": 21
+    },
+    "ARCT3030": {
+        "code": "ARCT3030",
+        "title": "Materials and Large Construction",
+        "level": "3",
+        "Description": "This unit is the culmination of the technology sequence in the Architecture major. As such, it is thought of as an extension and further development of ARCT2030 Materials and Small Constructions. Through a similarly analytical methodology it introduces students to construction techniques of greater complexity, with an emphasis on architecture as an integrated manifestation of structure, body, skin and building services. \nTopics include architectural and structural analysis, materials and sections; fire services and safety; hydraulic, mechanical, and electrical systems, and the types and applicability of constructional systems to different architectural expressions. \nThe unit generates an understanding of the integration of structures and services in medium- to large-scale buildings. The vehicle for this is the combined effect of weekly lectures and workshops. Lectures investigate and critically analyse a number of selected buildings highlighting architectural, structural and technical aspects that pertain to different materials and construction techniques. They also illustrate specialist drawings produced by consultants, including structures and services. In the workshops students conduct an analysis of selected buildings, to identify the relationships between architecture, space, structure and technology. Such analysis evolves weekly through progressive reviews with a tutor at each workshop and it culminates in two submissions during the semester.",
+        "Credit": "6",
+        "Majors": [
+            "Architecture "
+        ],
+        "Outcomes": [
+            " develop an ability to read, analyse and understand buildings at different levels of complexity and depth",
+            " develop awareness of the role of the various building components, their hierarchy and the relationship between structural and non-structural elements, their design and behaviour",
+            " develop an understanding of the design and construction sequences, and the relation between design, services and structure."
+        ],
+        "Assessment": [
+            " a two-dimensional analysis of a selected building focusing on a significant structural bay and ",
+            " a three-dimensional analysis of a selected building focusing on a significant structural bay"
+        ],
+        "Prerequisites": [
+            "ARCT2030",
+            "ARCT2000"
+        ],
         "Contact hours": 36
     },
     "LACH1000": {

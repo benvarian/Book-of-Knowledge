@@ -1,6 +1,9 @@
 from pyshacl import validate
 from pathlib import PurePath
 
+# 40 contact hours per week
+# 40 * 12 = 480 per semester
+
 if(__name__ == "__main__"):
     # Assuming graph in same directory
     handbook = str(PurePath("handbook.ttl"))
