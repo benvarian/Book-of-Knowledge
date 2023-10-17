@@ -4,29 +4,6 @@ import re
 import json
 from bs4 import BeautifulSoup
 
-# set url and headers
-url = "https://handbooks.uwa.edu.au/unitdetails?code="
-headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 QIHU 360SE"
-}
-
-unit_code = []
-
-# reading in majors
-code = open("majors.json", "r")
-code = json.load(code)
-
-for i in code.items():
-    for level in range(1, 5):
-        key = f"Level{level}Units"
-        for unit in i[1][key]:
-            print(unit)
-            if unit not in unit_code:
-                unit_code.append(unit)
-        # print(level)
-
-print(unit_code)
-
 def get_contact(html):
     weekly_keywords = ["PER WEEK", "WEEKLY", "LECTURE", "WORKSHOP", "TUTORIAL", "SEMINAR"]
     classes = {}
@@ -65,11 +42,29 @@ def get_contact(html):
         sum += value
 
     return sum
-# # unit codes is a textfile containing the 8 character unit codes, 1 to a line.
-# # test only with small lists of units (e.g. CITS units)
-# codes = open("unit-codes.txt", "r")
 
-# # the unit currently being crawled
+# set url and headers
+url = "https://handbooks.uwa.edu.au/unitdetails?code="
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 QIHU 360SE"
+}
+
+unit_code = []
+
+# reading in majors
+code = open("majors.json", "r")
+dump = json.load(code)
+code.close()
+
+for i in dump.items():
+    for level in range(1, 5):
+        key = f"Level{level}Units"
+        for unit in i[1][key]:
+            if unit not in unit_code:
+                unit_code.append(unit)
+
+
+# the unit currently being crawled
 # code = codes.readline().strip()
 
 # the dictionary of units.
@@ -122,7 +117,6 @@ for code in unit_code:
         elif key == "Unit Coordinator":
             unit[key] = value.get_text().strip()
         # find description of contact hours with class type and time per week
-        # (working?)
         elif key == "Contact hours":
             classes = get_contact(value)
             print(f"{code} - {classes} hours per semester")
@@ -143,7 +137,7 @@ for code in unit_code:
     units[code] = unit
     # code = codes.readline().strip()
 
-# codes.close()
+
 out = open("units.json", "w")
-# # write to file with indent set to 2.
+# write to file with indent set to 2.
 json.dump(units, out, indent=4)

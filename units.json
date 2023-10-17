@@ -24032,4 +24032,233 @@
             " demonstrate interpersonal communication skills, including the ability to work effectively in pairs and small groups."
         ],
         "Assessment": [
-            " in class tests and online exercises and "
+            " in class tests and online exercises and ",
+            " an end-of-semester examination"
+        ],
+        "Prerequisites": [
+            "SPAN1402"
+        ],
+        "Contact hours": 14
+    },
+    "SPAN2404": {
+        "code": "SPAN2404",
+        "title": "Spanish Studies 4",
+        "level": "2",
+        "Description": "This unit builds on the progress made in SPAN2403 Spanish Studies 3 and aims to extend grammatical knowledge and communicative skills, both written and oral. It further develops the students' ability to communicate in Spanish by providing intensive practice in oral and written language, and enriches students' understanding of the culture of modern Spain. \nStudents achieve language proficiency equivalent to Level A2/B1 of the Common European Framework of Reference for Languages.",
+        "Credit": "6",
+        "Majors": [
+            "Spanish Studie"
+        ],
+        "Outcomes": [
+            " speak, listen, read and write in Spanish about a diverse range of topics",
+            " use language in the appropriate context",
+            " demonstrate correct application of Spanish grammar",
+            " read and comprehend texts from contemporary literary and non-literary sources",
+            " critically address aspects of the Spanish culture",
+            " demonstrate their understanding of how language works in general ",
+            " develop interpersonal communication skills, including the ability to work effectively in pairs and small groups."
+        ],
+        "Assessment": [
+            " language exercises",
+            " class participation",
+            " tests"
+        ],
+        "Prerequisites": [
+            "SPAN2403"
+        ],
+        "Contact hours": 14
+    },
+    "SPAN2812": {
+        "code": "SPAN2812",
+        "title": "Tradition vs Modernity: Understanding Spain Today",
+        "level": "2",
+        "Description": "This specialist unit, taught in Spanish, enables learners to consolidate their language competencies in writing, reading, listening and speaking, through a critical analysis of media, literature, movies, music and arts. This survey unit typically covers current issues that allow the students to understand and critically appraise culture and other aspects of Spain nowadays in contrast with traditional Spain, such as youth and employment, politics and immigration, gastronomy and the arts.",
+        "Credit": "6",
+        "Majors": [
+            "Spanish Studie"
+        ],
+        "Outcomes": [
+            " analyse newspaper articles, literary works and works of art in their socio-historical context",
+            " engage in discussions and class presentations in spoken Spanish to Level A2/B1 standard ",
+            " read and critically analyse texts including films relating them to their geographical, historical and cultural contexts",
+            " develop research skills applied to a Spanish context",
+            " develop independent learning skills and interpersonal skills."
+        ],
+        "Assessment": [
+            " participation",
+            " short essays",
+            " tests"
+        ],
+        "Prerequisites": [
+            "SPAN1402"
+        ],
+        "Contact hours": 24
+    },
+    "SPAN3405": {
+        "code": "SPAN3405",
+        "title": "Spanish Studies 5",
+        "level": "3",
+        "Description": "This unit follows on from SPAN2404 Spanish Studies 4. Students develop proficiency in spoken and written Spanish and deepen their understanding of Spanish society and culture attaining and increasing their proficiency at Level B1 of the Common European Framework of Reference of Languages. This unit leads to SPAN3406 Spanish Studies 6.",
+        "Credit": "6",
+        "Majors": [
+            "Spanish Studie"
+        ],
+        "Outcomes": [
+            " read and write in Spanish with accuracy and fluency, to become an independent user at Level B1 of the Common European Framework of Reference for Languages ",
+            " converse in Spanish with fluency and accuracy on contemporary themes",
+            " read and understand modern Spanish texts, and relate them to their social and historical context",
+            " demonstrate a deep intercultural understanding",
+            " demonstrate an enhanced awareness of the structures and use of the English language",
+            " engage effectively in interpersonal communication."
+        ],
+        "Assessment": [
+            " in-class presentations",
+            " in-class and online tests",
+            " class contribution and participation"
+        ],
+        "Prerequisites": [
+            "SPAN2404"
+        ],
+        "Contact hours": 3
+    },
+    "SPAN3406": {
+        "code": "SPAN3406",
+        "title": "Spanish Studies 6",
+        "level": "3",
+        "Description": "Students further develop proficiency in spoken and written Spanish to become independent users of the language, and deepen their understanding of Spanish society and culture.\nStudents attain a level between Level B1 and B2 of the Common European Framework of Reference for Languages (CEFR).",
+        "Credit": "6",
+        "Majors": [
+            "Spanish Studie"
+        ],
+        "Outcomes": [
+            " read and write in Spanish with accuracy and fluency at B1-B2 Level of the Common European Framework of Reference for Languages ",
+            " converse in Spanish with fluency and accuracy on contemporary themes",
+            " read and understand modern Spanish texts, and relate them to their social and historical context",
+            " demonstrate a deeper intercultural understanding",
+            " demonstrate an enhanced awareness of the structures and use of the English language",
+            " engage effectively in interpersonal communication."
+        ],
+        "Assessment": [
+            " in-class presentations",
+            " in-class and online tests",
+            " class contribution and participation"
+        ],
+        "Prerequisites": [
+            "SPAN3405"
+        ],
+        "Contact hours": 3
+    },
+    "SPAN3813": {
+        "code": "SPAN3813",
+        "title": "Literature in Spanish",
+        "level": "3",
+        "Description": "This specialist unit, taught in Spanish, enables learners to consolidate their language competencies in writing, reading, listening and speaking, through a critical analysis of works by Spanish authors from Spain and South America. This survey unit typically covers the most representative aspects of literature written in Spanish, which make it unique, such as the Spanish Picaresque, the myth of Don Juan, without forgetting Cervantes all the way to Latin American Magic Realism.",
+        "Credit": "6",
+        "Majors": [
+            "Spanish Studie"
+        ],
+        "Outcomes": [
+            " analyse changes in language choice from Medieval to contemporary usage",
+            " analyse critically extracts of literary works",
+            " demonstrate use of the Spanish language in spoken and written form at Level B1/B2 of the Common European Framework of Reference for Languages ",
+            " develop and sharpen their research skills in a Spanish context",
+            " develop independent learning skills, research skills and interpersonal skills."
+        ],
+        "Assessment": [
+            " tests based on oral and written comprehension of materials",
+            " participation",
+            " research essay"
+        ],
+        "Prerequisites": [
+            "SPAN2404"
+        ],
+        "Contact hours": 34
+    },
+    "AHEA3200": {
+        "code": "AHEA3200",
+        "title": "Aboriginal Health Community Organisation Placement",
+        "level": "3",
+        "Description": "This unit is run by the Centre for Aboriginal Medical and Dental Health and Aboriginal organisations in the community. It is directed at students who are interested in learning more about Aboriginal health and helps improve their understanding of the position of Aboriginal people in contemporary Australian society as a basis for working with Aboriginal people during their health career. Taught predominantly by Aboriginal people, the unit addresses historical and cultural issues that underlie current Aboriginal health problems, and explores specific health issues affecting Aboriginal people. The unit also explores in more detail interactions between Aboriginal and non-Aboriginal service providers in a range of settings and the implications of these experiences on attempts to improve Aboriginal health.",
+        "Credit": "6",
+        "Majors": [
+            "Aboriginal Health and Wellbein"
+        ],
+        "Outcomes": [
+            " describe how the organisation started and why",
+            " discuss with staff the different ways the organisation works with Aboriginal families, communities or other organisations",
+            " describe the links between what the organisation provides and the potential impact on health from a broad-based perspective",
+            " demonstrate their involvement in a number of the organisation's activities as appropriate",
+            " describe the process undertaken on how best to contribute to the organisation that is of benefit for staff, students or clients of the organisation",
+            " reflect, in writing, on how the organisation meets the needs of the Aboriginal community and in what way this may be different from mainstream or non-Aboriginal organisations",
+            " reflect, in writing, on what they have learned during the placement and how this may influence their future role as a healthcare provider for the Aboriginal community."
+        ],
+        "Assessment": [
+            " placement assessment",
+            " tutorial presentation",
+            " portfolio reflective journal"
+        ],
+        "Prerequisites": [
+            "AHEA2201",
+            "INDG2300"
+        ],
+        "Incompatibility": [],
+        "Contact hours": 0
+    },
+    "AHEA3300": {
+        "code": "AHEA3300",
+        "title": "Aboriginal Health Research Project",
+        "level": "3",
+        "Description": "This unit will involve students in an Aboriginal health research project. Aboriginal health research seminars will cover the following topics: how to engage effectively with the Aboriginal community; Aboriginal health qualitative research design, methods and process; how to complete a literature review; and the principles of ethical research. Students will be encouraged to engage in a discussion of the material delivered and supported to undertake the assessments required for this unit. Students will be assessed on the following: a research report and a presentation of research findings.",
+        "Credit": "6",
+        "Majors": [
+            "Aboriginal Health and Wellbein"
+        ],
+        "Outcomes": [
+            " demonstrate principles required in developing effective research partnerships with Aboriginal communities and organisations",
+            " demonstrate an understanding of ethical practice in Aboriginal health research",
+            " apply a critical approach to a literature review",
+            " apply a qualitative research method to an Aboriginal health project",
+            " demonstrate ability to disseminate Aboriginal health research findings."
+        ],
+        "Assessment": [
+            " report",
+            " tutorial presentation",
+            " rapid fire presentation"
+        ],
+        "Prerequisites": [
+            "AHEA2201",
+            "INDG2300",
+            "INDG3300"
+        ],
+        "Contact hours": 24
+    },
+    "AHEA3301": {
+        "code": "AHEA3301",
+        "title": "Aboriginal Social and Emotional Wellbeing",
+        "level": "3",
+        "Description": "Social and emotional wellbeing (SEWB) in Aboriginal community contexts is still relatively poorly understood within mainstream health and healthcare service settings. This unit continues the exposure of students to the complexity of factors at play in health and wellbeing with a particular focus on a multidimensional analysis of these factors. Drawing on a range of case studies from individual and community contexts, a seminar series guides students through a deeper understanding of causation, engagement, strategies and ways of working utilising the multidimensional model as a framework.",
+        "Credit": "6",
+        "Majors": [
+            "Aboriginal Health and Wellbein"
+        ],
+        "Outcomes": [
+            " discuss the contemporary complexities and Social Emotional Well Being ",
+            " outline cultural and clinical complexities using  the SEWB framework",
+            " explain the interplay between SEWB and physical health",
+            " identify culturally appropriate models of care from an Aboriginal viewpoint",
+            " develop culturally appropriate language and communication skills for use in a healthcare setting throughout the unit",
+            " outline attributes required for a culturally safe health service delivery including engagement strategies and",
+            " critically analyse existing programs in health and mental health care for Aboriginal people and communities.."
+        ],
+        "Assessment": [
+            " continuous assessment",
+            " two-hour theory examination",
+            " half-hour practical examination"
+        ],
+        "Prerequisites": [
+            "AHEA2201",
+            "INDG2300"
+        ],
+        "Contact hours": 36
+    }
+}

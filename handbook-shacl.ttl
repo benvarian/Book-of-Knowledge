@@ -51,3 +51,24 @@ schema:SelfPrereqShape a sh:NodeShape ;
             }
         """ ;
     ] .
+
+schema:ContactShape a sh:NodeShape ;
+    sh:targetClass uwa:major ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:message "Major has more than 40 Contact Hours per Week" ;
+        sh:prefix rel: ;
+        sh:prefix uwa: ;
+        sh:select """
+            SELECT $this
+            WHERE {
+                $this a uwa:major.
+                OPTIONAL { $this rel:L4Unit ?any }
+                BIND(IF(bound(?any), 8, 6) AS ?semesters)
+                ?major ?level ?unit.
+                ?unit a uwa:unit.
+                ?unit rel:ContactHours ?hours.
+            }
+            HAVING (SUM (?hours) / ?semesters > 40)
+        """ ;
+    ] .

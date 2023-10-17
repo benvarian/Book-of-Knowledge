@@ -106,6 +106,8 @@ for instance in unit_dump.items():
     if('Advisable prior study' in instance[1]):
         for i in instance[1]['Advisable prior study']:
             g.add((unit_URI, priorStudy, code[i]))
+    if('Contact hours' in instance[1]):
+        g.add((unit_URI, contact, Literal(int(instance[1]['Contact hours']))))
     
 
 if(__name__ == "__main__"):
