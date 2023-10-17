@@ -36,15 +36,27 @@ Prefix rel: <https://uwa.handbook/relation/>
 Prefix uwa: <https://uwa.handbook/>
 Prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 
-SELECT ?unit
+SELECT ?code
 WHERE {
   ?unit a uwa:unit.
   ?unit rel:Level ?level.
+  ?unit rel:Prerequisite ?prereq.
+  ?prereq rel:Title ?prereq_title.
+  BIND(REPLACE(STR(?unit), "https://uwa.handbook/code/", "") AS ?code).
+  FILTER(?level = 3).
+  FILTER NOT EXISTS {
+    ?unit rel:Assessment ?assessments.
+    FILTER REGEX(?assessments, "exam", "i").
+  }
+  FILTER NOT EXISTS {
+    ?prereq rel:Assessment ?assessments.
+    FILTER REGEX(?assessments, "exam", "i").
+  }
 }
-FILTER(?level = 3)
+GROUP BY ?code
 """
 for i in g.query(query2):
-    print(i["unit"])
+    print(i["code"])
 # query 3
 # Find all units that appear in more than 3 majors.
 query3 = """
