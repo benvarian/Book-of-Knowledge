@@ -77,10 +77,6 @@
             " tests",
             " participation"
         ],
-        "Incompatibility": [
-            "BP002",
-            "BP013"
-        ],
         "Contact hours": 36
     },
     "MKTG1203": {
@@ -108,7 +104,6 @@
             " team project",
             " final exam"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "SCIE1104": {
@@ -236,7 +231,6 @@
             " written assessment",
             " presentation seminars"
         ],
-        "Prerequisites": [],
         "Contact hours": 128
     },
     "AGRI3004": {
@@ -319,7 +313,6 @@
             " assignments and ",
             " examination"
         ],
-        "Prerequisites": [],
         "Contact hours": 60
     },
     "MKTG3302": {
@@ -348,7 +341,6 @@
             "MKTX1203",
             "MKTG1342"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "BIOL1131": {
@@ -427,7 +419,6 @@
             "SCIE1106",
             "SCIX1106"
         ],
-        "Incompatibility": [],
         "Contact hours": 48
     },
     "GEOG2201": {
@@ -464,7 +455,6 @@
             " full report",
             " quiz questions"
         ],
-        "Prerequisites": [],
         "Contact hours": 150
     },
     "GEOG3301": {
@@ -570,7 +560,6 @@
             " scientific report",
             " group project"
         ],
-        "Prerequisites": [],
         "Co-requisites": [
             "MATH1720",
             "MATX1720"
@@ -616,7 +605,6 @@
             "STAT1520",
             "STAX1520"
         ],
-        "Incompatibility": [],
         "Contact hours": 38
     },
     "PLNT2201": {
@@ -701,11 +689,6 @@
         "Prerequisites": [
             "MATH1721",
             "MATX1721",
-            "MJD-AGTDM",
-            "MJD-IEMDM",
-            "MJD-MARDM",
-            "MJD-AGTEC",
-            "MJD-MARCP",
             "SCIE1500"
         ],
         "Incompatibility": [
@@ -815,7 +798,6 @@
             "GEOG1107",
             "GEOG1103"
         ],
-        "Advisable prior study": [],
         "Contact hours": 10
     },
     "LACH2000": {
@@ -868,19 +850,6 @@
             " a research report",
             " a final two-hour examination"
         ],
-        "Prerequisites": [
-            "MJD-CONBI",
-            "MJD-NRMGT",
-            "MJD-GGRPY",
-            "MJD-WLCDM",
-            "MJD-ENVDM",
-            "MJD-ENVMT",
-            "MJD-ENGEO",
-            "MNR-SPCEU",
-            "MNR-ENVST"
-        ],
-        "Incompatibility": [],
-        "Advisable prior study": [],
         "Contact hours": 48
     },
     "GEOG3305": {
@@ -1006,7 +975,6 @@
             " assignments",
             " a final two-hour examination"
         ],
-        "Prerequisites": [],
         "Contact hours": 36
     },
     "ENVT2221": {
@@ -1553,7 +1521,6 @@
             " report",
             " essay"
         ],
-        "Prerequisites": [],
         "Incompatibility": [
             "GEOG3306"
         ],
@@ -1583,7 +1550,6 @@
             " report",
             " mid-semester exam"
         ],
-        "Prerequisites": [],
         "Advisable prior study": [
             "GEOG1107"
         ],
@@ -1655,7 +1621,6 @@
             " critical review",
             " advocacy paper"
         ],
-        "Prerequisites": [],
         "Advisable prior study": [
             "GEOG1106"
         ],
@@ -1684,8 +1649,7 @@
         ],
         "Prerequisites": [
             "GEOG1107",
-            "GEOG2203",
-            "BP013"
+            "GEOG2203"
         ],
         "Incompatibility": [
             "GEOG2205"
@@ -1757,7 +1721,6 @@
             " examination",
             " essay"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "ARLA1040": {
@@ -1777,7 +1740,6 @@
             " major assignment 2",
             " in-class continuous assessments"
         ],
-        "Incompatibility": [],
         "Contact hours": 77
     },
     "ARCT2000": {
@@ -1934,7 +1896,6 @@
             " an interim project assessment\n and ",
             " a final folio "
         ],
-        "Incompatibility": [],
         "Contact hours": 6
     },
     "ARLA1030": {
@@ -1955,7 +1916,6 @@
             " project 2 Modeling Structures & Systems",
             " project 3 Site / Structure & Material Systems"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "ARCT2001": {
@@ -2252,7 +2212,6 @@
             " participation and ",
             " writing tasks"
         ],
-        "Incompatibility": [],
         "Contact hours": 2
     },
     "COMM1002": {
@@ -2278,7 +2237,6 @@
             " research essay",
             " image project"
         ],
-        "Incompatibility": [],
         "Contact hours": 3
     },
     "COMM2001": {
@@ -2301,8 +2259,6 @@
             " written assessment",
             " participation"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Advisable prior study": [
             "COMM2002"
         ],
@@ -2330,8 +2286,6 @@
             " critical evaluation and ",
             " media project"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Advisable prior study": [
             "COMM1002"
         ],
@@ -2387,7 +2341,6 @@
             " written work",
             " oral presentation"
         ],
-        "Incompatibility": [],
         "Contact hours": 48
     },
     "ARTF1053": {
@@ -2410,7 +2363,6 @@
             " portfolio and ",
             " final project"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "ARTF1054": {
@@ -2434,7 +2386,6 @@
             " written work",
             " oral presentation"
         ],
-        "Incompatibility": [],
         "Contact hours": 48
     },
     "HART1003": {
@@ -2482,8 +2433,6 @@
             " exhibition or event proposal",
             " oral presentation"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "ARTF3050": {
@@ -2509,7 +2458,6 @@
             "ARTF3040",
             "ARTF3050"
         ],
-        "Incompatibility": [],
         "Contact hours": 8
     },
     "MUSC1055": {
@@ -2559,8 +2507,6 @@
             " coursework and ",
             " exams"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 60
     },
     "MUSC1322": {
@@ -2589,7 +2535,6 @@
         "Prerequisites": [
             "MUSC1321"
         ],
-        "Incompatibility": [],
         "Contact hours": 60
     },
     "MUSC1340": {
@@ -2613,7 +2558,6 @@
             " tests",
             " participation"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "MUSC1345": {
@@ -2637,7 +2581,6 @@
             " technology tests",
             " online readings, tests, and  reflective practice journal"
         ],
-        "Prerequisites": [],
         "Co-requisites": [
             "MUSC1591"
         ],
@@ -2668,7 +2611,6 @@
             " research project",
             " examination"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "MUSC1591": {
@@ -2744,7 +2686,6 @@
             "CITS1001",
             "CITX1001"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "MUSC2274": {
@@ -2855,7 +2796,6 @@
         "Co-requisites": [
             "MUSC1592"
         ],
-        "Incompatibility": [],
         "Contact hours": 12
     },
     "MUSC2520": {
@@ -2883,7 +2823,6 @@
         "Prerequisites": [
             "MUSC1322"
         ],
-        "Incompatibility": [],
         "Contact hours": 60
     },
     "MUSC3336": {
@@ -2905,7 +2844,6 @@
             " critical review",
             " research essay"
         ],
-        "Prerequisites": [],
         "Contact hours": 24
     },
     "MUSC3571": {
@@ -2987,10 +2925,8 @@
             " composition stream: composition projects, assignments, and tests",
             " composition stream: workshop participation and experimental performance"
         ],
-        "Prerequisites": [],
         "Co-requisites": [
-            "MUSC1591",
-            "MJD-MSTGM"
+            "MUSC1591"
         ],
         "Incompatibility": [
             "MUSC1341"
@@ -3016,8 +2952,7 @@
             " composition stream: workshop participation and experimental performance"
         ],
         "Prerequisites": [
-            "MUSC1741",
-            "MJD-MSTGM"
+            "MUSC1741"
         ],
         "Co-requisites": [
             "MUSC1592"
@@ -3060,7 +2995,6 @@
             " portfolio and ",
             " tests"
         ],
-        "Incompatibility": [],
         "Advisable prior study": [
             "MUSC1340",
             "MUSC1340"
@@ -3087,7 +3021,6 @@
             " portfolio and ",
             " tests"
         ],
-        "Incompatibility": [],
         "Advisable prior study": [
             "MUSC1340",
             "MUSC2341",
@@ -3193,7 +3126,6 @@
         ],
         "Prerequisites": [
             "MUSC2741",
-            "MJD-MSTGM",
             "MUSC2341",
             "MUSC2342"
         ],
@@ -3229,11 +3161,8 @@
             " collaborative music project",
             " performance stream: learning module, or composition stream: workshop participation"
         ],
-        "Prerequisites": [],
         "Co-requisites": [
-            "MUSC1591",
-            "MJD-MUSDM",
-            "MJD-MUSST"
+            "MUSC1591"
         ],
         "Incompatibility": [
             "MUSC1741",
@@ -3263,9 +3192,7 @@
             " concert and weekly composition/instrumental workshop participation"
         ],
         "Prerequisites": [
-            "MUSC1341",
-            "MJD-MUSDM",
-            "MJD-MUSST"
+            "MUSC1341"
         ],
         "Co-requisites": [
             "MUSC1592"
@@ -3297,8 +3224,6 @@
             " portfolio and ",
             " tests"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Advisable prior study": [
             "MUSC1340",
             "MUSC2341",
@@ -3364,9 +3289,7 @@
         ],
         "Prerequisites": [
             "MATH1720",
-            "MATX1720",
-            "62510",
-            "62530"
+            "MATX1720"
         ],
         "Incompatibility": [
             "CITS2401"
@@ -3397,7 +3320,6 @@
             " labs",
             " final examination"
         ],
-        "Prerequisites": [],
         "Incompatibility": [
             "ENSC3020"
         ],
@@ -3435,8 +3357,7 @@
             "MATX1721",
             "PHYS1030",
             "PHYX1030"
-        ],
-        "Incompatibility": []
+        ]
     },
     "GENG1000": {
         "code": "GENG1000",
@@ -3496,7 +3417,6 @@
             " team project report  and presentation ",
             " individual portfolio"
         ],
-        "Incompatibility": [],
         "Contact hours": 27
     },
     "MATH1011": {
@@ -3602,8 +3522,6 @@
             " mid-semester test",
             " final examination"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 38
     },
     "CITS2200": {
@@ -3640,7 +3558,6 @@
             "MATH1721",
             "MATX1721"
         ],
-        "Advisable prior study": [],
         "Contact hours": 98
     },
     "ELEC2311": {
@@ -3747,7 +3664,6 @@
             "MATX1011",
             "PHYS1030"
         ],
-        "Incompatibility": [],
         "Advisable prior study": [
             "PHYS1001"
         ],
@@ -3873,12 +3789,10 @@
             " individual design report"
         ],
         "Prerequisites": [
-            "BP007",
             "ELEC3020",
             "ENSC3020",
             "GENG2000"
         ],
-        "Incompatibility": [],
         "Contact hours": 48
     },
     "CITS3001": {
@@ -4183,9 +4097,6 @@
             " tests and examinations"
         ],
         "Prerequisites": [
-            "62550",
-            "62510",
-            "BP007",
             "CITS1001",
             "CITX1001",
             "CITX1401",
@@ -4193,7 +4104,6 @@
             "CITS2002",
             "CITS2401"
         ],
-        "Incompatibility": [],
         "Contact hours": 0
     },
     "CITS4402": {
@@ -4218,12 +4128,6 @@
             " final exam"
         ],
         "Prerequisites": [
-            "HON-CMSSE",
-            "62530",
-            "62550",
-            "53560",
-            "BH008",
-            "MJD-ARIDM",
             "CITS2401",
             "CITS1401",
             "CITX1401",
@@ -4256,10 +4160,8 @@
             " a final examination"
         ],
         "Prerequisites": [
-            "62550",
             "GENG3402"
         ],
-        "Incompatibility": [],
         "Advisable prior study": [
             "ENSC2003"
         ],
@@ -4363,10 +4265,6 @@
             " Certificate",
             " portfolio\u2014the portfolio requires students to write a small number of critical reflective pieces"
         ],
-        "Prerequisites": [
-            "62550"
-        ],
-        "Incompatibility": [],
         "Contact hours": 450
     },
     "GENG5505": {
@@ -4390,14 +4288,6 @@
             " group presentation ",
             " a final examination"
         ],
-        "Prerequisites": [
-            "62550",
-            "62510",
-            "62530",
-            "62540",
-            "62560",
-            "62570"
-        ],
         "Contact hours": 39
     },
     "GENG5507": {
@@ -4419,11 +4309,6 @@
             " a final examination"
         ],
         "Prerequisites": [
-            "62550",
-            "62510",
-            "62520",
-            "62560",
-            "73660",
             "MATH1011",
             "MATX1011",
             "MATH1012",
@@ -4458,7 +4343,6 @@
             " in-class drawing and CAD exercises",
             " in-class tests"
         ],
-        "Prerequisites": [],
         "Contact hours": 1
     },
     "IMED1001": {
@@ -4495,13 +4379,6 @@
         "Assessment": [
             " final examination and ",
             " in-semester tests"
-        ],
-        "Prerequisites": [
-            "MJD-MEDSC",
-            "MJD-IMSCP",
-            "MJD-ENGSC",
-            "MJD-EBMEG",
-            "MJD-PHMSC"
         ],
         "Contact hours": 48
     },
@@ -4542,7 +4419,6 @@
         "Co-requisites": [
             "MATH1722"
         ],
-        "Incompatibility": [],
         "Contact hours": 198
     },
     "GENG2003": {
@@ -4742,7 +4618,6 @@
             " examinations"
         ],
         "Prerequisites": [
-            "62550",
             "MECH3424"
         ],
         "Advisable prior study": [
@@ -4775,7 +4650,6 @@
             " a final examination"
         ],
         "Prerequisites": [
-            "62550",
             "BMEG3001"
         ],
         "Advisable prior study": [
@@ -4805,7 +4679,6 @@
             " major assignment \u2013 laboratory report"
         ],
         "Prerequisites": [
-            "62550",
             "BMEG3001"
         ],
         "Advisable prior study": [
@@ -4840,7 +4713,6 @@
             " professional conduct"
         ],
         "Prerequisites": [
-            "62550",
             "GENG3000",
             "BMEG3001"
         ],
@@ -4870,7 +4742,6 @@
             " professional conduct"
         ],
         "Prerequisites": [
-            "62550",
             "BMEG5551"
         ],
         "Contact hours": 26
@@ -4967,7 +4838,6 @@
         "Incompatibility": [
             "ENSC3005"
         ],
-        "Advisable prior study": [],
         "Contact hours": 36
     },
     "CHPR2006": {
@@ -5315,10 +5185,8 @@
             "CHPR3018",
             "GENG3000",
             "CHPR3406",
-            "62550",
             "CHPR4406"
         ],
-        "Incompatibility": [],
         "Advisable prior study": [
             "ENSC3019",
             "CHPR3019",
@@ -5350,7 +5218,6 @@
             " assignments",
             " participation and collaborative learning"
         ],
-        "Prerequisites": [],
         "Contact hours": 48
     },
     "CIVL2008": {
@@ -5405,7 +5272,6 @@
             " BIM software project",
             " reports on site visit and case study"
         ],
-        "Prerequisites": [],
         "Advisable prior study": [
             "MATH1011"
         ],
@@ -5678,7 +5544,6 @@
             " examinations"
         ],
         "Prerequisites": [
-            "62550",
             "MATH1011",
             "MATX1011",
             "CITS2401"
@@ -5874,7 +5739,6 @@
             " quizzes and final examination"
         ],
         "Prerequisites": [
-            "62550",
             "ELEC3021",
             "MATH3023"
         ],
@@ -5908,8 +5772,7 @@
         "Prerequisites": [
             "STAT2063",
             "ENSC3015",
-            "MATH3023",
-            "62550"
+            "MATH3023"
         ],
         "Advisable prior study": [
             "ELEC3015",
@@ -5939,8 +5802,7 @@
         "Prerequisites": [
             "STAT2063",
             "ELEC3015",
-            "CITS2401",
-            "62550"
+            "CITS2401"
         ],
         "Advisable prior study": [
             "CITS2401",
@@ -6001,11 +5863,8 @@
             " final examination"
         ],
         "Prerequisites": [
-            "ELEC3016",
-            "62550",
-            "62560"
+            "ELEC3016"
         ],
-        "Incompatibility": [],
         "Advisable prior study": [
             "ENSC3016",
             "ENSC3016"
@@ -6037,7 +5896,6 @@
         ],
         "Prerequisites": [
             "GENG3000",
-            "62550",
             "ELEC5551"
         ]
     },
@@ -6296,7 +6154,6 @@
             " a final examination"
         ],
         "Prerequisites": [
-            "62550",
             "GENG2010",
             "GENG2003"
         ],
@@ -6350,7 +6207,6 @@
             " group project"
         ],
         "Prerequisites": [
-            "62550",
             "GENG2010",
             "GENG2003"
         ],
@@ -6378,7 +6234,6 @@
             " professional conduct "
         ],
         "Prerequisites": [
-            "62550",
             "ENVE3609",
             "GENG3000"
         ],
@@ -6429,8 +6284,6 @@
             " a final examination"
         ],
         "Prerequisites": [
-            "62550",
-            "62570",
             "GENG2003",
             "GENG2010"
         ],
@@ -6495,10 +6348,6 @@
             " final examination"
         ],
         "Prerequisites": [
-            "BH011",
-            "CB006",
-            "CB004",
-            "CB014",
             "CITS2401",
             "ENSC2004"
         ],
@@ -6533,7 +6382,6 @@
             " a final examination"
         ],
         "Prerequisites": [
-            "62550",
             "ENSC2004",
             "MECH2004"
         ],
@@ -6563,7 +6411,6 @@
             " a final examination"
         ],
         "Prerequisites": [
-            "62550",
             "MECH3024"
         ],
         "Advisable prior study": [
@@ -6636,7 +6483,6 @@
             " reflection on learning"
         ],
         "Prerequisites": [
-            "62550",
             "MECH5502",
             "MECH4502",
             "GENG3000"
@@ -6882,7 +6728,6 @@
             " a final examination"
         ],
         "Prerequisites": [
-            "62550",
             "ENSC1004",
             "MINE2001"
         ],
@@ -6971,7 +6816,6 @@
             " a final examination"
         ],
         "Prerequisites": [
-            "62550",
             "MINE4503",
             "MINE4401",
             "MINE3503",
@@ -7002,7 +6846,6 @@
             " final project presentation and report"
         ],
         "Prerequisites": [
-            "62550",
             "MINE4503",
             "MINE4405",
             "GENG3000",
@@ -7188,7 +7031,6 @@
         "Incompatibility": [
             "SSEH5475"
         ],
-        "Advisable prior study": [],
         "Contact hours": 81
     },
     "SSEH3388": {
@@ -7206,14 +7048,6 @@
             " laboratory contributions",
             " practical component"
         ],
-        "Prerequisites": [
-            "MJD-EXHSC",
-            "MJD-SEHDM",
-            "MNR-PAHLT",
-            "73520",
-            "73570"
-        ],
-        "Incompatibility": [],
         "Advisable prior study": [
             "SSEH1103"
         ],
@@ -7237,8 +7071,6 @@
             " tests and ",
             " examination"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "BMED2001": {
@@ -7263,7 +7095,6 @@
             " narrative essay with group presentation ",
             " object based reflection"
         ],
-        "Prerequisites": [],
         "Advisable prior study": [
             "ANTH1001",
             "PSYC1102",
@@ -7321,9 +7152,6 @@
             " video presentation",
             " collaborative learning activities"
         ],
-        "Prerequisites": [
-            "MJD-HHMED"
-        ],
         "Contact hours": 24
     },
     "BMED3003": {
@@ -7369,7 +7197,6 @@
             " online quizzes based on lecture material",
             " laboratory work, which includes pre-laboratory work and worksheets completed in the laboratory"
         ],
-        "Incompatibility": [],
         "Contact hours": 51
     },
     "IMED2001": {
@@ -7552,10 +7379,6 @@
             " examinations",
             " professional behaviour"
         ],
-        "Prerequisites": [
-            "91860",
-            "MJD-DENTS"
-        ],
         "Co-requisites": [
             "DENT3002",
             "DENT3003",
@@ -7582,10 +7405,6 @@
             " examinations",
             " professional behaviour assessment"
         ],
-        "Prerequisites": [
-            "91860",
-            "MJD-DENTS"
-        ],
         "Co-requisites": [
             "DENT3001",
             "DENT3003",
@@ -7610,10 +7429,6 @@
             " written assessments",
             " practical assessments",
             " professional behaviour assessment"
-        ],
-        "Prerequisites": [
-            "91860",
-            "MJD-DENTS"
         ],
         "Co-requisites": [
             "DENT3001",
@@ -7640,10 +7455,6 @@
             " written assessments",
             " practical assessments",
             " professional behaviour assessment"
-        ],
-        "Prerequisites": [
-            "91860",
-            "MJD-DENTS"
         ],
         "Co-requisites": [
             "DENT3001",
@@ -7674,10 +7485,6 @@
             " written assessments",
             " practical assessments",
             " professional behaviour assessment"
-        ],
-        "Prerequisites": [
-            "91860",
-            "MJD-DENTS"
         ],
         "Co-requisites": [
             "DENT3006",
@@ -7714,9 +7521,6 @@
             "DENT3003",
             "DENT3004"
         ],
-        "Co-requisites": [
-            "91860"
-        ],
         "Contact hours": 9
     },
     "DENT3007": {
@@ -7740,9 +7544,6 @@
             " written assessments",
             " practical assessments",
             " professional behaviour assessment"
-        ],
-        "Prerequisites": [
-            "91860"
         ],
         "Co-requisites": [
             "DENT3005",
@@ -7769,9 +7570,6 @@
         "Assessment": [
             " written assessments and ",
             " practical assessments"
-        ],
-        "Prerequisites": [
-            "91860"
         ],
         "Co-requisites": [
             "DENT3005",
@@ -7844,7 +7642,6 @@
             "CHEM1003",
             "CHEX1003"
         ],
-        "Incompatibility": [],
         "Advisable prior study": [
             "BIOL1130",
             "ANHB1101"
@@ -7885,7 +7682,6 @@
             "IMED1001",
             "IMED1002"
         ],
-        "Incompatibility": [],
         "Advisable prior study": [
             "MICR2208"
         ],
@@ -7919,7 +7715,6 @@
             "IMED1001",
             "IMED1002"
         ],
-        "Incompatibility": [],
         "Contact hours": 60
     },
     "PATH2211": {
@@ -7981,7 +7776,6 @@
             "IMED1001",
             "IMED1002"
         ],
-        "Incompatibility": [],
         "Advisable prior study": [
             "SCIE1106"
         ],
@@ -8017,7 +7811,6 @@
             "PATH2210",
             "PATH2220"
         ],
-        "Incompatibility": [],
         "Contact hours": 60
     },
     "PATH3305": {
@@ -8046,7 +7839,6 @@
             "GENE2230",
             "GENE2250"
         ],
-        "Incompatibility": [],
         "Contact hours": 72
     },
     "PATH3308": {
@@ -8074,8 +7866,7 @@
             "PATH2211",
             "PATH2220",
             "MICR2209"
-        ],
-        "Incompatibility": []
+        ]
     },
     "PATH3309": {
         "code": "PATH3309",
@@ -8189,7 +7980,6 @@
             "PUBH1102",
             "IMED1108"
         ],
-        "Incompatibility": [],
         "Contact hours": 0
     },
     "PUBH2203": {
@@ -8230,7 +8020,6 @@
             "SCOX1101",
             "BIOL1130",
             "BIOL1131",
-            "MJD-ABHWB",
             "INDG1150",
             "INDG1160",
             "AHEA2201"
@@ -8238,7 +8027,6 @@
         "Incompatibility": [
             "IMED2003"
         ],
-        "Advisable prior study": [],
         "Contact hours": 48
     },
     "PUBH2204": {
@@ -8313,7 +8101,6 @@
             "IMED1001",
             "IMED1002"
         ],
-        "Incompatibility": [],
         "Contact hours": 24
     },
     "PUBH3301": {
@@ -8455,21 +8242,9 @@
             " laboratory quizzes and ",
             " a final theory examination"
         ],
-        "Prerequisites": [
-            "MJD-PHYGY",
-            "MJD-SPTSC",
-            "MJD-SEHDM",
-            "MJD-HSANP",
-            "MJD-BCNDM",
-            "MJD-NEURS",
-            "MJD-HSNEM",
-            "MJD-ANHBY",
-            "MNR-ORGPH"
-        ],
         "Incompatibility": [
             "PHYL2001"
         ],
-        "Advisable prior study": [],
         "Contact hours": 75
     },
     "SSEH2240": {
@@ -8525,9 +8300,6 @@
         ],
         "Assessment": [],
         "Prerequisites": [
-            "MJD-SEHDM",
-            "MJD-SPTSC",
-            "MJD-EXHSC",
             "SSEH1101",
             "SSEH1102",
             "SSEH1103",
@@ -8603,14 +8375,8 @@
         ],
         "Prerequisites": [
             "SSEH2295",
-            "MJD-SPTSC",
-            "MJD-EXHSC",
-            "MJD-SEHDM",
-            "SSEH2295",
-            "73570",
-            "73520"
+            "SSEH2295"
         ],
-        "Incompatibility": [],
         "Contact hours": 95
     },
     "CITS1003": {
@@ -8637,7 +8403,6 @@
             " project",
             " final examination"
         ],
-        "Incompatibility": [],
         "Contact hours": 48
     },
     "CITS1402": {
@@ -8668,11 +8433,8 @@
         ],
         "Prerequisites": [
             "MATH1720",
-            "MATX1720",
-            "62510",
-            "62530"
+            "MATX1720"
         ],
-        "Incompatibility": [],
         "Contact hours": 26
     },
     "PHIL1001": {
@@ -8705,7 +8467,6 @@
             " online quizzes",
             " exam"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "CITS2005": {
@@ -8822,7 +8583,6 @@
             " essay",
             " exam"
         ],
-        "Prerequisites": [],
         "Contact hours": 36
     },
     "CITS3005": {
@@ -8873,7 +8633,6 @@
             " project",
             " exam"
         ],
-        "Prerequisites": [],
         "Advisable prior study": [
             "CITS2002"
         ],
@@ -8973,16 +8732,6 @@
             " project",
             " notebook",
             " two in-class tests "
-        ],
-        "Prerequisites": [
-            "HON-CMSSE",
-            "62510",
-            "62530",
-            "62550",
-            "BH008",
-            "MJD-ICYDM",
-            "MJD-ARIDM",
-            "73660"
         ]
     },
     "CITS4010": {
@@ -8997,10 +8746,7 @@
             " demonstrate skills in problem formulation, in designing and analysing solutions and experiments, and in the\npresentation of research findings",
             " prepare written and oral reports to a professional standard using the discourse conventions of computer science."
         ],
-        "Assessment": [],
-        "Prerequisites": [
-            "BH008"
-        ]
+        "Assessment": []
     },
     "CITS4011": {
         "code": "CITS4011",
@@ -9020,7 +8766,6 @@
             " project report"
         ],
         "Prerequisites": [
-            "BH008",
             "CITS4010"
         ],
         "Contact hours": 0
@@ -9043,14 +8788,6 @@
             " programming assignment and ",
             " final examination"
         ],
-        "Prerequisites": [
-            "HON-CMSSE",
-            "62510",
-            "62530",
-            "62550",
-            "BH008",
-            "MJD-ARIDM"
-        ],
         "Contact hours": 26
     },
     "CITS4404": {
@@ -9071,16 +8808,7 @@
             " research paper",
             " practical project",
             " final examination"
-        ],
-        "Prerequisites": [
-            "HON-CMSSE",
-            "62510",
-            "62530",
-            "62550",
-            "BH008",
-            "MJD-ARIDM"
-        ],
-        "Advisable prior study": []
+        ]
     },
     "CITS5017": {
         "code": "CITS5017",
@@ -9101,8 +8829,6 @@
             " final examination"
         ],
         "Prerequisites": [
-            "BH008",
-            "MJD-ARIDM",
             "CITS5508"
         ],
         "Contact hours": 26
@@ -9125,16 +8851,6 @@
             " mid-semester test",
             " assessed laboratory exercises",
             " final examination"
-        ],
-        "Prerequisites": [
-            "62510",
-            "62530",
-            "42630",
-            "62550",
-            "53560",
-            "BH008",
-            "MJD-CDSDM",
-            "MJD-ARIDM"
         ],
         "Advisable prior study": [
             "CITS1401"
@@ -9227,8 +8943,7 @@
         ],
         "Prerequisites": [
             "MATH1720",
-            "MATX1720",
-            "62530"
+            "MATX1720"
         ],
         "Advisable prior study": [
             "STAT1400",
@@ -9259,8 +8974,7 @@
         ],
         "Prerequisites": [
             "MATH1720",
-            "MATX1720",
-            "62530"
+            "MATX1720"
         ],
         "Advisable prior study": [
             "STAT1400",
@@ -9321,10 +9035,6 @@
             " exam"
         ],
         "Prerequisites": [
-            "MJD-CDSDM",
-            "MJD-MTHST",
-            "MJD-DATSC",
-            "MJD-HSDEM",
             "STAT2401",
             "STAT2402",
             "STAT2062",
@@ -9387,16 +9097,6 @@
             " mid-semester test",
             " laboratory exercises",
             " final examination"
-        ],
-        "Prerequisites": [
-            "HON-CMSSE",
-            "62510",
-            "62530",
-            "42630",
-            "BH008",
-            "MJD-ICYDM",
-            "MJD-CDSDM",
-            "62550"
         ]
     },
     "STAT4062": {
@@ -9417,8 +9117,6 @@
             " in-semester tests and assignments"
         ],
         "Prerequisites": [
-            "HON-MTHST",
-            "MJD-CDSDM",
             "STAT3062",
             "STAT3401",
             "STAT3064"
@@ -9473,10 +9171,6 @@
             " programme assignment 2",
             " final examination"
         ],
-        "Prerequisites": [
-            "MJD-ICYDM",
-            "MJD-CYBER"
-        ],
         "Incompatibility": [
             "CITS4407"
         ],
@@ -9503,8 +9197,6 @@
             " 3 tests ",
             " project"
         ],
-        "Prerequisites": [],
-        "Advisable prior study": [],
         "Contact hours": 26
     },
     "STAT3405": {
@@ -9528,8 +9220,6 @@
             " a final examination"
         ],
         "Prerequisites": [
-            "MJD-DATSC",
-            "MJD-QTMTD",
             "STAT2401",
             "STAT2402",
             "STAT2062"
@@ -9588,9 +9278,6 @@
             " policy analysis paper",
             " tutorial participation"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
-        "Advisable prior study": [],
         "Contact hours": 36
     },
     "CITS4419": {
@@ -9612,11 +9299,6 @@
             " final examination"
         ],
         "Prerequisites": [
-            "HON-CMSSE",
-            "62530",
-            "62550",
-            "BH008",
-            "MJD-ICYDM",
             "CITS3002"
         ],
         "Advisable prior study": [
@@ -9674,9 +9356,6 @@
             " final examination"
         ],
         "Prerequisites": [
-            "62510",
-            "62550",
-            "BH008",
             "CITS3301"
         ],
         "Advisable prior study": [
@@ -9697,11 +9376,6 @@
         "Assessment": [
             " laboratory and project related assessments and ",
             " final examination"
-        ],
-        "Prerequisites": [
-            "62510",
-            "62530",
-            "62550"
         ],
         "Incompatibility": [
             "CITS3402",
@@ -9791,7 +9465,6 @@
             "ACCT1101",
             "ACCX1101"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "ACCT2201": {
@@ -9875,7 +9548,6 @@
         "Prerequisites": [
             "ACCT2112"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "ACCT3206": {
@@ -9903,7 +9575,6 @@
         "Prerequisites": [
             "ACCT2112"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "ACCT3302": {
@@ -9935,7 +9606,6 @@
         "Incompatibility": [
             "FINA2207"
         ],
-        "Advisable prior study": [],
         "Contact hours": 36
     },
     "ACCT3321": {
@@ -10109,7 +9779,6 @@
         ],
         "Prerequisites": [
             "FINA1221",
-            "MJD-BUSAN",
             "FINX1221"
         ],
         "Incompatibility": [
@@ -10143,10 +9812,6 @@
             " reflective journal",
             " exam"
         ],
-        "Prerequisites": [
-            "BP009",
-            "MJD-BUSAN"
-        ],
         "Incompatibility": [
             "WILG3001"
         ],
@@ -10174,10 +9839,6 @@
             " project",
             " reflective journal",
             " participation"
-        ],
-        "Prerequisites": [
-            "BP013",
-            "MJD-BUSAN"
         ],
         "Contact hours": 0
     },
@@ -10208,18 +9869,6 @@
             " work placement hours and timesheets",
             " reflection report",
             " career planning activities"
-        ],
-        "Prerequisites": [
-            "MJD-ECNPF",
-            "MJD-LINGO",
-            "MJD-POLSC",
-            "MJD-BMGMT",
-            "MJD-ENTIN",
-            "MJD-GLBUS",
-            "MJD-FINEC",
-            "MJD-CRMDM",
-            "MJD-BUSAN",
-            "MNR-CRWRS"
         ],
         "Incompatibility": [
             "WILG2201",
@@ -10257,7 +9906,6 @@
             " assignments",
             " final examination"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "HRMT2237": {
@@ -10447,8 +10095,6 @@
             " tutorial exercises and ",
             " assignments"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "MGMT2311": {
@@ -10500,8 +10146,6 @@
             " class participation and ",
             " assignments"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "MKTG3314": {
@@ -10578,7 +10222,6 @@
             " assignment",
             " examination"
         ],
-        "Prerequisites": [],
         "Contact hours": 36
     },
     "BUSN1103": {
@@ -10690,7 +10333,6 @@
             " seminar activities ",
             " examination"
         ],
-        "Prerequisites": [],
         "Contact hours": 36
     },
     "MGMT3304": {
@@ -10744,7 +10386,6 @@
         "Prerequisites": [
             "MGMT2341"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "MGMT1135": {
@@ -10770,7 +10411,6 @@
             " assignments",
             " examination"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "EMPL2202": {
@@ -10803,7 +10443,6 @@
             "MGMT1136",
             "MGMX1136"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "EMPL3241": {
@@ -10832,7 +10471,6 @@
         "Prerequisites": [
             "EMPL2202"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "EMPL3270": {
@@ -10858,8 +10496,6 @@
             " essay",
             " examination"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "HRMT3344": {
@@ -10941,7 +10577,6 @@
             "MGMT1136",
             "MGMX1136"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "MGMT3308": {
@@ -11020,7 +10655,6 @@
             " assignment",
             " group project"
         ],
-        "Prerequisites": [],
         "Contact hours": 36
     },
     "MGMT3346": {
@@ -11045,7 +10679,6 @@
             " case study ",
             " examination"
         ],
-        "Prerequisites": [],
         "Contact hours": 36
     },
     "MKTG1204": {
@@ -11069,7 +10702,6 @@
             " assignment",
             " tests"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "MKTG2305": {
@@ -11098,7 +10730,6 @@
             "MKTG1203",
             "MKTX0203"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "EMPL1101": {
@@ -11121,7 +10752,6 @@
             " critical assessment exercises",
             " examinable assessments"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "EMPL1206": {
@@ -11145,7 +10775,6 @@
             " group assessments",
             " Exams"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "EMPL2309": {
@@ -11171,7 +10800,6 @@
             "EMPL1206",
             "LAWS1111"
         ],
-        "Incompatibility": [],
         "Contact hours": 2
     },
     "EMPL3208": {
@@ -11196,8 +10824,6 @@
             " group project",
             " Examinations"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "ANHB1101": {
@@ -11390,10 +11016,6 @@
             " statistics assessment",
             " manuscript writing"
         ],
-        "Prerequisites": [
-            "MJD-ANHBY",
-            "MJD-HSNEM"
-        ],
         "Co-requisites": [
             "ANHB3321",
             "ANHB3323"
@@ -11401,7 +11023,6 @@
         "Incompatibility": [
             "ANHB3320"
         ],
-        "Advisable prior study": [],
         "Contact hours": 38
     },
     "ANHB3315": {
@@ -11484,10 +11105,6 @@
             " statistics assessment",
             " manuscript writing"
         ],
-        "Prerequisites": [
-            "MJD-ANHBY",
-            "MJD-BIOMS"
-        ],
         "Co-requisites": [
             "ANHB3315",
             "ANHB3316",
@@ -11497,7 +11114,6 @@
         "Incompatibility": [
             "ANHB3310"
         ],
-        "Advisable prior study": [],
         "Contact hours": 38
     },
     "ANHB3321": {
@@ -11518,7 +11134,6 @@
             " laboratory question sets",
             " a tutorial group presentation"
         ],
-        "Advisable prior study": [],
         "Contact hours": 48
     },
     "ANHB3322": {
@@ -11643,7 +11258,6 @@
             "CHEM1002",
             "CHEX1002"
         ],
-        "Incompatibility": [],
         "Contact hours": 22
     },
     "BIOC2002": {
@@ -11671,9 +11285,6 @@
             " online theory themed quizzes"
         ],
         "Prerequisites": [
-            "MJD-BCNDM",
-            "MJD-MLSDM",
-            "MJD-BCHMB",
             "SCIE1106",
             "SCIX1106",
             "BIOC1001",
@@ -11684,7 +11295,6 @@
             "SCIE1106",
             "SCIX1106"
         ],
-        "Incompatibility": [],
         "Advisable prior study": [
             "BIOC2001"
         ],
@@ -11823,7 +11433,6 @@
             "CHEM1003",
             "CHEX1003"
         ],
-        "Incompatibility": [],
         "Contact hours": 368
     },
     "PHYL2001": {
@@ -11848,7 +11457,6 @@
         "Incompatibility": [
             "PHYL1001"
         ],
-        "Advisable prior study": [],
         "Contact hours": 75
     },
     "BIOC3004": {
@@ -12025,7 +11633,6 @@
             " online quizzes and activities",
             " Q&A report and contributions"
         ],
-        "Incompatibility": [],
         "Contact hours": 48
     },
     "ANIM2207": {
@@ -12144,7 +11751,6 @@
             " research project and ",
             " a theory examination and/or quizzes"
         ],
-        "Prerequisites": [],
         "Contact hours": 25
     },
     "ANIM3365": {
@@ -12210,7 +11816,6 @@
             "STAT1400",
             "STAX1400"
         ],
-        "Incompatibility": [],
         "Contact hours": 60
     },
     "GENE3350": {
@@ -12492,9 +12097,6 @@
             "ENVT2250",
             "ENVT2221"
         ],
-        "Incompatibility": [
-            "72520"
-        ],
         "Contact hours": 40
     },
     "BIOL3360": {
@@ -12549,7 +12151,6 @@
             " in-semester tests and final examination"
         ],
         "Prerequisites": [
-            "MJD-FRODM",
             "PHYS1030",
             "PHYX1030",
             "MATH1721",
@@ -12585,7 +12186,6 @@
             " final examination"
         ],
         "Prerequisites": [
-            "MJD-FRODM",
             "PHYS1100"
         ],
         "Incompatibility": [
@@ -12715,7 +12315,6 @@
             " research paper"
         ],
         "Prerequisites": [
-            "MJD-FRODM",
             "PHYS1100",
             "PHYS1200",
             "MATH1011",
@@ -12859,8 +12458,6 @@
             " workshop participation and assignments"
         ],
         "Prerequisites": [
-            "BH005",
-            "MJD-FRODM",
             "PHYS1100",
             "PHYS2001",
             "MATH2501",
@@ -12893,14 +12490,11 @@
             " in-semester tests and final examination"
         ],
         "Prerequisites": [
-            "53560",
-            "MJD-FRODM",
             "PHYS2001",
             "PHYS2002",
             "PHYS3001",
             "PHYS3011"
         ],
-        "Incompatibility": [],
         "Contact hours": 37
     },
     "GENE3340": {
@@ -12925,7 +12519,6 @@
         "Prerequisites": [
             "GENE2230"
         ],
-        "Incompatibility": [],
         "Contact hours": 27
     },
     "GENE3370": {
@@ -13010,7 +12603,6 @@
             "CHEM1002",
             "CHEX1002"
         ],
-        "Incompatibility": [],
         "Contact hours": 30
     },
     "CHEM2002": {
@@ -13062,7 +12654,6 @@
         "Prerequisites": [
             "EART1104"
         ],
-        "Advisable prior study": [],
         "Contact hours": 39
     },
     "EART2232": {
@@ -13143,7 +12734,6 @@
             " a final written examination paper",
             " scientific reports based on laboratory exercises"
         ],
-        "Prerequisites": [],
         "Contact hours": 445
     },
     "CHEM3002": {
@@ -13412,8 +13002,7 @@
             "BIOL1130",
             "SCIE1106",
             "SCIX1106",
-            "IMED1001",
-            "71520"
+            "IMED1001"
         ],
         "Advisable prior study": [
             "IMED1001",
@@ -13472,10 +13061,6 @@
             " assignment assessing data analysis, research interpretation and writing skills",
             " online quizzes"
         ],
-        "Prerequisites": [
-            "71520"
-        ],
-        "Advisable prior study": [],
         "Contact hours": 15
     },
     "NEUR3301": {
@@ -13591,7 +13176,6 @@
             " workshop participation",
             " examination"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "STAT3406": {
@@ -13615,9 +13199,6 @@
             " a final examination"
         ],
         "Prerequisites": [
-            "MJD-QTMTD",
-            "MJD-HSDEM",
-            "MNR-ASTAT",
             "STAT2401",
             "STAT2402",
             "STAT2062"
@@ -13653,7 +13234,6 @@
             "EART1105",
             "GEOG1103"
         ],
-        "Incompatibility": [],
         "Contact hours": 37
     },
     "SCIE2204": {
@@ -13767,11 +13347,6 @@
             " in-semester test",
             " practical session and/or self-directed learning assessments"
         ],
-        "Prerequisites": [
-            "MJD-IMSCP",
-            "MJD-DENTS",
-            "MJD-PHMSC"
-        ],
         "Contact hours": 51
     },
     "IMED1003": {
@@ -13872,7 +13447,6 @@
             " in-semester assessments",
             " professional behaviour and attendance assessment"
         ],
-        "Prerequisites": [],
         "Contact hours": 24
     },
     "IMED3112": {
@@ -14233,7 +13807,6 @@
             " final examination"
         ],
         "Prerequisites": [
-            "MJD-MTHST",
             "STAT2062",
             "STAT2063"
         ],
@@ -14260,7 +13833,6 @@
             " a final examination"
         ],
         "Prerequisites": [
-            "MJD-MTHST",
             "STAT2062",
             "STAT2063"
         ],
@@ -14289,7 +13861,6 @@
             " final examination"
         ],
         "Prerequisites": [
-            "MJD-MTHST",
             "STAT2062",
             "STAT2063"
         ],
@@ -14386,7 +13957,6 @@
             "MICR2208",
             "MICR2209"
         ],
-        "Incompatibility": [],
         "Contact hours": 60
     },
     "MICR3330": {
@@ -14414,7 +13984,6 @@
             "MICR2208",
             "MICR2209"
         ],
-        "Incompatibility": [],
         "Contact hours": 60
     },
     "PHAR2210": {
@@ -14478,7 +14047,6 @@
             "PHAR2210",
             "IMED2002"
         ],
-        "Incompatibility": [],
         "Contact hours": 31
     },
     "PHAR3310": {
@@ -14512,7 +14080,6 @@
             "IMED2003",
             "IMED2004"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "PHAR3311": {
@@ -14546,7 +14113,6 @@
         "Co-requisites": [
             "PHAR3310"
         ],
-        "Incompatibility": [],
         "Advisable prior study": [
             "BIOC2001",
             "BIOC2002",
@@ -14585,7 +14151,6 @@
             "IMED2003",
             "IMED2004"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "PHAR3321": {
@@ -14620,7 +14185,6 @@
         "Co-requisites": [
             "PHAR3320"
         ],
-        "Incompatibility": [],
         "Contact hours": 5
     },
     "PHYS1002": {
@@ -14696,9 +14260,6 @@
             " professional communication and ",
             " professional behaviour assessment"
         ],
-        "Prerequisites": [
-            "MJD-PHMSC"
-        ],
         "Co-requisites": [
             "PODI3111",
             "PODI3112",
@@ -14727,9 +14288,6 @@
             " test",
             " examination",
             " professional behaviour"
-        ],
-        "Prerequisites": [
-            "MJD-PHMSC"
         ],
         "Co-requisites": [
             "PODI3000",
@@ -14761,9 +14319,6 @@
             " clinical assessment",
             " professional behaviour assessment"
         ],
-        "Prerequisites": [
-            "MJD-PHMSC"
-        ],
         "Co-requisites": [
             "PODI3111",
             "PODI3113",
@@ -14789,9 +14344,6 @@
             " assignment",
             " test",
             " exam"
-        ],
-        "Prerequisites": [
-            "MJD-PHMSC"
         ],
         "Co-requisites": [
             "PODI3111",
@@ -14821,9 +14373,6 @@
             " professional behaviour assessment",
             " examination"
         ],
-        "Prerequisites": [
-            "MJD-PHMSC"
-        ],
         "Co-requisites": [
             "PODI3000",
             "PODI3116",
@@ -14852,9 +14401,6 @@
             " test",
             " examination",
             " professional behaviour assessment "
-        ],
-        "Prerequisites": [
-            "MJD-PHMSC"
         ],
         "Co-requisites": [
             "PODI3111",
@@ -14887,9 +14433,6 @@
             " clinical assessment",
             " professional behaviour assessment"
         ],
-        "Prerequisites": [
-            "MJD-PHMSC"
-        ],
         "Co-requisites": [
             "PODI3000",
             "PODI3117",
@@ -14919,9 +14462,6 @@
             " clinical assessment",
             " professional behaviour assessment"
         ],
-        "Prerequisites": [
-            "MJD-PHMSC"
-        ],
         "Co-requisites": [
             "PODI3000",
             "PODI3114",
@@ -14948,9 +14488,6 @@
             " oral presentation",
             " assignment",
             " professional communication"
-        ],
-        "Prerequisites": [
-            "MJD-PHMSC"
         ],
         "Co-requisites": [
             "PODI3000",
@@ -15004,7 +14541,6 @@
             " research essay",
             " examination"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "ANTH2225": {
@@ -15027,7 +14563,6 @@
             " short essay",
             " case study essay"
         ],
-        "Prerequisites": [],
         "Contact hours": 36
     },
     "ANTH2406": {
@@ -15051,7 +14586,6 @@
             " short essay",
             " formal report"
         ],
-        "Prerequisites": [],
         "Contact hours": 24
     },
     "ANTH2902": {
@@ -15074,9 +14608,6 @@
             " formal report",
             " object history"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
-        "Advisable prior study": [],
         "Contact hours": 36
     },
     "ANTH3001": {
@@ -15099,7 +14630,6 @@
             " fieldnotes assignment",
             " ethnographic project"
         ],
-        "Prerequisites": [],
         "Contact hours": 3
     },
     "ANTH3401": {
@@ -15123,8 +14653,6 @@
             " policy analysis",
             " research paper"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 3
     },
     "ANTH3601": {
@@ -15147,7 +14675,6 @@
             " literature review",
             " research essay"
         ],
-        "Prerequisites": [],
         "Contact hours": 36
     },
     "ARCY1001": {
@@ -15171,7 +14698,6 @@
             " tutorial assignments",
             " essay"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "ARCY1002": {
@@ -15194,7 +14720,6 @@
             " artefact assignment",
             " tutorial assignments and participation "
         ],
-        "Incompatibility": [],
         "Contact hours": 12
     },
     "ARCY2001": {
@@ -15218,7 +14743,6 @@
             " quizzes",
             " tutorial assignments"
         ],
-        "Prerequisites": [],
         "Contact hours": 36
     },
     "ARCY2004": {
@@ -15242,7 +14766,6 @@
             " test",
             " tutorial assignments"
         ],
-        "Prerequisites": [],
         "Contact hours": 24
     },
     "ARCY2005": {
@@ -15293,8 +14816,6 @@
             " tutorial assignments",
             " quizzes"
         ],
-        "Prerequisites": [],
-        "Advisable prior study": [],
         "Contact hours": 24
     },
     "FNSC2200": {
@@ -15320,7 +14841,6 @@
             " module tests",
             " continual assessment "
         ],
-        "Advisable prior study": [],
         "Contact hours": 200
     },
     "ARCY3002": {
@@ -15346,7 +14866,6 @@
             " report of field diary",
             " weekly group assignments"
         ],
-        "Prerequisites": [],
         "Contact hours": 9
     },
     "ARCY3003": {
@@ -15368,7 +14887,6 @@
             " laboratory assignments",
             " quizzes"
         ],
-        "Prerequisites": [],
         "Contact hours": 3
     },
     "ASIA1001": {
@@ -15393,7 +14911,6 @@
             " written assignments",
             " an examination"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "ASIA1002": {
@@ -15418,7 +14935,6 @@
             " written assignments",
             " an examination"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "ASIA2001": {
@@ -15447,8 +14963,6 @@
             " essays",
             " tutorial participation"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "ASIA2002": {
@@ -15478,8 +14992,6 @@
             " tutorial participation",
             " research essay"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 29
     },
     "ASIA2004": {
@@ -15507,8 +15019,6 @@
             " short written assignment",
             " essay"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Advisable prior study": [
             "ASIA1001"
         ],
@@ -15539,8 +15049,6 @@
             " assignments",
             " final exam"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 34
     },
     "ASIA3002": {
@@ -15569,8 +15077,6 @@
             " research project/essay",
             " tutorial discussion leading and contribution"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 29
     },
     "ASIA3003": {
@@ -15599,8 +15105,6 @@
             " research essay",
             " examination"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 29
     },
     "ASIA3004": {
@@ -15629,9 +15133,7 @@
             " tutorial participation",
             " written work",
             " group project"
-        ],
-        "Prerequisites": [],
-        "Incompatibility": []
+        ]
     },
     "ASIA3005": {
         "code": "ASIA3005",
@@ -15656,8 +15158,6 @@
             " written assignments",
             " examination"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 0
     },
     "ASIA3006": {
@@ -15685,8 +15185,6 @@
             " research project ",
             " participation "
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 3
     },
     "LAWS1104": {
@@ -15824,7 +15322,6 @@
             "LAWS2301",
             "LAWS2201"
         ],
-        "Incompatibility": [],
         "Contact hours": 158
     },
     "LAWS3308": {
@@ -15875,7 +15372,6 @@
             " tests",
             " assignments"
         ],
-        "Prerequisites": [],
         "Incompatibility": [
             "CHIN2405",
             "CHIN3405"
@@ -15935,7 +15431,6 @@
         "Prerequisites": [
             "CHIN1406"
         ],
-        "Incompatibility": [],
         "Contact hours": 24
     },
     "CHIN2408": {
@@ -15962,7 +15457,6 @@
         "Prerequisites": [
             "CHIN2407"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "CHIN3409": {
@@ -16038,7 +15532,6 @@
             " workbook and oral  presentation",
             " examination "
         ],
-        "Incompatibility": [],
         "Contact hours": 48
     },
     "CHIN1402": {
@@ -16063,7 +15556,6 @@
         "Prerequisites": [
             "CHIN1401"
         ],
-        "Incompatibility": [],
         "Contact hours": 48
     },
     "CHIN2001": {
@@ -16398,7 +15890,6 @@
         "Prerequisites": [
             "CHIN3407"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "CHIN1001": {
@@ -16421,8 +15912,6 @@
             " tests",
             " assignments"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "CLAN1002": {
@@ -16449,7 +15938,6 @@
             " tutorial performance",
             " an end-of-semester examination"
         ],
-        "Incompatibility": [],
         "Contact hours": 34
     },
     "CLAN2001": {
@@ -16471,8 +15959,6 @@
             " tutorial participation",
             " essay"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 34
     },
     "CLAN2002": {
@@ -16499,8 +15985,6 @@
             " participation",
             " examination"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 24
     },
     "CLAN2102": {
@@ -16527,7 +16011,6 @@
         "Prerequisites": [
             "CLAN1101"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "CLAN2103": {
@@ -16554,7 +16037,6 @@
         "Prerequisites": [
             "CLAN2102"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "CLAN2201": {
@@ -16577,8 +16059,6 @@
             " class tests,  and ",
             " end-of-semester examination"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "CLAN2202": {
@@ -16604,7 +16084,6 @@
         "Prerequisites": [
             "CLAN2201"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "CLAN3002": {
@@ -16627,8 +16106,6 @@
             " essay",
             " tutorial participation"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 34
     },
     "CLAN3004": {
@@ -16650,8 +16127,6 @@
             " essay",
             " tutorial contribution"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 120
     },
     "CLAN3006": {
@@ -16677,8 +16152,6 @@
             " a major essay",
             " tutorial performance"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "CLAN3008": {
@@ -16706,7 +16179,6 @@
         "Prerequisites": [
             "ARCY2005"
         ],
-        "Incompatibility": [],
         "Contact hours": 22
     },
     "CLAN3009": {
@@ -16731,7 +16203,6 @@
             " tests",
             " research assignments"
         ],
-        "Prerequisites": [],
         "Contact hours": 22
     },
     "CLAN3010": {
@@ -16756,7 +16227,6 @@
             " sources paper",
             " research essay"
         ],
-        "Prerequisites": [],
         "Contact hours": 14
     },
     "CLAN3011": {
@@ -16781,7 +16251,6 @@
             " assignment",
             " tutorial participation"
         ],
-        "Prerequisites": [],
         "Advisable prior study": [
             "CLAN1002"
         ],
@@ -16807,8 +16276,6 @@
             " written review of a contemporary exhibition/ film/ book showing classical influence",
             " research essay"
         ],
-        "Prerequisites": [],
-        "Advisable prior study": [],
         "Contact hours": 36
     },
     "CLAN3104": {
@@ -16835,7 +16302,6 @@
         "Prerequisites": [
             "CLAN2103"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "CLAN3203": {
@@ -16862,7 +16328,6 @@
         "Prerequisites": [
             "CLAN2202"
         ],
-        "Incompatibility": [],
         "Contact hours": 24
     },
     "CLAN3204": {
@@ -16890,7 +16355,6 @@
         "Prerequisites": [
             "CLAN3203"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "LAWS1110": {
@@ -17311,7 +16775,6 @@
             " essay and ",
             " final examination"
         ],
-        "Prerequisites": [],
         "Contact hours": 36
     },
     "ECON3235": {
@@ -17335,8 +16798,6 @@
             " assignments",
             " examinations"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "ECON3236": {
@@ -17365,7 +16826,6 @@
         "Prerequisites": [
             "ECON2234"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "ECON3301": {
@@ -17415,7 +16875,6 @@
         "Prerequisites": [
             "ECON2233"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "ECON3303": {
@@ -17440,7 +16899,6 @@
         "Prerequisites": [
             "ECON2234"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "ECON3310": {
@@ -17691,7 +17149,6 @@
             " project",
             " participation"
         ],
-        "Prerequisites": [],
         "Contact hours": 36
     },
     "ENGL2210": {
@@ -17737,7 +17194,6 @@
             " critical exercise",
             " essay"
         ],
-        "Prerequisites": [],
         "Contact hours": 36
     },
     "ENGL2401": {
@@ -17785,7 +17241,6 @@
             " a folio of creative work",
             " workshop participation"
         ],
-        "Prerequisites": [],
         "Advisable prior study": [
             "ENGL1501"
         ],
@@ -17818,7 +17273,6 @@
             " a written response to a text",
             " research essay"
         ],
-        "Prerequisites": [],
         "Contact hours": 3
     },
     "ENGL3001": {
@@ -17843,7 +17297,6 @@
             " a research project",
             " tutorial participation"
         ],
-        "Prerequisites": [],
         "Contact hours": 36
     },
     "ENGL3200": {
@@ -17893,7 +17346,6 @@
             " critical exercise",
             " research essay"
         ],
-        "Prerequisites": [],
         "Contact hours": 36
     },
     "ENGL3602": {
@@ -17917,7 +17369,6 @@
             " critical exercise",
             " essay"
         ],
-        "Prerequisites": [],
         "Contact hours": 3
     },
     "ENGL3604": {
@@ -17942,7 +17393,6 @@
             " a written response",
             " a research essay"
         ],
-        "Prerequisites": [],
         "Contact hours": 36
     },
     "ENGL3801": {
@@ -17966,7 +17416,6 @@
             " critical exercise",
             " essay"
         ],
-        "Prerequisites": [],
         "Contact hours": 3
     },
     "FREN1405": {
@@ -17992,8 +17441,6 @@
             " quiz and tests",
             " participation and homework"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 3
     },
     "FREN1406": {
@@ -18022,7 +17469,6 @@
         "Prerequisites": [
             "FREN1405"
         ],
-        "Incompatibility": [],
         "Contact hours": 2
     },
     "FREN2407": {
@@ -18051,7 +17497,6 @@
         "Prerequisites": [
             "FREN1406"
         ],
-        "Incompatibility": [],
         "Contact hours": 3
     },
     "FREN2408": {
@@ -18082,7 +17527,6 @@
         "Prerequisites": [
             "FREN2407"
         ],
-        "Incompatibility": [],
         "Contact hours": 2
     },
     "FREN2812": {
@@ -18224,7 +17668,6 @@
             " in-class and online exercises and ",
             " examination"
         ],
-        "Incompatibility": [],
         "Contact hours": 15
     },
     "FREN1402": {
@@ -18251,7 +17694,6 @@
         "Prerequisites": [
             "FREN1401"
         ],
-        "Incompatibility": [],
         "Contact hours": 49
     },
     "FREN2001": {
@@ -18307,7 +17749,6 @@
         "Prerequisites": [
             "FREN1402"
         ],
-        "Incompatibility": [],
         "Contact hours": 26
     },
     "FREN2404": {
@@ -18335,8 +17776,6 @@
             " participation",
             " an examination"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 14
     },
     "FREN3405": {
@@ -18365,7 +17804,6 @@
         "Prerequisites": [
             "FREN2404"
         ],
-        "Incompatibility": [],
         "Contact hours": 3
     },
     "FREN3406": {
@@ -18394,7 +17832,6 @@
         "Prerequisites": [
             "FREN3405"
         ],
-        "Incompatibility": [],
         "Contact hours": 2
     },
     "FREN1403": {
@@ -18420,8 +17857,6 @@
             " class assignments and ",
             " an examination"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 14
     },
     "FREN1404": {
@@ -18453,7 +17888,6 @@
         "Prerequisites": [
             "FREN1403"
         ],
-        "Incompatibility": [],
         "Contact hours": 14
     },
     "FREN2405": {
@@ -18483,7 +17917,6 @@
             "FREN1404",
             "FREN2404"
         ],
-        "Incompatibility": [],
         "Contact hours": 3
     },
     "FREN2406": {
@@ -18512,7 +17945,6 @@
         "Prerequisites": [
             "FREN2405"
         ],
-        "Incompatibility": [],
         "Contact hours": 2
     },
     "FREN3407": {
@@ -18541,7 +17973,6 @@
         "Prerequisites": [
             "FREN2406"
         ],
-        "Incompatibility": [],
         "Contact hours": 3
     },
     "FREN3408": {
@@ -18570,7 +18001,6 @@
         "Prerequisites": [
             "FREN3407"
         ],
-        "Incompatibility": [],
         "Contact hours": 2
     },
     "GEND1901": {
@@ -18623,7 +18053,6 @@
             "GEND3901",
             "GEND3904"
         ],
-        "Incompatibility": [],
         "Advisable prior study": [
             "GEND1901"
         ],
@@ -18650,7 +18079,6 @@
             " group case study",
             " online quizzes"
         ],
-        "Prerequisites": [],
         "Advisable prior study": [
             "GEND1901",
             "ENGL1902"
@@ -18707,8 +18135,6 @@
             " written assignment",
             " oral tasks"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "GRMN1406": {
@@ -18732,7 +18158,6 @@
         "Prerequisites": [
             "GRMN1405"
         ],
-        "Incompatibility": [],
         "Contact hours": 24
     },
     "GRMN2812": {
@@ -18761,7 +18186,6 @@
             "GRMN1402",
             "GRMN1406"
         ],
-        "Incompatibility": [],
         "Contact hours": 24
     },
     "GRMN3813": {
@@ -18793,7 +18217,6 @@
             "GRMN2407",
             "GRMN2408"
         ],
-        "Incompatibility": [],
         "Contact hours": 24
     },
     "GRMN1401": {
@@ -18817,7 +18240,6 @@
             " oral tasks",
             " an end-of-semester examination"
         ],
-        "Incompatibility": [],
         "Contact hours": 1
     },
     "GRMN1402": {
@@ -18844,7 +18266,6 @@
         "Prerequisites": [
             "GRMN1401"
         ],
-        "Incompatibility": [],
         "Contact hours": 0
     },
     "GRMN2002": {
@@ -18873,7 +18294,6 @@
         "Co-requisites": [
             "GRMN2403"
         ],
-        "Incompatibility": [],
         "Contact hours": 2
     },
     "GRMN2403": {
@@ -18897,7 +18317,6 @@
         "Prerequisites": [
             "GRMN1402"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "GRMN2404": {
@@ -18921,7 +18340,6 @@
         "Prerequisites": [
             "GRMN2403"
         ],
-        "Incompatibility": [],
         "Contact hours": 26
     },
     "GRMN3405": {
@@ -18945,7 +18363,6 @@
         "Prerequisites": [
             "GRMN2404"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "GRMN3406": {
@@ -18969,7 +18386,6 @@
         "Prerequisites": [
             "GRMN3405"
         ],
-        "Incompatibility": [],
         "Contact hours": 24
     },
     "GRMN1403": {
@@ -18990,8 +18406,6 @@
             " written assignment",
             " oral tasks"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "GRMN1404": {
@@ -19015,7 +18429,6 @@
         "Prerequisites": [
             "GRMN1403"
         ],
-        "Incompatibility": [],
         "Contact hours": 26
     },
     "GRMN2405": {
@@ -19039,7 +18452,6 @@
         "Prerequisites": [
             "GRMN1404"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "GRMN2406": {
@@ -19063,7 +18475,6 @@
         "Prerequisites": [
             "GRMN2405"
         ],
-        "Incompatibility": [],
         "Contact hours": 24
     },
     "HIST1001": {
@@ -19089,7 +18500,6 @@
             " written assignments",
             " an examination"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "HIST1003": {
@@ -19115,7 +18525,6 @@
             " assignments",
             " an examination"
         ],
-        "Incompatibility": [],
         "Contact hours": 32
     },
     "HIST1103": {
@@ -19141,7 +18550,6 @@
             " research essay",
             " tutorial participation"
         ],
-        "Incompatibility": [],
         "Contact hours": 13
     },
     "HIST1901": {
@@ -19168,7 +18576,6 @@
             " a short essay",
             " a review essay"
         ],
-        "Incompatibility": [],
         "Contact hours": 24
     },
     "HIST2005": {
@@ -19198,7 +18605,6 @@
         "Prerequisites": [
             "GEND1901"
         ],
-        "Incompatibility": [],
         "Contact hours": 26
     },
     "HIST2006": {
@@ -19223,8 +18629,6 @@
             " an annotated bibliography",
             " a research essay"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 14
     },
     "HIST2007": {
@@ -19285,7 +18689,6 @@
         "Prerequisites": [
             "GEND1901"
         ],
-        "Incompatibility": [],
         "Contact hours": 42
     },
     "HIST2011": {
@@ -19312,7 +18715,6 @@
         "Prerequisites": [
             "GEND1901"
         ],
-        "Incompatibility": [],
         "Contact hours": 0
     },
     "HIST2013": {
@@ -19342,7 +18744,6 @@
             "ENGL1902",
             "GEND1901"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "HIST2014": {
@@ -19397,7 +18798,6 @@
             " an essay",
             " workshop participation\u2014assessed throughout the unit"
         ],
-        "Advisable prior study": [],
         "Contact hours": 24
     },
     "HIST2016": {
@@ -19452,7 +18852,6 @@
             " research essay",
             " reflective essay"
         ],
-        "Prerequisites": [],
         "Contact hours": 0
     },
     "HIST2021": {
@@ -19501,7 +18900,6 @@
             " research essay",
             " tutorial participation"
         ],
-        "Incompatibility": [],
         "Contact hours": 0
     },
     "HIST2224": {
@@ -19527,7 +18925,6 @@
             " annotated bibliography",
             " participation"
         ],
-        "Prerequisites": [],
         "Contact hours": 36
     },
     "HIST2345": {
@@ -19551,8 +18948,6 @@
             " primary source assessment",
             " research essay with a self-developed annotated bibliography"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 24
     },
     "HIST2917": {
@@ -19576,8 +18971,6 @@
             " research essay",
             " tutorial performance"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 24
     },
     "HIST3001": {
@@ -19605,7 +18998,6 @@
         "Prerequisites": [
             "ARCY2005"
         ],
-        "Incompatibility": [],
         "Contact hours": 6
     },
     "HART1000": {
@@ -19629,7 +19021,6 @@
             " oral participation",
             " examination"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "HART2001": {
@@ -19844,7 +19235,6 @@
             "ARCT1001",
             "LACH1020"
         ],
-        "Incompatibility": [],
         "Contact hours": 0
     },
     "HART2207": {
@@ -19872,7 +19262,6 @@
             "HART1000",
             "HART1003"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "HART2222": {
@@ -19902,7 +19291,6 @@
             "HART1000",
             "HART1003"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "HART2223": {
@@ -19932,7 +19320,6 @@
             "HART1000",
             "HART1003"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "HART2234": {
@@ -19961,7 +19348,6 @@
             "HART1000",
             "HART1003"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "HART2237": {
@@ -19990,7 +19376,6 @@
             "HART1000",
             "HART1003"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "HART2243": {
@@ -20019,7 +19404,6 @@
             "HART1000",
             "HART1003"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "HART2274": {
@@ -20048,7 +19432,6 @@
             "HART1000",
             "HART1003"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "HART2275": {
@@ -20078,7 +19461,6 @@
             "HART1000",
             "HART1003"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "HART2370": {
@@ -20132,7 +19514,6 @@
             " research essay"
         ],
         "Prerequisites": [
-            "MJD-HYART",
             "INDG2300",
             "INDG2600"
         ],
@@ -20165,8 +19546,6 @@
             " research essay",
             " oral assessment"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 48
     },
     "HART3044": {
@@ -20191,7 +19570,6 @@
             " abstract for research essay",
             " in-class participation"
         ],
-        "Prerequisites": [],
         "Incompatibility": [
             "HART2044"
         ],
@@ -20223,7 +19601,6 @@
         "Prerequisites": [
             "ARCT2010"
         ],
-        "Incompatibility": [],
         "Contact hours": 0
     },
     "HART3276": {
@@ -20248,7 +19625,6 @@
             " research proposal",
             " research essay"
         ],
-        "Prerequisites": [],
         "Incompatibility": [
             "HART2276"
         ],
@@ -20278,7 +19654,6 @@
             " research paper",
             " discursive learning"
         ],
-        "Prerequisites": [],
         "Contact hours": 24
     },
     "HART3302": {
@@ -20304,7 +19679,6 @@
             " research paper",
             " oral assessment"
         ],
-        "Prerequisites": [],
         "Advisable prior study": [
             "HART2275"
         ],
@@ -20333,8 +19707,6 @@
             " research essay",
             " seminar presentation"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "HART3330": {
@@ -20359,8 +19731,6 @@
             " oral assessment",
             " research essay"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "HART3331": {
@@ -20386,8 +19756,6 @@
             " short essay",
             " seminar presentation"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "HART3333": {
@@ -20413,8 +19781,6 @@
             " research paper",
             " oral assessment"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "HART3340": {
@@ -20440,8 +19806,6 @@
             " research paper",
             " seminar presentation"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 48
     },
     "HART3361": {
@@ -20466,8 +19830,6 @@
             " research paper",
             " oral assessment"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "HART3371": {
@@ -20492,8 +19854,6 @@
             " oral assessment",
             " research essay"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "HART3375": {
@@ -20519,8 +19879,6 @@
             " research paper",
             " seminar presentation"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "HART3666": {
@@ -20545,8 +19903,6 @@
             " research paper",
             " oral assessment"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 48
     },
     "HIST1104": {
@@ -20618,7 +19974,6 @@
             " tutorial presentation",
             " essay"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "HUMR2001": {
@@ -20645,7 +20000,6 @@
             " essay",
             " exam"
         ],
-        "Incompatibility": [],
         "Advisable prior study": [
             "PHIL1001"
         ],
@@ -20704,8 +20058,6 @@
             " examination",
             " a tutorial participation and presentation"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 29
     },
     "HUMR3001": {
@@ -20797,7 +20149,6 @@
         "Prerequisites": [
             "PPHE3327"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "PPHE3327": {
@@ -20830,7 +20181,6 @@
         "Prerequisites": [
             "PPHE2211"
         ],
-        "Incompatibility": [],
         "Contact hours": 29
     },
     "INDG1160": {
@@ -20881,7 +20231,6 @@
             " a tutorial presentation",
             " research essay"
         ],
-        "Prerequisites": [],
         "Contact hours": 36
     },
     "INDG3300": {
@@ -20936,7 +20285,6 @@
             " oral performance",
             " final written test"
         ],
-        "Incompatibility": [],
         "Contact hours": 48
     },
     "INDO1402": {
@@ -20962,7 +20310,6 @@
         "Prerequisites": [
             "INDO1401"
         ],
-        "Incompatibility": [],
         "Contact hours": 48
     },
     "INDO2001": {
@@ -20992,7 +20339,6 @@
         "Co-requisites": [
             "INDO2403"
         ],
-        "Incompatibility": [],
         "Contact hours": 24
     },
     "INDO2403": {
@@ -21139,7 +20485,6 @@
             " oral presentations",
             " written examination"
         ],
-        "Prerequisites": [],
         "Co-requisites": [
             "INDO1001"
         ],
@@ -21263,7 +20608,6 @@
         "Prerequisites": [
             "INDO2406"
         ],
-        "Incompatibility": [],
         "Contact hours": 24
     },
     "INDO3408": {
@@ -21291,7 +20635,6 @@
         "Prerequisites": [
             "INDO3407"
         ],
-        "Incompatibility": [],
         "Contact hours": 24
     },
     "INDO1001": {
@@ -21315,11 +20658,9 @@
             " oral presentations",
             " test"
         ],
-        "Prerequisites": [],
         "Co-requisites": [
             "INDO1403"
         ],
-        "Incompatibility": [],
         "Contact hours": 24
     },
     "ITAL1405": {
@@ -21344,8 +20685,6 @@
             " class tests",
             " class contribution and participation"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 3
     },
     "ITAL1406": {
@@ -21373,7 +20712,6 @@
         "Prerequisites": [
             "ITAL1405"
         ],
-        "Incompatibility": [],
         "Contact hours": 3
     },
     "ITAL2407": {
@@ -21400,7 +20738,6 @@
         "Prerequisites": [
             "ITAL1406"
         ],
-        "Incompatibility": [],
         "Contact hours": 3
     },
     "ITAL2408": {
@@ -21427,7 +20764,6 @@
         "Prerequisites": [
             "ITAL2407"
         ],
-        "Incompatibility": [],
         "Contact hours": 3
     },
     "ITAL2812": {
@@ -21456,7 +20792,6 @@
             "ITAL1404",
             "ITAL1406"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "ITAL3409": {
@@ -21485,7 +20820,6 @@
             "ITAL2408",
             "ITAL3408"
         ],
-        "Incompatibility": [],
         "Contact hours": 3
     },
     "ITAL3410": {
@@ -21513,7 +20847,6 @@
         "Prerequisites": [
             "ITAL3409"
         ],
-        "Incompatibility": [],
         "Contact hours": 3
     },
     "ITAL1401": {
@@ -21537,7 +20870,6 @@
             " oral activities",
             " online and in-class engagement"
         ],
-        "Incompatibility": [],
         "Contact hours": 3
     },
     "ITAL1402": {
@@ -21564,7 +20896,6 @@
         "Prerequisites": [
             "ITAL1401"
         ],
-        "Incompatibility": [],
         "Contact hours": 15
     },
     "ITAL2403": {
@@ -21594,7 +20925,6 @@
         "Prerequisites": [
             "ITAL1402"
         ],
-        "Incompatibility": [],
         "Contact hours": 3
     },
     "ITAL2404": {
@@ -21625,7 +20955,6 @@
         "Prerequisites": [
             "ITAL2403"
         ],
-        "Incompatibility": [],
         "Contact hours": 3
     },
     "ITAL2811": {
@@ -21684,7 +21013,6 @@
         "Prerequisites": [
             "ITAL2404"
         ],
-        "Incompatibility": [],
         "Contact hours": 3
     },
     "ITAL3406": {
@@ -21712,7 +21040,6 @@
         "Prerequisites": [
             "ITAL3405"
         ],
-        "Incompatibility": [],
         "Contact hours": 3
     },
     "ITAL1403": {
@@ -21740,8 +21067,6 @@
             " assignments",
             "  participation"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 3
     },
     "ITAL1404": {
@@ -21772,7 +21097,6 @@
         "Prerequisites": [
             "ITAL1403"
         ],
-        "Incompatibility": [],
         "Contact hours": 3
     },
     "ITAL2405": {
@@ -21800,7 +21124,6 @@
         "Prerequisites": [
             "ITAL1404"
         ],
-        "Incompatibility": [],
         "Contact hours": 3
     },
     "ITAL2406": {
@@ -21828,7 +21151,6 @@
         "Prerequisites": [
             "ITAL2405"
         ],
-        "Incompatibility": [],
         "Contact hours": 3
     },
     "ITAL3407": {
@@ -21856,7 +21178,6 @@
             "ITAL2406",
             "ITAL3406"
         ],
-        "Incompatibility": [],
         "Contact hours": 3
     },
     "ITAL3408": {
@@ -21883,7 +21204,6 @@
         "Prerequisites": [
             "ITAL3407"
         ],
-        "Incompatibility": [],
         "Contact hours": 3
     },
     "JAPN1401": {
@@ -21907,7 +21227,6 @@
             " tests",
             " examination"
         ],
-        "Incompatibility": [],
         "Contact hours": 48
     },
     "JAPN1402": {
@@ -21934,7 +21253,6 @@
         "Prerequisites": [
             "JAPN1401"
         ],
-        "Incompatibility": [],
         "Contact hours": 48
     },
     "JAPN2001": {
@@ -21962,7 +21280,6 @@
         "Prerequisites": [
             "JAPN1402"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "JAPN2403": {
@@ -21994,7 +21311,6 @@
         "Co-requisites": [
             "JAPN2001"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "JAPN2404": {
@@ -22026,7 +21342,6 @@
             "JAPN1403",
             "JAPN1001"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "JAPN3405": {
@@ -22054,7 +21369,6 @@
         "Prerequisites": [
             "JAPN2404"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "JAPN3406": {
@@ -22082,7 +21396,6 @@
         "Prerequisites": [
             "JAPN3405"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "JAPN1403": {
@@ -22115,7 +21428,6 @@
         "Co-requisites": [
             "JAPN1001"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "JAPN1404": {
@@ -22144,7 +21456,6 @@
         "Prerequisites": [
             "JAPN1403"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "JAPN2405": {
@@ -22174,7 +21485,6 @@
             "JAPN1404",
             "JAPN2404"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "JAPN2406": {
@@ -22203,7 +21513,6 @@
         "Prerequisites": [
             "JAPN2405"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "JAPN3407": {
@@ -22231,7 +21540,6 @@
         "Prerequisites": [
             "JAPN2406"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "JAPN3408": {
@@ -22259,7 +21567,6 @@
         "Prerequisites": [
             "JAPN3407"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "JAPN1001": {
@@ -22284,11 +21591,9 @@
             " oral assessments",
             " examination"
         ],
-        "Prerequisites": [],
         "Co-requisites": [
             "JAPN1403"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "KORE1401": {
@@ -22369,7 +21674,6 @@
         "Prerequisites": [
             "KORE1402"
         ],
-        "Incompatibility": [],
         "Advisable prior study": [
             "ASIA1001",
             "ASIA1002"
@@ -22401,7 +21705,6 @@
         "Prerequisites": [
             "KORE2403"
         ],
-        "Incompatibility": [],
         "Advisable prior study": [
             "ASIA1001",
             "ASIA1002"
@@ -22429,7 +21732,6 @@
             " short assignment ",
             " final essay"
         ],
-        "Prerequisites": [],
         "Contact hours": 36
     },
     "KORE3405": {
@@ -22560,7 +21862,6 @@
             " assignments",
             " examination"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "LING1002": {
@@ -22584,7 +21885,6 @@
             " assignments",
             " examination"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "LING2001": {
@@ -22612,7 +21912,6 @@
             "LING1001",
             "LING1002"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "LING2002": {
@@ -22637,7 +21936,6 @@
         "Prerequisites": [
             "LING1002"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "LING2008": {
@@ -22659,9 +21957,6 @@
             " tutorial preparation and ",
             " assignments "
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
-        "Advisable prior study": [],
         "Contact hours": 36
     },
     "LING3003": {
@@ -22686,7 +21981,6 @@
         "Prerequisites": [
             "LING2002"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "LING3005": {
@@ -22713,7 +22007,6 @@
         "Prerequisites": [
             "LING2001"
         ],
-        "Incompatibility": [],
         "Contact hours": 60
     },
     "LING3006": {
@@ -22739,7 +22032,6 @@
             "LING2001",
             "LING2001"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "LING3007": {
@@ -22768,7 +22060,6 @@
             "LING1001",
             "LING1002"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "LING3008": {
@@ -22794,7 +22085,6 @@
         "Prerequisites": [
             "LING2008"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "PHIL1003": {
@@ -22823,7 +22113,6 @@
             " examination",
             " participation"
         ],
-        "Incompatibility": [],
         "Contact hours": 34
     },
     "PHIL2001": {
@@ -22852,8 +22141,6 @@
             " term paper",
             " weekly reading responses"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "PHIL2002": {
@@ -22884,8 +22171,6 @@
             " problem set",
             " examination"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 72
     },
     "PHIL2003": {
@@ -22915,8 +22200,6 @@
             " an end-of-semester examination",
             " class participation and presentation"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "PHIL2004": {
@@ -22950,7 +22233,6 @@
         "Prerequisites": [
             "PSYC1101"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "PHIL2005": {
@@ -22978,8 +22260,6 @@
             " assignments",
             " participation"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "PHIL2006": {
@@ -23008,8 +22288,6 @@
             " examination",
             " participation"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 24
     },
     "PHIL2007": {
@@ -23038,7 +22316,6 @@
             " examination",
             " participation"
         ],
-        "Prerequisites": [],
         "Contact hours": 36
     },
     "PPHE2001": {
@@ -23062,7 +22339,6 @@
             " essay",
             " exam"
         ],
-        "Prerequisites": [],
         "Contact hours": 36
     },
     "PHIL3001": {
@@ -23126,7 +22402,6 @@
         "Prerequisites": [
             "PPHE2211"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "PHIL3004": {
@@ -23160,7 +22435,6 @@
         "Prerequisites": [
             "PPHE2211"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "PHIL3005": {
@@ -23188,7 +22462,6 @@
         "Prerequisites": [
             "PPHE2211"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "PHIL3006": {
@@ -23214,8 +22487,6 @@
             " examination",
             " class participation"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "PHIL3007": {
@@ -23276,7 +22547,6 @@
             " assignments",
             " participation"
         ],
-        "Prerequisites": [],
         "Advisable prior study": [
             "PHIL2007",
             "PPHE2001"
@@ -23328,7 +22598,6 @@
             " research essay",
             " in-class assessment"
         ],
-        "Prerequisites": [],
         "Contact hours": 36
     },
     "POLS2201": {
@@ -23353,9 +22622,6 @@
             " tutorial presentation and participation",
             " a final examination"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
-        "Advisable prior study": [],
         "Contact hours": 36
     },
     "POLS2202": {
@@ -23380,8 +22646,6 @@
             " research essay",
             " examination"
         ],
-        "Prerequisites": [],
-        "Advisable prior study": [],
         "Contact hours": 36
     },
     "POLS2220": {
@@ -23406,9 +22670,6 @@
             " test",
             " research essay"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
-        "Advisable prior study": [],
         "Contact hours": 36
     },
     "POLS3204": {
@@ -23435,8 +22696,6 @@
             " reading and analytical assignments",
             " research essay"
         ],
-        "Prerequisites": [],
-        "Advisable prior study": [],
         "Contact hours": 36
     },
     "POLS3231": {
@@ -23463,9 +22722,6 @@
             " essay",
             " examination"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
-        "Advisable prior study": [],
         "Contact hours": 36
     },
     "POLS3302": {
@@ -23488,9 +22744,7 @@
             " tutorial participation and assignment",
             " written work",
             " examination"
-        ],
-        "Prerequisites": [],
-        "Advisable prior study": []
+        ]
     },
     "POLS3308": {
         "code": "POLS3308",
@@ -23517,9 +22771,6 @@
             " tutorial presentation and participation",
             " an examination"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
-        "Advisable prior study": [],
         "Contact hours": 36
     },
     "POLS3324": {
@@ -23547,9 +22798,6 @@
             " tutorial participation and assignment",
             " examination"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
-        "Advisable prior study": [],
         "Contact hours": 36
     },
     "POLS3334": {
@@ -23575,8 +22823,6 @@
             " research essay",
             " tutorial participation"
         ],
-        "Prerequisites": [],
-        "Advisable prior study": [],
         "Contact hours": 36
     },
     "POLS3335": {
@@ -23605,8 +22851,6 @@
             " review essay",
             " research essay"
         ],
-        "Prerequisites": [],
-        "Advisable prior study": [],
         "Contact hours": 36
     },
     "POLS3342": {
@@ -23633,8 +22877,6 @@
             " research essay",
             " workshop participation"
         ],
-        "Prerequisites": [],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "ECON2272": {
@@ -23662,7 +22904,6 @@
             "STAT1520",
             "STAX1520"
         ],
-        "Incompatibility": [],
         "Contact hours": 36
     },
     "PSYC2212": {
@@ -23929,10 +23170,6 @@
             " written work related to curation and exhibition evaluation",
             " exhibition design"
         ],
-        "Prerequisites": [
-            "MNR-SCCOM",
-            "51580"
-        ],
         "Contact hours": 255
     },
     "SCTS3001": {
@@ -23955,7 +23192,6 @@
             " long research essay",
             " 5 fortnightly journal reports"
         ],
-        "Prerequisites": [],
         "Advisable prior study": [
             "ANIM2001",
             "PHIL2001",
@@ -24042,223 +23278,4 @@
     },
     "SPAN2404": {
         "code": "SPAN2404",
-        "title": "Spanish Studies 4",
-        "level": "2",
-        "Description": "This unit builds on the progress made in SPAN2403 Spanish Studies 3 and aims to extend grammatical knowledge and communicative skills, both written and oral. It further develops the students' ability to communicate in Spanish by providing intensive practice in oral and written language, and enriches students' understanding of the culture of modern Spain. \nStudents achieve language proficiency equivalent to Level A2/B1 of the Common European Framework of Reference for Languages.",
-        "Credit": "6",
-        "Majors": [
-            "Spanish Studie"
-        ],
-        "Outcomes": [
-            " speak, listen, read and write in Spanish about a diverse range of topics",
-            " use language in the appropriate context",
-            " demonstrate correct application of Spanish grammar",
-            " read and comprehend texts from contemporary literary and non-literary sources",
-            " critically address aspects of the Spanish culture",
-            " demonstrate their understanding of how language works in general ",
-            " develop interpersonal communication skills, including the ability to work effectively in pairs and small groups."
-        ],
-        "Assessment": [
-            " language exercises",
-            " class participation",
-            " tests"
-        ],
-        "Prerequisites": [
-            "SPAN2403"
-        ],
-        "Contact hours": 14
-    },
-    "SPAN2812": {
-        "code": "SPAN2812",
-        "title": "Tradition vs Modernity: Understanding Spain Today",
-        "level": "2",
-        "Description": "This specialist unit, taught in Spanish, enables learners to consolidate their language competencies in writing, reading, listening and speaking, through a critical analysis of media, literature, movies, music and arts. This survey unit typically covers current issues that allow the students to understand and critically appraise culture and other aspects of Spain nowadays in contrast with traditional Spain, such as youth and employment, politics and immigration, gastronomy and the arts.",
-        "Credit": "6",
-        "Majors": [
-            "Spanish Studie"
-        ],
-        "Outcomes": [
-            " analyse newspaper articles, literary works and works of art in their socio-historical context",
-            " engage in discussions and class presentations in spoken Spanish to Level A2/B1 standard ",
-            " read and critically analyse texts including films relating them to their geographical, historical and cultural contexts",
-            " develop research skills applied to a Spanish context",
-            " develop independent learning skills and interpersonal skills."
-        ],
-        "Assessment": [
-            " participation",
-            " short essays",
-            " tests"
-        ],
-        "Prerequisites": [
-            "SPAN1402"
-        ],
-        "Contact hours": 24
-    },
-    "SPAN3405": {
-        "code": "SPAN3405",
-        "title": "Spanish Studies 5",
-        "level": "3",
-        "Description": "This unit follows on from SPAN2404 Spanish Studies 4. Students develop proficiency in spoken and written Spanish and deepen their understanding of Spanish society and culture attaining and increasing their proficiency at Level B1 of the Common European Framework of Reference of Languages. This unit leads to SPAN3406 Spanish Studies 6.",
-        "Credit": "6",
-        "Majors": [
-            "Spanish Studie"
-        ],
-        "Outcomes": [
-            " read and write in Spanish with accuracy and fluency, to become an independent user at Level B1 of the Common European Framework of Reference for Languages ",
-            " converse in Spanish with fluency and accuracy on contemporary themes",
-            " read and understand modern Spanish texts, and relate them to their social and historical context",
-            " demonstrate a deep intercultural understanding",
-            " demonstrate an enhanced awareness of the structures and use of the English language",
-            " engage effectively in interpersonal communication."
-        ],
-        "Assessment": [
-            " in-class presentations",
-            " in-class and online tests",
-            " class contribution and participation"
-        ],
-        "Prerequisites": [
-            "SPAN2404"
-        ],
-        "Contact hours": 3
-    },
-    "SPAN3406": {
-        "code": "SPAN3406",
-        "title": "Spanish Studies 6",
-        "level": "3",
-        "Description": "Students further develop proficiency in spoken and written Spanish to become independent users of the language, and deepen their understanding of Spanish society and culture.\nStudents attain a level between Level B1 and B2 of the Common European Framework of Reference for Languages (CEFR).",
-        "Credit": "6",
-        "Majors": [
-            "Spanish Studie"
-        ],
-        "Outcomes": [
-            " read and write in Spanish with accuracy and fluency at B1-B2 Level of the Common European Framework of Reference for Languages ",
-            " converse in Spanish with fluency and accuracy on contemporary themes",
-            " read and understand modern Spanish texts, and relate them to their social and historical context",
-            " demonstrate a deeper intercultural understanding",
-            " demonstrate an enhanced awareness of the structures and use of the English language",
-            " engage effectively in interpersonal communication."
-        ],
-        "Assessment": [
-            " in-class presentations",
-            " in-class and online tests",
-            " class contribution and participation"
-        ],
-        "Prerequisites": [
-            "SPAN3405"
-        ],
-        "Contact hours": 3
-    },
-    "SPAN3813": {
-        "code": "SPAN3813",
-        "title": "Literature in Spanish",
-        "level": "3",
-        "Description": "This specialist unit, taught in Spanish, enables learners to consolidate their language competencies in writing, reading, listening and speaking, through a critical analysis of works by Spanish authors from Spain and South America. This survey unit typically covers the most representative aspects of literature written in Spanish, which make it unique, such as the Spanish Picaresque, the myth of Don Juan, without forgetting Cervantes all the way to Latin American Magic Realism.",
-        "Credit": "6",
-        "Majors": [
-            "Spanish Studie"
-        ],
-        "Outcomes": [
-            " analyse changes in language choice from Medieval to contemporary usage",
-            " analyse critically extracts of literary works",
-            " demonstrate use of the Spanish language in spoken and written form at Level B1/B2 of the Common European Framework of Reference for Languages ",
-            " develop and sharpen their research skills in a Spanish context",
-            " develop independent learning skills, research skills and interpersonal skills."
-        ],
-        "Assessment": [
-            " tests based on oral and written comprehension of materials",
-            " participation",
-            " research essay"
-        ],
-        "Prerequisites": [
-            "SPAN2404"
-        ],
-        "Contact hours": 34
-    },
-    "AHEA3200": {
-        "code": "AHEA3200",
-        "title": "Aboriginal Health Community Organisation Placement",
-        "level": "3",
-        "Description": "This unit is run by the Centre for Aboriginal Medical and Dental Health and Aboriginal organisations in the community. It is directed at students who are interested in learning more about Aboriginal health and helps improve their understanding of the position of Aboriginal people in contemporary Australian society as a basis for working with Aboriginal people during their health career. Taught predominantly by Aboriginal people, the unit addresses historical and cultural issues that underlie current Aboriginal health problems, and explores specific health issues affecting Aboriginal people. The unit also explores in more detail interactions between Aboriginal and non-Aboriginal service providers in a range of settings and the implications of these experiences on attempts to improve Aboriginal health.",
-        "Credit": "6",
-        "Majors": [
-            "Aboriginal Health and Wellbein"
-        ],
-        "Outcomes": [
-            " describe how the organisation started and why",
-            " discuss with staff the different ways the organisation works with Aboriginal families, communities or other organisations",
-            " describe the links between what the organisation provides and the potential impact on health from a broad-based perspective",
-            " demonstrate their involvement in a number of the organisation's activities as appropriate",
-            " describe the process undertaken on how best to contribute to the organisation that is of benefit for staff, students or clients of the organisation",
-            " reflect, in writing, on how the organisation meets the needs of the Aboriginal community and in what way this may be different from mainstream or non-Aboriginal organisations",
-            " reflect, in writing, on what they have learned during the placement and how this may influence their future role as a healthcare provider for the Aboriginal community."
-        ],
-        "Assessment": [
-            " placement assessment",
-            " tutorial presentation",
-            " portfolio reflective journal"
-        ],
-        "Prerequisites": [
-            "AHEA2201",
-            "INDG2300"
-        ],
-        "Incompatibility": [],
-        "Contact hours": 0
-    },
-    "AHEA3300": {
-        "code": "AHEA3300",
-        "title": "Aboriginal Health Research Project",
-        "level": "3",
-        "Description": "This unit will involve students in an Aboriginal health research project. Aboriginal health research seminars will cover the following topics: how to engage effectively with the Aboriginal community; Aboriginal health qualitative research design, methods and process; how to complete a literature review; and the principles of ethical research. Students will be encouraged to engage in a discussion of the material delivered and supported to undertake the assessments required for this unit. Students will be assessed on the following: a research report and a presentation of research findings.",
-        "Credit": "6",
-        "Majors": [
-            "Aboriginal Health and Wellbein"
-        ],
-        "Outcomes": [
-            " demonstrate principles required in developing effective research partnerships with Aboriginal communities and organisations",
-            " demonstrate an understanding of ethical practice in Aboriginal health research",
-            " apply a critical approach to a literature review",
-            " apply a qualitative research method to an Aboriginal health project",
-            " demonstrate ability to disseminate Aboriginal health research findings."
-        ],
-        "Assessment": [
-            " report",
-            " tutorial presentation",
-            " rapid fire presentation"
-        ],
-        "Prerequisites": [
-            "AHEA2201",
-            "INDG2300",
-            "INDG3300"
-        ],
-        "Contact hours": 24
-    },
-    "AHEA3301": {
-        "code": "AHEA3301",
-        "title": "Aboriginal Social and Emotional Wellbeing",
-        "level": "3",
-        "Description": "Social and emotional wellbeing (SEWB) in Aboriginal community contexts is still relatively poorly understood within mainstream health and healthcare service settings. This unit continues the exposure of students to the complexity of factors at play in health and wellbeing with a particular focus on a multidimensional analysis of these factors. Drawing on a range of case studies from individual and community contexts, a seminar series guides students through a deeper understanding of causation, engagement, strategies and ways of working utilising the multidimensional model as a framework.",
-        "Credit": "6",
-        "Majors": [
-            "Aboriginal Health and Wellbein"
-        ],
-        "Outcomes": [
-            " discuss the contemporary complexities and Social Emotional Well Being ",
-            " outline cultural and clinical complexities using  the SEWB framework",
-            " explain the interplay between SEWB and physical health",
-            " identify culturally appropriate models of care from an Aboriginal viewpoint",
-            " develop culturally appropriate language and communication skills for use in a healthcare setting throughout the unit",
-            " outline attributes required for a culturally safe health service delivery including engagement strategies and",
-            " critically analyse existing programs in health and mental health care for Aboriginal people and communities.."
-        ],
-        "Assessment": [
-            " continuous assessment",
-            " two-hour theory examination",
-            " half-hour practical examination"
-        ],
-        "Prerequisites": [
-            "AHEA2201",
-            "INDG2300"
-        ],
-        "Contact hours": 36
-    }
-}
+        "title": "Spanish Studies 4"

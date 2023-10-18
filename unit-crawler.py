@@ -119,7 +119,6 @@ for code in unit_code:
         # find description of contact hours with class type and time per week
         elif key == "Contact hours":
             classes = get_contact(value)
-            print(f"{code} - {classes} hours per semester")
             unit[key] = classes
             
         # find prerequisites. Format is vague, should probably convert to CNF.
@@ -127,9 +126,15 @@ for code in unit_code:
         # Will accept as disjunct.
         elif (key == "Unit rules"):
             for k, v in list(zip(value.find_all("dt"), value.find_all("dd"))):
-                unit[k.get_text().strip()] = list(
-                    map(lambda x: x.get_text().strip(), v.find_all("a"))
-                )
+                prereqs = list(map(lambda x: x.get_text().strip(), v.find_all("a")))
+                cleaned_prereqs = []
+                for prereq in prereqs:
+                    if(re.search("[A-Z]{4}\d{4}$", prereq) is not None):
+                        cleaned_prereqs.append(prereq)
+                    else:
+                        pass
+                if(cleaned_prereqs):
+                    unit[k.get_text().strip()] = cleaned_prereqs
         # textbooks
         elif key == "Texts":
             texts = list(
