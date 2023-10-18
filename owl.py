@@ -83,7 +83,7 @@ with onto:
         domain = [Major]
         range = [Title]
 
-    class has_pre_requisites(Unit >> Title, TransitiveProperty):
+    class has_pre_requisites(Unit >> Unit, TransitiveProperty):
         pass
 
     class has_credit_points(Unit >> Credit, FunctionalProperty):
@@ -95,6 +95,7 @@ with onto:
     for unit in units.items():
         # info = extract_units(unit[1].get("Prerequisites", ""))
         # print(info)
+        prereqs = extract_units(unit[1].get("Prerequisites", ""))
         unit_mod = Unit(
             unit[0],
             has_name=Name(unit[1]["title"]),
@@ -102,6 +103,7 @@ with onto:
             has_description=Description(unit[1]["Description"]),
             has_outcome=Outcome(handle_outcomes(unit[1]["Outcomes"])),
             has_level=Level(unit[1]["level"]),
+            has_pre_requisites=prereqs
         )
 
     #     level = Level(unit[1]["level"])

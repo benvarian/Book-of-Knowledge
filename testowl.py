@@ -63,18 +63,21 @@ with onto:
 
 
 ## Test Prerequisite of a Prerequisite
-majors = onto.Major.instances()
 units = onto.Unit.instances()
 
 print(units[165:175])
 
 musc2591 = Unit("MUSC2591")
 direct_prereqs = musc2591.has_pre_requisites
-# print(f"{musc2591} Direct prerequisites: {direct_prereqs}")
+print(f"{musc2591} Direct prerequisites: {direct_prereqs}")
 
 all_prereqs = musc2591.INDIRECT_has_pre_requisites
 indirect_prereqs = []
 for prereq in all_prereqs:
     if prereq not in direct_prereqs:
         indirect_prereqs.append(prereq)
-# print(f"{musc2591} Indirect prerequisites: {indirect_prereqs}\n")
+print(f"{musc2591} Indirect prerequisites: {indirect_prereqs}\n")
+
+# ## Test Outcome of a Unit is Outcome of a Major
+# majors = onto.Major.instances()
+
