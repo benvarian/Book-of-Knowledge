@@ -1,4 +1,4 @@
-from owlready2 import get_ontology, Thing, onto_path, ObjectProperty, FunctionalProperty
+from owlready2 import get_ontology, Thing, onto_path, ObjectProperty, FunctionalProperty, TransitiveProperty
 import json
 
 with open("majors.json", "r") as file:
@@ -76,7 +76,7 @@ with onto:
         domain = [Major, Unit]
         range = [Title]
 
-    class has_pre_requisites(Unit >> Title):
+    class has_pre_requisites(Unit >> Title, TransitiveProperty):
         pass
 
     class has_credit_points(Unit >> Credit, FunctionalProperty):

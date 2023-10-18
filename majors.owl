@@ -24,6 +24,7 @@
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="#has_pre_requisites">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
   <rdfs:domain rdf:resource="#Unit"/>
   <rdfs:range rdf:resource="#Title"/>
 </owl:ObjectProperty>
@@ -125,22 +126,22 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#1"/>
-  <has_pre_requisites rdf:resource="#MATX1720"/>
   <has_pre_requisites rdf:resource="#MATH1720"/>
+  <has_pre_requisites rdf:resource="#MATX1720"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#AGRI2201">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#BIOL1131"/>
-  <has_pre_requisites rdf:resource="#STAT1520"/>
-  <has_pre_requisites rdf:resource="#BIOL1130"/>
-  <has_pre_requisites rdf:resource="#STAT1400"/>
   <has_pre_requisites rdf:resource="#STAX1400"/>
-  <has_pre_requisites rdf:resource="#STAX1520"/>
+  <has_pre_requisites rdf:resource="#STAT1520"/>
   <has_pre_requisites rdf:resource="#AGRI1001"/>
+  <has_pre_requisites rdf:resource="#STAT1400"/>
+  <has_pre_requisites rdf:resource="#STAX1520"/>
   <has_pre_requisites rdf:resource="#SCIE1104"/>
+  <has_pre_requisites rdf:resource="#BIOL1130"/>
+  <has_pre_requisites rdf:resource="#BIOL1131"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ECON2245">
@@ -182,9 +183,9 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
+  <has_pre_requisites rdf:resource="#MKTX1203"/>
   <has_pre_requisites rdf:resource="#MKTG1342"/>
   <has_pre_requisites rdf:resource="#MKTG1203"/>
-  <has_pre_requisites rdf:resource="#MKTX1203"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Agribusiness">
@@ -225,14 +226,14 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#BIOL1131"/>
   <has_pre_requisites rdf:resource="#ANHX1102"/>
-  <has_pre_requisites rdf:resource="#BIOL1130"/>
-  <has_pre_requisites rdf:resource="#ANHB1101"/>
   <has_pre_requisites rdf:resource="#SCIX1106"/>
   <has_pre_requisites rdf:resource="#ANHB1102"/>
-  <has_pre_requisites rdf:resource="#ANHX1101"/>
   <has_pre_requisites rdf:resource="#SCIE1106"/>
+  <has_pre_requisites rdf:resource="#ANHX1101"/>
+  <has_pre_requisites rdf:resource="#ANHB1101"/>
+  <has_pre_requisites rdf:resource="#BIOL1130"/>
+  <has_pre_requisites rdf:resource="#BIOL1131"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#GEOG2201">
@@ -298,35 +299,35 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#CHEX1003"/>
-  <has_pre_requisites rdf:resource="#BIOL1131"/>
-  <has_pre_requisites rdf:resource="#CHEM1003"/>
-  <has_pre_requisites rdf:resource="#STAT1520"/>
-  <has_pre_requisites rdf:resource="#BIOL1130"/>
-  <has_pre_requisites rdf:resource="#EART1105"/>
-  <has_pre_requisites rdf:resource="#ENVT1104"/>
-  <has_pre_requisites rdf:resource="#STAT1400"/>
   <has_pre_requisites rdf:resource="#STAX1400"/>
-  <has_pre_requisites rdf:resource="#STAX1520"/>
+  <has_pre_requisites rdf:resource="#STAT1520"/>
+  <has_pre_requisites rdf:resource="#ENVT1104"/>
+  <has_pre_requisites rdf:resource="#CHEM1003"/>
+  <has_pre_requisites rdf:resource="#STAT1400"/>
+  <has_pre_requisites rdf:resource="#CHEX1003"/>
   <has_pre_requisites rdf:resource="#SCIE1104"/>
+  <has_pre_requisites rdf:resource="#STAX1520"/>
+  <has_pre_requisites rdf:resource="#EART1105"/>
+  <has_pre_requisites rdf:resource="#BIOL1130"/>
+  <has_pre_requisites rdf:resource="#BIOL1131"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#PLNT2201">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#BIOL1131"/>
-  <has_pre_requisites rdf:resource="#BIOL1130"/>
   <has_pre_requisites rdf:resource="#SCIX1106"/>
   <has_pre_requisites rdf:resource="#SCIE1106"/>
+  <has_pre_requisites rdf:resource="#BIOL1130"/>
+  <has_pre_requisites rdf:resource="#BIOL1131"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ENVT3060">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#ENVT2250"/>
   <has_pre_requisites rdf:resource="#ENVT2236"/>
+  <has_pre_requisites rdf:resource="#ENVT2250"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Agricultural Science">
@@ -361,14 +362,14 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
+  <has_pre_requisites rdf:resource="#MJD-AGTDM"/>
   <has_pre_requisites rdf:resource="#MJD-MARCP"/>
   <has_pre_requisites rdf:resource="#MATH1721"/>
-  <has_pre_requisites rdf:resource="#MJD-MARDM"/>
-  <has_pre_requisites rdf:resource="#MATX1721"/>
-  <has_pre_requisites rdf:resource="#MJD-AGTEC"/>
-  <has_pre_requisites rdf:resource="#SCIE1500"/>
   <has_pre_requisites rdf:resource="#MJD-IEMDM"/>
-  <has_pre_requisites rdf:resource="#MJD-AGTDM"/>
+  <has_pre_requisites rdf:resource="#MATX1721"/>
+  <has_pre_requisites rdf:resource="#MJD-MARDM"/>
+  <has_pre_requisites rdf:resource="#SCIE1500"/>
+  <has_pre_requisites rdf:resource="#MJD-AGTEC"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#AGRI3003">
@@ -457,42 +458,42 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#GEOG1104"/>
+  <has_pre_requisites rdf:resource="#GEOG1103"/>
   <has_pre_requisites rdf:resource="#GEOG1107"/>
   <has_pre_requisites rdf:resource="#GEOG1106"/>
-  <has_pre_requisites rdf:resource="#GEOG1103"/>
+  <has_pre_requisites rdf:resource="#GEOG1104"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#LACH2000">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#ARLA1040"/>
   <has_pre_requisites rdf:resource="#URBD1000"/>
+  <has_pre_requisites rdf:resource="#ARLA1040"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#GEOG3303">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#MNR-ENVST"/>
-  <has_pre_requisites rdf:resource="#MJD-ENGEO"/>
-  <has_pre_requisites rdf:resource="#MJD-GGRPY"/>
-  <has_pre_requisites rdf:resource="#MJD-CONBI"/>
-  <has_pre_requisites rdf:resource="#MJD-NRMGT"/>
-  <has_pre_requisites rdf:resource="#MJD-WLCDM"/>
   <has_pre_requisites rdf:resource="#MNR-SPCEU"/>
+  <has_pre_requisites rdf:resource="#MNR-ENVST"/>
   <has_pre_requisites rdf:resource="#MJD-ENVMT"/>
+  <has_pre_requisites rdf:resource="#MJD-WLCDM"/>
   <has_pre_requisites rdf:resource="#MJD-ENVDM"/>
+  <has_pre_requisites rdf:resource="#MJD-CONBI"/>
+  <has_pre_requisites rdf:resource="#MJD-GGRPY"/>
+  <has_pre_requisites rdf:resource="#MJD-ENGEO"/>
+  <has_pre_requisites rdf:resource="#MJD-NRMGT"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#GEOG3305">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#URBD1000"/>
   <has_pre_requisites rdf:resource="#GEOG2205"/>
   <has_pre_requisites rdf:resource="#GEOG2206"/>
+  <has_pre_requisites rdf:resource="#URBD1000"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#GEOG3310">
@@ -548,21 +549,21 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#BIOL1131"/>
-  <has_pre_requisites rdf:resource="#BIOL1130"/>
-  <has_pre_requisites rdf:resource="#EART1105"/>
   <has_pre_requisites rdf:resource="#ENVT1104"/>
+  <has_pre_requisites rdf:resource="#EART1105"/>
+  <has_pre_requisites rdf:resource="#BIOL1130"/>
+  <has_pre_requisites rdf:resource="#BIOL1131"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#SCIE2267">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#STAT1520"/>
-  <has_pre_requisites rdf:resource="#STAT1400"/>
-  <has_pre_requisites rdf:resource="#STAX1520"/>
   <has_pre_requisites rdf:resource="#STAX1400"/>
+  <has_pre_requisites rdf:resource="#STAT1520"/>
+  <has_pre_requisites rdf:resource="#STAX1520"/>
   <has_pre_requisites rdf:resource="#SCIE1104"/>
+  <has_pre_requisites rdf:resource="#STAT1400"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ECON3323">
@@ -570,21 +571,21 @@
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
   <has_pre_requisites rdf:resource="#ECON2224"/>
-  <has_pre_requisites rdf:resource="#ECON2245"/>
   <has_pre_requisites rdf:resource="#ECON2105"/>
-  <has_pre_requisites rdf:resource="#ECON2234"/>
   <has_pre_requisites rdf:resource="#ECON2233"/>
+  <has_pre_requisites rdf:resource="#ECON2245"/>
+  <has_pre_requisites rdf:resource="#ECON2234"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ENVT3362">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#ENVT2220"/>
   <has_pre_requisites rdf:resource="#SCIE2267"/>
-  <has_pre_requisites rdf:resource="#ENVT2250"/>
+  <has_pre_requisites rdf:resource="#ENVT2220"/>
   <has_pre_requisites rdf:resource="#ENVT2251"/>
   <has_pre_requisites rdf:resource="#SCIE2204"/>
+  <has_pre_requisites rdf:resource="#ENVT2250"/>
   <has_pre_requisites rdf:resource="#EART2204"/>
 </owl:NamedIndividual>
 
@@ -627,10 +628,10 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#GEOG1103"/>
   <has_pre_requisites rdf:resource="#GENG1014"/>
-  <has_pre_requisites rdf:resource="#EART1105"/>
   <has_pre_requisites rdf:resource="#ENVT1104"/>
+  <has_pre_requisites rdf:resource="#EART1105"/>
+  <has_pre_requisites rdf:resource="#GEOG1103"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ENVT3338">
@@ -638,11 +639,11 @@
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
   <has_pre_requisites rdf:resource="#ENVT2220"/>
-  <has_pre_requisites rdf:resource="#EART2234"/>
   <has_pre_requisites rdf:resource="#EART2231"/>
+  <has_pre_requisites rdf:resource="#ENVT2251"/>
   <has_pre_requisites rdf:resource="#ENVT2236"/>
   <has_pre_requisites rdf:resource="#ENVT2250"/>
-  <has_pre_requisites rdf:resource="#ENVT2251"/>
+  <has_pre_requisites rdf:resource="#EART2234"/>
   <has_pre_requisites rdf:resource="#ENVT2221"/>
 </owl:NamedIndividual>
 
@@ -652,17 +653,17 @@
   <has_level rdf:resource="#3"/>
   <has_pre_requisites rdf:resource="#EART2231"/>
   <has_pre_requisites rdf:resource="#ENVT2236"/>
-  <has_pre_requisites rdf:resource="#EART2234"/>
   <has_pre_requisites rdf:resource="#ENVT2251"/>
+  <has_pre_requisites rdf:resource="#EART2234"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ENVT3361">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#ENVT2251"/>
   <has_pre_requisites rdf:resource="#ENVT2250"/>
   <has_pre_requisites rdf:resource="#ENVT2236"/>
+  <has_pre_requisites rdf:resource="#ENVT2251"/>
   <has_pre_requisites rdf:resource="#ENVT2221"/>
 </owl:NamedIndividual>
 
@@ -706,29 +707,29 @@
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
   <has_pre_requisites rdf:resource="#BIOL1131"/>
+  <has_pre_requisites rdf:resource="#STAX1400"/>
   <has_pre_requisites rdf:resource="#ENVT1104"/>
-  <has_pre_requisites rdf:resource="#STAT1400"/>
   <has_pre_requisites rdf:resource="#SCIE1104"/>
   <has_pre_requisites rdf:resource="#BIOL1130"/>
-  <has_pre_requisites rdf:resource="#STAX1400"/>
+  <has_pre_requisites rdf:resource="#STAT1400"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#PLNT2204">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#BIOL1131"/>
-  <has_pre_requisites rdf:resource="#BIOL1130"/>
   <has_pre_requisites rdf:resource="#SCIX1106"/>
   <has_pre_requisites rdf:resource="#SCIE1106"/>
+  <has_pre_requisites rdf:resource="#BIOL1130"/>
+  <has_pre_requisites rdf:resource="#BIOL1131"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ENVT3363">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#SCIE2204"/>
   <has_pre_requisites rdf:resource="#ENVT2250"/>
+  <has_pre_requisites rdf:resource="#SCIE2204"/>
   <has_pre_requisites rdf:resource="#ENVT2221"/>
 </owl:NamedIndividual>
 
@@ -843,8 +844,8 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#SCIE2204"/>
   <has_pre_requisites rdf:resource="#GEOG2202"/>
+  <has_pre_requisites rdf:resource="#SCIE2204"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#GEOG3300">
@@ -864,9 +865,9 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#GEOG1107"/>
-  <has_pre_requisites rdf:resource="#GEOG2203"/>
   <has_pre_requisites rdf:resource="#BP013"/>
+  <has_pre_requisites rdf:resource="#GEOG2203"/>
+  <has_pre_requisites rdf:resource="#GEOG1107"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Geographical and Spatial Science">
@@ -931,10 +932,10 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#12"/>
   <has_level rdf:resource="#2"/>
+  <has_pre_requisites rdf:resource="#ARCT1011"/>
   <has_pre_requisites rdf:resource="#ARCT1001"/>
   <has_pre_requisites rdf:resource="#ARLA1040"/>
   <has_pre_requisites rdf:resource="#ARLA1030"/>
-  <has_pre_requisites rdf:resource="#ARCT1011"/>
   <has_pre_requisites rdf:resource="#ARCT1010"/>
 </owl:NamedIndividual>
 
@@ -942,8 +943,8 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#ARCT1010"/>
   <has_pre_requisites rdf:resource="#ARCT1011"/>
+  <has_pre_requisites rdf:resource="#ARCT1010"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ARCT2050">
@@ -957,11 +958,11 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#12"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#ARCT2001"/>
   <has_pre_requisites rdf:resource="#ARCT2000"/>
-  <has_pre_requisites rdf:resource="#ARCT2050"/>
-  <has_pre_requisites rdf:resource="#ARCT2010"/>
   <has_pre_requisites rdf:resource="#ARCT2030"/>
+  <has_pre_requisites rdf:resource="#ARCT2010"/>
+  <has_pre_requisites rdf:resource="#ARCT2050"/>
+  <has_pre_requisites rdf:resource="#ARCT2001"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ARCT3010">
@@ -1049,24 +1050,24 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#LACH2000"/>
   <has_pre_requisites rdf:resource="#LACH2001"/>
+  <has_pre_requisites rdf:resource="#LACH2000"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#LACH3001">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#12"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#LACH2000"/>
   <has_pre_requisites rdf:resource="#LACH2001"/>
+  <has_pre_requisites rdf:resource="#LACH2000"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#LACH3003">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#LACH2000"/>
   <has_pre_requisites rdf:resource="#LACH2001"/>
+  <has_pre_requisites rdf:resource="#LACH2000"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Landscape Architecture">
@@ -1123,10 +1124,10 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#COMM1001"/>
-  <has_pre_requisites rdf:resource="#COMM1002"/>
-  <has_pre_requisites rdf:resource="#COMM2002"/>
   <has_pre_requisites rdf:resource="#COMM2001"/>
+  <has_pre_requisites rdf:resource="#COMM1002"/>
+  <has_pre_requisites rdf:resource="#COMM1001"/>
+  <has_pre_requisites rdf:resource="#COMM2002"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Communication and Media Studies">
@@ -1186,8 +1187,8 @@
   <has_level rdf:resource="#3"/>
   <has_pre_requisites rdf:resource="#ARTF3030"/>
   <has_pre_requisites rdf:resource="#ARTF3040"/>
-  <has_pre_requisites rdf:resource="#ARTF3020"/>
   <has_pre_requisites rdf:resource="#ARTF3050"/>
+  <has_pre_requisites rdf:resource="#ARTF3020"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Fine Arts">
@@ -1259,9 +1260,9 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#0"/>
   <has_level rdf:resource="#1"/>
-  <has_pre_requisites rdf:resource="#MUSC1341"/>
-  <has_pre_requisites rdf:resource="#MUSC1741"/>
   <has_pre_requisites rdf:resource="#MUSC1345"/>
+  <has_pre_requisites rdf:resource="#MUSC1741"/>
+  <has_pre_requisites rdf:resource="#MUSC1341"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#MUSC2273">
@@ -1269,8 +1270,8 @@
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
   <has_pre_requisites rdf:resource="#MUSC1055"/>
-  <has_pre_requisites rdf:resource="#CITX1001"/>
   <has_pre_requisites rdf:resource="#CITS1001"/>
+  <has_pre_requisites rdf:resource="#CITX1001"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#MUSC2274">
@@ -1318,8 +1319,8 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#MUSC2277"/>
   <has_pre_requisites rdf:resource="#MUSC2273"/>
+  <has_pre_requisites rdf:resource="#MUSC2277"/>
   <has_pre_requisites rdf:resource="#MUSC2276"/>
   <has_pre_requisites rdf:resource="#MUSC2274"/>
 </owl:NamedIndividual>
@@ -1375,8 +1376,8 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#1"/>
-  <has_pre_requisites rdf:resource="#MUSC1741"/>
   <has_pre_requisites rdf:resource="#MJD-MSTGM"/>
+  <has_pre_requisites rdf:resource="#MUSC1741"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#MUSC2341">
@@ -1418,10 +1419,10 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#MUSC2342"/>
-  <has_pre_requisites rdf:resource="#MUSC2741"/>
-  <has_pre_requisites rdf:resource="#MUSC2341"/>
   <has_pre_requisites rdf:resource="#MJD-MSTGM"/>
+  <has_pre_requisites rdf:resource="#MUSC2342"/>
+  <has_pre_requisites rdf:resource="#MUSC2341"/>
+  <has_pre_requisites rdf:resource="#MUSC2741"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Music General Studies">
@@ -1461,8 +1462,8 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#1"/>
-  <has_pre_requisites rdf:resource="#MUSC1341"/>
   <has_pre_requisites rdf:resource="#MJD-MUSDM"/>
+  <has_pre_requisites rdf:resource="#MUSC1341"/>
   <has_pre_requisites rdf:resource="#MJD-MUSST"/>
 </owl:NamedIndividual>
 
@@ -1535,10 +1536,10 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#1"/>
-  <has_pre_requisites rdf:resource="#MATX1720"/>
   <has_pre_requisites rdf:resource="#MATH1720"/>
-  <has_pre_requisites rdf:resource="#62530"/>
+  <has_pre_requisites rdf:resource="#MATX1720"/>
   <has_pre_requisites rdf:resource="#62510"/>
+  <has_pre_requisites rdf:resource="#62530"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ELEC1303">
@@ -1551,12 +1552,12 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#1"/>
-  <has_pre_requisites rdf:resource="#CHEX1003"/>
   <has_pre_requisites rdf:resource="#MATX1721"/>
   <has_pre_requisites rdf:resource="#PHYS1030"/>
+  <has_pre_requisites rdf:resource="#PHYX1030"/>
+  <has_pre_requisites rdf:resource="#CHEX1003"/>
   <has_pre_requisites rdf:resource="#CHEM1003"/>
   <has_pre_requisites rdf:resource="#MATH1721"/>
-  <has_pre_requisites rdf:resource="#PHYX1030"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#GENG1000">
@@ -1596,9 +1597,9 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#CITS1001"/>
-  <has_pre_requisites rdf:resource="#MATX1721"/>
   <has_pre_requisites rdf:resource="#CITX1001"/>
+  <has_pre_requisites rdf:resource="#MATX1721"/>
+  <has_pre_requisites rdf:resource="#CITS1001"/>
   <has_pre_requisites rdf:resource="#MATH1721"/>
 </owl:NamedIndividual>
 
@@ -1613,18 +1614,18 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#MATH1011"/>
   <has_pre_requisites rdf:resource="#PHYS1030"/>
   <has_pre_requisites rdf:resource="#MATX1011"/>
+  <has_pre_requisites rdf:resource="#MATH1011"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ENSC2004">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#MATH1011"/>
   <has_pre_requisites rdf:resource="#PHYS1030"/>
   <has_pre_requisites rdf:resource="#MATX1011"/>
+  <has_pre_requisites rdf:resource="#MATH1011"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#GENG2000">
@@ -1638,10 +1639,10 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#MATH1011"/>
-  <has_pre_requisites rdf:resource="#ENSC2004"/>
   <has_pre_requisites rdf:resource="#MATX1012"/>
   <has_pre_requisites rdf:resource="#MATX1011"/>
+  <has_pre_requisites rdf:resource="#MATH1011"/>
+  <has_pre_requisites rdf:resource="#ENSC2004"/>
   <has_pre_requisites rdf:resource="#MATH1012"/>
 </owl:NamedIndividual>
 
@@ -1649,10 +1650,10 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#MATH1011"/>
-  <has_pre_requisites rdf:resource="#ENSC2004"/>
   <has_pre_requisites rdf:resource="#MATX1012"/>
   <has_pre_requisites rdf:resource="#MATX1011"/>
+  <has_pre_requisites rdf:resource="#MATH1011"/>
+  <has_pre_requisites rdf:resource="#ENSC2004"/>
   <has_pre_requisites rdf:resource="#MATH1012"/>
 </owl:NamedIndividual>
 
@@ -1660,8 +1661,8 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#ELEC3020"/>
   <has_pre_requisites rdf:resource="#GENG2000"/>
+  <has_pre_requisites rdf:resource="#ELEC3020"/>
   <has_pre_requisites rdf:resource="#BP007"/>
   <has_pre_requisites rdf:resource="#ENSC3020"/>
 </owl:NamedIndividual>
@@ -1677,21 +1678,21 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#MATH1012"/>
   <has_pre_requisites rdf:resource="#MATX1012"/>
   <has_pre_requisites rdf:resource="#ENSC2003"/>
+  <has_pre_requisites rdf:resource="#MATH1012"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ELEC3020">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#CITS1001"/>
-  <has_pre_requisites rdf:resource="#CITS2005"/>
-  <has_pre_requisites rdf:resource="#CITS2401"/>
-  <has_pre_requisites rdf:resource="#CITS1401"/>
   <has_pre_requisites rdf:resource="#GENG2000"/>
+  <has_pre_requisites rdf:resource="#CITS2401"/>
+  <has_pre_requisites rdf:resource="#CITS2005"/>
+  <has_pre_requisites rdf:resource="#CITS1001"/>
   <has_pre_requisites rdf:resource="#CITX1401"/>
+  <has_pre_requisites rdf:resource="#CITS1401"/>
   <has_pre_requisites rdf:resource="#CITX1001"/>
 </owl:NamedIndividual>
 
@@ -1707,31 +1708,31 @@
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
   <has_pre_requisites rdf:resource="#MATX1012"/>
-  <has_pre_requisites rdf:resource="#MATH1011"/>
-  <has_pre_requisites rdf:resource="#MATH1012"/>
   <has_pre_requisites rdf:resource="#MATX1011"/>
+  <has_pre_requisites rdf:resource="#MATH1012"/>
+  <has_pre_requisites rdf:resource="#MATH1011"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#MECH3001">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
+  <has_pre_requisites rdf:resource="#CITS1401"/>
   <has_pre_requisites rdf:resource="#CITS2401"/>
   <has_pre_requisites rdf:resource="#CITX1401"/>
   <has_pre_requisites rdf:resource="#MECH2004"/>
-  <has_pre_requisites rdf:resource="#CITS1401"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#MECH3424">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#ENSC2004"/>
-  <has_pre_requisites rdf:resource="#CITS2401"/>
-  <has_pre_requisites rdf:resource="#CITS1401"/>
-  <has_pre_requisites rdf:resource="#MATX1012"/>
   <has_pre_requisites rdf:resource="#GENG2000"/>
+  <has_pre_requisites rdf:resource="#CITS2401"/>
+  <has_pre_requisites rdf:resource="#MATX1012"/>
   <has_pre_requisites rdf:resource="#CITX1401"/>
+  <has_pre_requisites rdf:resource="#CITS1401"/>
+  <has_pre_requisites rdf:resource="#ENSC2004"/>
   <has_pre_requisites rdf:resource="#MATH1012"/>
 </owl:NamedIndividual>
 
@@ -1786,8 +1787,8 @@
   <has_level rdf:resource="#1"/>
   <has_pre_requisites rdf:resource="#MJD-IMSCP"/>
   <has_pre_requisites rdf:resource="#MJD-MEDSC"/>
-  <has_pre_requisites rdf:resource="#MJD-ENGSC"/>
   <has_pre_requisites rdf:resource="#MJD-EBMEG"/>
+  <has_pre_requisites rdf:resource="#MJD-ENGSC"/>
   <has_pre_requisites rdf:resource="#MJD-PHMSC"/>
 </owl:NamedIndividual>
 
@@ -1804,11 +1805,11 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#MATH1011"/>
   <has_pre_requisites rdf:resource="#MATX1012"/>
-  <has_pre_requisites rdf:resource="#MATH1012"/>
-  <has_pre_requisites rdf:resource="#PHYX1001"/>
   <has_pre_requisites rdf:resource="#MATX1011"/>
+  <has_pre_requisites rdf:resource="#PHYX1001"/>
+  <has_pre_requisites rdf:resource="#MATH1011"/>
+  <has_pre_requisites rdf:resource="#MATH1012"/>
   <has_pre_requisites rdf:resource="#PHYS1001"/>
 </owl:NamedIndividual>
 
@@ -1829,8 +1830,8 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#ENSC1004"/>
   <has_pre_requisites rdf:resource="#ENSC2004"/>
+  <has_pre_requisites rdf:resource="#ENSC1004"/>
   <has_pre_requisites rdf:resource="#PHYL2002"/>
 </owl:NamedIndividual>
 
@@ -1845,9 +1846,9 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#MATH1011"/>
-  <has_pre_requisites rdf:resource="#ENSC2003"/>
   <has_pre_requisites rdf:resource="#MATX1011"/>
+  <has_pre_requisites rdf:resource="#ENSC2003"/>
+  <has_pre_requisites rdf:resource="#MATH1011"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Biomedical Engineering">
@@ -1920,20 +1921,20 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#MATH1011"/>
-  <has_pre_requisites rdf:resource="#CHEX1001"/>
-  <has_pre_requisites rdf:resource="#CHPR1005"/>
   <has_pre_requisites rdf:resource="#MATX1011"/>
+  <has_pre_requisites rdf:resource="#MATH1011"/>
+  <has_pre_requisites rdf:resource="#CHPR1005"/>
   <has_pre_requisites rdf:resource="#CHEM1001"/>
+  <has_pre_requisites rdf:resource="#CHEX1001"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#CHPR2007">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#MATH1011"/>
   <has_pre_requisites rdf:resource="#CHPR1005"/>
   <has_pre_requisites rdf:resource="#MATX1011"/>
+  <has_pre_requisites rdf:resource="#MATH1011"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#CHPR2018">
@@ -1956,8 +1957,8 @@
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
   <has_pre_requisites rdf:resource="#CHPR2006"/>
-  <has_pre_requisites rdf:resource="#CHPR2007"/>
   <has_pre_requisites rdf:resource="#GENG2003"/>
+  <has_pre_requisites rdf:resource="#CHPR2007"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#CHPR3404">
@@ -1965,9 +1966,9 @@
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
   <has_pre_requisites rdf:resource="#MATX1012"/>
-  <has_pre_requisites rdf:resource="#CHPR2006"/>
-  <has_pre_requisites rdf:resource="#MATH1012"/>
   <has_pre_requisites rdf:resource="#CHPR2007"/>
+  <has_pre_requisites rdf:resource="#MATH1012"/>
+  <has_pre_requisites rdf:resource="#CHPR2006"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#CHPR3405">
@@ -2050,9 +2051,9 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#MATH1011"/>
   <has_pre_requisites rdf:resource="#ENSC2004"/>
   <has_pre_requisites rdf:resource="#MATX1011"/>
+  <has_pre_requisites rdf:resource="#MATH1011"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#CIVL2551">
@@ -2065,11 +2066,11 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#MATH1011"/>
   <has_pre_requisites rdf:resource="#MATX1012"/>
-  <has_pre_requisites rdf:resource="#MATH1012"/>
-  <has_pre_requisites rdf:resource="#PHYX1001"/>
   <has_pre_requisites rdf:resource="#MATX1011"/>
+  <has_pre_requisites rdf:resource="#PHYX1001"/>
+  <has_pre_requisites rdf:resource="#MATH1011"/>
+  <has_pre_requisites rdf:resource="#MATH1012"/>
   <has_pre_requisites rdf:resource="#PHYS1001"/>
 </owl:NamedIndividual>
 
@@ -2078,18 +2079,18 @@
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
   <has_pre_requisites rdf:resource="#MATX1012"/>
-  <has_pre_requisites rdf:resource="#MATH1011"/>
-  <has_pre_requisites rdf:resource="#MATH1012"/>
   <has_pre_requisites rdf:resource="#MATX1011"/>
+  <has_pre_requisites rdf:resource="#MATH1012"/>
+  <has_pre_requisites rdf:resource="#MATH1011"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#GENG2012">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
+  <has_pre_requisites rdf:resource="#MATX1012"/>
   <has_pre_requisites rdf:resource="#CITS2401"/>
   <has_pre_requisites rdf:resource="#MATH1012"/>
-  <has_pre_requisites rdf:resource="#MATX1012"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#CIVL3401">
@@ -2103,16 +2104,16 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#GENG2010"/>
   <has_pre_requisites rdf:resource="#GENG2003"/>
+  <has_pre_requisites rdf:resource="#GENG2010"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#CIVL3403">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#GENG2004"/>
   <has_pre_requisites rdf:resource="#GENG1000"/>
+  <has_pre_requisites rdf:resource="#GENG2004"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#CIVL3404">
@@ -2126,9 +2127,9 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
+  <has_pre_requisites rdf:resource="#MATX1012"/>
   <has_pre_requisites rdf:resource="#CITS2401"/>
   <has_pre_requisites rdf:resource="#MATH1012"/>
-  <has_pre_requisites rdf:resource="#MATX1012"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Civil Engineering">
@@ -2172,11 +2173,11 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#MATH1011"/>
   <has_pre_requisites rdf:resource="#MATX1012"/>
-  <has_pre_requisites rdf:resource="#MATH1012"/>
-  <has_pre_requisites rdf:resource="#PHYX1001"/>
   <has_pre_requisites rdf:resource="#MATX1011"/>
+  <has_pre_requisites rdf:resource="#PHYX1001"/>
+  <has_pre_requisites rdf:resource="#MATH1011"/>
+  <has_pre_requisites rdf:resource="#MATH1012"/>
   <has_pre_requisites rdf:resource="#PHYS1001"/>
 </owl:NamedIndividual>
 
@@ -2185,9 +2186,9 @@
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
   <has_pre_requisites rdf:resource="#MATX1012"/>
-  <has_pre_requisites rdf:resource="#MATH1011"/>
-  <has_pre_requisites rdf:resource="#MATH1012"/>
   <has_pre_requisites rdf:resource="#MATX1011"/>
+  <has_pre_requisites rdf:resource="#MATH1012"/>
+  <has_pre_requisites rdf:resource="#MATH1011"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ELEC3014">
@@ -2195,9 +2196,9 @@
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
   <has_pre_requisites rdf:resource="#MATX1012"/>
-  <has_pre_requisites rdf:resource="#MATH1012"/>
-  <has_pre_requisites rdf:resource="#PHYX1001"/>
   <has_pre_requisites rdf:resource="#ENSC2003"/>
+  <has_pre_requisites rdf:resource="#PHYX1001"/>
+  <has_pre_requisites rdf:resource="#MATH1012"/>
   <has_pre_requisites rdf:resource="#PHYS1001"/>
 </owl:NamedIndividual>
 
@@ -2206,17 +2207,17 @@
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
   <has_pre_requisites rdf:resource="#MATX1012"/>
-  <has_pre_requisites rdf:resource="#MATH1012"/>
-  <has_pre_requisites rdf:resource="#ENSC2003"/>
   <has_pre_requisites rdf:resource="#CITS2401"/>
+  <has_pre_requisites rdf:resource="#ENSC2003"/>
+  <has_pre_requisites rdf:resource="#MATH1012"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#MATH3023">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#MATH1011"/>
   <has_pre_requisites rdf:resource="#MATX1011"/>
+  <has_pre_requisites rdf:resource="#MATH1011"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Electrical and Electronic Engineering">
@@ -2260,8 +2261,8 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#MATH1012"/>
   <has_pre_requisites rdf:resource="#MATX1012"/>
+  <has_pre_requisites rdf:resource="#MATH1012"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ENVE2606">
@@ -2269,8 +2270,8 @@
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
   <has_pre_requisites rdf:resource="#GENG1010"/>
-  <has_pre_requisites rdf:resource="#GENG1014"/>
   <has_pre_requisites rdf:resource="#GENG1000"/>
+  <has_pre_requisites rdf:resource="#GENG1014"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ENVE2607">
@@ -2291,8 +2292,8 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#GENG2010"/>
   <has_pre_requisites rdf:resource="#GENG2003"/>
+  <has_pre_requisites rdf:resource="#GENG2010"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ENVE3405">
@@ -2314,8 +2315,8 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#ENVE2606"/>
   <has_pre_requisites rdf:resource="#GENG2000"/>
+  <has_pre_requisites rdf:resource="#ENVE2606"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Environmental Engineering">
@@ -2369,12 +2370,12 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#BH011"/>
-  <has_pre_requisites rdf:resource="#CB004"/>
-  <has_pre_requisites rdf:resource="#ENSC2004"/>
   <has_pre_requisites rdf:resource="#CITS2401"/>
-  <has_pre_requisites rdf:resource="#CB014"/>
+  <has_pre_requisites rdf:resource="#BH011"/>
   <has_pre_requisites rdf:resource="#CB006"/>
+  <has_pre_requisites rdf:resource="#ENSC2004"/>
+  <has_pre_requisites rdf:resource="#CB004"/>
+  <has_pre_requisites rdf:resource="#CB014"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Mechanical Engineering">
@@ -2441,8 +2442,8 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#GENG2009"/>
   <has_pre_requisites rdf:resource="#MINE2001"/>
+  <has_pre_requisites rdf:resource="#GENG2009"/>
   <has_pre_requisites rdf:resource="#GENG2004"/>
 </owl:NamedIndividual>
 
@@ -2458,8 +2459,8 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#GENG2009"/>
   <has_pre_requisites rdf:resource="#MINE2001"/>
+  <has_pre_requisites rdf:resource="#GENG2009"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#MINE3503">
@@ -2561,10 +2562,10 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#MJD-EXHSC"/>
-  <has_pre_requisites rdf:resource="#73570"/>
   <has_pre_requisites rdf:resource="#73520"/>
+  <has_pre_requisites rdf:resource="#MJD-EXHSC"/>
   <has_pre_requisites rdf:resource="#MJD-SEHDM"/>
+  <has_pre_requisites rdf:resource="#73570"/>
   <has_pre_requisites rdf:resource="#MNR-PAHLT"/>
 </owl:NamedIndividual>
 
@@ -2730,10 +2731,10 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#DENT3002"/>
-  <has_pre_requisites rdf:resource="#DENT3003"/>
-  <has_pre_requisites rdf:resource="#DENT3004"/>
   <has_pre_requisites rdf:resource="#DENT3001"/>
+  <has_pre_requisites rdf:resource="#DENT3004"/>
+  <has_pre_requisites rdf:resource="#DENT3003"/>
+  <has_pre_requisites rdf:resource="#DENT3002"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#DENT3007">
@@ -2792,12 +2793,12 @@
   <has_level rdf:resource="#1"/>
   <has_pre_requisites rdf:resource="#ANHX1102"/>
   <has_pre_requisites rdf:resource="#IMED1001"/>
-  <has_pre_requisites rdf:resource="#CHEX1003"/>
   <has_pre_requisites rdf:resource="#CHEM1003"/>
-  <has_pre_requisites rdf:resource="#BIOL1130"/>
-  <has_pre_requisites rdf:resource="#ANHB1101"/>
   <has_pre_requisites rdf:resource="#ANHB1102"/>
+  <has_pre_requisites rdf:resource="#CHEX1003"/>
   <has_pre_requisites rdf:resource="#ANHX1101"/>
+  <has_pre_requisites rdf:resource="#ANHB1101"/>
+  <has_pre_requisites rdf:resource="#BIOL1130"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#MICR2209">
@@ -2806,47 +2807,47 @@
   <has_level rdf:resource="#2"/>
   <has_pre_requisites rdf:resource="#ANHX1102"/>
   <has_pre_requisites rdf:resource="#IMED1001"/>
-  <has_pre_requisites rdf:resource="#BIOL1130"/>
-  <has_pre_requisites rdf:resource="#ANHB1101"/>
   <has_pre_requisites rdf:resource="#SCIX1106"/>
-  <has_pre_requisites rdf:resource="#ANHX1101"/>
   <has_pre_requisites rdf:resource="#ANHB1102"/>
   <has_pre_requisites rdf:resource="#SCIE1106"/>
   <has_pre_requisites rdf:resource="#IMED1002"/>
+  <has_pre_requisites rdf:resource="#ANHX1101"/>
+  <has_pre_requisites rdf:resource="#ANHB1101"/>
+  <has_pre_requisites rdf:resource="#BIOL1130"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#PATH2210">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#IMED1001"/>
-  <has_pre_requisites rdf:resource="#ANHX1102"/>
-  <has_pre_requisites rdf:resource="#ANHB1102"/>
-  <has_pre_requisites rdf:resource="#IMED1002"/>
   <has_pre_requisites rdf:resource="#SCIE1106"/>
+  <has_pre_requisites rdf:resource="#ANHX1102"/>
+  <has_pre_requisites rdf:resource="#IMED1002"/>
+  <has_pre_requisites rdf:resource="#IMED1001"/>
   <has_pre_requisites rdf:resource="#SCIX1106"/>
+  <has_pre_requisites rdf:resource="#ANHB1102"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#PATH2211">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#SCIE1106"/>
   <has_pre_requisites rdf:resource="#IMED1001"/>
-  <has_pre_requisites rdf:resource="#IMED1002"/>
   <has_pre_requisites rdf:resource="#SCIX1106"/>
+  <has_pre_requisites rdf:resource="#SCIE1106"/>
+  <has_pre_requisites rdf:resource="#IMED1002"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#PATH2220">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#IMED1001"/>
-  <has_pre_requisites rdf:resource="#ANHX1102"/>
-  <has_pre_requisites rdf:resource="#ANHB1102"/>
-  <has_pre_requisites rdf:resource="#IMED1002"/>
   <has_pre_requisites rdf:resource="#SCIE1106"/>
+  <has_pre_requisites rdf:resource="#ANHX1102"/>
+  <has_pre_requisites rdf:resource="#IMED1002"/>
+  <has_pre_requisites rdf:resource="#IMED1001"/>
   <has_pre_requisites rdf:resource="#SCIX1106"/>
+  <has_pre_requisites rdf:resource="#ANHB1102"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#MICR3305">
@@ -2854,8 +2855,8 @@
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
   <has_pre_requisites rdf:resource="#PATH2210"/>
-  <has_pre_requisites rdf:resource="#MICR2209"/>
   <has_pre_requisites rdf:resource="#MICR2208"/>
+  <has_pre_requisites rdf:resource="#MICR2209"/>
   <has_pre_requisites rdf:resource="#PATH2220"/>
 </owl:NamedIndividual>
 
@@ -2863,8 +2864,8 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#GENE2230"/>
   <has_pre_requisites rdf:resource="#GENE2250"/>
+  <has_pre_requisites rdf:resource="#GENE2230"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#PATH3308">
@@ -2873,8 +2874,8 @@
   <has_level rdf:resource="#3"/>
   <has_pre_requisites rdf:resource="#PATH2210"/>
   <has_pre_requisites rdf:resource="#MICR2209"/>
-  <has_pre_requisites rdf:resource="#PATH2211"/>
   <has_pre_requisites rdf:resource="#PATH2220"/>
+  <has_pre_requisites rdf:resource="#PATH2211"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#PATH3309">
@@ -2927,65 +2928,65 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#PUBH1101"/>
-  <has_pre_requisites rdf:resource="#IMED1108"/>
+  <has_pre_requisites rdf:resource="#INDG1150"/>
   <has_pre_requisites rdf:resource="#INDG1160"/>
   <has_pre_requisites rdf:resource="#PUBH1102"/>
-  <has_pre_requisites rdf:resource="#INDG1150"/>
+  <has_pre_requisites rdf:resource="#IMED1108"/>
+  <has_pre_requisites rdf:resource="#PUBH1101"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#PUBH2203">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
+  <has_pre_requisites rdf:resource="#PUBH2209"/>
+  <has_pre_requisites rdf:resource="#SCOX1101"/>
+  <has_pre_requisites rdf:resource="#ANHX1102"/>
   <has_pre_requisites rdf:resource="#ANTH1001"/>
-  <has_pre_requisites rdf:resource="#BIOL1131"/>
+  <has_pre_requisites rdf:resource="#ANHB1102"/>
   <has_pre_requisites rdf:resource="#ANHB1101"/>
-  <has_pre_requisites rdf:resource="#BIOL1130"/>
+  <has_pre_requisites rdf:resource="#INDG1150"/>
+  <has_pre_requisites rdf:resource="#BIOL1131"/>
   <has_pre_requisites rdf:resource="#PUBH1101"/>
-  <has_pre_requisites rdf:resource="#ANHX1101"/>
-  <has_pre_requisites rdf:resource="#SCOM1101"/>
+  <has_pre_requisites rdf:resource="#MJD-ABHWB"/>
   <has_pre_requisites rdf:resource="#INDG1160"/>
   <has_pre_requisites rdf:resource="#PUBH1102"/>
-  <has_pre_requisites rdf:resource="#ANHX1102"/>
   <has_pre_requisites rdf:resource="#AHEA2201"/>
-  <has_pre_requisites rdf:resource="#SCOX1101"/>
   <has_pre_requisites rdf:resource="#ANTH1002"/>
-  <has_pre_requisites rdf:resource="#ANHB1102"/>
-  <has_pre_requisites rdf:resource="#MJD-ABHWB"/>
-  <has_pre_requisites rdf:resource="#PUBH2209"/>
-  <has_pre_requisites rdf:resource="#INDG1150"/>
+  <has_pre_requisites rdf:resource="#ANHX1101"/>
+  <has_pre_requisites rdf:resource="#SCOM1101"/>
+  <has_pre_requisites rdf:resource="#BIOL1130"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#PUBH2204">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
+  <has_pre_requisites rdf:resource="#PUBH1102"/>
   <has_pre_requisites rdf:resource="#ANHX1102"/>
   <has_pre_requisites rdf:resource="#ANTH1001"/>
-  <has_pre_requisites rdf:resource="#ANHB1101"/>
-  <has_pre_requisites rdf:resource="#ANTH1002"/>
-  <has_pre_requisites rdf:resource="#PUBH1101"/>
   <has_pre_requisites rdf:resource="#ANHB1102"/>
+  <has_pre_requisites rdf:resource="#ANTH1002"/>
   <has_pre_requisites rdf:resource="#ANHX1101"/>
-  <has_pre_requisites rdf:resource="#PUBH1102"/>
+  <has_pre_requisites rdf:resource="#ANHB1101"/>
+  <has_pre_requisites rdf:resource="#PUBH1101"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#PUBH2216">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#ANHX1102"/>
-  <has_pre_requisites rdf:resource="#IMED1001"/>
-  <has_pre_requisites rdf:resource="#ANHB1101"/>
-  <has_pre_requisites rdf:resource="#PSYC1101"/>
-  <has_pre_requisites rdf:resource="#ANTH1002"/>
-  <has_pre_requisites rdf:resource="#PSYC1102"/>
-  <has_pre_requisites rdf:resource="#PUBH1101"/>
-  <has_pre_requisites rdf:resource="#ANHB1102"/>
-  <has_pre_requisites rdf:resource="#ANHX1101"/>
   <has_pre_requisites rdf:resource="#PUBH1102"/>
+  <has_pre_requisites rdf:resource="#ANHX1102"/>
+  <has_pre_requisites rdf:resource="#PSYC1101"/>
+  <has_pre_requisites rdf:resource="#IMED1001"/>
+  <has_pre_requisites rdf:resource="#PSYC1102"/>
+  <has_pre_requisites rdf:resource="#ANHB1102"/>
+  <has_pre_requisites rdf:resource="#ANTH1002"/>
   <has_pre_requisites rdf:resource="#IMED1002"/>
+  <has_pre_requisites rdf:resource="#ANHX1101"/>
+  <has_pre_requisites rdf:resource="#ANHB1101"/>
+  <has_pre_requisites rdf:resource="#PUBH1101"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#PUBH3301">
@@ -3045,15 +3046,15 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#1"/>
-  <has_pre_requisites rdf:resource="#MJD-BCNDM"/>
   <has_pre_requisites rdf:resource="#MJD-SEHDM"/>
-  <has_pre_requisites rdf:resource="#MJD-NEURS"/>
+  <has_pre_requisites rdf:resource="#MJD-BCNDM"/>
   <has_pre_requisites rdf:resource="#MJD-PHYGY"/>
-  <has_pre_requisites rdf:resource="#MJD-ANHBY"/>
-  <has_pre_requisites rdf:resource="#MJD-SPTSC"/>
+  <has_pre_requisites rdf:resource="#MJD-NEURS"/>
+  <has_pre_requisites rdf:resource="#MJD-HSANP"/>
   <has_pre_requisites rdf:resource="#MJD-HSNEM"/>
   <has_pre_requisites rdf:resource="#MNR-ORGPH"/>
-  <has_pre_requisites rdf:resource="#MJD-HSANP"/>
+  <has_pre_requisites rdf:resource="#MJD-SPTSC"/>
+  <has_pre_requisites rdf:resource="#MJD-ANHBY"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#SSEH2240">
@@ -3072,12 +3073,12 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#SSEH1102"/>
-  <has_pre_requisites rdf:resource="#MJD-SPTSC"/>
   <has_pre_requisites rdf:resource="#MJD-EXHSC"/>
-  <has_pre_requisites rdf:resource="#MJD-SEHDM"/>
   <has_pre_requisites rdf:resource="#SSEH1101"/>
+  <has_pre_requisites rdf:resource="#MJD-SEHDM"/>
   <has_pre_requisites rdf:resource="#SSEH2260"/>
+  <has_pre_requisites rdf:resource="#MJD-SPTSC"/>
+  <has_pre_requisites rdf:resource="#SSEH1102"/>
   <has_pre_requisites rdf:resource="#SSEH1103"/>
 </owl:NamedIndividual>
 
@@ -3099,11 +3100,11 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#MJD-SPTSC"/>
-  <has_pre_requisites rdf:resource="#73570"/>
+  <has_pre_requisites rdf:resource="#73520"/>
   <has_pre_requisites rdf:resource="#MJD-EXHSC"/>
   <has_pre_requisites rdf:resource="#MJD-SEHDM"/>
-  <has_pre_requisites rdf:resource="#73520"/>
+  <has_pre_requisites rdf:resource="#73570"/>
+  <has_pre_requisites rdf:resource="#MJD-SPTSC"/>
   <has_pre_requisites rdf:resource="#SSEH2295"/>
 </owl:NamedIndividual>
 
@@ -3179,10 +3180,10 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#1"/>
-  <has_pre_requisites rdf:resource="#MATX1720"/>
   <has_pre_requisites rdf:resource="#MATH1720"/>
-  <has_pre_requisites rdf:resource="#62530"/>
+  <has_pre_requisites rdf:resource="#MATX1720"/>
   <has_pre_requisites rdf:resource="#62510"/>
+  <has_pre_requisites rdf:resource="#62530"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#PHIL1001">
@@ -3195,9 +3196,9 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
+  <has_pre_requisites rdf:resource="#CITS1401"/>
   <has_pre_requisites rdf:resource="#MATX1721"/>
   <has_pre_requisites rdf:resource="#CITX1401"/>
-  <has_pre_requisites rdf:resource="#CITS1401"/>
   <has_pre_requisites rdf:resource="#MATH1721"/>
 </owl:NamedIndividual>
 
@@ -3226,8 +3227,8 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#CITS2211"/>
   <has_pre_requisites rdf:resource="#CITS2200"/>
+  <has_pre_requisites rdf:resource="#CITS2211"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#CITS3007">
@@ -3240,19 +3241,19 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#CITS2002"/>
-  <has_pre_requisites rdf:resource="#CITS2402"/>
   <has_pre_requisites rdf:resource="#CITS2200"/>
+  <has_pre_requisites rdf:resource="#CITS2402"/>
+  <has_pre_requisites rdf:resource="#CITS2002"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#CITS3403">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#CITS1001"/>
-  <has_pre_requisites rdf:resource="#CITS1401"/>
   <has_pre_requisites rdf:resource="#CITS2002"/>
+  <has_pre_requisites rdf:resource="#CITS1001"/>
   <has_pre_requisites rdf:resource="#CITX1401"/>
+  <has_pre_requisites rdf:resource="#CITS1401"/>
   <has_pre_requisites rdf:resource="#CITX1001"/>
 </owl:NamedIndividual>
 
@@ -3261,30 +3262,30 @@
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#4"/>
   <has_pre_requisites rdf:resource="#CITS2401"/>
-  <has_pre_requisites rdf:resource="#MATH1012"/>
-  <has_pre_requisites rdf:resource="#62550"/>
-  <has_pre_requisites rdf:resource="#53560"/>
-  <has_pre_requisites rdf:resource="#MJD-ARIDM"/>
-  <has_pre_requisites rdf:resource="#BH008"/>
-  <has_pre_requisites rdf:resource="#CITS1401"/>
-  <has_pre_requisites rdf:resource="#MATX1012"/>
-  <has_pre_requisites rdf:resource="#62530"/>
   <has_pre_requisites rdf:resource="#CITX1401"/>
   <has_pre_requisites rdf:resource="#HON-CMSSE"/>
+  <has_pre_requisites rdf:resource="#53560"/>
+  <has_pre_requisites rdf:resource="#62530"/>
+  <has_pre_requisites rdf:resource="#MATX1012"/>
+  <has_pre_requisites rdf:resource="#MJD-ARIDM"/>
+  <has_pre_requisites rdf:resource="#62550"/>
+  <has_pre_requisites rdf:resource="#BH008"/>
+  <has_pre_requisites rdf:resource="#CITS1401"/>
+  <has_pre_requisites rdf:resource="#MATH1012"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#CITS4403">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#4"/>
-  <has_pre_requisites rdf:resource="#62550"/>
   <has_pre_requisites rdf:resource="#62510"/>
-  <has_pre_requisites rdf:resource="#MJD-ARIDM"/>
-  <has_pre_requisites rdf:resource="#73660"/>
-  <has_pre_requisites rdf:resource="#BH008"/>
-  <has_pre_requisites rdf:resource="#62530"/>
-  <has_pre_requisites rdf:resource="#MJD-ICYDM"/>
   <has_pre_requisites rdf:resource="#HON-CMSSE"/>
+  <has_pre_requisites rdf:resource="#MJD-ICYDM"/>
+  <has_pre_requisites rdf:resource="#73660"/>
+  <has_pre_requisites rdf:resource="#62530"/>
+  <has_pre_requisites rdf:resource="#MJD-ARIDM"/>
+  <has_pre_requisites rdf:resource="#62550"/>
+  <has_pre_requisites rdf:resource="#BH008"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Artificial Intelligence">
@@ -3352,25 +3353,25 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#1"/>
-  <has_pre_requisites rdf:resource="#MATX1720"/>
   <has_pre_requisites rdf:resource="#MATH1720"/>
+  <has_pre_requisites rdf:resource="#MATX1720"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#CITS2402">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#CITX1401"/>
   <has_pre_requisites rdf:resource="#CITS1401"/>
   <has_pre_requisites rdf:resource="#CITS2401"/>
+  <has_pre_requisites rdf:resource="#CITX1401"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#STAT2401">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#MATX1720"/>
   <has_pre_requisites rdf:resource="#MATH1720"/>
+  <has_pre_requisites rdf:resource="#MATX1720"/>
   <has_pre_requisites rdf:resource="#62530"/>
 </owl:NamedIndividual>
 
@@ -3378,8 +3379,8 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#MATX1720"/>
   <has_pre_requisites rdf:resource="#MATH1720"/>
+  <has_pre_requisites rdf:resource="#MATX1720"/>
   <has_pre_requisites rdf:resource="#62530"/>
 </owl:NamedIndividual>
 
@@ -3387,31 +3388,31 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#CITX1402"/>
   <has_pre_requisites rdf:resource="#CITS1402"/>
+  <has_pre_requisites rdf:resource="#CITX1402"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#STAT3064">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#STAT2401"/>
-  <has_pre_requisites rdf:resource="#MJD-DATSC"/>
-  <has_pre_requisites rdf:resource="#MJD-HSDEM"/>
-  <has_pre_requisites rdf:resource="#STAT2402"/>
-  <has_pre_requisites rdf:resource="#STAT2062"/>
   <has_pre_requisites rdf:resource="#MJD-MTHST"/>
-  <has_pre_requisites rdf:resource="#STAT2063"/>
   <has_pre_requisites rdf:resource="#MJD-CDSDM"/>
+  <has_pre_requisites rdf:resource="#STAT2062"/>
+  <has_pre_requisites rdf:resource="#STAT2401"/>
+  <has_pre_requisites rdf:resource="#STAT2063"/>
+  <has_pre_requisites rdf:resource="#STAT2402"/>
+  <has_pre_requisites rdf:resource="#MJD-HSDEM"/>
+  <has_pre_requisites rdf:resource="#MJD-DATSC"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#STAT3401">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#STAT2062"/>
-  <has_pre_requisites rdf:resource="#STAT2402"/>
   <has_pre_requisites rdf:resource="#STAT2401"/>
+  <has_pre_requisites rdf:resource="#STAT2402"/>
+  <has_pre_requisites rdf:resource="#STAT2062"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Computing and Data Science">
@@ -3494,11 +3495,11 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#STAT2062"/>
-  <has_pre_requisites rdf:resource="#MJD-DATSC"/>
+  <has_pre_requisites rdf:resource="#STAT2401"/>
   <has_pre_requisites rdf:resource="#STAT2402"/>
   <has_pre_requisites rdf:resource="#MJD-QTMTD"/>
-  <has_pre_requisites rdf:resource="#STAT2401"/>
+  <has_pre_requisites rdf:resource="#MJD-DATSC"/>
+  <has_pre_requisites rdf:resource="#STAT2062"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Data Science">
@@ -3580,9 +3581,9 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
+  <has_pre_requisites rdf:resource="#CITX1001"/>
   <has_pre_requisites rdf:resource="#CITS1001"/>
   <has_pre_requisites rdf:resource="#CITS2005"/>
-  <has_pre_requisites rdf:resource="#CITX1001"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Software Engineering">
@@ -3640,24 +3641,24 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#ACCT1101"/>
   <has_pre_requisites rdf:resource="#ACCX1101"/>
+  <has_pre_requisites rdf:resource="#ACCT1101"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ACCT2201">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#ACCT1101"/>
   <has_pre_requisites rdf:resource="#ACCX1101"/>
+  <has_pre_requisites rdf:resource="#ACCT1101"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ACCT2242">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#ACCT1101"/>
   <has_pre_requisites rdf:resource="#ACCX1101"/>
+  <has_pre_requisites rdf:resource="#ACCT1101"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ACCT3203">
@@ -3733,8 +3734,8 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#1"/>
-  <has_pre_requisites rdf:resource="#MATX1720"/>
   <has_pre_requisites rdf:resource="#MATH1720"/>
+  <has_pre_requisites rdf:resource="#MATX1720"/>
   <has_pre_requisites rdf:resource="#ECON1111"/>
 </owl:NamedIndividual>
 
@@ -3742,17 +3743,17 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#STAT1520"/>
-  <has_pre_requisites rdf:resource="#ECON1111"/>
   <has_pre_requisites rdf:resource="#STAX1520"/>
+  <has_pre_requisites rdf:resource="#ECON1111"/>
+  <has_pre_requisites rdf:resource="#STAT1520"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#FINA2207">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#FINA1221"/>
   <has_pre_requisites rdf:resource="#MJD-BUSAN"/>
+  <has_pre_requisites rdf:resource="#FINA1221"/>
   <has_pre_requisites rdf:resource="#FINX1221"/>
 </owl:NamedIndividual>
 
@@ -3760,8 +3761,8 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#BP009"/>
   <has_pre_requisites rdf:resource="#MJD-BUSAN"/>
+  <has_pre_requisites rdf:resource="#BP009"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ECON3206">
@@ -3776,16 +3777,16 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#MJD-BMGMT"/>
   <has_pre_requisites rdf:resource="#MJD-ECNPF"/>
-  <has_pre_requisites rdf:resource="#MJD-GLBUS"/>
+  <has_pre_requisites rdf:resource="#MJD-CRMDM"/>
+  <has_pre_requisites rdf:resource="#MJD-FINEC"/>
+  <has_pre_requisites rdf:resource="#MJD-POLSC"/>
+  <has_pre_requisites rdf:resource="#MNR-CRWRS"/>
   <has_pre_requisites rdf:resource="#MJD-ENTIN"/>
+  <has_pre_requisites rdf:resource="#MJD-GLBUS"/>
+  <has_pre_requisites rdf:resource="#MJD-BMGMT"/>
   <has_pre_requisites rdf:resource="#MJD-LINGO"/>
   <has_pre_requisites rdf:resource="#MJD-BUSAN"/>
-  <has_pre_requisites rdf:resource="#MJD-POLSC"/>
-  <has_pre_requisites rdf:resource="#MJD-CRMDM"/>
-  <has_pre_requisites rdf:resource="#MNR-CRWRS"/>
-  <has_pre_requisites rdf:resource="#MJD-FINEC"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Business Analytics">
@@ -3823,20 +3824,20 @@
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
   <has_pre_requisites rdf:resource="#MGMT1135"/>
-  <has_pre_requisites rdf:resource="#MGMX1136"/>
   <has_pre_requisites rdf:resource="#MGMT1136"/>
-  <has_pre_requisites rdf:resource="#EMPL2202"/>
-  <has_pre_requisites rdf:resource="#MGMX1135"/>
   <has_pre_requisites rdf:resource="#EMPL1101"/>
+  <has_pre_requisites rdf:resource="#MGMX1135"/>
+  <has_pre_requisites rdf:resource="#MGMX1136"/>
+  <has_pre_requisites rdf:resource="#EMPL2202"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#INMT2232">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
+  <has_pre_requisites rdf:resource="#MGMT1136"/>
   <has_pre_requisites rdf:resource="#MGMX1136"/>
   <has_pre_requisites rdf:resource="#MGMX1135"/>
-  <has_pre_requisites rdf:resource="#MGMT1136"/>
   <has_pre_requisites rdf:resource="#MGMT1135"/>
 </owl:NamedIndividual>
 
@@ -3844,16 +3845,16 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#MKTG1203"/>
   <has_pre_requisites rdf:resource="#MKTX1203"/>
+  <has_pre_requisites rdf:resource="#MKTG1203"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#MGMT3347">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#INMT2232"/>
   <has_pre_requisites rdf:resource="#HRMT2237"/>
+  <has_pre_requisites rdf:resource="#INMT2232"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#MKTG3306">
@@ -3904,9 +3905,9 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
+  <has_pre_requisites rdf:resource="#MGMT1136"/>
   <has_pre_requisites rdf:resource="#MGMX1136"/>
   <has_pre_requisites rdf:resource="#MGMX1135"/>
-  <has_pre_requisites rdf:resource="#MGMT1136"/>
   <has_pre_requisites rdf:resource="#MGMT1135"/>
 </owl:NamedIndividual>
 
@@ -3991,8 +3992,8 @@
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
   <has_pre_requisites rdf:resource="#ECON1000"/>
-  <has_pre_requisites rdf:resource="#ECON1101"/>
   <has_pre_requisites rdf:resource="#BUSN1103"/>
+  <has_pre_requisites rdf:resource="#ECON1101"/>
   <has_pre_requisites rdf:resource="#ECOX1101"/>
 </owl:NamedIndividual>
 
@@ -4000,9 +4001,9 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
+  <has_pre_requisites rdf:resource="#MGMT1136"/>
   <has_pre_requisites rdf:resource="#MGMX1136"/>
   <has_pre_requisites rdf:resource="#MGMX1135"/>
-  <has_pre_requisites rdf:resource="#MGMT1136"/>
   <has_pre_requisites rdf:resource="#MGMT1135"/>
 </owl:NamedIndividual>
 
@@ -4060,12 +4061,12 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#EMPL1206"/>
-  <has_pre_requisites rdf:resource="#MGMT1136"/>
-  <has_pre_requisites rdf:resource="#MGMX1136"/>
-  <has_pre_requisites rdf:resource="#MGMX1135"/>
-  <has_pre_requisites rdf:resource="#EMPL1101"/>
   <has_pre_requisites rdf:resource="#MGMT1135"/>
+  <has_pre_requisites rdf:resource="#MGMT1136"/>
+  <has_pre_requisites rdf:resource="#EMPL1101"/>
+  <has_pre_requisites rdf:resource="#MGMX1135"/>
+  <has_pre_requisites rdf:resource="#MGMX1136"/>
+  <has_pre_requisites rdf:resource="#EMPL1206"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#EMPL3241">
@@ -4123,9 +4124,9 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
+  <has_pre_requisites rdf:resource="#MGMT1136"/>
   <has_pre_requisites rdf:resource="#MGMX1136"/>
   <has_pre_requisites rdf:resource="#MGMX1135"/>
-  <has_pre_requisites rdf:resource="#MGMT1136"/>
   <has_pre_requisites rdf:resource="#MGMT1135"/>
 </owl:NamedIndividual>
 
@@ -4133,8 +4134,8 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#MGMT2341"/>
   <has_pre_requisites rdf:resource="#ECON2105"/>
+  <has_pre_requisites rdf:resource="#MGMT2341"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#MGMT3335">
@@ -4232,9 +4233,9 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#LAWS1111"/>
-  <has_pre_requisites rdf:resource="#EMPL1101"/>
   <has_pre_requisites rdf:resource="#EMPL1206"/>
+  <has_pre_requisites rdf:resource="#EMPL1101"/>
+  <has_pre_requisites rdf:resource="#LAWS1111"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#EMPL3208">
@@ -4278,16 +4279,16 @@
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
   <has_pre_requisites rdf:resource="#ANHX1102"/>
-  <has_pre_requisites rdf:resource="#BIOL1131"/>
   <has_pre_requisites rdf:resource="#IMED1001"/>
-  <has_pre_requisites rdf:resource="#SSEH1102"/>
-  <has_pre_requisites rdf:resource="#BIOL1130"/>
-  <has_pre_requisites rdf:resource="#ANHB1101"/>
   <has_pre_requisites rdf:resource="#SCIX1106"/>
+  <has_pre_requisites rdf:resource="#SSEH1102"/>
   <has_pre_requisites rdf:resource="#ANHB1102"/>
-  <has_pre_requisites rdf:resource="#ANHX1101"/>
   <has_pre_requisites rdf:resource="#SSEH1101"/>
   <has_pre_requisites rdf:resource="#SCIE1106"/>
+  <has_pre_requisites rdf:resource="#ANHX1101"/>
+  <has_pre_requisites rdf:resource="#ANHB1101"/>
+  <has_pre_requisites rdf:resource="#BIOL1130"/>
+  <has_pre_requisites rdf:resource="#BIOL1131"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ANHB2214">
@@ -4296,12 +4297,12 @@
   <has_level rdf:resource="#2"/>
   <has_pre_requisites rdf:resource="#ANHX1102"/>
   <has_pre_requisites rdf:resource="#IMED1001"/>
-  <has_pre_requisites rdf:resource="#BIOL1130"/>
-  <has_pre_requisites rdf:resource="#ANHB1101"/>
   <has_pre_requisites rdf:resource="#SCIX1106"/>
   <has_pre_requisites rdf:resource="#ANHB1102"/>
-  <has_pre_requisites rdf:resource="#ANHX1101"/>
   <has_pre_requisites rdf:resource="#SCIE1106"/>
+  <has_pre_requisites rdf:resource="#ANHX1101"/>
+  <has_pre_requisites rdf:resource="#ANHB1101"/>
+  <has_pre_requisites rdf:resource="#BIOL1130"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ANHB2215">
@@ -4315,14 +4316,14 @@
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
   <has_pre_requisites rdf:resource="#ANHX1102"/>
-  <has_pre_requisites rdf:resource="#BIOL1131"/>
-  <has_pre_requisites rdf:resource="#BIOL1130"/>
-  <has_pre_requisites rdf:resource="#ANHB1101"/>
   <has_pre_requisites rdf:resource="#SCIX1106"/>
-  <has_pre_requisites rdf:resource="#ANHB1102"/>
-  <has_pre_requisites rdf:resource="#ANHX1101"/>
   <has_pre_requisites rdf:resource="#IMED1108"/>
+  <has_pre_requisites rdf:resource="#ANHB1102"/>
   <has_pre_requisites rdf:resource="#SCIE1106"/>
+  <has_pre_requisites rdf:resource="#ANHX1101"/>
+  <has_pre_requisites rdf:resource="#ANHB1101"/>
+  <has_pre_requisites rdf:resource="#BIOL1130"/>
+  <has_pre_requisites rdf:resource="#BIOL1131"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ANHB3310">
@@ -4337,8 +4338,8 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#ANHB2215"/>
   <has_pre_requisites rdf:resource="#ANHB3321"/>
+  <has_pre_requisites rdf:resource="#ANHB2215"/>
   <has_pre_requisites rdf:resource="#ANHB3322"/>
 </owl:NamedIndividual>
 
@@ -4346,23 +4347,23 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#MICR2209"/>
-  <has_pre_requisites rdf:resource="#ANHB2215"/>
-  <has_pre_requisites rdf:resource="#PHYL2001"/>
-  <has_pre_requisites rdf:resource="#PHAR2210"/>
   <has_pre_requisites rdf:resource="#ANHB2212"/>
-  <has_pre_requisites rdf:resource="#ANHB2216"/>
   <has_pre_requisites rdf:resource="#BIOC2001"/>
-  <has_pre_requisites rdf:resource="#PHAR2220"/>
+  <has_pre_requisites rdf:resource="#PHYL2001"/>
   <has_pre_requisites rdf:resource="#ANHB2214"/>
+  <has_pre_requisites rdf:resource="#ANHB2215"/>
+  <has_pre_requisites rdf:resource="#PHAR2210"/>
+  <has_pre_requisites rdf:resource="#MICR2209"/>
+  <has_pre_requisites rdf:resource="#ANHB2216"/>
+  <has_pre_requisites rdf:resource="#PHAR2220"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ANHB3320">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#MJD-ANHBY"/>
   <has_pre_requisites rdf:resource="#MJD-BIOMS"/>
+  <has_pre_requisites rdf:resource="#MJD-ANHBY"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ANHB3321">
@@ -4375,9 +4376,9 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
+  <has_pre_requisites rdf:resource="#ANHB3321"/>
   <has_pre_requisites rdf:resource="#ANHB2215"/>
   <has_pre_requisites rdf:resource="#ANHB3315"/>
-  <has_pre_requisites rdf:resource="#ANHB3321"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ANHB3323">
@@ -4392,14 +4393,14 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#ANHX1102"/>
-  <has_pre_requisites rdf:resource="#ANHB1101"/>
   <has_pre_requisites rdf:resource="#ANHB2212"/>
-  <has_pre_requisites rdf:resource="#ANHX1101"/>
-  <has_pre_requisites rdf:resource="#ANHB1102"/>
-  <has_pre_requisites rdf:resource="#SSEH1101"/>
+  <has_pre_requisites rdf:resource="#ANHX1102"/>
   <has_pre_requisites rdf:resource="#ANHB2217"/>
+  <has_pre_requisites rdf:resource="#ANHB1102"/>
   <has_pre_requisites rdf:resource="#ANHB2214"/>
+  <has_pre_requisites rdf:resource="#SSEH1101"/>
+  <has_pre_requisites rdf:resource="#ANHX1101"/>
+  <has_pre_requisites rdf:resource="#ANHB1101"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Anatomy and Human Biology">
@@ -4438,24 +4439,24 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#CHEX1002"/>
+  <has_pre_requisites rdf:resource="#CHEM1002"/>
   <has_pre_requisites rdf:resource="#BIOC1001"/>
   <has_pre_requisites rdf:resource="#SCIE1106"/>
-  <has_pre_requisites rdf:resource="#CHEM1002"/>
   <has_pre_requisites rdf:resource="#SCIX1106"/>
+  <has_pre_requisites rdf:resource="#CHEX1002"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#BIOC2002">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#MJD-BCNDM"/>
-  <has_pre_requisites rdf:resource="#MJD-MLSDM"/>
   <has_pre_requisites rdf:resource="#BIOC1001"/>
-  <has_pre_requisites rdf:resource="#CHEM1002"/>
   <has_pre_requisites rdf:resource="#SCIX1106"/>
-  <has_pre_requisites rdf:resource="#CHEX1002"/>
+  <has_pre_requisites rdf:resource="#CHEM1002"/>
   <has_pre_requisites rdf:resource="#SCIE1106"/>
+  <has_pre_requisites rdf:resource="#MJD-BCNDM"/>
+  <has_pre_requisites rdf:resource="#CHEX1002"/>
+  <has_pre_requisites rdf:resource="#MJD-MLSDM"/>
   <has_pre_requisites rdf:resource="#MJD-BCHMB"/>
 </owl:NamedIndividual>
 
@@ -4463,32 +4464,32 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#BIOC2001"/>
   <has_pre_requisites rdf:resource="#BIOC2002"/>
+  <has_pre_requisites rdf:resource="#BIOC2001"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#BIOC3002">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#BIOC2001"/>
   <has_pre_requisites rdf:resource="#BIOC2002"/>
+  <has_pre_requisites rdf:resource="#BIOC2001"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#BIOC3003">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#BIOC2001"/>
   <has_pre_requisites rdf:resource="#BIOC2002"/>
+  <has_pre_requisites rdf:resource="#BIOC2001"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#BIOC3005">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#BIOC2001"/>
   <has_pre_requisites rdf:resource="#BIOC2002"/>
+  <has_pre_requisites rdf:resource="#BIOC2001"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Biochemistry and Molecular Biology">
@@ -4536,8 +4537,8 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#PHYL2001"/>
   <has_pre_requisites rdf:resource="#BIOC2002"/>
+  <has_pre_requisites rdf:resource="#PHYL2001"/>
   <has_pre_requisites rdf:resource="#BIOC2001"/>
   <has_pre_requisites rdf:resource="#PHYL2002"/>
 </owl:NamedIndividual>
@@ -4568,8 +4569,8 @@
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
   <has_pre_requisites rdf:resource="#PHYL2001"/>
-  <has_pre_requisites rdf:resource="#PHYL3002"/>
   <has_pre_requisites rdf:resource="#PHYL2002"/>
+  <has_pre_requisites rdf:resource="#PHYL3002"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Biochemistry of Nutrition">
@@ -4621,17 +4622,17 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#BIOL1131"/>
-  <has_pre_requisites rdf:resource="#BIOL1130"/>
   <has_pre_requisites rdf:resource="#EART1105"/>
+  <has_pre_requisites rdf:resource="#BIOL1130"/>
+  <has_pre_requisites rdf:resource="#BIOL1131"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#GENE2230">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#SCIE1106"/>
   <has_pre_requisites rdf:resource="#SCIX1106"/>
+  <has_pre_requisites rdf:resource="#SCIE1106"/>
   <has_pre_requisites rdf:resource="#IMED1003"/>
 </owl:NamedIndividual>
 
@@ -4662,13 +4663,13 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#SCIE1500"/>
   <has_pre_requisites rdf:resource="#GENE2250"/>
+  <has_pre_requisites rdf:resource="#BIOL1130"/>
+  <has_pre_requisites rdf:resource="#SCIE1500"/>
+  <has_pre_requisites rdf:resource="#STAX1400"/>
+  <has_pre_requisites rdf:resource="#SCIE1104"/>
   <has_pre_requisites rdf:resource="#MATH1721"/>
   <has_pre_requisites rdf:resource="#STAT1400"/>
-  <has_pre_requisites rdf:resource="#SCIE1104"/>
-  <has_pre_requisites rdf:resource="#BIOL1130"/>
-  <has_pre_requisites rdf:resource="#STAX1400"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#GENE3350">
@@ -4716,8 +4717,8 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#PLNT2201"/>
   <has_pre_requisites rdf:resource="#ENVT2250"/>
+  <has_pre_requisites rdf:resource="#PLNT2201"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Botany">
@@ -4752,44 +4753,44 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#CHEX1003"/>
-  <has_pre_requisites rdf:resource="#CHEX1002"/>
-  <has_pre_requisites rdf:resource="#CHEM1003"/>
-  <has_pre_requisites rdf:resource="#CHEX1001"/>
   <has_pre_requisites rdf:resource="#CHEM1002"/>
+  <has_pre_requisites rdf:resource="#CHEX1003"/>
+  <has_pre_requisites rdf:resource="#CHEM1003"/>
   <has_pre_requisites rdf:resource="#CHEM1001"/>
+  <has_pre_requisites rdf:resource="#CHEX1002"/>
+  <has_pre_requisites rdf:resource="#CHEX1001"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#CHEM2102">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#CHEX1001"/>
   <has_pre_requisites rdf:resource="#CHEM1002"/>
   <has_pre_requisites rdf:resource="#CHEM1001"/>
   <has_pre_requisites rdf:resource="#CHEX1002"/>
+  <has_pre_requisites rdf:resource="#CHEX1001"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#CHEM2103">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#CHEX1002"/>
-  <has_pre_requisites rdf:resource="#CHEX1001"/>
+  <has_pre_requisites rdf:resource="#CHEM2101"/>
   <has_pre_requisites rdf:resource="#CHEM1002"/>
   <has_pre_requisites rdf:resource="#CHEM1001"/>
-  <has_pre_requisites rdf:resource="#CHEM2101"/>
+  <has_pre_requisites rdf:resource="#CHEX1002"/>
+  <has_pre_requisites rdf:resource="#CHEX1001"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#CHEM2104">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#CHEX1002"/>
-  <has_pre_requisites rdf:resource="#CHEX1001"/>
+  <has_pre_requisites rdf:resource="#CHEM2101"/>
   <has_pre_requisites rdf:resource="#CHEM1002"/>
   <has_pre_requisites rdf:resource="#CHEM1001"/>
-  <has_pre_requisites rdf:resource="#CHEM2101"/>
+  <has_pre_requisites rdf:resource="#CHEX1002"/>
+  <has_pre_requisites rdf:resource="#CHEX1001"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#CHEM3101">
@@ -4843,9 +4844,9 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#BIOL2261"/>
-  <has_pre_requisites rdf:resource="#ENVT2250"/>
   <has_pre_requisites rdf:resource="#ENVT2221"/>
+  <has_pre_requisites rdf:resource="#ENVT2250"/>
+  <has_pre_requisites rdf:resource="#BIOL2261"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Conservation Biology">
@@ -4881,13 +4882,13 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#1"/>
-  <has_pre_requisites rdf:resource="#MJD-FRODM"/>
-  <has_pre_requisites rdf:resource="#MATX1721"/>
-  <has_pre_requisites rdf:resource="#MATX1722"/>
-  <has_pre_requisites rdf:resource="#PHYS1030"/>
-  <has_pre_requisites rdf:resource="#MATH1721"/>
   <has_pre_requisites rdf:resource="#PHYX1030"/>
+  <has_pre_requisites rdf:resource="#PHYS1030"/>
   <has_pre_requisites rdf:resource="#MATH1722"/>
+  <has_pre_requisites rdf:resource="#MATX1722"/>
+  <has_pre_requisites rdf:resource="#MATX1721"/>
+  <has_pre_requisites rdf:resource="#MJD-FRODM"/>
+  <has_pre_requisites rdf:resource="#MATH1721"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#PHYS1200">
@@ -4902,20 +4903,20 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#MATH1011"/>
   <has_pre_requisites rdf:resource="#MATX1011"/>
+  <has_pre_requisites rdf:resource="#MATH1011"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#PHYS2001">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#MATH1011"/>
   <has_pre_requisites rdf:resource="#PHYS1002"/>
-  <has_pre_requisites rdf:resource="#PHYS1100"/>
-  <has_pre_requisites rdf:resource="#PHYS1200"/>
   <has_pre_requisites rdf:resource="#MATX1011"/>
   <has_pre_requisites rdf:resource="#PHYX1001"/>
+  <has_pre_requisites rdf:resource="#MATH1011"/>
+  <has_pre_requisites rdf:resource="#PHYS1200"/>
+  <has_pre_requisites rdf:resource="#PHYS1100"/>
   <has_pre_requisites rdf:resource="#PHYS1001"/>
 </owl:NamedIndividual>
 
@@ -4923,28 +4924,28 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
+  <has_pre_requisites rdf:resource="#PHYS1200"/>
+  <has_pre_requisites rdf:resource="#PHYS1001"/>
   <has_pre_requisites rdf:resource="#PHYS1002"/>
-  <has_pre_requisites rdf:resource="#MATH1012"/>
+  <has_pre_requisites rdf:resource="#MATX1012"/>
   <has_pre_requisites rdf:resource="#MATX1011"/>
   <has_pre_requisites rdf:resource="#PHYX1001"/>
-  <has_pre_requisites rdf:resource="#PHYS1001"/>
   <has_pre_requisites rdf:resource="#MATH1011"/>
+  <has_pre_requisites rdf:resource="#MATH1012"/>
   <has_pre_requisites rdf:resource="#PHYS1100"/>
-  <has_pre_requisites rdf:resource="#MATX1012"/>
-  <has_pre_requisites rdf:resource="#PHYS1200"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#PHYS2100">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#MJD-FRODM"/>
+  <has_pre_requisites rdf:resource="#MATX1012"/>
+  <has_pre_requisites rdf:resource="#MATX1011"/>
   <has_pre_requisites rdf:resource="#MATH1011"/>
   <has_pre_requisites rdf:resource="#PHYS1100"/>
-  <has_pre_requisites rdf:resource="#MATX1012"/>
-  <has_pre_requisites rdf:resource="#PHYS1200"/>
-  <has_pre_requisites rdf:resource="#MATX1011"/>
   <has_pre_requisites rdf:resource="#MATH1012"/>
+  <has_pre_requisites rdf:resource="#PHYS1200"/>
+  <has_pre_requisites rdf:resource="#MJD-FRODM"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#PHYS3001">
@@ -4960,9 +4961,9 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
+  <has_pre_requisites rdf:resource="#MATX1012"/>
   <has_pre_requisites rdf:resource="#PHYS2001"/>
   <has_pre_requisites rdf:resource="#MATH1012"/>
-  <has_pre_requisites rdf:resource="#MATX1012"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#PHYS3011">
@@ -4989,23 +4990,23 @@
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
   <has_pre_requisites rdf:resource="#MATH3023"/>
-  <has_pre_requisites rdf:resource="#MJD-FRODM"/>
-  <has_pre_requisites rdf:resource="#BH005"/>
-  <has_pre_requisites rdf:resource="#PHYS1100"/>
-  <has_pre_requisites rdf:resource="#PHYS2001"/>
   <has_pre_requisites rdf:resource="#MATH2501"/>
+  <has_pre_requisites rdf:resource="#MJD-FRODM"/>
+  <has_pre_requisites rdf:resource="#PHYS2001"/>
+  <has_pre_requisites rdf:resource="#PHYS1100"/>
+  <has_pre_requisites rdf:resource="#BH005"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#PHYS3101">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#MJD-FRODM"/>
-  <has_pre_requisites rdf:resource="#PHYS2002"/>
   <has_pre_requisites rdf:resource="#PHYS3011"/>
   <has_pre_requisites rdf:resource="#PHYS2001"/>
-  <has_pre_requisites rdf:resource="#53560"/>
   <has_pre_requisites rdf:resource="#PHYS3001"/>
+  <has_pre_requisites rdf:resource="#53560"/>
+  <has_pre_requisites rdf:resource="#MJD-FRODM"/>
+  <has_pre_requisites rdf:resource="#PHYS2002"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Frontier Physics">
@@ -5086,10 +5087,10 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#CHEX1001"/>
   <has_pre_requisites rdf:resource="#CHEM1002"/>
   <has_pre_requisites rdf:resource="#CHEM1001"/>
   <has_pre_requisites rdf:resource="#CHEX1002"/>
+  <has_pre_requisites rdf:resource="#CHEX1001"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#CHEM2002">
@@ -5160,8 +5161,8 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#EART2231"/>
   <has_pre_requisites rdf:resource="#EART2232"/>
+  <has_pre_requisites rdf:resource="#EART2231"/>
   <has_pre_requisites rdf:resource="#EART2234"/>
 </owl:NamedIndividual>
 
@@ -5177,8 +5178,8 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#EART2231"/>
   <has_pre_requisites rdf:resource="#EART2232"/>
+  <has_pre_requisites rdf:resource="#EART2231"/>
   <has_pre_requisites rdf:resource="#EART2234"/>
 </owl:NamedIndividual>
 
@@ -5289,13 +5290,13 @@
   <has_level rdf:resource="#2"/>
   <has_pre_requisites rdf:resource="#ANHX1102"/>
   <has_pre_requisites rdf:resource="#IMED1001"/>
-  <has_pre_requisites rdf:resource="#BIOL1130"/>
-  <has_pre_requisites rdf:resource="#ANHB1101"/>
-  <has_pre_requisites rdf:resource="#SCIX1106"/>
   <has_pre_requisites rdf:resource="#71520"/>
+  <has_pre_requisites rdf:resource="#SCIX1106"/>
   <has_pre_requisites rdf:resource="#ANHB1102"/>
-  <has_pre_requisites rdf:resource="#ANHX1101"/>
   <has_pre_requisites rdf:resource="#SCIE1106"/>
+  <has_pre_requisites rdf:resource="#ANHX1101"/>
+  <has_pre_requisites rdf:resource="#ANHB1101"/>
+  <has_pre_requisites rdf:resource="#BIOL1130"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#PSYC2217">
@@ -5333,9 +5334,9 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#IMED2002"/>
   <has_pre_requisites rdf:resource="#PHAR2220"/>
   <has_pre_requisites rdf:resource="#PHYL2002"/>
+  <has_pre_requisites rdf:resource="#IMED2002"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Human Science and Neuroscience">
@@ -5382,12 +5383,12 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#STAT2401"/>
-  <has_pre_requisites rdf:resource="#MJD-HSDEM"/>
-  <has_pre_requisites rdf:resource="#STAT2062"/>
-  <has_pre_requisites rdf:resource="#STAT2402"/>
-  <has_pre_requisites rdf:resource="#MJD-QTMTD"/>
   <has_pre_requisites rdf:resource="#MNR-ASTAT"/>
+  <has_pre_requisites rdf:resource="#STAT2401"/>
+  <has_pre_requisites rdf:resource="#STAT2402"/>
+  <has_pre_requisites rdf:resource="#MJD-HSDEM"/>
+  <has_pre_requisites rdf:resource="#MJD-QTMTD"/>
+  <has_pre_requisites rdf:resource="#STAT2062"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Human Sciences and Data Analytics">
@@ -5425,16 +5426,16 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#GEOG1103"/>
   <has_pre_requisites rdf:resource="#EART1105"/>
+  <has_pre_requisites rdf:resource="#GEOG1103"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#SCIE2204">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#BIOL1131"/>
   <has_pre_requisites rdf:resource="#EART1105"/>
+  <has_pre_requisites rdf:resource="#BIOL1131"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ENVT3307">
@@ -5491,8 +5492,8 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#1"/>
-  <has_pre_requisites rdf:resource="#MJD-IMSCP"/>
   <has_pre_requisites rdf:resource="#MJD-DENTS"/>
+  <has_pre_requisites rdf:resource="#MJD-IMSCP"/>
   <has_pre_requisites rdf:resource="#MJD-PHMSC"/>
 </owl:NamedIndividual>
 
@@ -5583,9 +5584,9 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
+  <has_pre_requisites rdf:resource="#CHEX1003"/>
   <has_pre_requisites rdf:resource="#SCIE2204"/>
   <has_pre_requisites rdf:resource="#CHEM1003"/>
-  <has_pre_requisites rdf:resource="#CHEX1003"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#BIOL3305">
@@ -5664,17 +5665,17 @@
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
   <has_pre_requisites rdf:resource="#MATX1012"/>
-  <has_pre_requisites rdf:resource="#MATH1011"/>
-  <has_pre_requisites rdf:resource="#MATH1012"/>
   <has_pre_requisites rdf:resource="#MATX1011"/>
+  <has_pre_requisites rdf:resource="#MATH1012"/>
+  <has_pre_requisites rdf:resource="#MATH1011"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#MATH2031">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#MATH1012"/>
   <has_pre_requisites rdf:resource="#MATX1012"/>
+  <has_pre_requisites rdf:resource="#MATH1012"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#STAT2062">
@@ -5682,17 +5683,17 @@
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
   <has_pre_requisites rdf:resource="#MATX1012"/>
-  <has_pre_requisites rdf:resource="#MATH1011"/>
-  <has_pre_requisites rdf:resource="#MATH1012"/>
   <has_pre_requisites rdf:resource="#MATX1011"/>
+  <has_pre_requisites rdf:resource="#MATH1012"/>
+  <has_pre_requisites rdf:resource="#MATH1011"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#MATH3002">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#MATH1012"/>
   <has_pre_requisites rdf:resource="#MATX1012"/>
+  <has_pre_requisites rdf:resource="#MATH1012"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#MATH3021">
@@ -5741,27 +5742,27 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#STAT2062"/>
   <has_pre_requisites rdf:resource="#STAT2063"/>
   <has_pre_requisites rdf:resource="#MJD-MTHST"/>
+  <has_pre_requisites rdf:resource="#STAT2062"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#STAT3062">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#STAT2062"/>
   <has_pre_requisites rdf:resource="#STAT2063"/>
   <has_pre_requisites rdf:resource="#MJD-MTHST"/>
+  <has_pre_requisites rdf:resource="#STAT2062"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#STAT3063">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#STAT2062"/>
   <has_pre_requisites rdf:resource="#STAT2063"/>
   <has_pre_requisites rdf:resource="#MJD-MTHST"/>
+  <has_pre_requisites rdf:resource="#STAT2062"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Mathematics and Statistics">
@@ -5804,13 +5805,13 @@
   <has_level rdf:resource="#2"/>
   <has_pre_requisites rdf:resource="#ANHX1102"/>
   <has_pre_requisites rdf:resource="#IMED1001"/>
-  <has_pre_requisites rdf:resource="#BIOL1130"/>
-  <has_pre_requisites rdf:resource="#ANHB1101"/>
   <has_pre_requisites rdf:resource="#SCIX1106"/>
-  <has_pre_requisites rdf:resource="#ANHX1101"/>
   <has_pre_requisites rdf:resource="#ANHB1102"/>
   <has_pre_requisites rdf:resource="#SCIE1106"/>
   <has_pre_requisites rdf:resource="#IMED1002"/>
+  <has_pre_requisites rdf:resource="#ANHX1101"/>
+  <has_pre_requisites rdf:resource="#ANHB1101"/>
+  <has_pre_requisites rdf:resource="#BIOL1130"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#MICR3310">
@@ -5923,13 +5924,13 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#IMED1001"/>
-  <has_pre_requisites rdf:resource="#CHEX1002"/>
-  <has_pre_requisites rdf:resource="#IMED1002"/>
+  <has_pre_requisites rdf:resource="#CHEM1002"/>
   <has_pre_requisites rdf:resource="#BIOC1001"/>
   <has_pre_requisites rdf:resource="#SCIE1106"/>
-  <has_pre_requisites rdf:resource="#CHEM1002"/>
+  <has_pre_requisites rdf:resource="#IMED1002"/>
+  <has_pre_requisites rdf:resource="#IMED1001"/>
   <has_pre_requisites rdf:resource="#SCIX1106"/>
+  <has_pre_requisites rdf:resource="#CHEX1002"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#PHAR2220">
@@ -5944,48 +5945,48 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#PHAR2210"/>
-  <has_pre_requisites rdf:resource="#IMED2004"/>
-  <has_pre_requisites rdf:resource="#IMED2003"/>
-  <has_pre_requisites rdf:resource="#PHAR2220"/>
   <has_pre_requisites rdf:resource="#IMED2001"/>
+  <has_pre_requisites rdf:resource="#IMED2004"/>
+  <has_pre_requisites rdf:resource="#PHAR2210"/>
+  <has_pre_requisites rdf:resource="#IMED2003"/>
   <has_pre_requisites rdf:resource="#IMED2002"/>
+  <has_pre_requisites rdf:resource="#PHAR2220"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#PHAR3311">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#PHAR2210"/>
-  <has_pre_requisites rdf:resource="#IMED2004"/>
-  <has_pre_requisites rdf:resource="#IMED2003"/>
-  <has_pre_requisites rdf:resource="#PHAR2220"/>
   <has_pre_requisites rdf:resource="#IMED2001"/>
+  <has_pre_requisites rdf:resource="#IMED2004"/>
+  <has_pre_requisites rdf:resource="#PHAR2210"/>
+  <has_pre_requisites rdf:resource="#IMED2003"/>
   <has_pre_requisites rdf:resource="#IMED2002"/>
+  <has_pre_requisites rdf:resource="#PHAR2220"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#PHAR3320">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#PHAR2210"/>
-  <has_pre_requisites rdf:resource="#IMED2004"/>
-  <has_pre_requisites rdf:resource="#IMED2003"/>
-  <has_pre_requisites rdf:resource="#PHAR2220"/>
   <has_pre_requisites rdf:resource="#IMED2001"/>
+  <has_pre_requisites rdf:resource="#IMED2004"/>
+  <has_pre_requisites rdf:resource="#PHAR2210"/>
+  <has_pre_requisites rdf:resource="#IMED2003"/>
   <has_pre_requisites rdf:resource="#IMED2002"/>
+  <has_pre_requisites rdf:resource="#PHAR2220"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#PHAR3321">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#PHAR2210"/>
-  <has_pre_requisites rdf:resource="#IMED2004"/>
-  <has_pre_requisites rdf:resource="#IMED2003"/>
-  <has_pre_requisites rdf:resource="#PHAR2220"/>
   <has_pre_requisites rdf:resource="#IMED2001"/>
+  <has_pre_requisites rdf:resource="#IMED2004"/>
+  <has_pre_requisites rdf:resource="#PHAR2210"/>
+  <has_pre_requisites rdf:resource="#IMED2003"/>
   <has_pre_requisites rdf:resource="#IMED2002"/>
+  <has_pre_requisites rdf:resource="#PHAR2220"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Pharmacology">
@@ -6578,16 +6579,16 @@
   <has_level rdf:resource="#3"/>
   <has_pre_requisites rdf:resource="#LAWS1104"/>
   <has_pre_requisites rdf:resource="#LAWS2201"/>
-  <has_pre_requisites rdf:resource="#LAWS2301"/>
   <has_pre_requisites rdf:resource="#LAWX1104"/>
+  <has_pre_requisites rdf:resource="#LAWS2301"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#LAWS3308">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#LAWS2301"/>
   <has_pre_requisites rdf:resource="#LAWS2201"/>
+  <has_pre_requisites rdf:resource="#LAWS2301"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Business Law">
@@ -6708,9 +6709,9 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#CHIN1403"/>
   <has_pre_requisites rdf:resource="#CHIN1001"/>
   <has_pre_requisites rdf:resource="#CHIN2403"/>
+  <has_pre_requisites rdf:resource="#CHIN1403"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#CHIN3405">
@@ -6761,8 +6762,8 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#CHIN1404"/>
   <has_pre_requisites rdf:resource="#CHIN2404"/>
+  <has_pre_requisites rdf:resource="#CHIN1404"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#CHIN2406">
@@ -7058,16 +7059,16 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#LAWS2223"/>
   <has_pre_requisites rdf:resource="#LAWS2230"/>
+  <has_pre_requisites rdf:resource="#LAWS2223"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#LAWS3213">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#LAWS2223"/>
   <has_pre_requisites rdf:resource="#LAWS2230"/>
+  <has_pre_requisites rdf:resource="#LAWS2223"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Criminology and Criminal Justice">
@@ -7136,8 +7137,8 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#ECON2234"/>
   <has_pre_requisites rdf:resource="#ECON2105"/>
+  <has_pre_requisites rdf:resource="#ECON2234"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ECON3220">
@@ -7191,8 +7192,8 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#ECON2234"/>
   <has_pre_requisites rdf:resource="#ECON1102"/>
+  <has_pre_requisites rdf:resource="#ECON2234"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ECON3371">
@@ -7409,8 +7410,8 @@
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
   <has_pre_requisites rdf:resource="#FREN2403"/>
-  <has_pre_requisites rdf:resource="#FREN2407"/>
   <has_pre_requisites rdf:resource="#FREN2405"/>
+  <has_pre_requisites rdf:resource="#FREN2407"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#FREN3409">
@@ -7424,8 +7425,8 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#FREN2406"/>
   <has_pre_requisites rdf:resource="#FREN2404"/>
+  <has_pre_requisites rdf:resource="#FREN2406"/>
   <has_pre_requisites rdf:resource="#FREN2408"/>
 </owl:NamedIndividual>
 
@@ -7433,8 +7434,8 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#FREN2406"/>
   <has_pre_requisites rdf:resource="#FREN2404"/>
+  <has_pre_requisites rdf:resource="#FREN2406"/>
   <has_pre_requisites rdf:resource="#FREN2408"/>
 </owl:NamedIndividual>
 
@@ -7541,8 +7542,8 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#FREN1404"/>
   <has_pre_requisites rdf:resource="#FREN2404"/>
+  <has_pre_requisites rdf:resource="#FREN1404"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#FREN2406">
@@ -7591,11 +7592,11 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#GEND2903"/>
-  <has_pre_requisites rdf:resource="#GEND1901"/>
-  <has_pre_requisites rdf:resource="#GEND3904"/>
   <has_pre_requisites rdf:resource="#GEND3901"/>
   <has_pre_requisites rdf:resource="#ENGL1902"/>
+  <has_pre_requisites rdf:resource="#GEND3904"/>
+  <has_pre_requisites rdf:resource="#GEND2903"/>
+  <has_pre_requisites rdf:resource="#GEND1901"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#GEND2903">
@@ -7609,10 +7610,10 @@
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
   <has_pre_requisites rdf:resource="#GEND2903"/>
-  <has_pre_requisites rdf:resource="#GEND1901"/>
+  <has_pre_requisites rdf:resource="#GEND2902"/>
   <has_pre_requisites rdf:resource="#GEND3904"/>
   <has_pre_requisites rdf:resource="#ENGL1902"/>
-  <has_pre_requisites rdf:resource="#GEND2902"/>
+  <has_pre_requisites rdf:resource="#GEND1901"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Gender Studies">
@@ -7653,20 +7654,20 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#GRMN1404"/>
-  <has_pre_requisites rdf:resource="#GRMN1406"/>
   <has_pre_requisites rdf:resource="#GRMN1402"/>
+  <has_pre_requisites rdf:resource="#GRMN1406"/>
+  <has_pre_requisites rdf:resource="#GRMN1404"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#GRMN3813">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#GRMN2405"/>
   <has_pre_requisites rdf:resource="#GRMN2404"/>
+  <has_pre_requisites rdf:resource="#GRMN2405"/>
+  <has_pre_requisites rdf:resource="#GRMN2406"/>
   <has_pre_requisites rdf:resource="#GRMN2407"/>
   <has_pre_requisites rdf:resource="#GRMN2408"/>
-  <has_pre_requisites rdf:resource="#GRMN2406"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#GRMNA German Studies">
@@ -7856,17 +7857,17 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#GEND1901"/>
   <has_pre_requisites rdf:resource="#ENGL1902"/>
+  <has_pre_requisites rdf:resource="#GEND1901"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#HIST2014">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#GEND1901"/>
   <has_pre_requisites rdf:resource="#LACH1010"/>
   <has_pre_requisites rdf:resource="#GEOG1103"/>
+  <has_pre_requisites rdf:resource="#GEND1901"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#HIST2015">
@@ -7973,133 +7974,133 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#HART1000"/>
-  <has_pre_requisites rdf:resource="#INDG1160"/>
-  <has_pre_requisites rdf:resource="#INDG1150"/>
   <has_pre_requisites rdf:resource="#HART1003"/>
+  <has_pre_requisites rdf:resource="#INDG1150"/>
+  <has_pre_requisites rdf:resource="#INDG1160"/>
+  <has_pre_requisites rdf:resource="#HART1000"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#HART2041">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#HART1000"/>
   <has_pre_requisites rdf:resource="#HART1003"/>
+  <has_pre_requisites rdf:resource="#HART1000"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#HART2043">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#HART1000"/>
   <has_pre_requisites rdf:resource="#HART1003"/>
+  <has_pre_requisites rdf:resource="#HART1000"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#HART2044">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#HART1000"/>
   <has_pre_requisites rdf:resource="#HART1003"/>
+  <has_pre_requisites rdf:resource="#HART1000"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#HART2201">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#HART1000"/>
   <has_pre_requisites rdf:resource="#HART1003"/>
+  <has_pre_requisites rdf:resource="#HART1000"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#HART2202">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#HART1000"/>
   <has_pre_requisites rdf:resource="#HART1003"/>
+  <has_pre_requisites rdf:resource="#HART1000"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#HART2203">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
+  <has_pre_requisites rdf:resource="#LACH1020"/>
   <has_pre_requisites rdf:resource="#ARCT1001"/>
   <has_pre_requisites rdf:resource="#HART1000"/>
   <has_pre_requisites rdf:resource="#HART1003"/>
   <has_pre_requisites rdf:resource="#ARCT1010"/>
-  <has_pre_requisites rdf:resource="#LACH1020"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#HART2207">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#HART1000"/>
   <has_pre_requisites rdf:resource="#HART1003"/>
+  <has_pre_requisites rdf:resource="#HART1000"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#HART2222">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#HART1000"/>
   <has_pre_requisites rdf:resource="#HART1003"/>
+  <has_pre_requisites rdf:resource="#HART1000"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#HART2223">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#HART1000"/>
   <has_pre_requisites rdf:resource="#HART1003"/>
+  <has_pre_requisites rdf:resource="#HART1000"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#HART2234">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#HART1000"/>
   <has_pre_requisites rdf:resource="#HART1003"/>
+  <has_pre_requisites rdf:resource="#HART1000"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#HART2237">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#HART1000"/>
   <has_pre_requisites rdf:resource="#HART1003"/>
+  <has_pre_requisites rdf:resource="#HART1000"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#HART2243">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#HART1000"/>
   <has_pre_requisites rdf:resource="#HART1003"/>
+  <has_pre_requisites rdf:resource="#HART1000"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#HART2274">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#HART1000"/>
   <has_pre_requisites rdf:resource="#HART1003"/>
+  <has_pre_requisites rdf:resource="#HART1000"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#HART2275">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#HART1000"/>
   <has_pre_requisites rdf:resource="#HART1003"/>
+  <has_pre_requisites rdf:resource="#HART1000"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#HART2370">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#HART1000"/>
   <has_pre_requisites rdf:resource="#HART1003"/>
+  <has_pre_requisites rdf:resource="#HART1000"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#HART3001">
@@ -8363,11 +8364,11 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#INDG2600"/>
   <has_pre_requisites rdf:resource="#LAWS2225"/>
-  <has_pre_requisites rdf:resource="#INDG2300"/>
-  <has_pre_requisites rdf:resource="#INDG2500"/>
   <has_pre_requisites rdf:resource="#INDG2700"/>
+  <has_pre_requisites rdf:resource="#INDG2500"/>
+  <has_pre_requisites rdf:resource="#INDG2600"/>
+  <has_pre_requisites rdf:resource="#INDG2300"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Indigenous Knowledge, History and Heritage">
@@ -8421,8 +8422,8 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#INDO1001"/>
   <has_pre_requisites rdf:resource="#INDO2403"/>
+  <has_pre_requisites rdf:resource="#INDO1001"/>
   <has_pre_requisites rdf:resource="#INDO1403"/>
 </owl:NamedIndividual>
 
@@ -8481,8 +8482,8 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#INDO2404"/>
   <has_pre_requisites rdf:resource="#INDO1404"/>
+  <has_pre_requisites rdf:resource="#INDO2404"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#INDO2406">
@@ -8574,17 +8575,17 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#ITAL1406"/>
   <has_pre_requisites rdf:resource="#ITAL1404"/>
   <has_pre_requisites rdf:resource="#ITAL1402"/>
+  <has_pre_requisites rdf:resource="#ITAL1406"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ITAL3409">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#ITAL2408"/>
   <has_pre_requisites rdf:resource="#ITAL3408"/>
+  <has_pre_requisites rdf:resource="#ITAL2408"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ITAL3410">
@@ -8711,8 +8712,8 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#ITAL3406"/>
   <has_pre_requisites rdf:resource="#ITAL2406"/>
+  <has_pre_requisites rdf:resource="#ITAL3406"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ITAL3408">
@@ -8769,8 +8770,8 @@
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
   <has_pre_requisites rdf:resource="#JAPN2403"/>
-  <has_pre_requisites rdf:resource="#JAPN1403"/>
   <has_pre_requisites rdf:resource="#JAPN1001"/>
+  <has_pre_requisites rdf:resource="#JAPN1403"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#JAPN3405">
@@ -9016,8 +9017,8 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#LING1001"/>
   <has_pre_requisites rdf:resource="#LING1002"/>
+  <has_pre_requisites rdf:resource="#LING1001"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#LING2002">
@@ -9059,8 +9060,8 @@
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#LING1001"/>
   <has_pre_requisites rdf:resource="#LING1002"/>
+  <has_pre_requisites rdf:resource="#LING1001"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#LING3008">
@@ -9383,8 +9384,8 @@ This page is for students in the Bachelor of Philosophy, Politics, and Economics
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
   <has_pre_requisites rdf:resource="#STAX1520"/>
-  <has_pre_requisites rdf:resource="#STAT1520"/>
   <has_pre_requisites rdf:resource="#ECON1111"/>
+  <has_pre_requisites rdf:resource="#STAT1520"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Professional Economics">
@@ -9435,36 +9436,36 @@ This page is for students in the Bachelor of Philosophy, Politics, and Economics
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
+  <has_pre_requisites rdf:resource="#PSYC2203"/>
   <has_pre_requisites rdf:resource="#PSYC1101"/>
   <has_pre_requisites rdf:resource="#PSYC1102"/>
-  <has_pre_requisites rdf:resource="#PSYC2203"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#PSYC3314">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
+  <has_pre_requisites rdf:resource="#PSYC2203"/>
   <has_pre_requisites rdf:resource="#PSYC1101"/>
   <has_pre_requisites rdf:resource="#PSYC1102"/>
-  <has_pre_requisites rdf:resource="#PSYC2203"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#PSYC3315">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
+  <has_pre_requisites rdf:resource="#PSYC2203"/>
   <has_pre_requisites rdf:resource="#PSYC1101"/>
   <has_pre_requisites rdf:resource="#PSYC1102"/>
-  <has_pre_requisites rdf:resource="#PSYC2203"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#PSYC3318">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
+  <has_pre_requisites rdf:resource="#PSYC2203"/>
   <has_pre_requisites rdf:resource="#PSYC1101"/>
   <has_pre_requisites rdf:resource="#PSYC1102"/>
-  <has_pre_requisites rdf:resource="#PSYC2203"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Psychological and Behavioural Sciences">
@@ -9499,18 +9500,18 @@ The Psychological and Behavioural Sciences major will help you develop a scienti
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
+  <has_pre_requisites rdf:resource="#PSYC2203"/>
   <has_pre_requisites rdf:resource="#PSYC1101"/>
   <has_pre_requisites rdf:resource="#PSYC1102"/>
-  <has_pre_requisites rdf:resource="#PSYC2203"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#PSYC3310">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
+  <has_pre_requisites rdf:resource="#PSYC2203"/>
   <has_pre_requisites rdf:resource="#PSYC1101"/>
   <has_pre_requisites rdf:resource="#PSYC1102"/>
-  <has_pre_requisites rdf:resource="#PSYC2203"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Psychology">
@@ -9660,16 +9661,16 @@ The Psychological and Behavioural Sciences major will help you develop a scienti
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#INDG2300"/>
   <has_pre_requisites rdf:resource="#AHEA2201"/>
+  <has_pre_requisites rdf:resource="#INDG2300"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#AHEA3300">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#INDG2300"/>
   <has_pre_requisites rdf:resource="#AHEA2201"/>
+  <has_pre_requisites rdf:resource="#INDG2300"/>
   <has_pre_requisites rdf:resource="#INDG3300"/>
 </owl:NamedIndividual>
 
@@ -9677,8 +9678,8 @@ The Psychological and Behavioural Sciences major will help you develop a scienti
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#INDG2300"/>
   <has_pre_requisites rdf:resource="#AHEA2201"/>
+  <has_pre_requisites rdf:resource="#INDG2300"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Aboriginal Health and Wellbeing">
@@ -14126,14 +14127,14 @@ Students are expected to conduct qualitative research work or solve important Co
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#5"/>
-  <has_pre_requisites rdf:resource="#62550"/>
-  <has_pre_requisites rdf:resource="#53560"/>
-  <has_pre_requisites rdf:resource="#42630"/>
   <has_pre_requisites rdf:resource="#62510"/>
-  <has_pre_requisites rdf:resource="#MJD-ARIDM"/>
-  <has_pre_requisites rdf:resource="#BH008"/>
-  <has_pre_requisites rdf:resource="#62530"/>
   <has_pre_requisites rdf:resource="#MJD-CDSDM"/>
+  <has_pre_requisites rdf:resource="#42630"/>
+  <has_pre_requisites rdf:resource="#53560"/>
+  <has_pre_requisites rdf:resource="#62530"/>
+  <has_pre_requisites rdf:resource="#MJD-ARIDM"/>
+  <has_pre_requisites rdf:resource="#62550"/>
+  <has_pre_requisites rdf:resource="#BH008"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#CITS5017">
