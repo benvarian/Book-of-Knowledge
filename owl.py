@@ -64,14 +64,17 @@ with onto:
     class has_level_three_units(Unit >> Title):
         pass
 
-    class has_name(Major >> Name, FunctionalProperty):
-        pass
+    class has_name(FunctionalProperty):
+        domain = [Major, Unit]
+        range = [Name]
 
-    class has_description(Major >> Title, FunctionalProperty):
-        pass
+    class has_description(FunctionalProperty):
+        domain = [Major, Unit]
+        range = [Title]
 
-    class has_outcome(Major >> Title, FunctionalProperty):
-        pass
+    class has_outcome(FunctionalProperty):
+        domain = [Major, Unit]
+        range = [Title]
 
     class has_pre_requisites(Unit >> Title):
         pass
