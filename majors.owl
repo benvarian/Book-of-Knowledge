@@ -221,8 +221,8 @@ All organisations carry out marketing. You even have to market yourself! In this
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#1"/>
   <has_pre_requisites rdf:resource="#MATX1720"/>
-  <has_pre_requisites rdf:resource="#ECON1111"/>
   <has_pre_requisites rdf:resource="#MATH1720"/>
+  <has_pre_requisites rdf:resource="#ECON1111"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#STAX1520">
@@ -436,14 +436,14 @@ At the end of the unit, the students will have developed an appreciation and und
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#1"/>
-  <has_pre_requisites rdf:resource="#BIOL1130"/>
+  <has_pre_requisites rdf:resource="#ANHB1101"/>
   <has_pre_requisites rdf:resource="#CHEM1003"/>
   <has_pre_requisites rdf:resource="#CHEX1003"/>
-  <has_pre_requisites rdf:resource="#ANHB1102"/>
   <has_pre_requisites rdf:resource="#ANHX1101"/>
-  <has_pre_requisites rdf:resource="#ANHX1102"/>
-  <has_pre_requisites rdf:resource="#ANHB1101"/>
   <has_pre_requisites rdf:resource="#IMED1001"/>
+  <has_pre_requisites rdf:resource="#ANHB1102"/>
+  <has_pre_requisites rdf:resource="#ANHX1102"/>
+  <has_pre_requisites rdf:resource="#BIOL1130"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#SCIX1106">
@@ -631,12 +631,12 @@ Students find, examine and critically analyse information relating to a scientif
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#SCIE1104"/>
-  <has_pre_requisites rdf:resource="#BIOL1130"/>
-  <has_pre_requisites rdf:resource="#STAX1400"/>
   <has_pre_requisites rdf:resource="#ENVT1104"/>
-  <has_pre_requisites rdf:resource="#STAT1400"/>
+  <has_pre_requisites rdf:resource="#STAX1400"/>
+  <has_pre_requisites rdf:resource="#BIOL1130"/>
   <has_pre_requisites rdf:resource="#BIOL1131"/>
+  <has_pre_requisites rdf:resource="#STAT1400"/>
+  <has_pre_requisites rdf:resource="#SCIE1104"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Soil–Plant Interactions">
@@ -667,31 +667,6 @@ Students find, examine and critically analyse information relating to a scientif
   <rdf:type rdf:resource="#Unit"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#MJD-AGTDM">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-IEMDM">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-MARDM">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-AGTEC">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-MARCP">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#SCIE1500">
   <rdf:type rdf:resource="#Unit"/>
 </owl:NamedIndividual>
@@ -715,11 +690,6 @@ Students find, examine and critically analyse information relating to a scientif
   <has_level rdf:resource="#2"/>
   <has_pre_requisites rdf:resource="#MATH1721"/>
   <has_pre_requisites rdf:resource="#MATX1721"/>
-  <has_pre_requisites rdf:resource="#MJD-AGTDM"/>
-  <has_pre_requisites rdf:resource="#MJD-IEMDM"/>
-  <has_pre_requisites rdf:resource="#MJD-MARDM"/>
-  <has_pre_requisites rdf:resource="#MJD-AGTEC"/>
-  <has_pre_requisites rdf:resource="#MJD-MARCP"/>
   <has_pre_requisites rdf:resource="#SCIE1500"/>
 </owl:NamedIndividual>
 
@@ -850,48 +820,6 @@ All landscape architecture design studios respond to a particular brief, often i
   <has_pre_requisites rdf:resource="#URBD1000"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#MJD-CONBI">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-NRMGT">
-  <rdf:type rdf:resource="#Unit"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-GGRPY">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-WLCDM">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-ENVDM">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-ENVMT">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-ENGEO">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MNR-SPCEU">
-  <rdf:type rdf:resource="#Unit"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MNR-ENVST">
-  <rdf:type rdf:resource="#Unit"/>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#Environmental Policy and Planning">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -908,15 +836,6 @@ All landscape architecture design studios respond to a particular brief, often i
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#MJD-CONBI"/>
-  <has_pre_requisites rdf:resource="#MJD-NRMGT"/>
-  <has_pre_requisites rdf:resource="#MJD-GGRPY"/>
-  <has_pre_requisites rdf:resource="#MJD-WLCDM"/>
-  <has_pre_requisites rdf:resource="#MJD-ENVDM"/>
-  <has_pre_requisites rdf:resource="#MJD-ENVMT"/>
-  <has_pre_requisites rdf:resource="#MJD-ENGEO"/>
-  <has_pre_requisites rdf:resource="#MNR-SPCEU"/>
-  <has_pre_requisites rdf:resource="#MNR-ENVST"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#GEOG2205">
@@ -1068,18 +987,18 @@ The unit content is delivered through modules related to: climate change and car
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#ECOX1101"/>
-  <has_pre_requisites rdf:resource="#ECON1000"/>
-  <has_pre_requisites rdf:resource="#ECON1101"/>
   <has_pre_requisites rdf:resource="#BUSN1103"/>
+  <has_pre_requisites rdf:resource="#ECON1000"/>
+  <has_pre_requisites rdf:resource="#ECOX1101"/>
+  <has_pre_requisites rdf:resource="#ECON1101"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ECON2233">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#ECON1101"/>
   <has_pre_requisites rdf:resource="#ECOX1101"/>
+  <has_pre_requisites rdf:resource="#ECON1101"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ECON2234">
@@ -1125,8 +1044,8 @@ This unit is organized into weekly topics that roughly correspond to the chapter
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
   <has_pre_requisites rdf:resource="#EART1105"/>
-  <has_pre_requisites rdf:resource="#GEOG1103"/>
   <has_pre_requisites rdf:resource="#ENVT1104"/>
+  <has_pre_requisites rdf:resource="#GEOG1103"/>
   <has_pre_requisites rdf:resource="#GENG1014"/>
 </owl:NamedIndividual>
 
@@ -1507,10 +1426,6 @@ Through taking this unit, students will be able to develop a high degree of crit
   <has_level rdf:resource="#3"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#BP013">
-  <rdf:type rdf:resource="#Unit"/>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#Geographies of Economic Development">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -1529,7 +1444,6 @@ Through taking this unit, students will be able to develop a high degree of crit
   <has_level rdf:resource="#3"/>
   <has_pre_requisites rdf:resource="#GEOG1107"/>
   <has_pre_requisites rdf:resource="#GEOG2203"/>
-  <has_pre_requisites rdf:resource="#BP013"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Architecture Studio 1">
@@ -1675,10 +1589,22 @@ Core competencies for visualising project work are developed through weekly draw
 
 <owl:NamedIndividual rdf:about="#ARCT2001">
   <rdf:type rdf:resource="#Unit"/>
+  <has_credit_points rdf:resource="#12"/>
+  <has_level rdf:resource="#2"/>
+  <has_pre_requisites rdf:resource="#ARLA1040"/>
+  <has_pre_requisites rdf:resource="#ARCT1011"/>
+  <has_pre_requisites rdf:resource="#ARCT1010"/>
+  <has_pre_requisites rdf:resource="#ARLA1030"/>
+  <has_pre_requisites rdf:resource="#ARCT1001"/>
+  <has_pre_requisites rdf:resource="#ARCT1150"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ARCT2030">
   <rdf:type rdf:resource="#Unit"/>
+  <has_credit_points rdf:resource="#6"/>
+  <has_level rdf:resource="#2"/>
+  <has_pre_requisites rdf:resource="#ARLA1040"/>
+  <has_pre_requisites rdf:resource="#ARLA1030"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Architecture Studio 3">
@@ -1723,6 +1649,20 @@ Core competencies for visualising project work are developed through weekly draw
   <has_pre_requisites rdf:resource="#ARCT2010"/>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#This unit introduces students to studio practice in design and explores, at a basic level, the primary issues informing design—firmness, commodity and delight. The range of problems extends from objects to built environments and their social and physical contexts. The projects offered are designed to develop students' conceptual and compositional abilities to an introductory level, imparting the necessary skills to communicate concepts of modest complexity in a tangible form, and encouraging individual creative work within a supportive environment. Projects also introduce students to significant historical examples and concepts of design.  Case studies relevant to the curriculum are presented and students are required to analyse them in establishing relevant design principles.">
+  <rdf:type rdf:resource="#Description"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="# demonstrate an elementary competence in design strategies, theories and methods implement a basic knowledge of technical areas of study relevant to design identify and interpret architectural precedents and ideas apply at a basic level various graphical and modelling communication media combine text and image in design presentations describe and explain their design propositions.">
+  <rdf:type rdf:resource="#Outcome"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#ARCT1150">
+  <rdf:type rdf:resource="#Unit"/>
+  <has_credit_points rdf:resource="#6"/>
+  <has_level rdf:resource="#1"/>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#Structures and Systems">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -1735,6 +1675,68 @@ The unit will also address indigenous cultural connections and rights in relatio
 
 <owl:NamedIndividual rdf:about="# understand basic structural principles in architecture and landscape design apply techniques for recording contextual information about sites and buildings on the basis of environmental, topographic, cultural and historical factors illustrate how built elements are constructed and how this information is conveyed in a drawing compare and contrast the fundamental properties of building materials, such as where they come from, how they are used, and their essential structural properties and materiality in the context of environmental design make informed and appropriate structural, material and grading decisions.">
   <rdf:type rdf:resource="#Outcome"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#This unit introduces a series of tools for the analysis of sites and the production of design speculations within them. There is an emphasis on testing, assessing, and refining design speculations continually before implementation. Digital design tools and skills will be introduced as a means to critically examine the shifts in technologies affecting conceptual and practical aspects of the design process. Students are given the opportunity to verbally present their work within the studio, and to give and receive critique throughout the semester. 
+The main objective is for students to explore the design process in a collaborative environment. Emphasis will be placed on understanding the relationship between architecture and site. This is within the context of contemporary issues affecting design, including ecological impact, sustainability and emerging technologies.">
+  <rdf:type rdf:resource="#Description"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="# comprehend and model existing contexts in a detailed manner make conceptual architectural proposals of modest complexity propose, appraise, and test the merits of design propositions in an iterative process develop ecologically innovative concepts as a component of design proposals.">
+  <rdf:type rdf:resource="#Outcome"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Materials and Small Constructions">
+  <rdf:type rdf:resource="#Name"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Through studies of the relationship between technology and design, this unit presents various construction systems and building materials. By using a methodological analysis based on analytical drawings/diagrams, the unit teaches the act of drawing by hand as a way of thinking as well as a mode of representation. The analytical drawings aim to reveal the underlying patterns of organisation that exist within buildings (e.g. structure, services, envelope) in order to highlight the relationship between architectural design and construction systems. Through highly selective drawings and written analysis, students break down and clarify the different constructional, services and cladding systems which define a building.">
+  <rdf:type rdf:resource="#Description"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="# analyse building constructional systems, components and construction sequences identify and examine a range of materials and technologies demonstrate a developing understanding of structural characteristics and limitations of building materials, and thus be able to critically apply general structural and servicing principles to specific architectural case studies demonstrate developing skills in graphical and written analysis of building assemblies.">
+  <rdf:type rdf:resource="#Outcome"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#This unit builds upon earlier architectural design units by exposing students to programs of greater technical, programmatic and conceptual complexity. Students demonstrate their capacity to synthesise the various fields of study towards the development of a comprehensive and convincing architectural design proposition. Studio programs require design at a detailed level in projects of intermediate complexity (e.g. a school, museum or library). Emphasis is placed on the integration of theoretical concepts and building construction, both of which are introduced elsewhere in the course, and there is an introduction to both the regulatory framework that controls building projects, and an emphasis upon the understanding of contemporary architectural discourse through both study of theoretical texts and architectural case studies.">
+  <rdf:type rdf:resource="#Description"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="# analyse site, statutory and constructional requirements architecturally design constructions of moderate complexity through conceptual development, schematic and developed design stages develop familiarity with and understanding of contemporary architectural discourse and terminology develop substantial competence in technical development of architectural projects understand social and ethical responsibilities impacting upon production of architecture.">
+  <rdf:type rdf:resource="#Outcome"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#ARCT3000">
+  <rdf:type rdf:resource="#Unit"/>
+  <has_credit_points rdf:resource="#12"/>
+  <has_level rdf:resource="#3"/>
+  <has_pre_requisites rdf:resource="#ARCT2001"/>
+  <has_pre_requisites rdf:resource="#ARCT2010"/>
+  <has_pre_requisites rdf:resource="#ARCT2030"/>
+  <has_pre_requisites rdf:resource="#ARCT2000"/>
+  <has_pre_requisites rdf:resource="#ARCT2050"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Materials and Large Construction">
+  <rdf:type rdf:resource="#Name"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#This unit is the culmination of the technology sequence in the Architecture major. As such, it is thought of as an extension and further development of ARCT2030 Materials and Small Constructions. Through a similarly analytical methodology it introduces students to construction techniques of greater complexity, with an emphasis on architecture as an integrated manifestation of structure, body, skin and building services. 
+Topics include architectural and structural analysis, materials and sections; fire services and safety; hydraulic, mechanical, and electrical systems, and the types and applicability of constructional systems to different architectural expressions. 
+The unit generates an understanding of the integration of structures and services in medium- to large-scale buildings. The vehicle for this is the combined effect of weekly lectures and workshops. Lectures investigate and critically analyse a number of selected buildings highlighting architectural, structural and technical aspects that pertain to different materials and construction techniques. They also illustrate specialist drawings produced by consultants, including structures and services. In the workshops students conduct an analysis of selected buildings, to identify the relationships between architecture, space, structure and technology. Such analysis evolves weekly through progressive reviews with a tutor at each workshop and it culminates in two submissions during the semester.">
+  <rdf:type rdf:resource="#Description"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="# develop an ability to read, analyse and understand buildings at different levels of complexity and depth develop awareness of the role of the various building components, their hierarchy and the relationship between structural and non-structural elements, their design and behaviour develop an understanding of the design and construction sequences, and the relation between design, services and structure.">
+  <rdf:type rdf:resource="#Outcome"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#ARCT3030">
+  <rdf:type rdf:resource="#Unit"/>
+  <has_credit_points rdf:resource="#6"/>
+  <has_level rdf:resource="#3"/>
+  <has_pre_requisites rdf:resource="#ARCT2030"/>
+  <has_pre_requisites rdf:resource="#ARCT2000"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Landscape Groundings Studio">
@@ -2078,10 +2080,10 @@ The unit will discuss methodology, practical and theoretical approaches and appl
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#12"/>
   <has_level rdf:resource="#3"/>
+  <has_pre_requisites rdf:resource="#ARTF3050"/>
   <has_pre_requisites rdf:resource="#ARTF3030"/>
   <has_pre_requisites rdf:resource="#ARTF3040"/>
   <has_pre_requisites rdf:resource="#ARTF3020"/>
-  <has_pre_requisites rdf:resource="#ARTF3050"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Advanced Major Project">
@@ -2461,11 +2463,6 @@ This unit prepares students for the next unit in the sequence, MUSC1742 Practica
   <rdf:type rdf:resource="#Outcome"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#MJD-MSTGM">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#Practical Studies B">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -2485,7 +2482,6 @@ This unit prepares students for the next unit in the sequence, MUSC2741 Practica
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#1"/>
   <has_pre_requisites rdf:resource="#MUSC1741"/>
-  <has_pre_requisites rdf:resource="#MJD-MSTGM"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Music and Practices of Listening">
@@ -2528,9 +2524,7 @@ This unit prepares students for the next unit in the sequence, MUSC2741 Practica
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#1"/>
-  <has_pre_requisites rdf:resource="#MJD-MUSST"/>
   <has_pre_requisites rdf:resource="#MUSC1341"/>
-  <has_pre_requisites rdf:resource="#MJD-MUSDM"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Music Large Ensemble 3">
@@ -2610,7 +2604,6 @@ This unit is the final unit in the sequence, but may permit students to transiti
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
   <has_pre_requisites rdf:resource="#MUSC2741"/>
-  <has_pre_requisites rdf:resource="#MJD-MSTGM"/>
   <has_pre_requisites rdf:resource="#MUSC2341"/>
   <has_pre_requisites rdf:resource="#MUSC2342"/>
 </owl:NamedIndividual>
@@ -2625,16 +2618,6 @@ This unit is the final unit in the sequence, but may permit students to transiti
 
 <owl:NamedIndividual rdf:about="# in performance— in composition—">
   <rdf:type rdf:resource="#Outcome"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-MUSDM">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-MUSST">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Principal Studies 2">
@@ -2681,14 +2664,6 @@ This unit is the final unit in the sequence, but may permit students to transiti
   <has_level rdf:resource="#1"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#62510">
-  <rdf:type rdf:resource="#Unit"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#62530">
-  <rdf:type rdf:resource="#Unit"/>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#Computational Thinking with Python">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -2707,8 +2682,6 @@ This unit is the final unit in the sequence, but may permit students to transiti
   <has_level rdf:resource="#1"/>
   <has_pre_requisites rdf:resource="#MATH1720"/>
   <has_pre_requisites rdf:resource="#MATX1720"/>
-  <has_pre_requisites rdf:resource="#62510"/>
-  <has_pre_requisites rdf:resource="#62530"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Digital Systems">
@@ -3023,21 +2996,17 @@ IMPORTANT: If you have a disability or injury that may impact on your ability to
   <has_pre_requisites rdf:resource="#ENSC2004"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#BP007">
-  <rdf:type rdf:resource="#Unit"/>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#ELEC3020">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#CITS2401"/>
-  <has_pre_requisites rdf:resource="#CITS2005"/>
-  <has_pre_requisites rdf:resource="#CITX1401"/>
-  <has_pre_requisites rdf:resource="#CITS1401"/>
-  <has_pre_requisites rdf:resource="#CITS1001"/>
   <has_pre_requisites rdf:resource="#GENG2000"/>
   <has_pre_requisites rdf:resource="#CITX1001"/>
+  <has_pre_requisites rdf:resource="#CITS2005"/>
+  <has_pre_requisites rdf:resource="#CITX1401"/>
+  <has_pre_requisites rdf:resource="#CITS2401"/>
+  <has_pre_requisites rdf:resource="#CITS1401"/>
+  <has_pre_requisites rdf:resource="#CITS1001"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ENSC3020">
@@ -3060,7 +3029,6 @@ IMPORTANT: If you have a disability or injury that may impact on your ability to
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#BP007"/>
   <has_pre_requisites rdf:resource="#ELEC3020"/>
   <has_pre_requisites rdf:resource="#ENSC3020"/>
   <has_pre_requisites rdf:resource="#GENG2000"/>
@@ -3114,9 +3082,9 @@ IMPORTANT: If you have a disability or injury that may impact on your ability to
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#CITX1401"/>
-  <has_pre_requisites rdf:resource="#MATX1721"/>
   <has_pre_requisites rdf:resource="#CITS1401"/>
+  <has_pre_requisites rdf:resource="#MATX1721"/>
+  <has_pre_requisites rdf:resource="#CITX1401"/>
   <has_pre_requisites rdf:resource="#MATH1721"/>
 </owl:NamedIndividual>
 
@@ -3261,10 +3229,6 @@ Engineering students must successfully complete this unit within their first thr
   <has_pre_requisites rdf:resource="#ELEC3020"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#62550">
-  <rdf:type rdf:resource="#Unit"/>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#Mobile Robots">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -3281,32 +3245,12 @@ Engineering students must successfully complete this unit within their first thr
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#4"/>
-  <has_pre_requisites rdf:resource="#62550"/>
-  <has_pre_requisites rdf:resource="#62510"/>
-  <has_pre_requisites rdf:resource="#BP007"/>
   <has_pre_requisites rdf:resource="#CITS1001"/>
   <has_pre_requisites rdf:resource="#CITX1001"/>
   <has_pre_requisites rdf:resource="#CITX1401"/>
   <has_pre_requisites rdf:resource="#CITS1401"/>
   <has_pre_requisites rdf:resource="#CITS2002"/>
   <has_pre_requisites rdf:resource="#CITS2401"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#HON-CMSSE">
-  <rdf:type rdf:resource="#Unit"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#53560">
-  <rdf:type rdf:resource="#Unit"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#BH008">
-  <rdf:type rdf:resource="#Unit"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-ARIDM">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Computer Vision">
@@ -3325,12 +3269,6 @@ Engineering students must successfully complete this unit within their first thr
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#4"/>
-  <has_pre_requisites rdf:resource="#HON-CMSSE"/>
-  <has_pre_requisites rdf:resource="#62530"/>
-  <has_pre_requisites rdf:resource="#62550"/>
-  <has_pre_requisites rdf:resource="#53560"/>
-  <has_pre_requisites rdf:resource="#BH008"/>
-  <has_pre_requisites rdf:resource="#MJD-ARIDM"/>
   <has_pre_requisites rdf:resource="#CITS2401"/>
   <has_pre_requisites rdf:resource="#CITS1401"/>
   <has_pre_requisites rdf:resource="#CITX1401"/>
@@ -3358,7 +3296,6 @@ Engineering students must successfully complete this unit within their first thr
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#5"/>
-  <has_pre_requisites rdf:resource="#62550"/>
   <has_pre_requisites rdf:resource="#GENG3402"/>
 </owl:NamedIndividual>
 
@@ -3423,19 +3360,6 @@ There is no formal coursework associated with the unit. Students are awarded eit
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#0"/>
   <has_level rdf:resource="#5"/>
-  <has_pre_requisites rdf:resource="#62550"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#62540">
-  <rdf:type rdf:resource="#Unit"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#62560">
-  <rdf:type rdf:resource="#Unit"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#62570">
-  <rdf:type rdf:resource="#Unit"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Project Management and Engineering Practice">
@@ -3454,20 +3378,6 @@ There is no formal coursework associated with the unit. Students are awarded eit
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#5"/>
-  <has_pre_requisites rdf:resource="#62550"/>
-  <has_pre_requisites rdf:resource="#62510"/>
-  <has_pre_requisites rdf:resource="#62530"/>
-  <has_pre_requisites rdf:resource="#62540"/>
-  <has_pre_requisites rdf:resource="#62560"/>
-  <has_pre_requisites rdf:resource="#62570"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#62520">
-  <rdf:type rdf:resource="#Unit"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#73660">
-  <rdf:type rdf:resource="#Unit"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Risk, Reliability and Safety">
@@ -3486,11 +3396,6 @@ There is no formal coursework associated with the unit. Students are awarded eit
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#5"/>
-  <has_pre_requisites rdf:resource="#62550"/>
-  <has_pre_requisites rdf:resource="#62510"/>
-  <has_pre_requisites rdf:resource="#62520"/>
-  <has_pre_requisites rdf:resource="#62560"/>
-  <has_pre_requisites rdf:resource="#73660"/>
   <has_pre_requisites rdf:resource="#MATH1011"/>
   <has_pre_requisites rdf:resource="#MATX1011"/>
   <has_pre_requisites rdf:resource="#MATH1012"/>
@@ -3515,29 +3420,6 @@ There is no formal coursework associated with the unit. Students are awarded eit
   <has_level rdf:resource="#1"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#MJD-MEDSC">
-  <rdf:type rdf:resource="#Unit"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-IMSCP">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-ENGSC">
-  <rdf:type rdf:resource="#Unit"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-EBMEG">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-PHMSC">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#Form and Function">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -3554,11 +3436,6 @@ There is no formal coursework associated with the unit. Students are awarded eit
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#1"/>
-  <has_pre_requisites rdf:resource="#MJD-MEDSC"/>
-  <has_pre_requisites rdf:resource="#MJD-IMSCP"/>
-  <has_pre_requisites rdf:resource="#MJD-ENGSC"/>
-  <has_pre_requisites rdf:resource="#MJD-EBMEG"/>
-  <has_pre_requisites rdf:resource="#MJD-PHMSC"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Physics for Scientists and Engineers">
@@ -3734,7 +3611,6 @@ alloys explain strengthening mechanisms of alloys explain electrochemical fundam
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#4"/>
-  <has_pre_requisites rdf:resource="#62550"/>
   <has_pre_requisites rdf:resource="#MECH3424"/>
 </owl:NamedIndividual>
 
@@ -3755,7 +3631,6 @@ This unit introduces students to the far-reaching field of cardiovascular biomec
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#4"/>
-  <has_pre_requisites rdf:resource="#62550"/>
   <has_pre_requisites rdf:resource="#BMEG3001"/>
 </owl:NamedIndividual>
 
@@ -3775,7 +3650,6 @@ This unit introduces students to the far-reaching field of cardiovascular biomec
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#5"/>
-  <has_pre_requisites rdf:resource="#62550"/>
   <has_pre_requisites rdf:resource="#BMEG3001"/>
 </owl:NamedIndividual>
 
@@ -3795,7 +3669,6 @@ This unit introduces students to the far-reaching field of cardiovascular biomec
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#5"/>
-  <has_pre_requisites rdf:resource="#62550"/>
   <has_pre_requisites rdf:resource="#GENG3000"/>
   <has_pre_requisites rdf:resource="#BMEG3001"/>
 </owl:NamedIndividual>
@@ -3816,7 +3689,6 @@ This unit introduces students to the far-reaching field of cardiovascular biomec
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#5"/>
-  <has_pre_requisites rdf:resource="#62550"/>
   <has_pre_requisites rdf:resource="#BMEG5551"/>
 </owl:NamedIndividual>
 
@@ -4056,11 +3928,7 @@ This unit introduces students to the far-reaching field of cardiovascular biomec
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#BH011"/>
   <has_pre_requisites rdf:resource="#CITS2401"/>
-  <has_pre_requisites rdf:resource="#CB006"/>
-  <has_pre_requisites rdf:resource="#CB004"/>
-  <has_pre_requisites rdf:resource="#CB014"/>
   <has_pre_requisites rdf:resource="#ENSC2004"/>
 </owl:NamedIndividual>
 
@@ -4129,7 +3997,6 @@ This unit introduces students to the far-reaching field of cardiovascular biomec
   <has_pre_requisites rdf:resource="#CHPR3018"/>
   <has_pre_requisites rdf:resource="#GENG3000"/>
   <has_pre_requisites rdf:resource="#CHPR3406"/>
-  <has_pre_requisites rdf:resource="#62550"/>
   <has_pre_requisites rdf:resource="#CHPR4406"/>
 </owl:NamedIndividual>
 
@@ -4377,7 +4244,6 @@ In-class practice sessions are an essential component of the teaching of the uni
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#4"/>
-  <has_pre_requisites rdf:resource="#62550"/>
   <has_pre_requisites rdf:resource="#MATH1011"/>
   <has_pre_requisites rdf:resource="#MATX1011"/>
   <has_pre_requisites rdf:resource="#CITS2401"/>
@@ -4514,7 +4380,6 @@ The content is explored with reference to a range of applications and physical c
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#4"/>
-  <has_pre_requisites rdf:resource="#62550"/>
   <has_pre_requisites rdf:resource="#ELEC3021"/>
   <has_pre_requisites rdf:resource="#MATH3023"/>
 </owl:NamedIndividual>
@@ -4542,7 +4407,6 @@ The content is explored with reference to a range of applications and physical c
   <has_pre_requisites rdf:resource="#STAT2063"/>
   <has_pre_requisites rdf:resource="#ENSC3015"/>
   <has_pre_requisites rdf:resource="#MATH3023"/>
-  <has_pre_requisites rdf:resource="#62550"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Signal Processing">
@@ -4564,7 +4428,6 @@ The content is explored with reference to a range of applications and physical c
   <has_pre_requisites rdf:resource="#STAT2063"/>
   <has_pre_requisites rdf:resource="#ELEC3015"/>
   <has_pre_requisites rdf:resource="#CITS2401"/>
-  <has_pre_requisites rdf:resource="#62550"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Engineering Electromagnetics">
@@ -4605,8 +4468,6 @@ The content is explored with reference to a range of applications and physical c
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#4"/>
   <has_pre_requisites rdf:resource="#ELEC3016"/>
-  <has_pre_requisites rdf:resource="#62550"/>
-  <has_pre_requisites rdf:resource="#62560"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ELEC5551">
@@ -4630,7 +4491,6 @@ The content is explored with reference to a range of applications and physical c
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#5"/>
   <has_pre_requisites rdf:resource="#GENG3000"/>
-  <has_pre_requisites rdf:resource="#62550"/>
   <has_pre_requisites rdf:resource="#ELEC5551"/>
 </owl:NamedIndividual>
 
@@ -4813,7 +4673,6 @@ Student teams will develop preliminary and detailed designs implementing solutio
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#4"/>
-  <has_pre_requisites rdf:resource="#62550"/>
   <has_pre_requisites rdf:resource="#GENG2010"/>
   <has_pre_requisites rdf:resource="#GENG2003"/>
 </owl:NamedIndividual>
@@ -4859,7 +4718,6 @@ management, including explaining and understanding the implications of treatment
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#5"/>
-  <has_pre_requisites rdf:resource="#62550"/>
   <has_pre_requisites rdf:resource="#GENG2010"/>
   <has_pre_requisites rdf:resource="#GENG2003"/>
 </owl:NamedIndividual>
@@ -4884,7 +4742,6 @@ Students are expected to contribute professionally to the class through a range 
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#5"/>
-  <has_pre_requisites rdf:resource="#62550"/>
   <has_pre_requisites rdf:resource="#ENVE3609"/>
   <has_pre_requisites rdf:resource="#GENG3000"/>
 </owl:NamedIndividual>
@@ -4925,8 +4782,6 @@ This unit requires students to implement a design solution to a real world, loca
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#5"/>
-  <has_pre_requisites rdf:resource="#62550"/>
-  <has_pre_requisites rdf:resource="#62570"/>
   <has_pre_requisites rdf:resource="#GENG2003"/>
   <has_pre_requisites rdf:resource="#GENG2010"/>
 </owl:NamedIndividual>
@@ -4949,22 +4804,6 @@ This unit requires students to implement a design solution to a real world, loca
   <has_level rdf:resource="#3"/>
   <has_pre_requisites rdf:resource="#GENG2000"/>
   <has_pre_requisites rdf:resource="#MECH2002"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#BH011">
-  <rdf:type rdf:resource="#Unit"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#CB006">
-  <rdf:type rdf:resource="#Unit"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#CB004">
-  <rdf:type rdf:resource="#Unit"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#CB014">
-  <rdf:type rdf:resource="#Unit"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Engineering Thermodynamics">
@@ -4995,7 +4834,6 @@ This unit requires students to implement a design solution to a real world, loca
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#4"/>
-  <has_pre_requisites rdf:resource="#62550"/>
   <has_pre_requisites rdf:resource="#ENSC2004"/>
   <has_pre_requisites rdf:resource="#MECH2004"/>
 </owl:NamedIndividual>
@@ -5016,7 +4854,6 @@ This unit requires students to implement a design solution to a real world, loca
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#4"/>
-  <has_pre_requisites rdf:resource="#62550"/>
   <has_pre_requisites rdf:resource="#MECH3024"/>
 </owl:NamedIndividual>
 
@@ -5063,7 +4900,6 @@ This unit requires students to implement a design solution to a real world, loca
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#5"/>
-  <has_pre_requisites rdf:resource="#62550"/>
   <has_pre_requisites rdf:resource="#MECH5502"/>
   <has_pre_requisites rdf:resource="#MECH4502"/>
   <has_pre_requisites rdf:resource="#GENG3000"/>
@@ -5223,7 +5059,6 @@ During the semester, there may be a field trip to some underground mines if the 
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#4"/>
-  <has_pre_requisites rdf:resource="#62550"/>
   <has_pre_requisites rdf:resource="#ENSC1004"/>
   <has_pre_requisites rdf:resource="#MINE2001"/>
 </owl:NamedIndividual>
@@ -5295,7 +5130,6 @@ This unit comprises two modules. Module 1 (15% of unit): Covers the Mining Act a
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#5"/>
-  <has_pre_requisites rdf:resource="#62550"/>
   <has_pre_requisites rdf:resource="#MINE4503"/>
   <has_pre_requisites rdf:resource="#MINE4401"/>
   <has_pre_requisites rdf:resource="#MINE3503"/>
@@ -5322,7 +5156,6 @@ This unit comprises two modules. Module 1 (15% of unit): Covers the Mining Act a
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#5"/>
-  <has_pre_requisites rdf:resource="#62550"/>
   <has_pre_requisites rdf:resource="#MINE4503"/>
   <has_pre_requisites rdf:resource="#MINE4405"/>
   <has_pre_requisites rdf:resource="#GENG3000"/>
@@ -5479,28 +5312,6 @@ Experiences in data collection, data analysis, and personal reflection are used 
   <has_pre_requisites rdf:resource="#SSEH2270"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#MJD-EXHSC">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-SEHDM">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MNR-PAHLT">
-  <rdf:type rdf:resource="#Unit"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#73520">
-  <rdf:type rdf:resource="#Unit"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#73570">
-  <rdf:type rdf:resource="#Unit"/>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#Promoting Lifelong Physical Activity">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -5517,11 +5328,6 @@ Experiences in data collection, data analysis, and personal reflection are used 
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#MJD-EXHSC"/>
-  <has_pre_requisites rdf:resource="#MJD-SEHDM"/>
-  <has_pre_requisites rdf:resource="#MNR-PAHLT"/>
-  <has_pre_requisites rdf:resource="#73520"/>
-  <has_pre_requisites rdf:resource="#73570"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Mathematics Fundamentals">
@@ -5573,11 +5379,6 @@ Experiences in data collection, data analysis, and personal reflection are used 
   <has_pre_requisites rdf:resource="#BMED2001"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#MJD-HHMED">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#Application of Humanities to Health care">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -5594,7 +5395,6 @@ Experiences in data collection, data analysis, and personal reflection are used 
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#MJD-HHMED"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Building the bridge while walking over it: the journey to person centred health care">
@@ -5723,15 +5523,6 @@ Students will be expected to participate in some work integrated learning activi
   <has_pre_requisites rdf:resource="#IMED2001"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#91860">
-  <rdf:type rdf:resource="#Unit"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-DENTS">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#Body Systems 1">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -5748,8 +5539,6 @@ Students will be expected to participate in some work integrated learning activi
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#91860"/>
-  <has_pre_requisites rdf:resource="#MJD-DENTS"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Body Systems 2">
@@ -5769,8 +5558,6 @@ This unit covers anatomy, histology, physiology, biochemistry, genetics, patholo
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#91860"/>
-  <has_pre_requisites rdf:resource="#MJD-DENTS"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Anatomy and Oral Sciences">
@@ -5789,8 +5576,6 @@ This unit covers anatomy, histology, physiology, biochemistry, genetics, patholo
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#91860"/>
-  <has_pre_requisites rdf:resource="#MJD-DENTS"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Introduction to Clinical Dentistry">
@@ -5809,8 +5594,6 @@ This unit covers anatomy, histology, physiology, biochemistry, genetics, patholo
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#91860"/>
-  <has_pre_requisites rdf:resource="#MJD-DENTS"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#General Medicine and Pharmacology">
@@ -5829,8 +5612,6 @@ This unit covers anatomy, histology, physiology, biochemistry, genetics, patholo
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#91860"/>
-  <has_pre_requisites rdf:resource="#MJD-DENTS"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Biofilm Sciences and Cariology">
@@ -5871,7 +5652,6 @@ This unit covers anatomy, histology, physiology, biochemistry, genetics, patholo
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#91860"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Dental Public Health and Research Methodology">
@@ -5890,7 +5670,6 @@ This unit covers anatomy, histology, physiology, biochemistry, genetics, patholo
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#91860"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Human Biology II: Being Human">
@@ -5923,9 +5702,6 @@ and divide generate, record and interpret data to demonstrate competence in usin
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#1"/>
-  <has_pre_requisites rdf:resource="#MJD-IMSCP"/>
-  <has_pre_requisites rdf:resource="#MJD-PHMSC"/>
-  <has_pre_requisites rdf:resource="#MJD-DENTS"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Introduction to Infectious Diseases and Immunology">
@@ -6031,14 +5807,14 @@ Topics will include DNA, RNA, protein structure in healthy humans, chromosome st
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#BIOL1130"/>
-  <has_pre_requisites rdf:resource="#ANHB1102"/>
-  <has_pre_requisites rdf:resource="#ANHX1101"/>
-  <has_pre_requisites rdf:resource="#ANHX1102"/>
-  <has_pre_requisites rdf:resource="#ANHB1101"/>
-  <has_pre_requisites rdf:resource="#IMED1001"/>
   <has_pre_requisites rdf:resource="#SCIE1106"/>
+  <has_pre_requisites rdf:resource="#ANHB1101"/>
+  <has_pre_requisites rdf:resource="#ANHX1101"/>
   <has_pre_requisites rdf:resource="#IMED1002"/>
+  <has_pre_requisites rdf:resource="#IMED1001"/>
+  <has_pre_requisites rdf:resource="#ANHB1102"/>
+  <has_pre_requisites rdf:resource="#ANHX1102"/>
+  <has_pre_requisites rdf:resource="#BIOL1130"/>
   <has_pre_requisites rdf:resource="#SCIX1106"/>
 </owl:NamedIndividual>
 
@@ -6068,9 +5844,9 @@ Topics will include DNA, RNA, protein structure in healthy humans, chromosome st
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
+  <has_pre_requisites rdf:resource="#SCIX1106"/>
   <has_pre_requisites rdf:resource="#IMED1003"/>
   <has_pre_requisites rdf:resource="#SCIE1106"/>
-  <has_pre_requisites rdf:resource="#SCIX1106"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Medical Genetics">
@@ -6228,11 +6004,6 @@ Topics will include DNA, RNA, protein structure in healthy humans, chromosome st
   <rdf:type rdf:resource="#Unit"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#MJD-ABHWB">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#Foundations of Epidemiology and Biostatistics">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -6263,7 +6034,6 @@ Topics will include DNA, RNA, protein structure in healthy humans, chromosome st
   <has_pre_requisites rdf:resource="#SCOX1101"/>
   <has_pre_requisites rdf:resource="#BIOL1130"/>
   <has_pre_requisites rdf:resource="#BIOL1131"/>
-  <has_pre_requisites rdf:resource="#MJD-ABHWB"/>
   <has_pre_requisites rdf:resource="#INDG1150"/>
   <has_pre_requisites rdf:resource="#INDG1160"/>
   <has_pre_requisites rdf:resource="#AHEA2201"/>
@@ -6411,44 +6181,6 @@ research.">
   <has_pre_requisites rdf:resource="#PUBH2204"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#MJD-PHYGY">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-SPTSC">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-HSANP">
-  <rdf:type rdf:resource="#Unit"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-BCNDM">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-NEURS">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-HSNEM">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-ANHBY">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MNR-ORGPH">
-  <rdf:type rdf:resource="#Unit"/>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#Physiology - How Does the Human Body Work?">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -6468,15 +6200,6 @@ Four practical classes are provided in this unit. These classes are designed to 
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#1"/>
-  <has_pre_requisites rdf:resource="#MJD-PHYGY"/>
-  <has_pre_requisites rdf:resource="#MJD-SPTSC"/>
-  <has_pre_requisites rdf:resource="#MJD-SEHDM"/>
-  <has_pre_requisites rdf:resource="#MJD-HSANP"/>
-  <has_pre_requisites rdf:resource="#MJD-BCNDM"/>
-  <has_pre_requisites rdf:resource="#MJD-NEURS"/>
-  <has_pre_requisites rdf:resource="#MJD-HSNEM"/>
-  <has_pre_requisites rdf:resource="#MJD-ANHBY"/>
-  <has_pre_requisites rdf:resource="#MNR-ORGPH"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Motor Learning and Control">
@@ -6533,9 +6256,6 @@ Those on particular course plan or pathways with requirements for WIL will have 
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#MJD-SEHDM"/>
-  <has_pre_requisites rdf:resource="#MJD-SPTSC"/>
-  <has_pre_requisites rdf:resource="#MJD-EXHSC"/>
   <has_pre_requisites rdf:resource="#SSEH1101"/>
   <has_pre_requisites rdf:resource="#SSEH1102"/>
   <has_pre_requisites rdf:resource="#SSEH1103"/>
@@ -6597,11 +6317,6 @@ Those on particular course plan or pathways with requirements for WIL will have 
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
   <has_pre_requisites rdf:resource="#SSEH2295"/>
-  <has_pre_requisites rdf:resource="#MJD-SPTSC"/>
-  <has_pre_requisites rdf:resource="#MJD-EXHSC"/>
-  <has_pre_requisites rdf:resource="#MJD-SEHDM"/>
-  <has_pre_requisites rdf:resource="#73570"/>
-  <has_pre_requisites rdf:resource="#73520"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Introduction to Cybersecurity">
@@ -6641,8 +6356,6 @@ The unit will cover areas as defined in the Cyber Security Book of Knowledge (Cy
   <has_level rdf:resource="#1"/>
   <has_pre_requisites rdf:resource="#MATH1720"/>
   <has_pre_requisites rdf:resource="#MATX1720"/>
-  <has_pre_requisites rdf:resource="#62510"/>
-  <has_pre_requisites rdf:resource="#62530"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Ethics for the Digital Age: An Introduction to Moral Philosophy">
@@ -6775,9 +6488,9 @@ Topics may include: (1) the computational theory of mind; (2) Connectionism and 
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
+  <has_pre_requisites rdf:resource="#CITS1401"/>
   <has_pre_requisites rdf:resource="#CITS2401"/>
   <has_pre_requisites rdf:resource="#CITX1401"/>
-  <has_pre_requisites rdf:resource="#CITS1401"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Professional Computing">
@@ -6824,11 +6537,6 @@ Topics may include: (1) the computational theory of mind; (2) Connectionism and 
   <has_pre_requisites rdf:resource="#CITS2002"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#MJD-ICYDM">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#Computational Modelling">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -6845,14 +6553,6 @@ Topics may include: (1) the computational theory of mind; (2) Connectionism and 
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#4"/>
-  <has_pre_requisites rdf:resource="#HON-CMSSE"/>
-  <has_pre_requisites rdf:resource="#62510"/>
-  <has_pre_requisites rdf:resource="#62530"/>
-  <has_pre_requisites rdf:resource="#62550"/>
-  <has_pre_requisites rdf:resource="#BH008"/>
-  <has_pre_requisites rdf:resource="#MJD-ICYDM"/>
-  <has_pre_requisites rdf:resource="#MJD-ARIDM"/>
-  <has_pre_requisites rdf:resource="#73660"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Computer Science Honours Research Project Part 1">
@@ -6876,7 +6576,6 @@ presentation of research findings prepare written and oral reports to a professi
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#12"/>
   <has_level rdf:resource="#4"/>
-  <has_pre_requisites rdf:resource="#BH008"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Computer Science Honours Research Project Part 2">
@@ -6899,7 +6598,6 @@ Students are expected to conduct qualitative research work or solve important Co
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#12"/>
   <has_level rdf:resource="#4"/>
-  <has_pre_requisites rdf:resource="#BH008"/>
   <has_pre_requisites rdf:resource="#CITS4010"/>
 </owl:NamedIndividual>
 
@@ -6919,12 +6617,6 @@ Students are expected to conduct qualitative research work or solve important Co
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#4"/>
-  <has_pre_requisites rdf:resource="#HON-CMSSE"/>
-  <has_pre_requisites rdf:resource="#62510"/>
-  <has_pre_requisites rdf:resource="#62530"/>
-  <has_pre_requisites rdf:resource="#62550"/>
-  <has_pre_requisites rdf:resource="#BH008"/>
-  <has_pre_requisites rdf:resource="#MJD-ARIDM"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Artificial Intelligence and Adaptive Systems">
@@ -6943,26 +6635,12 @@ Students are expected to conduct qualitative research work or solve important Co
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#4"/>
-  <has_pre_requisites rdf:resource="#HON-CMSSE"/>
-  <has_pre_requisites rdf:resource="#62510"/>
-  <has_pre_requisites rdf:resource="#62530"/>
-  <has_pre_requisites rdf:resource="#62550"/>
-  <has_pre_requisites rdf:resource="#BH008"/>
-  <has_pre_requisites rdf:resource="#MJD-ARIDM"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#CITS5508">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#5"/>
-  <has_pre_requisites rdf:resource="#62550"/>
-  <has_pre_requisites rdf:resource="#BH008"/>
-  <has_pre_requisites rdf:resource="#MJD-CDSDM"/>
-  <has_pre_requisites rdf:resource="#MJD-ARIDM"/>
-  <has_pre_requisites rdf:resource="#62510"/>
-  <has_pre_requisites rdf:resource="#53560"/>
-  <has_pre_requisites rdf:resource="#42630"/>
-  <has_pre_requisites rdf:resource="#62530"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Deep Learning">
@@ -6981,18 +6659,7 @@ Students are expected to conduct qualitative research work or solve important Co
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#5"/>
-  <has_pre_requisites rdf:resource="#BH008"/>
-  <has_pre_requisites rdf:resource="#MJD-ARIDM"/>
   <has_pre_requisites rdf:resource="#CITS5508"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#42630">
-  <rdf:type rdf:resource="#Unit"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-CDSDM">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Machine Learning">
@@ -7049,7 +6716,6 @@ Students are expected to conduct qualitative research work or solve important Co
   <has_level rdf:resource="#2"/>
   <has_pre_requisites rdf:resource="#MATH1720"/>
   <has_pre_requisites rdf:resource="#MATX1720"/>
-  <has_pre_requisites rdf:resource="#62530"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Analysis of Observations">
@@ -7070,7 +6736,6 @@ Students are expected to conduct qualitative research work or solve important Co
   <has_level rdf:resource="#2"/>
   <has_pre_requisites rdf:resource="#MATH1720"/>
   <has_pre_requisites rdf:resource="#MATX1720"/>
-  <has_pre_requisites rdf:resource="#62530"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#CITX1402">
@@ -7095,21 +6760,6 @@ Students are expected to conduct qualitative research work or solve important Co
   <has_level rdf:resource="#3"/>
   <has_pre_requisites rdf:resource="#CITS1402"/>
   <has_pre_requisites rdf:resource="#CITX1402"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-MTHST">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-DATSC">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-HSDEM">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#STAT2062">
@@ -7138,10 +6788,6 @@ Students are expected to conduct qualitative research work or solve important Co
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#MJD-CDSDM"/>
-  <has_pre_requisites rdf:resource="#MJD-MTHST"/>
-  <has_pre_requisites rdf:resource="#MJD-DATSC"/>
-  <has_pre_requisites rdf:resource="#MJD-HSDEM"/>
   <has_pre_requisites rdf:resource="#STAT2401"/>
   <has_pre_requisites rdf:resource="#STAT2402"/>
   <has_pre_requisites rdf:resource="#STAT2062"/>
@@ -7188,18 +6834,6 @@ Students will learn how to carry out operations on the cloud by developing softw
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#5"/>
-  <has_pre_requisites rdf:resource="#HON-CMSSE"/>
-  <has_pre_requisites rdf:resource="#62510"/>
-  <has_pre_requisites rdf:resource="#62530"/>
-  <has_pre_requisites rdf:resource="#42630"/>
-  <has_pre_requisites rdf:resource="#BH008"/>
-  <has_pre_requisites rdf:resource="#MJD-ICYDM"/>
-  <has_pre_requisites rdf:resource="#MJD-CDSDM"/>
-  <has_pre_requisites rdf:resource="#62550"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#HON-MTHST">
-  <rdf:type rdf:resource="#Unit"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#STAT3062">
@@ -7208,7 +6842,6 @@ Students will learn how to carry out operations on the cloud by developing softw
   <has_level rdf:resource="#3"/>
   <has_pre_requisites rdf:resource="#STAT2062"/>
   <has_pre_requisites rdf:resource="#STAT2063"/>
-  <has_pre_requisites rdf:resource="#MJD-MTHST"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Statistical Modelling and Inference">
@@ -7227,8 +6860,6 @@ Students will learn how to carry out operations on the cloud by developing softw
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#4"/>
-  <has_pre_requisites rdf:resource="#HON-MTHST"/>
-  <has_pre_requisites rdf:resource="#MJD-CDSDM"/>
   <has_pre_requisites rdf:resource="#STAT3062"/>
   <has_pre_requisites rdf:resource="#STAT3401"/>
   <has_pre_requisites rdf:resource="#STAT3064"/>
@@ -7255,11 +6886,6 @@ Students will learn how to carry out operations on the cloud by developing softw
   <has_pre_requisites rdf:resource="#STAT2062"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#MJD-CYBER">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#Open Source Tools and Scripting">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -7276,8 +6902,6 @@ Students will learn how to carry out operations on the cloud by developing softw
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#MJD-ICYDM"/>
-  <has_pre_requisites rdf:resource="#MJD-CYBER"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Penetration Testing">
@@ -7298,10 +6922,6 @@ Students will learn how to carry out operations on the cloud by developing softw
   <has_level rdf:resource="#3"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#MJD-QTMTD">
-  <rdf:type rdf:resource="#Unit"/>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#Introduction to Bayesian Computing and Statistics">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -7318,8 +6938,6 @@ Students will learn how to carry out operations on the cloud by developing softw
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#MJD-DATSC"/>
-  <has_pre_requisites rdf:resource="#MJD-QTMTD"/>
   <has_pre_requisites rdf:resource="#STAT2401"/>
   <has_pre_requisites rdf:resource="#STAT2402"/>
   <has_pre_requisites rdf:resource="#STAT2062"/>
@@ -7377,11 +6995,6 @@ Students will learn how to carry out operations on the cloud by developing softw
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#4"/>
-  <has_pre_requisites rdf:resource="#HON-CMSSE"/>
-  <has_pre_requisites rdf:resource="#62530"/>
-  <has_pre_requisites rdf:resource="#62550"/>
-  <has_pre_requisites rdf:resource="#BH008"/>
-  <has_pre_requisites rdf:resource="#MJD-ICYDM"/>
   <has_pre_requisites rdf:resource="#CITS3002"/>
 </owl:NamedIndividual>
 
@@ -7422,9 +7035,6 @@ Students will learn how to carry out operations on the cloud by developing softw
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#5"/>
-  <has_pre_requisites rdf:resource="#62510"/>
-  <has_pre_requisites rdf:resource="#62550"/>
-  <has_pre_requisites rdf:resource="#BH008"/>
   <has_pre_requisites rdf:resource="#CITS3301"/>
 </owl:NamedIndividual>
 
@@ -7445,9 +7055,6 @@ MapReduce is a programming paradigm for processing large data sets on clusters o
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#5"/>
-  <has_pre_requisites rdf:resource="#62510"/>
-  <has_pre_requisites rdf:resource="#62530"/>
-  <has_pre_requisites rdf:resource="#62550"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Financial Accounting">
@@ -7703,11 +7310,6 @@ and changing role of Accountants with respect to reporting on issues such as ICT
   <has_pre_requisites rdf:resource="#ECON1111"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#MJD-BUSAN">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#FINX1221">
   <rdf:type rdf:resource="#Unit"/>
 </owl:NamedIndividual>
@@ -7729,12 +7331,7 @@ and changing role of Accountants with respect to reporting on issues such as ICT
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
   <has_pre_requisites rdf:resource="#FINA1221"/>
-  <has_pre_requisites rdf:resource="#MJD-BUSAN"/>
   <has_pre_requisites rdf:resource="#FINX1221"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#BP009">
-  <rdf:type rdf:resource="#Unit"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Business Development Project">
@@ -7753,8 +7350,6 @@ and changing role of Accountants with respect to reporting on issues such as ICT
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#BP009"/>
-  <has_pre_requisites rdf:resource="#MJD-BUSAN"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Economic Analysis Project">
@@ -7773,51 +7368,6 @@ and changing role of Accountants with respect to reporting on issues such as ICT
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#BP013"/>
-  <has_pre_requisites rdf:resource="#MJD-BUSAN"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-ECNPF">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-LINGO">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-POLSC">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-BMGMT">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-ENTIN">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-GLBUS">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-FINEC">
-  <rdf:type rdf:resource="#Unit"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-CRMDM">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MNR-CRWRS">
-  <rdf:type rdf:resource="#Unit"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Professional Experience Practicum">
@@ -7838,16 +7388,6 @@ This unit is not available for self-enrolment, as students must first secure an 
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#MJD-ECNPF"/>
-  <has_pre_requisites rdf:resource="#MJD-LINGO"/>
-  <has_pre_requisites rdf:resource="#MJD-POLSC"/>
-  <has_pre_requisites rdf:resource="#MJD-BMGMT"/>
-  <has_pre_requisites rdf:resource="#MJD-ENTIN"/>
-  <has_pre_requisites rdf:resource="#MJD-GLBUS"/>
-  <has_pre_requisites rdf:resource="#MJD-FINEC"/>
-  <has_pre_requisites rdf:resource="#MJD-CRMDM"/>
-  <has_pre_requisites rdf:resource="#MJD-BUSAN"/>
-  <has_pre_requisites rdf:resource="#MNR-CRWRS"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Management and Organisations">
@@ -7894,9 +7434,9 @@ This unit is not available for self-enrolment, as students must first secure an 
   <has_level rdf:resource="#2"/>
   <has_pre_requisites rdf:resource="#MGMT1135"/>
   <has_pre_requisites rdf:resource="#MGMX1135"/>
+  <has_pre_requisites rdf:resource="#EMPL1206"/>
   <has_pre_requisites rdf:resource="#MGMX1136"/>
   <has_pre_requisites rdf:resource="#MGMT1136"/>
-  <has_pre_requisites rdf:resource="#EMPL1206"/>
   <has_pre_requisites rdf:resource="#EMPL1101"/>
 </owl:NamedIndividual>
 
@@ -7990,8 +7530,8 @@ This unit is not available for self-enrolment, as students must first secure an 
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#MKTG1203"/>
   <has_pre_requisites rdf:resource="#MKTX0203"/>
+  <has_pre_requisites rdf:resource="#MKTG1203"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Strategic Marketing">
@@ -8703,8 +8243,6 @@ The unit involves learning and application of theories via evidence-based approa
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#MJD-ANHBY"/>
-  <has_pre_requisites rdf:resource="#MJD-HSNEM"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ANHB3321">
@@ -8749,12 +8287,12 @@ Emphasis is placed on human reproductive biology and ecology in relation to grow
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
   <has_pre_requisites rdf:resource="#IMED1001"/>
-  <has_pre_requisites rdf:resource="#SCIX1106"/>
   <has_pre_requisites rdf:resource="#BIOC1001"/>
   <has_pre_requisites rdf:resource="#SCIE1106"/>
-  <has_pre_requisites rdf:resource="#CHEM1002"/>
+  <has_pre_requisites rdf:resource="#SCIX1106"/>
   <has_pre_requisites rdf:resource="#CHEX1002"/>
   <has_pre_requisites rdf:resource="#IMED1002"/>
+  <has_pre_requisites rdf:resource="#CHEM1002"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#PHYL2001">
@@ -8771,9 +8309,9 @@ Emphasis is placed on human reproductive biology and ecology in relation to grow
   <has_level rdf:resource="#2"/>
   <has_pre_requisites rdf:resource="#BIOC1001"/>
   <has_pre_requisites rdf:resource="#SCIE1106"/>
-  <has_pre_requisites rdf:resource="#CHEM1002"/>
-  <has_pre_requisites rdf:resource="#CHEX1002"/>
   <has_pre_requisites rdf:resource="#SCIX1106"/>
+  <has_pre_requisites rdf:resource="#CHEX1002"/>
+  <has_pre_requisites rdf:resource="#CHEM1002"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#PHAR2220">
@@ -8811,10 +8349,6 @@ Emphasis is placed on human reproductive biology and ecology in relation to grow
   <has_pre_requisites rdf:resource="#PHAR2220"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#MJD-BIOMS">
-  <rdf:type rdf:resource="#Unit"/>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#Human Biology: Applications and Investigations II">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -8827,8 +8361,6 @@ Emphasis is placed on human reproductive biology and ecology in relation to grow
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#MJD-ANHBY"/>
-  <has_pre_requisites rdf:resource="#MJD-BIOMS"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Biological Anthropology: Genes and Society">
@@ -8879,14 +8411,13 @@ Emphasis is placed on human reproductive biology and ecology in relation to grow
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#BIOL1130"/>
-  <has_pre_requisites rdf:resource="#71520"/>
-  <has_pre_requisites rdf:resource="#ANHB1102"/>
-  <has_pre_requisites rdf:resource="#ANHX1101"/>
-  <has_pre_requisites rdf:resource="#ANHX1102"/>
-  <has_pre_requisites rdf:resource="#ANHB1101"/>
-  <has_pre_requisites rdf:resource="#IMED1001"/>
   <has_pre_requisites rdf:resource="#SCIE1106"/>
+  <has_pre_requisites rdf:resource="#ANHB1101"/>
+  <has_pre_requisites rdf:resource="#ANHX1101"/>
+  <has_pre_requisites rdf:resource="#IMED1001"/>
+  <has_pre_requisites rdf:resource="#ANHB1102"/>
+  <has_pre_requisites rdf:resource="#ANHX1102"/>
+  <has_pre_requisites rdf:resource="#BIOL1130"/>
   <has_pre_requisites rdf:resource="#SCIX1106"/>
 </owl:NamedIndividual>
 
@@ -8941,16 +8472,6 @@ Detailed content includes (1) role of DNA polymerases in DNA replication, tools 
   <rdf:type rdf:resource="#Outcome"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#MJD-MLSDM">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#MJD-BCHMB">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#Biochemical Regulation of Cell Function">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -8967,9 +8488,6 @@ Detailed content includes (1) role of DNA polymerases in DNA replication, tools 
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#MJD-BCNDM"/>
-  <has_pre_requisites rdf:resource="#MJD-MLSDM"/>
-  <has_pre_requisites rdf:resource="#MJD-BCHMB"/>
   <has_pre_requisites rdf:resource="#SCIE1106"/>
   <has_pre_requisites rdf:resource="#SCIX1106"/>
   <has_pre_requisites rdf:resource="#BIOC1001"/>
@@ -9551,11 +9069,6 @@ Topics covered include assessing the conservation status of species, understandi
   <has_pre_requisites rdf:resource="#ENVT2250"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#MJD-FRODM">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#MATX1722">
   <rdf:type rdf:resource="#Unit"/>
 </owl:NamedIndividual>
@@ -9581,7 +9094,6 @@ written, visual and oral means.">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#1"/>
-  <has_pre_requisites rdf:resource="#MJD-FRODM"/>
   <has_pre_requisites rdf:resource="#PHYS1030"/>
   <has_pre_requisites rdf:resource="#PHYX1030"/>
   <has_pre_requisites rdf:resource="#MATH1721"/>
@@ -9606,7 +9118,6 @@ written, visual and oral means.">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#1"/>
-  <has_pre_requisites rdf:resource="#MJD-FRODM"/>
   <has_pre_requisites rdf:resource="#PHYS1100"/>
 </owl:NamedIndividual>
 
@@ -9709,7 +9220,6 @@ The final part of the unit is an individual research assignment culminating in a
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#MJD-FRODM"/>
   <has_pre_requisites rdf:resource="#PHYS1100"/>
   <has_pre_requisites rdf:resource="#PHYS1200"/>
   <has_pre_requisites rdf:resource="#MATH1011"/>
@@ -9805,10 +9315,6 @@ In this unit, students will learn about (1) Fundamentals of quantum computing: h
   <has_pre_requisites rdf:resource="#MATH3023"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#BH005">
-  <rdf:type rdf:resource="#Unit"/>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#Electrodynamics, Special and General Relativity">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -9826,8 +9332,6 @@ In this unit, students will learn about (1) electrodynamics — conservation law
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#BH005"/>
-  <has_pre_requisites rdf:resource="#MJD-FRODM"/>
   <has_pre_requisites rdf:resource="#PHYS1100"/>
   <has_pre_requisites rdf:resource="#PHYS2001"/>
   <has_pre_requisites rdf:resource="#MATH2501"/>
@@ -9851,8 +9355,6 @@ The content is explored with reference to a range of applications and physical c
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#53560"/>
-  <has_pre_requisites rdf:resource="#MJD-FRODM"/>
   <has_pre_requisites rdf:resource="#PHYS2001"/>
   <has_pre_requisites rdf:resource="#PHYS2002"/>
   <has_pre_requisites rdf:resource="#PHYS3001"/>
@@ -10186,10 +9688,6 @@ The objectives of the unit are to (1) explore how big issues in our multicultura
   <rdf:type rdf:resource="#Outcome"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#71520">
-  <rdf:type rdf:resource="#Unit"/>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#Human Neurobiology">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -10239,7 +9737,6 @@ ANHB2217 aims to give students a thorough understanding of neuroanatomy and neur
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#71520"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Advanced Neuroscience 1">
@@ -10321,10 +9818,6 @@ ANHB2217 aims to give students a thorough understanding of neuroanatomy and neur
   <has_level rdf:resource="#1"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#MNR-ASTAT">
-  <rdf:type rdf:resource="#Unit"/>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#Applied Statistics and Data Visualisation">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -10342,9 +9835,6 @@ The unit covers applications of a number of widely used statistical techniques s
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#MJD-QTMTD"/>
-  <has_pre_requisites rdf:resource="#MJD-HSDEM"/>
-  <has_pre_requisites rdf:resource="#MNR-ASTAT"/>
   <has_pre_requisites rdf:resource="#STAT2401"/>
   <has_pre_requisites rdf:resource="#STAT2402"/>
   <has_pre_requisites rdf:resource="#STAT2062"/>
@@ -10738,7 +10228,6 @@ The content and pedagogy of this unit is designed to meet and deliver toward AMC
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#MJD-MTHST"/>
   <has_pre_requisites rdf:resource="#STAT2062"/>
   <has_pre_requisites rdf:resource="#STAT2063"/>
 </owl:NamedIndividual>
@@ -10773,7 +10262,6 @@ The unit will cover real world examples from many different fields. For statisti
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#MJD-MTHST"/>
   <has_pre_requisites rdf:resource="#STAT2062"/>
   <has_pre_requisites rdf:resource="#STAT2063"/>
 </owl:NamedIndividual>
@@ -11023,7 +10511,6 @@ A student must have completed not less than 20 hours of full-time, or the equiva
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#0"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#MJD-PHMSC"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#In this unit, students will be introduced to foundational knowledge in the principles of biochemistry and physiology. The fundamentals in human anatomy, structure, function, behaviour and development for the cardiovascular, respiratory, renal and neurological systems is explored in the context of the common clinical and pathological manifestations, natural history, diagnostic principles, therapeutic principles and aspects of population health. Students are also provided with opportunity to engage in self-directed supplementary learning throughout the duration of this unit to enhance learning and to extend knowledge in the above areas.
@@ -11039,7 +10526,6 @@ The modules in this unit equip the students with knowledge relating to fundament
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#MJD-PHMSC"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Clinical Podiatric Practice 1">
@@ -11059,7 +10545,6 @@ Students must abide by the Professional Behaviour Procedure set in out in the ex
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#MJD-PHMSC"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Anatomy and Cutaneous Science">
@@ -11079,7 +10564,6 @@ Students must abide by the Professional Behaviour Procedure set in out in the ex
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#MJD-PHMSC"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Podiatric Biomechanics">
@@ -11100,7 +10584,6 @@ Students must abide by the Professional Behaviour Procedure set in out in the ex
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#MJD-PHMSC"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#In this unit, students will be introduced to foundational knowledge in the principles of biochemistry and physiology. The fundamentals in human anatomy, structure, function, behaviour and development for the digestive, endocrine, skin, musculoskeletal, immune systems is explored in the context of the common clinical and pathological manifestations, natural history, diagnostic principles, therapeutic principles and aspects of population health. Students will explore genetics and growth diseases, behavioural and psychiatric conditions as well as the clinical aspects of immunology, common human pathogenic organisms, their associated diseases and treatments in relevant areas of microbiology. Students are also provided with opportunity to engage in self-directed supplementary learning throughout the duration of this unit to enhance learning and to extend knowledge in the above areas.  The modules in this unit equip the students with knowledge relating to fundamental medical sciences in preparation for understanding the normal and pathological structures and processes in podiatry. It provides a high-challenge, high-support educational environment. It encourages deeper understanding and learning and helps students cross the threshold from undergraduate to postgraduate. It also provides a transformative educational environment.">
@@ -11117,7 +10600,6 @@ Students must abide by the Professional Behaviour Procedure set in out in the ex
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#MJD-PHMSC"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Clinical Podiatric Practice 2">
@@ -11138,7 +10620,6 @@ Students must abide by the Professional Behaviour Procedure set in out in the ex
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#MJD-PHMSC"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Pharmacotherapeutics for Podiatrists 1">
@@ -11161,7 +10642,6 @@ Students must abide by the Professional Behaviour Procedure set in out in the ex
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#MJD-PHMSC"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Research and Evidence in Practice">
@@ -11180,7 +10660,6 @@ Students must abide by the Professional Behaviour Procedure set in out in the ex
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#MJD-PHMSC"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Field Studies in Zoology">
@@ -14712,11 +14191,6 @@ Students will be able to meet scholars and artists as part of their time in Chin
   <has_pre_requisites rdf:resource="#HART1003"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#MJD-HYART">
-  <rdf:type rdf:resource="#Unit"/>
-  <rdf:type rdf:resource="#Major"/>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#INDG2300">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
@@ -14735,7 +14209,6 @@ Students will be able to meet scholars and artists as part of their time in Chin
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#MJD-HYART"/>
   <has_pre_requisites rdf:resource="#INDG2300"/>
   <has_pre_requisites rdf:resource="#INDG2600"/>
 </owl:NamedIndividual>
@@ -17186,14 +16659,6 @@ research..">
   <has_pre_requisites rdf:resource="#PSYC2203"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#MNR-SCCOM">
-  <rdf:type rdf:resource="#Unit"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#51580">
-  <rdf:type rdf:resource="#Unit"/>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#Exhibitions and Interpretation">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -17210,8 +16675,6 @@ research..">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#MNR-SCCOM"/>
-  <has_pre_requisites rdf:resource="#51580"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Science and Technology in Focus">
@@ -17510,6 +16973,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
   <rdf:type rdf:resource="#Outcome"/>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#MJD-AGTDM">
+  <rdf:type rdf:resource="#Major"/>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#Agricultural Technology">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -17520,6 +16987,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
 
 <owl:NamedIndividual rdf:about="#Critically assess mixed farming systems in western australia;Demonstrate skills and knowledge to assess agricultural systems using experimental, modelling and statistical methods;Explain fundamental spatial data techniques and digital systems and sensors for agricultural applications;Demonstrate capacity to solve farming-related problems using programming and data science methods;Integrate agricultural data with farming systems information to guide decision making for improved efficiency, profitability and/or environmental outcomes;Demonstrate effective networking and communication skills; anddemonstrate competency in laboratory practice, report writing, oral presentation and team work skills suited to gain employment in the discipline of Agricultural Tecnology..">
   <rdf:type rdf:resource="#Outcome"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#MJD-AGTEC">
+  <rdf:type rdf:resource="#Major"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Environmental Geography and Planning">
@@ -17534,6 +17005,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
   <rdf:type rdf:resource="#Outcome"/>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#MJD-ENGEO">
+  <rdf:type rdf:resource="#Major"/>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#Environmental Management">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -17544,6 +17019,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
 
 <owl:NamedIndividual rdf:about="#Apply economic principles to evaluate  environmental policy decisions;Critically review policy instruments for managing the environment across local, regional, and global scales;Integrate models for environmental management using social science and environmental science principles.;Characterise the  main drivers of environmental change from a scientific, social, cultural, and economic perspective.; anddemonstrate analytical, critical and innovative thinking and communication skills suited to gaining employment in environmental management..">
   <rdf:type rdf:resource="#Outcome"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#MJD-ENVMT">
+  <rdf:type rdf:resource="#Major"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Environmental Science">
@@ -17588,6 +17067,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
 
 <owl:NamedIndividual rdf:about="#apply economic principles to evaluate environmental policy decisions">
   <rdf:type rdf:resource="#Outcome"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#MJD-ENVDM">
+  <rdf:type rdf:resource="#Major"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Geographical and Spatial Science">
@@ -17698,6 +17181,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
   <rdf:type rdf:resource="#Outcome"/>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#MJD-MUSDM">
+  <rdf:type rdf:resource="#Major"/>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#Music General Studies">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -17710,6 +17197,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
   <rdf:type rdf:resource="#Outcome"/>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#MJD-MSTGM">
+  <rdf:type rdf:resource="#Major"/>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#Music Studies">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -17720,6 +17211,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
 
 <owl:NamedIndividual rdf:about="#Demonstrate an established instrumental or vocal technique, an awareness of relevant historical and stylistic conventions, an experimental and creative orientation, and a high level of musicianship and presentation in solo, small and/or large ensemble settings, and/or demonstrate an established compositional technique, an awareness of relevant historical and stylistic conventions, an experimental and creative orientation, and a high level of presentation and attention to detail that enables effective musical realisation;Identify, describe and apply basic concepts and devices in music language (harmony, rhythm, melody, timbre, texture, dynamic) in aural and written analysis, and in compositional exercises;Critically engage with, and interpret key texts from, a range of music sub-disciplines (e.g. historical musicology, ethnomusicology, psychology of music, music sociology);Articulate broad historical perspectives on the nature and contexts of art music in western culture from the renaissance to the present day;Understand basic performance skills in one non-western musical tradition;Demonstrate a sociocultural and musical understanding of various forms of world and popular musics from a global perspective;Demonstrate foundational knowledge of key music education issues, philosophies and practices;Develop transferable skills in research, critical thinking and communication which enable successful tertiary study, and facilitate postgraduate studies and patterns of lifelong learning; anddevelop some specialised knowledge in particular areas through elective studies in music.">
   <rdf:type rdf:resource="#Outcome"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#MJD-MUSST">
+  <rdf:type rdf:resource="#Major"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Music: Electronic Music and Sound Design">
@@ -17764,6 +17259,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
 
 <owl:NamedIndividual rdf:about="#Demonstrate a strong foundation in biomedical engineering;Solve technical problems relevant to the broad field of biomedical engineering;Design medical devices that are safe to operate and comply with the regulatory framework in which biomedical engineering is practised;Demonstrate ethical and professional conduct and high level communication skills in their work and when dealing with others; andextend personal and collective knowledge in biomedical engineering through research and innovation.">
   <rdf:type rdf:resource="#Outcome"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#MJD-EBMEG">
+  <rdf:type rdf:resource="#Major"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Chemical Engineering">
@@ -17874,12 +17373,20 @@ Students attain a level between Level B1 and B2 of the Common European Framework
   <rdf:type rdf:resource="#Outcome"/>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#MJD-EXHSC">
+  <rdf:type rdf:resource="#Major"/>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#In order to be effective, health care professionals need to understand not only the workings of the body from a scientific perspective, but also to know how people and societies function, and the art and science of caring for people. A caring health professional is assisted by interpretive ability and insight, applies ethical sensitivity and has an awareness of their own values and attitudes. The aim of this major is to prepare individuals working across the health professions for caring for poeple through bringing together the traditions of humanities, inquiry, compassion, and judgment to bear on the management and on the promotion of health and the treatment of illness. Those traditions include the many ways cultures have of representing, narrating, analyzing, knowing, and organizing health, illness, treatment and human interactions.">
   <rdf:type rdf:resource="#Description"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Demonstrate understanding of the historical, cultural, religious and political contexts of theories and practices related to health and medicine">
   <rdf:type rdf:resource="#Outcome"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#MJD-HHMED">
+  <rdf:type rdf:resource="#Major"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Integrated Dental Sciences">
@@ -17892,6 +17399,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
 
 <owl:NamedIndividual rdf:about="#Demonstrate an understanding of the basic human body plan, its biochemistry, anatomy histology, physiology, cell biology and communication systems;Describe the development, structure and function of the body's cardiovascular, respiratory, renal, neurological, epidermal, cardiovascular, endocrine, haematological and immunological systems;Describe the development, structure and function of the body's sensory organs;Describe the common disorders of the various body systems and the sensory organs;Explain the basic body defences and the processes of cell injury, inflammation and healing;Demonstrate knowledge of blood and blood pathologies;Define and describe the major classes of infectious diseases, the sources and characteristics of their pathogens, and the relevant treatment approaches;Demonstrate knowledge of metabolic function and its integration with nutrition;Explain human embryology and development;Demonstrate an understanding of fundamental genomics and genetics;Explain the association between genetics and disease, including cancer;Explain the principles of drug delivery, drug metabolism and the associated pharmacological aspects of the common medications used in dental practice;Explain the clinical signs, symptoms and pathogenesis of systemic conditions relevant to dental practice and the measures required to manage them during dental treatment;Classify the most common medical emergencies in dental practice and their management;Discuss aspects of public and population health, epidemiology, and the health care systems in australia;Demonstrate an understanding of aboriginal, migrant and refugee health;Demonstrate an understanding of religious, social and cultural differences within australia;Explain strategies for health maintenance, promotion, screening and disease prevention;Discuss the importance of appropriate communication in the health professions;Explain the formation, composition, function, pathology, virulence and control strategies of dental biofilms, including biofilm-related gingivitis;Outline the dental caries process, its diagnosis and management;Appraise the biomaterials used for dental restorations, their properties and indications for use;Explain dental occlusion and how it relates to dental practice;Demonstrate manual skills in pre-clinical operative dentistry and periodontics;Explain professionalism, ergonomics, ethics, and infection prevention and control protocols in clinical dental practice; andoutline the principles of research design and evidence-based dental practice and statistical analyses.">
   <rdf:type rdf:resource="#Outcome"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#MJD-DENTS">
+  <rdf:type rdf:resource="#Major"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Pathology and Laboratory Medicine">
@@ -17938,6 +17449,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
   <rdf:type rdf:resource="#Outcome"/>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#MJD-SPTSC">
+  <rdf:type rdf:resource="#Major"/>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#Sport Science, Exercise and Health">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -17950,6 +17465,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
   <rdf:type rdf:resource="#Outcome"/>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#MJD-SEHDM">
+  <rdf:type rdf:resource="#Major"/>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#Artificial Intelligence">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -17960,6 +17479,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
 
 <owl:NamedIndividual rdf:about="#Acquire the skills and knowledge to understand, evaluate, design and implement artificial intelligence systems;Apply contemporary artificial intelligence techniques, from knowledge representation, to deep learning;Discuss the ethical, social and philosophical context for ai technologies as they apply to real world settings;Work effectively as a team member and a leader for practical ai projects; andextend knowledge in artificial intelligence through research, experimentation and analysis.">
   <rdf:type rdf:resource="#Outcome"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#MJD-ARIDM">
+  <rdf:type rdf:resource="#Major"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Computer Science">
@@ -17990,6 +17513,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
   <rdf:type rdf:resource="#Outcome"/>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#MJD-CDSDM">
+  <rdf:type rdf:resource="#Major"/>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#Cybersecurity">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -18000,6 +17527,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
 
 <owl:NamedIndividual rdf:about="#Use mathematical, technical and business tools to secure information systems;Design prevention and mitigation strategies to address cyber security challenges;Design secure computer systems;Work effectively as a team member and as a team leader in cybersecurity projects; andcommunicate cybersecurity concepts and techniques and results clearly in oral and written formats.">
   <rdf:type rdf:resource="#Outcome"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#MJD-CYBER">
+  <rdf:type rdf:resource="#Major"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Data Science">
@@ -18014,6 +17545,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
   <rdf:type rdf:resource="#Outcome"/>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#MJD-DATSC">
+  <rdf:type rdf:resource="#Major"/>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#International Cybersecurity">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -18024,6 +17559,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
 
 <owl:NamedIndividual rdf:about="#Use mathematical, technical and business tools and an awareness of international political agendas to secure information systems across a range of industries and real world settings;Design prevention and mitigation strategies to address specific cyber security challenges;Create secure computer systems;Work effectively as a team member and as a team leader for real-world cybersecurity projects;Communicate cybersecurity concepts and techniques and results clearly in oral and written formats;Extend knowledge in cybersecurity through research, experimentation and analysis; anddiscuss the impact of global politics on cybersecurity risk and mitigation strategies.">
   <rdf:type rdf:resource="#Outcome"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#MJD-ICYDM">
+  <rdf:type rdf:resource="#Major"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Software Engineering">
@@ -18070,6 +17609,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
   <rdf:type rdf:resource="#Outcome"/>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#MJD-BUSAN">
+  <rdf:type rdf:resource="#Major"/>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#Business Management">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -18082,6 +17625,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
   <rdf:type rdf:resource="#Outcome"/>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#MJD-BMGMT">
+  <rdf:type rdf:resource="#Major"/>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#Enterprise and Innovation">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -18092,6 +17639,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
 
 <owl:NamedIndividual rdf:about="#Apply relevant knowledge and skills for managing innovation trajectories in existing firms as well as entrepreneurial processes in a start-up and scaling setting.;Develop an enduring capacity for framing and solving complex business problems by a focused evidence-based approach rooted in entrepreneurial inquiry.;Be a proactive communicator, open to feedback from a broad range of stakeholders and critical in your interpretation of diverse cues.;promote an innovation culture and work effectively in (self)-managed teams.">
   <rdf:type rdf:resource="#Outcome"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#MJD-ENTIN">
+  <rdf:type rdf:resource="#Major"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Finance">
@@ -18120,6 +17671,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
 
 <owl:NamedIndividual rdf:about="#Evaluate  key concepts, theories and practices important to the management of multinational organisations;Identify possible  solutions for the unique challenges that stem from operating in different global contexts simultaneously;Demonstrate an understanding of cross-country diversity with respect to cultural, economic, legal and political characteristics;Demonstrate an understanding of how managing employees varies as a result of different cultural backgrounds; andExplain how principles of ethical behaviour and social responsibility differ and are applied across different cultural contexts.">
   <rdf:type rdf:resource="#Outcome"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#MJD-GLBUS">
+  <rdf:type rdf:resource="#Major"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Human Resource Management explores how the proper management of employees contributes towards organisational effectiveness. This major provides you with thorough theoretical and practical grounding in the management of people and employment in Australia and overseas. You will complete study in areas including organisational behaviour, employment relations systems and processes, human resource planning, recruitment and selection, performance management, training and development, occupational health and safety, work organisation, negotiation and conflict resolution, giving you valuable skills as an employee in any given industry.">
@@ -18194,6 +17749,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
   <rdf:type rdf:resource="#Outcome"/>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#MJD-ANHBY">
+  <rdf:type rdf:resource="#Major"/>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#Biochemistry and Molecular Biology">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -18206,6 +17765,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
   <rdf:type rdf:resource="#Outcome"/>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#MJD-BCHMB">
+  <rdf:type rdf:resource="#Major"/>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#Biochemistry of Nutrition">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -18216,6 +17779,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
 
 <owl:NamedIndividual rdf:about="#Demonstrate an in-depth understanding of required foundational knowledge in biochemistry, molecular biology and physiology;Understand the biochemical and physiological principles of the processes involved in the digestion and absorption of nutrients, involvement of gut microflora, and impact on human health;Describe the major metabolic pathways involved in the metabolism of nutrients in the human body and how they relate to disease pathology;Demonstrate how to research topics, participate in teamwork, seek out information and solve problems in nutritional biochemistry;Demonstrate technical competency in application of current scientific methodology required to conduct laboratory-based investigations, including experimental design, data collection and interpretation, critical analysis, and operation of laboratory equipment;Communicate effectively scientific information and analyses of laboratory-based data in written and oral forms; andapply high-level critical thinking, teamwork and communication and skills required for employment and further studies related to the biochemistry of nutrition.">
   <rdf:type rdf:resource="#Outcome"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#MJD-BCNDM">
+  <rdf:type rdf:resource="#Major"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Biodiversity and Evolution">
@@ -18274,6 +17841,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
   <rdf:type rdf:resource="#Outcome"/>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#MJD-CONBI">
+  <rdf:type rdf:resource="#Major"/>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#Frontier Physics">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -18284,6 +17855,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
 
 <owl:NamedIndividual rdf:about="#Explain the physical concepts and principles that underpin a wide range of applications at the level of an early-career scientist;Apply problem identification, exploration and solution skills in physical situations that range from simple to complex;Utilise appropriate mathematical sophistication in the expression and communication of physical concepts;Investigate physical, numerical and theoretical problems using appropriate computational techniques;Experimentally test concepts in advanced and frontier physics using appropriate statistical techniques;Evaluate arguments based on known physics to test their validity; andapply research methods, including ethical considerations, to a specific research project or topic.">
   <rdf:type rdf:resource="#Outcome"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#MJD-FRODM">
+  <rdf:type rdf:resource="#Major"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Genetics">
@@ -18330,6 +17905,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
   <rdf:type rdf:resource="#Outcome"/>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#MJD-GGRPY">
+  <rdf:type rdf:resource="#Major"/>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#Geology">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -18358,6 +17937,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
   <rdf:type rdf:resource="#Outcome"/>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#MJD-HSNEM">
+  <rdf:type rdf:resource="#Major"/>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#Human Sciences and Data Analytics">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -18368,6 +17951,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
 
 <owl:NamedIndividual rdf:about="#Demonstrate an understanding of the evolutionary processes that determine human differences within and between populations;Apply acquired knowledge to clearly define questions about human evolutionary and behavioural biology and ecology, particularly in relation to the processes by which humans adapt and acclimate to their natural environments;Acquire knowledge of, and demonstrate, techniques for seeking out information or designing experiments to answer questions related to issues in the fields of human evolutionary and behavioural biology and ecology;Critically assimilate, analyse and discuss information acquired on social, biological and economic issues from a human evolutionary biology perspective;Develop an awareness of how the principles of human evolutionary biology can inform the study of human biology, social, and public health policy;Apply appropriate techniques to the collection, visual presentation, analysis and interpretation of data from a wide range of sources; andselect appropriate mathematical/statistical models for complex biological systems.">
   <rdf:type rdf:resource="#Outcome"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#MJD-HSDEM">
+  <rdf:type rdf:resource="#Major"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Integrated Earth and Marine Sciences">
@@ -18382,6 +17969,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
   <rdf:type rdf:resource="#Outcome"/>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#MJD-IEMDM">
+  <rdf:type rdf:resource="#Major"/>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#Integrated Medical Sciences and Clinical Practice">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -18394,6 +17985,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
   <rdf:type rdf:resource="#Outcome"/>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#MJD-IMSCP">
+  <rdf:type rdf:resource="#Major"/>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#Marine and Coastal Processes">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -18404,6 +17999,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
 
 <owl:NamedIndividual rdf:about="#Demonstrate a solid understanding of the physical processes that operate in marine and coastal environments;Apply scientific principles, incorporating theoretical concepts, keen observation, sound experimental design, analysis and insightful interpretation into marine research;Demonstrate a knowledge of the linkages and feedbacks between physical and biotic processes;Explain how the interactions between the physical and biotic components can influence decisions about marine and coastal management;Conduct quantitative marine research in a safe, ethical and professional manner;Develop skills in modelling, programming, and numeracy as relevant to marine research; andapply high-level critical thinking, fieldwork,  teamwork and communication and skills required for employment and further studies in the field of coastal and marine science.">
   <rdf:type rdf:resource="#Outcome"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#MJD-MARCP">
+  <rdf:type rdf:resource="#Major"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#If you are fascinated by our amazing marine plants and animals and the coastal environments in which they live, then Marine Biology is the major for you. Western Australia's marine environment is a biodiversity hotspot with up to 80 per cent of its  fish, invertebrates and other organisms found nowhere else in the world, making WA an ideal living laboratory for your studies. This major includes marine biology and ecology, marine and coastal management, and oceanography. It combines knowledge of marine aquatic life with a solid understanding of the physical environment. Through experimental design and research, you will learn to appreciate the complex interactions that occur in marine ecosystems. During your studies, you will gain practical experience through hands-on laboratory-based exercises, field trips and computer-based labs.">
@@ -18430,6 +18029,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
   <rdf:type rdf:resource="#Outcome"/>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#MJD-MARDM">
+  <rdf:type rdf:resource="#Major"/>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#Mathematics and Statistics">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -18440,6 +18043,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
 
 <owl:NamedIndividual rdf:about="#Pure mathematics—(a) apply abstract reasoning, rigour and logical deduction; (b) demonstrate an understanding of axiomatic systems and the fundamentals of mathematics; (c) establish the truth of a statement; and (d) write correct and convincing proofs;Applied mathematics—(a) apply the power of mathematics to model and understand the real world; (b) demonstrate an understanding of continuous and discrete mathematics models, dynamical systems and methods of approximation and simulation; (c) model real-world phenomena in the language of mathematics; (d) reduce a problem to mathematically tractable elements; and (e) evaluate the applicability of a mathematical solution to the original problem; andstatistics—(a) apply appropriate techniques to the collection, visual presentation, analysis and interpretation of data from a wide range of sources; (b) explain the mathematical and practical consequences of chance variation in both the source and collection of data and how to make decisions taking these factors into account; (c) model real-world phenomena involving unpredictable variation in the language of mathematics; (d) select appropriate mathematical/statistical models of data generating mechanisms; (e) use modern statistical computing packages for statistical analysis and simulation.">
   <rdf:type rdf:resource="#Outcome"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#MJD-MTHST">
+  <rdf:type rdf:resource="#Major"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Microbiology and Immunology">
@@ -18470,12 +18077,20 @@ Students attain a level between Level B1 and B2 of the Common European Framework
   <rdf:type rdf:resource="#Outcome"/>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#MJD-MLSDM">
+  <rdf:type rdf:resource="#Major"/>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#How do we process the sensory stimuli we receive? How does the nervous system grow, develop and learn? How do medical conditions such as Alzheimer's disease, deafness, dementia and depression afflict the brain and nervous system? Neuroscientists are interested in the answers to these questions and how nervous system function can be restored after disease and injury to the brain. You will be taught by academics with established international reputations in neuroscience research at all levels—from the molecules that make up individual nerve cells and that transfer information from one nerve cell to another, to the complexities of how behaviour, thought and emotions are produced.">
   <rdf:type rdf:resource="#Description"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Demonstrate a sound knowledge of basic cell and systems biology and biological chemistry and apply this knowledge to neural cells and systems;Recall and integrate key facts and concepts about the structure and function of the nervous systems of humans and other animals;Conduct some basic anatomical, cellular, physiological and behavioural investigations of nervous tissues and systems;Summarise the basic neuroscience underpinning common pathological conditions of the nervous systems;Work productively in small groups in a neuroscience laboratory environment;Research neuroscience literature and incorporate into a written report on a neuroscience subject;Explain and critically appraise recent neuroscience literature;Discuss some current issues in basic or applied neuroscience research and recognise the ongoing expansion of knowledge in these areas;Be aware of the positive contributions of neuroscience research to health and society;Be aware of the ethical implications of advances in neuroscience; andapply high-level critical thinking, teamwork and communication skills required for employment and further studies related to neuroscience.">
   <rdf:type rdf:resource="#Outcome"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#MJD-NEURS">
+  <rdf:type rdf:resource="#Major"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Pharmacology">
@@ -18522,6 +18137,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
   <rdf:type rdf:resource="#Outcome"/>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#MJD-PHYGY">
+  <rdf:type rdf:resource="#Major"/>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#Plant Biology">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -18550,6 +18169,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
   <rdf:type rdf:resource="#Outcome"/>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#MJD-PHMSC">
+  <rdf:type rdf:resource="#Major"/>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#Wildlife Conservation">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -18560,6 +18183,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
 
 <owl:NamedIndividual rdf:about="#Describe the major differences in the development, structure and functioning of animals and to explain animal diversity in a phylogenetic context;Summarise broad patterns of global biodiversity and the evolutionary history of australia's biodiversity;Explain how animals function in different environments using physiological, ecological and genetic concepts;Experience how to survey, sample and handle wild animals under field conditions;Identify timescales and their importance to processes of evolution, environmental change and the dynamics of australian ecosystems;Describe the crucial relationship between an animal's physiology, behavior and ecology and its vulnerability to rapid environmental change;Analyse the major threats to wild animal populations, and how threats interact with other threats;Critique how key threatening processes are managed and mitigated in australia;Explain the role of different stakeholders in shaping policy, planning and decision-making;Demonstrate high-level analytical, critical thinking and communication skills suited to gaining employment in wildlife conservation; anddemonstrate competency in laboratory practice, report writing, oral presentation, fieldwork and team work skills suited to gain employment in wildlife conservation..">
   <rdf:type rdf:resource="#Outcome"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#MJD-WLCDM">
+  <rdf:type rdf:resource="#Major"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Zoology">
@@ -18754,6 +18381,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
   <rdf:type rdf:resource="#Outcome"/>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#MJD-CRMDM">
+  <rdf:type rdf:resource="#Major"/>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#Economics">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -18892,6 +18523,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
 
 <owl:NamedIndividual rdf:about="#Analyse  a range of images, texts and items of visual culture and their social, political, economic, religious or aesthetic contexts;Apply the key concepts, theories and methodologies of the discipline of art history in the study of art;Show a good general knowledge of several periods in the history of art as well as more detailed knowledge of particular subject areas studied in the major;Communicate by reasoned argument in written texts and general discussion the ideas and approaches of the discipline;Undertake independent research in the discipline of art history;Demonstrate understanding of the significance of the visual arts and complex images in the construction of identities, ideologies, social formations and our place in the world; anddemonstrate understanding of the key contemporary issues of the discipline and their relevance to the study of art of diverse periods and cultures.">
   <rdf:type rdf:resource="#Outcome"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#MJD-HYART">
+  <rdf:type rdf:resource="#Major"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Human Rights">
@@ -19070,6 +18705,10 @@ Students attain a level between Level B1 and B2 of the Common European Framework
   <rdf:type rdf:resource="#Outcome"/>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#MJD-LINGO">
+  <rdf:type rdf:resource="#Major"/>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#Philosophy">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -19116,6 +18755,10 @@ This page is for students in the Bachelor of Philosophy, Politics, and Economics
   <rdf:type rdf:resource="#Outcome"/>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#MJD-POLSC">
+  <rdf:type rdf:resource="#Major"/>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#Professional Economics">
   <rdf:type rdf:resource="#Name"/>
 </owl:NamedIndividual>
@@ -19126,6 +18769,10 @@ This page is for students in the Bachelor of Philosophy, Politics, and Economics
 
 <owl:NamedIndividual rdf:about="#Demonstrate comprehensive theoretical and applied economic knowledge.;Apply qualitative and quantitative economic techniques to analyse and evaluate key economic information to inform effective decision-making.;Be effective and perceptive communicators of economic information to specialist and non-specialist audiences.;Be effective team members and work effectively and collaboratively with others.;Apply reflective and critical thinking skills to economic problems across diverse contexts with responsibility and accountability.; anddemonstate awareness of ethical, cultural, social and sustainability issues relevant to the discipline..">
   <rdf:type rdf:resource="#Outcome"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#MJD-ECNPF">
+  <rdf:type rdf:resource="#Major"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Psychological and Behavioural Sciences">
@@ -19196,6 +18843,10 @@ The Psychological and Behavioural Sciences major will help you develop a scienti
 
 <owl:NamedIndividual rdf:about="#Explain aboriginal health and wellbeing from the perspectives of aboriginal peoples;Demonstrate an understanding of the underlying issues that influence health and wellbeing from historical, environmental, cultural, political and spiritual perspectives;Identify particular health problems within aboriginal communities and their impacts;Demonstrate knowledge of the strategies, policies and practices that have been implemented to improve health and wellbeing with a particular focus on aboriginal-community-led initiatives;Demonstrate practical experience in aboriginal health settings;Demonstrate a strong fundamental knowledge of human biology assisting in evaluating the biological evidence about disease mechanisms; andintegrate this biological knowledge with their understanding of Aboriginal ways, health and disease in formulating effective strategies required to address health issues.">
   <rdf:type rdf:resource="#Outcome"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#MJD-ABHWB">
+  <rdf:type rdf:resource="#Major"/>
 </owl:NamedIndividual>
 
 
