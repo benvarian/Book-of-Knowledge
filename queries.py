@@ -13,7 +13,7 @@ Prefix rel: <https://uwa.handbook/relation/>
 Prefix uwa: <https://uwa.handbook/>
 Prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 
-SELECT ?Title ?Outcome (COUNT(?Outcome) AS ?count)
+SELECT ?Title (COUNT(?Outcome) AS ?count)
 WHERE {
 ?p a uwa:unit.
 ?p rel:Title ?Title.
