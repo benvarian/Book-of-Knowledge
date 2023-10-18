@@ -119,6 +119,6 @@ for unit in units.items():
         has_pre_requisites=prereq,
     )
     # print(unit_owl.domain)
+    print(unit_owl.is_instance_of)
 
-
-onto.save(file="majors.owl")
+# onto.save(file="majors.owl")
