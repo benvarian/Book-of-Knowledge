@@ -105,20 +105,20 @@ for major in majors.items():
 for unit in units.items():
     level = Level(unit[1]["level"])
     credit = Credit(unit[1]["Credit"])
-    desc = Description(unit[1]["Description"])
-    outcome = Outcome(handle_outcomes(unit[1]["Outcomes"]))
-    title = Name(unit[1]["title"])
+    # desc = Description(unit[1]["Description"])
+    # outcome = Outcome(handle_outcomes(unit[1]["Outcomes"]))
+    # title = Name(unit[1]["title"])
     prereq = extract_units(unit[1].get("Prerequisites", ""))
     unit_owl = Unit(
         unit[0],
         # has_name=title,
         # has_description=desc,
         # has_outcome=outcome,
-        has_credit_points=credit,
+        # has_credit_points=credit,
         has_level=level,
-        has_pre_requisites=prereq,
+        # has_pre_requisites=prereq,
     )
     # print(unit_owl.domain)
-    print(unit_owl.is_instance_of)
+    print(unit_owl.is_a)
 
-# onto.save(file="majors.owl")
+onto.save(file="majors.owl")
