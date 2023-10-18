@@ -4,44 +4,58 @@ import re
 import json
 from bs4 import BeautifulSoup
 
+
 def get_contact(html):
-    weekly_keywords = ["PER WEEK", "WEEKLY", "LECTURE", "WORKSHOP", "TUTORIAL", "SEMINAR"]
+    weekly_keywords = [
+        "PER WEEK",
+        "WEEKLY",
+        "LECTURE",
+        "WORKSHOP",
+        "TUTORIAL",
+        "SEMINAR",
+    ]
     classes = {}
     contact_list = html.find_all("br")
-    if(not contact_list): # no <i> flag inside html string
+    if not contact_list:  # no <i> flag inside html string
         for d, h in list(zip(contact_list, re.findall(r"(\d+)", html.get_text()))):
-            if(any(keyword in d.getText().upper() for keyword in weekly_keywords)):
+            if any(keyword in d.getText().upper() for keyword in weekly_keywords):
                 classes[d.getText()] = int(h) * 12
             else:
                 classes[d.getText()] = int(h)
     else:
-        contact_list = [i.find_previous() for i in contact_list] 
+        contact_list = [i.find_previous() for i in contact_list]
         # If there is a set of hours in the format 'a x b' hours
-        for d, h in list(zip(contact_list, re.findall(r"(\d+\s*x\s*\d+)", html.get_text()))):
-                    if(any(keyword in d.getText().upper() for keyword in weekly_keywords)):
-                        semester_hours = int(h[0]) * int(h[-1]) * 12
-                        classes[d.getText()] = semester_hours
-                        # print(d.getText(), semester_hours)
-                    else:
-                        semester_hours = int(h[0]) * int(h[-1])
-                        classes[d.getText()] = semester_hours
+        for d, h in list(
+            zip(contact_list, re.findall(r"(\d+\s*x\s*\d+)", html.get_text()))
+        ):
+            if any(keyword in d.getText().upper() for keyword in weekly_keywords):
+                semester_hours = int(h[0]) * int(h[-1]) * 12
+                classes[d.getText()] = semester_hours
+                # print(d.getText(), semester_hours)
+            else:
+                semester_hours = int(h[0]) * int(h[-1])
+                classes[d.getText()] = semester_hours
         # If there is a set of hours in the format 'a hours'
         for d, h in list(zip(contact_list, re.findall(r"(\d+)", html.get_text()))):
-                    if(d.getText() not in classes):
-                        if(any(keyword in d.getText().upper() for keyword in weekly_keywords) and int(h) <= 5): 
-                            hours = int(h)*12
-                            classes[d.getText()] = hours
-                            # print(d.getText(), int(h)*12)
-                        else:
-                            classes[d.getText()] = int(h)
-                            # print(d.getText(), int(h))
-    
+            if d.getText() not in classes:
+                if (
+                    any(keyword in d.getText().upper() for keyword in weekly_keywords)
+                    and int(h) <= 5
+                ):
+                    hours = int(h) * 12
+                    classes[d.getText()] = hours
+                    # print(d.getText(), int(h)*12)
+                else:
+                    classes[d.getText()] = int(h)
+                    # print(d.getText(), int(h))
+
     # Sum all hours to get semester contact hours
     sum = 0
     for value in classes.values():
         sum += value
 
     return sum
+
 
 # set url and headers
 url = "https://handbooks.uwa.edu.au/unitdetails?code="
@@ -71,6 +85,7 @@ for i in dump.items():
 units = {}
 
 for code in unit_code:
+    print(code)
     page = requests.get(url + code, headers=headers)
 
     soup = BeautifulSoup(page.content, "lxml")
@@ -96,8 +111,7 @@ for code in unit_code:
         elif key == "Offering":
             offer = {}
             for row in value.find_all("tbody tr"):
-                for h, d in list(
-                        zip(value.find_all("thead th"), row.find_all("td"))):
+                for h, d in list(zip(value.find_all("thead th"), row.find_all("td"))):
                     offer[h.get_text().strip()] = d.get_text().strip()
             unit[key] = offer
         # Find Majors in which the course appears (note, only name, not code is
@@ -120,25 +134,24 @@ for code in unit_code:
         elif key == "Contact hours":
             classes = get_contact(value)
             unit[key] = classes
-            
+
         # find prerequisites. Format is vague, should probably convert to CNF.
         # deeply unsatisfactory. Should aim to capture the Boolean rules here.
         # Will accept as disjunct.
-        elif (key == "Unit rules"):
+        elif key == "Unit rules":
             for k, v in list(zip(value.find_all("dt"), value.find_all("dd"))):
                 prereqs = list(map(lambda x: x.get_text().strip(), v.find_all("a")))
                 cleaned_prereqs = []
                 for prereq in prereqs:
-                    if(re.search("[A-Z]{4}\d{4}$", prereq) is not None):
+                    if re.search("[A-Z]{4}\d{4}$", prereq) is not None:
                         cleaned_prereqs.append(prereq)
                     else:
                         pass
-                if(cleaned_prereqs):
+                if cleaned_prereqs:
                     unit[k.get_text().strip()] = cleaned_prereqs
         # textbooks
         elif key == "Texts":
-            texts = list(
-                map(lambda x: x.get_text().strip(), value.find_all("p")))
+            texts = list(map(lambda x: x.get_text().strip(), value.find_all("p")))
     units[code] = unit
     # code = codes.readline().strip()
 
