@@ -396,9 +396,18 @@
             "Present design propositions through a range of media, both digital and hand-drawn, and digital and physical models; and",
             "demonstrate knowledge of the history and theory of the profession, and be capable of undertaking the professional architectural degree."
         ],
-        "Level1Units": [],
-        "Level2Units": [],
-        "Level3Units": [],
+        "Level1Units": [
+            "ARCT1150",
+            "ARLA1030"
+        ],
+        "Level2Units": [
+            "ARCT2001",
+            "ARCT2030"
+        ],
+        "Level3Units": [
+            "ARCT3000",
+            "ARCT3030"
+        ],
         "Level4Units": []
     },
     "MJD-LDARC": {
