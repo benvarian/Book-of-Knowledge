@@ -111,13 +111,14 @@ for unit in units.items():
     prereq = extract_units(unit[1].get("Prerequisites", ""))
     unit_owl = Unit(
         unit[0],
-        has_name=title,
-        has_description=desc,
-        has_outcome=outcome,
+        # has_name=title,
+        # has_description=desc,
+        # has_outcome=outcome,
         has_credit_points=credit,
         has_level=level,
         has_pre_requisites=prereq,
     )
+    # print(unit_owl.domain)
 
 
 onto.save(file="majors.owl")
