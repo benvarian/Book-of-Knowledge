@@ -32,5 +32,7 @@ if(__name__ == "__main__"):
 
     print(conforms)
     print(v_text)
-    with open("validation_results.ttl", 'w') as file:
+    filename = "validation_results.ttl"
+    with open(filename, 'w') as file:
         file.write(v_graph.decode())
+        print(f"Validation Graph written to file {filename}")

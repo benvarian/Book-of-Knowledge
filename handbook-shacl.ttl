@@ -7,6 +7,7 @@
 
 schema:PrereqShape a sh:NodeShape ;
     sh:targetClass uwa:unit ;
+    sh:message "Prerequisite must have a lower unit level than unit" ;
     sh:or (
         [
             sh:property [
@@ -16,28 +17,24 @@ schema:PrereqShape a sh:NodeShape ;
         ]
         [
             sh:sparql [
-                a sh:SPARQLConstraint ;
-                sh:message "Prerequisite must have a lower unit level than unit" ;
-                sh:prefixes rel: ;
-                sh:select """
-                    SELECT $this
-                    WHERE {
-                        $this rel:Level ?level .
-                        $this rel:Prerequisite ?prereq .
-                        ?prereq rel:Level ?prereqLevel
-                        FILTER (?prereqLevel >= ?level)
-                    }
-                """ ;
-            ] 
+                    a sh:SPARQLConstraint ;
+                    sh:message "Prerequisite must have a lower unit level than unit" ;
+                    sh:prefix rel: ;
+                    sh:prefix uwa: ;
+                    sh:select """
+                        SELECT $this
+                        WHERE {
+                            $this rel:Level ?level .
+                            $this rel:Prerequisite ?prereq .
+                            ?prereq a uwa:unit .
+                            ?prereq rel:Level ?prereqLevel
+                            FILTER (?prereqLevel > ?level)
+                        }
+                    """ ;
+                ] 
         ]
-        [
-            sh:property [
-                sh:path rel:Prerequisite ;
-                sh:maxCount 0 ;
-            ]
-        ]
-     ) .
-
+    ) .
+    
 schema:SelfPrereqShape a sh:NodeShape ;
     sh:targetClass uwa:unit ;
     sh:sparql [
