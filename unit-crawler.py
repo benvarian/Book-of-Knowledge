@@ -143,7 +143,7 @@ for code in unit_code:
                 prereqs = list(map(lambda x: x.get_text().strip(), v.find_all("a")))
                 cleaned_prereqs = []
                 for prereq in prereqs:
-                    if re.search("[A-Z]{4}\d{4}$", prereq) is not None:
+                    if (re.search("[A-Z]{4}\d{4}$", prereq) is not None and len(prereq) == 8):
                         cleaned_prereqs.append(prereq)
                     else:
                         pass
