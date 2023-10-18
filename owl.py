@@ -1,4 +1,11 @@
-from owlready2 import get_ontology, Thing, onto_path, ObjectProperty, FunctionalProperty, TransitiveProperty
+from owlready2 import (
+    get_ontology,
+    Thing,
+    onto_path,
+    ObjectProperty,
+    FunctionalProperty,
+    TransitiveProperty,
+)
 import json
 
 with open("majors.json", "r") as file:
@@ -55,25 +62,25 @@ with onto:
     class Level(Unit):
         pass
 
-    class has_level_one_units(Unit >> Title):
-        pass
+    # class has_level_one_units(Unit >> Title):
+    #     pass
 
-    class has_level_two_units(Unit >> Title):
-        pass
+    # class has_level_two_units(Unit >> Title):
+    #     pass
 
-    class has_level_three_units(Unit >> Title):
-        pass
+    # class has_level_three_units(Unit >> Title):
+    #     pass
 
     class has_name(FunctionalProperty):
-        domain = [Major, Unit]
+        domain = [Major]
         range = [Name]
 
     class has_description(FunctionalProperty):
-        domain = [Major, Unit]
+        domain = [Major]
         range = [Title]
 
     class has_outcome(FunctionalProperty):
-        domain = [Major, Unit]
+        domain = [Major]
         range = [Title]
 
     class has_pre_requisites(Unit >> Title, TransitiveProperty):
@@ -85,40 +92,53 @@ with onto:
     class has_level(Unit >> Level, FunctionalProperty):
         pass
 
+    for unit in units.items():
+        # info = extract_units(unit[1].get("Prerequisites", ""))
+        # print(info)
+        unit_mod = Unit(
+            unit[0],
+            has_name=Name(unit[1]["title"]),
+            has_credit_points=Credit(unit[1]["Credit"]),
+            has_description=Description(unit[1]["Description"]),
+            has_outcome=Outcome(handle_outcomes(unit[1]["Outcomes"])),
+            has_level=Level(unit[1]["level"]),
+        )
 
-for major in majors.items():
-    units_level_one = extract_units(major[1]["Level1Units"])
-    units_level_two = extract_units(major[1]["Level2Units"])
-    units_level_three = extract_units(major[1]["Level3Units"])
-    name = Name(major[1]["Name"])
-    desc = Description(major[1]["Description"])
-    outcome = Outcome(handle_outcomes(major[1]["Outcomes"]))
-    major_owl = Major(
-        major[0],
-        has_level_one_units=units_level_one,
-        has_level_two_units=units_level_two,
-        has_level_three_units=units_level_three,
-        has_name=name,
-        has_description=desc,
-        has_outcome=outcome,
-    )
-for unit in units.items():
-    level = Level(unit[1]["level"])
-    credit = Credit(unit[1]["Credit"])
-    # desc = Description(unit[1]["Description"])
-    # outcome = Outcome(handle_outcomes(unit[1]["Outcomes"]))
-    # title = Name(unit[1]["title"])
-    prereq = extract_units(unit[1].get("Prerequisites", ""))
-    unit_owl = Unit(
-        unit[0],
-        # has_name=title,
-        # has_description=desc,
-        # has_outcome=outcome,
-        # has_credit_points=credit,
-        has_level=level,
-        # has_pre_requisites=prereq,
-    )
-    # print(unit_owl.domain)
-    print(unit_owl.is_a)
+    #     level = Level(unit[1]["level"])
+    #     credit = Credit(unit[1]["Credit"])
+    #     desc = Description(unit[1]["Description"])
+    #     outcome = Outcome(handle_outcomes(unit[1]["Outcomes"]))
+    #     title = Name(unit[1]["title"])
+    #     prereq = extract_units(unit[1].get("Prerequisites", ""))
+    #     unit_owl = Unit(
+    #         unit[0],
+    #         has_name=title,
+    #         has_description=desc,
+    #         has_outcome=outcome,
+    #         has_credit_points=credit,
+    #         has_level=level,
+    #         has_pre_requisites=prereq,
+    #     )
+    for major in majors.items():
+        units_level_one = extract_units(major[1]["Level1Units"])
+        units_level_two = extract_units(major[1]["Level2Units"])
+        units_level_three = extract_units(major[1]["Level3Units"])
+        name = Name(major[1]["Name"])
+        desc = Description(major[1]["Description"])
+        outcome = Outcome(handle_outcomes(major[1]["Outcomes"]))
+        major_owl = Major(
+            major[0],
+            # has_level_one_units=units_level_one,
+            # has_level_two_units=units_level_two,
+            # has_level_three_units=units_level_three,
+            has_name=name,
+            has_description=desc,
+            has_outcome=outcome,
+        )
 
+
+# print(Outcome.__dict__)
+# print(unit_owl.__class__)
+print(major_owl.__class__)
+# print(list(onto.inconsistent_classes()))
 onto.save(file="majors.owl")
