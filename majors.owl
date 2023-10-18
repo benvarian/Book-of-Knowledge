@@ -436,14 +436,14 @@ At the end of the unit, the students will have developed an appreciation and und
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#1"/>
-  <has_pre_requisites rdf:resource="#ANHB1101"/>
+  <has_pre_requisites rdf:resource="#IMED1001"/>
   <has_pre_requisites rdf:resource="#CHEM1003"/>
   <has_pre_requisites rdf:resource="#CHEX1003"/>
-  <has_pre_requisites rdf:resource="#ANHX1101"/>
-  <has_pre_requisites rdf:resource="#IMED1001"/>
-  <has_pre_requisites rdf:resource="#ANHB1102"/>
   <has_pre_requisites rdf:resource="#ANHX1102"/>
   <has_pre_requisites rdf:resource="#BIOL1130"/>
+  <has_pre_requisites rdf:resource="#ANHB1101"/>
+  <has_pre_requisites rdf:resource="#ANHX1101"/>
+  <has_pre_requisites rdf:resource="#ANHB1102"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#SCIX1106">
@@ -631,12 +631,12 @@ Students find, examine and critically analyse information relating to a scientif
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#ENVT1104"/>
-  <has_pre_requisites rdf:resource="#STAX1400"/>
-  <has_pre_requisites rdf:resource="#BIOL1130"/>
   <has_pre_requisites rdf:resource="#BIOL1131"/>
-  <has_pre_requisites rdf:resource="#STAT1400"/>
   <has_pre_requisites rdf:resource="#SCIE1104"/>
+  <has_pre_requisites rdf:resource="#STAX1400"/>
+  <has_pre_requisites rdf:resource="#ENVT1104"/>
+  <has_pre_requisites rdf:resource="#STAT1400"/>
+  <has_pre_requisites rdf:resource="#BIOL1130"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Soil–Plant Interactions">
@@ -987,26 +987,26 @@ The unit content is delivered through modules related to: climate change and car
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#BUSN1103"/>
-  <has_pre_requisites rdf:resource="#ECON1000"/>
-  <has_pre_requisites rdf:resource="#ECOX1101"/>
   <has_pre_requisites rdf:resource="#ECON1101"/>
+  <has_pre_requisites rdf:resource="#ECON1000"/>
+  <has_pre_requisites rdf:resource="#BUSN1103"/>
+  <has_pre_requisites rdf:resource="#ECOX1101"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ECON2233">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#ECOX1101"/>
   <has_pre_requisites rdf:resource="#ECON1101"/>
+  <has_pre_requisites rdf:resource="#ECOX1101"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ECON2234">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#ECOX1102"/>
   <has_pre_requisites rdf:resource="#ECON1102"/>
+  <has_pre_requisites rdf:resource="#ECOX1102"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Business and the Environment">
@@ -1043,18 +1043,18 @@ This unit is organized into weekly topics that roughly correspond to the chapter
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#EART1105"/>
   <has_pre_requisites rdf:resource="#ENVT1104"/>
-  <has_pre_requisites rdf:resource="#GEOG1103"/>
   <has_pre_requisites rdf:resource="#GENG1014"/>
+  <has_pre_requisites rdf:resource="#GEOG1103"/>
+  <has_pre_requisites rdf:resource="#EART1105"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#SCIE2204">
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#EART1105"/>
   <has_pre_requisites rdf:resource="#BIOL1131"/>
+  <has_pre_requisites rdf:resource="#EART1105"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#EART2204">
@@ -1592,11 +1592,11 @@ Core competencies for visualising project work are developed through weekly draw
   <has_credit_points rdf:resource="#12"/>
   <has_level rdf:resource="#2"/>
   <has_pre_requisites rdf:resource="#ARLA1040"/>
+  <has_pre_requisites rdf:resource="#ARLA1030"/>
   <has_pre_requisites rdf:resource="#ARCT1011"/>
   <has_pre_requisites rdf:resource="#ARCT1010"/>
-  <has_pre_requisites rdf:resource="#ARLA1030"/>
-  <has_pre_requisites rdf:resource="#ARCT1001"/>
   <has_pre_requisites rdf:resource="#ARCT1150"/>
+  <has_pre_requisites rdf:resource="#ARCT1001"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ARCT2030">
@@ -2080,10 +2080,10 @@ The unit will discuss methodology, practical and theoretical approaches and appl
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#12"/>
   <has_level rdf:resource="#3"/>
+  <has_pre_requisites rdf:resource="#ARTF3020"/>
+  <has_pre_requisites rdf:resource="#ARTF3040"/>
   <has_pre_requisites rdf:resource="#ARTF3050"/>
   <has_pre_requisites rdf:resource="#ARTF3030"/>
-  <has_pre_requisites rdf:resource="#ARTF3040"/>
-  <has_pre_requisites rdf:resource="#ARTF3020"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Advanced Major Project">
@@ -3000,13 +3000,13 @@ IMPORTANT: If you have a disability or injury that may impact on your ability to
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
-  <has_pre_requisites rdf:resource="#GENG2000"/>
   <has_pre_requisites rdf:resource="#CITX1001"/>
   <has_pre_requisites rdf:resource="#CITS2005"/>
-  <has_pre_requisites rdf:resource="#CITX1401"/>
-  <has_pre_requisites rdf:resource="#CITS2401"/>
   <has_pre_requisites rdf:resource="#CITS1401"/>
+  <has_pre_requisites rdf:resource="#CITS2401"/>
+  <has_pre_requisites rdf:resource="#CITX1401"/>
   <has_pre_requisites rdf:resource="#CITS1001"/>
+  <has_pre_requisites rdf:resource="#GENG2000"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#ENSC3020">
@@ -3082,10 +3082,10 @@ IMPORTANT: If you have a disability or injury that may impact on your ability to
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
+  <has_pre_requisites rdf:resource="#MATH1721"/>
+  <has_pre_requisites rdf:resource="#CITX1401"/>
   <has_pre_requisites rdf:resource="#CITS1401"/>
   <has_pre_requisites rdf:resource="#MATX1721"/>
-  <has_pre_requisites rdf:resource="#CITX1401"/>
-  <has_pre_requisites rdf:resource="#MATH1721"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Embedded Systems">
@@ -5807,15 +5807,15 @@ Topics will include DNA, RNA, protein structure in healthy humans, chromosome st
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
+  <has_pre_requisites rdf:resource="#IMED1001"/>
+  <has_pre_requisites rdf:resource="#IMED1002"/>
+  <has_pre_requisites rdf:resource="#ANHX1102"/>
+  <has_pre_requisites rdf:resource="#BIOL1130"/>
   <has_pre_requisites rdf:resource="#SCIE1106"/>
   <has_pre_requisites rdf:resource="#ANHB1101"/>
   <has_pre_requisites rdf:resource="#ANHX1101"/>
-  <has_pre_requisites rdf:resource="#IMED1002"/>
-  <has_pre_requisites rdf:resource="#IMED1001"/>
-  <has_pre_requisites rdf:resource="#ANHB1102"/>
-  <has_pre_requisites rdf:resource="#ANHX1102"/>
-  <has_pre_requisites rdf:resource="#BIOL1130"/>
   <has_pre_requisites rdf:resource="#SCIX1106"/>
+  <has_pre_requisites rdf:resource="#ANHB1102"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Immunobiology and Immune Diseases">
@@ -5844,9 +5844,9 @@ Topics will include DNA, RNA, protein structure in healthy humans, chromosome st
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#SCIX1106"/>
-  <has_pre_requisites rdf:resource="#IMED1003"/>
   <has_pre_requisites rdf:resource="#SCIE1106"/>
+  <has_pre_requisites rdf:resource="#IMED1003"/>
+  <has_pre_requisites rdf:resource="#SCIX1106"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Medical Genetics">
@@ -6489,8 +6489,8 @@ Topics may include: (1) the computational theory of mind; (2) Connectionism and 
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
   <has_pre_requisites rdf:resource="#CITS1401"/>
-  <has_pre_requisites rdf:resource="#CITS2401"/>
   <has_pre_requisites rdf:resource="#CITX1401"/>
+  <has_pre_requisites rdf:resource="#CITS2401"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Professional Computing">
@@ -6766,10 +6766,10 @@ Students are expected to conduct qualitative research work or solve important Co
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#MATH1011"/>
-  <has_pre_requisites rdf:resource="#MATX1012"/>
   <has_pre_requisites rdf:resource="#MATH1012"/>
+  <has_pre_requisites rdf:resource="#MATH1011"/>
   <has_pre_requisites rdf:resource="#MATX1011"/>
+  <has_pre_requisites rdf:resource="#MATX1012"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Statistical Learning">
@@ -7433,11 +7433,11 @@ This unit is not available for self-enrolment, as students must first secure an 
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
   <has_pre_requisites rdf:resource="#MGMT1135"/>
+  <has_pre_requisites rdf:resource="#EMPL1101"/>
   <has_pre_requisites rdf:resource="#MGMX1135"/>
+  <has_pre_requisites rdf:resource="#MGMT1136"/>
   <has_pre_requisites rdf:resource="#EMPL1206"/>
   <has_pre_requisites rdf:resource="#MGMX1136"/>
-  <has_pre_requisites rdf:resource="#MGMT1136"/>
-  <has_pre_requisites rdf:resource="#EMPL1101"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Human Resource Management">
@@ -7530,8 +7530,8 @@ This unit is not available for self-enrolment, as students must first secure an 
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#MKTX0203"/>
   <has_pre_requisites rdf:resource="#MKTG1203"/>
+  <has_pre_requisites rdf:resource="#MKTX0203"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Strategic Marketing">
@@ -8287,12 +8287,12 @@ Emphasis is placed on human reproductive biology and ecology in relation to grow
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
   <has_pre_requisites rdf:resource="#IMED1001"/>
-  <has_pre_requisites rdf:resource="#BIOC1001"/>
-  <has_pre_requisites rdf:resource="#SCIE1106"/>
-  <has_pre_requisites rdf:resource="#SCIX1106"/>
-  <has_pre_requisites rdf:resource="#CHEX1002"/>
   <has_pre_requisites rdf:resource="#IMED1002"/>
+  <has_pre_requisites rdf:resource="#SCIE1106"/>
   <has_pre_requisites rdf:resource="#CHEM1002"/>
+  <has_pre_requisites rdf:resource="#BIOC1001"/>
+  <has_pre_requisites rdf:resource="#CHEX1002"/>
+  <has_pre_requisites rdf:resource="#SCIX1106"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#PHYL2001">
@@ -8307,11 +8307,11 @@ Emphasis is placed on human reproductive biology and ecology in relation to grow
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#BIOC1001"/>
   <has_pre_requisites rdf:resource="#SCIE1106"/>
-  <has_pre_requisites rdf:resource="#SCIX1106"/>
-  <has_pre_requisites rdf:resource="#CHEX1002"/>
+  <has_pre_requisites rdf:resource="#BIOC1001"/>
   <has_pre_requisites rdf:resource="#CHEM1002"/>
+  <has_pre_requisites rdf:resource="#CHEX1002"/>
+  <has_pre_requisites rdf:resource="#SCIX1106"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#PHAR2220">
@@ -8411,14 +8411,14 @@ Emphasis is placed on human reproductive biology and ecology in relation to grow
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#2"/>
-  <has_pre_requisites rdf:resource="#SCIE1106"/>
-  <has_pre_requisites rdf:resource="#ANHB1101"/>
-  <has_pre_requisites rdf:resource="#ANHX1101"/>
   <has_pre_requisites rdf:resource="#IMED1001"/>
-  <has_pre_requisites rdf:resource="#ANHB1102"/>
   <has_pre_requisites rdf:resource="#ANHX1102"/>
   <has_pre_requisites rdf:resource="#BIOL1130"/>
+  <has_pre_requisites rdf:resource="#ANHB1101"/>
+  <has_pre_requisites rdf:resource="#SCIE1106"/>
+  <has_pre_requisites rdf:resource="#ANHX1101"/>
   <has_pre_requisites rdf:resource="#SCIX1106"/>
+  <has_pre_requisites rdf:resource="#ANHB1102"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Human Structure and Function">
@@ -9146,8 +9146,8 @@ multivariable calculus understand and use the methods of complex analysis unders
   <rdf:type rdf:resource="#Unit"/>
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#1"/>
-  <has_pre_requisites rdf:resource="#PHYS1001"/>
   <has_pre_requisites rdf:resource="#PHYX1001"/>
+  <has_pre_requisites rdf:resource="#PHYS1001"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Quantum Physics and Electromagnetism">
@@ -13140,10 +13140,10 @@ The unit leads to FREN2404 French Studies 4. Level 2 and Level 3 French units no
   <has_credit_points rdf:resource="#6"/>
   <has_level rdf:resource="#3"/>
   <has_pre_requisites rdf:resource="#GEND2902"/>
-  <has_pre_requisites rdf:resource="#GEND1901"/>
   <has_pre_requisites rdf:resource="#GEND2903"/>
-  <has_pre_requisites rdf:resource="#GEND3904"/>
+  <has_pre_requisites rdf:resource="#GEND1901"/>
   <has_pre_requisites rdf:resource="#ENGL1902"/>
+  <has_pre_requisites rdf:resource="#GEND3904"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#GEND3904">
