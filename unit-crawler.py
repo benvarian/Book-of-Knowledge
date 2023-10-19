@@ -122,11 +122,13 @@ for code in unit_code:
         # Extract list of outcomes using a regexp
         elif key == "Outcomes":
             outcomes = value.get_text().strip()
-            unit[key] = re.findall(r"\d\)([^\(;]*)", outcomes)
+            outcomes = re.findall(r"\d\)([^\(;]*)", outcomes)
+            unit[key] = [outcome.strip().capitalize() for outcome in outcomes]
         # Extract description of assessment items
         elif key == "Assessment":
             assessments = value.get_text().strip()
-            unit[key] = re.findall(r"\d\)([^\(;.]*)", assessments)
+            assessments = re.findall(r"\d\)([^\(;.]*)", assessments)
+            unit[key] = [assessment.strip().capitalize() for assessment in assessments]
         # find Unit Coordinator name
         elif key == "Unit Coordinator":
             unit[key] = value.get_text().strip()

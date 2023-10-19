@@ -35,7 +35,7 @@ with onto:
         domain = [or2.Or([Major, Unit])]
         range = [str]
 
-    class has_outcome(or2.FunctionalProperty):
+    class has_outcome(or2.ObjectProperty):
         domain = [or2.Or([Major, Unit])]
         range = [Outcome]
 
@@ -55,15 +55,19 @@ units = onto.Unit.instances()
 
 for unit in units:
     direct_prereqs = unit.has_pre_requisites
-    print(f"{unit} Direct prerequisites: {direct_prereqs}")
+    # print(f"{unit} Direct prerequisites: {direct_prereqs}")
 
     all_prereqs = unit.INDIRECT_has_pre_requisites
     indirect_prereqs = []
     for prereq in all_prereqs:
         if prereq not in direct_prereqs:
             indirect_prereqs.append(prereq)
-    print(f"{unit} Indirect prerequisites: {indirect_prereqs}\n")
+    # print(f"{unit} Indirect prerequisites: {indirect_prereqs}\n")
+
+
 
 # ## Test Outcome of a Unit is Outcome of a Major
-# majors = onto.Major.instances()
+majors = onto.Major.instances()
+for major in majors:
+    print(major.has_outcome)
 or2.sync_reasoner()

@@ -27,13 +27,6 @@ def extract_units(list_of_units):
     return units
 
 
-def handle_outcomes(list_of_outcomes):
-    main = ""
-    for i in list_of_outcomes:
-        main += i
-    return main
-
-
 # Add some majors to the ontology
 with onto:
     # classes
@@ -66,7 +59,7 @@ with onto:
         domain = [Or([Major, Unit])]
         range = [str]
 
-    class has_outcome(FunctionalProperty):
+    class has_outcome(ObjectProperty):
         domain = [Or([Major, Unit])]
         range = [Outcome]
 
@@ -79,18 +72,25 @@ with onto:
     class has_level(Unit >> int, FunctionalProperty):
         pass
 
+    class has_assessment(Unit >> str):
+        pass
+
+    class has_contact_hours(Unit >> int, FunctionalProperty):
+        pass
+
     for unit in units.items():
-        # info = extract_units(unit[1].get("Prerequisites", ""))
-        # print(info)
         prereqs = extract_units(unit[1].get("Prerequisites", ""))
+        contact_hours = unit[1].get('Contact hours')
         unit_mod = Unit(
             unit[0],
             has_name=unit[1]["title"],
             has_credit_points=unit[1]["Credit"],
             has_description=unit[1]["Description"],
-            has_outcome=Outcome(handle_outcomes(unit[1]["Outcomes"])),
+            has_outcome=[Outcome(i) for i in unit[1]["Outcomes"]],
             has_level=unit[1]["level"],
-            has_pre_requisites=prereqs
+            has_pre_requisites=prereqs,
+            has_assessment=unit[1]["Assessment"],
+            has_contact_hours=contact_hours
         )
 
     #     level = Level(unit[1]["level"])
@@ -114,15 +114,15 @@ with onto:
         units_level_three = extract_units(major[1]["Level3Units"])
         name = major[1]["Name"]
         desc = major[1]["Description"]
-        outcome = Outcome(handle_outcomes(major[1]["Outcomes"]))
+        outcome = [Outcome(i.strip().capitalize()) for i in major[1]["Outcomes"]]
         major_owl = Major(
             major[0],
-            # has_level_one_units=units_level_one,
-            # has_level_two_units=units_level_two,
-            # has_level_three_units=units_level_three,
+            has_level_one_units=units_level_one,
+            has_level_two_units=units_level_two,
+            has_level_three_units=units_level_three,
             has_name=name,
             has_description=desc,
-            has_outcome=outcome,
+            has_outcome=outcome
         )
 
 
