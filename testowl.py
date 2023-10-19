@@ -1,6 +1,6 @@
 import owlready2 as or2
 
-onto = or2.get_ontology("./majors.owl")
+onto = or2.get_ontology("./handbook.owl")
 loaded = onto.load()
 
 # Add some majors to the ontology
@@ -12,52 +12,40 @@ with onto:
     class Unit(or2.Thing):
         pass
 
-    class Name(or2.Thing):
+    class Outcome(or2.Thing):
         pass
 
-    class Grouping(or2.Thing):
+    class has_level_one_units(or2.ObjectProperty):
+        domain = [Major]
+        range = [Unit]
+
+    class has_level_two_units(or2.ObjectProperty):
+        domain = [Major]
+        range = [Unit]
+
+    class has_level_three_units(or2.ObjectProperty):
+        domain = [Major]
+        range = [Unit]
+
+    class has_name(or2.DataProperty, or2.FunctionalProperty):
+        domain = [or2.Or([Major, Unit])]
+        range = [str]
+
+    class has_description(or2.DataProperty, or2.FunctionalProperty):
+        domain = [or2.Or([Major, Unit])]
+        range = [str]
+
+    class has_outcome(or2.FunctionalProperty):
+        domain = [or2.Or([Major, Unit])]
+        range = [Outcome]
+
+    class has_pre_requisites(Unit >> Unit, or2.ObjectProperty, or2.TransitiveProperty):
         pass
 
-    class Title(Unit):
+    class has_credit_points(Unit >> int, or2.FunctionalProperty):
         pass
 
-    class Description(Major):
-        pass
-
-    class Outcome(Major):
-        pass
-
-    class Credit(Unit):
-        pass
-
-    class Level(Unit):
-        pass
-
-    class has_level_one_units(Unit >> Title):
-        pass
-
-    class has_level_two_units(Unit >> Title):
-        pass
-
-    class has_level_three_units(Unit >> Title):
-        pass
-
-    class has_name(Major >> Name, or2.FunctionalProperty):
-        pass
-
-    class has_description(Major >> Title, or2.FunctionalProperty):
-        pass
-
-    class has_outcome(Major >> Title, or2.FunctionalProperty):
-        pass
-
-    class has_pre_requisites(Unit >> Title, or2.TransitiveProperty):
-        pass
-
-    class has_credit_points(Unit >> Credit, or2.FunctionalProperty):
-        pass
-
-    class has_level(Unit >> Level, or2.FunctionalProperty):
+    class has_level(Unit >> int, or2.FunctionalProperty):
         pass
 
 
@@ -78,4 +66,4 @@ for unit in units:
 
 # ## Test Outcome of a Unit is Outcome of a Major
 # majors = onto.Major.instances()
-
+or2.sync_reasoner()

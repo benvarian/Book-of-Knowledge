@@ -5,6 +5,8 @@ from owlready2 import (
     ObjectProperty,
     FunctionalProperty,
     TransitiveProperty,
+    Or,
+    DataProperty
 )
 import json
 
@@ -15,7 +17,7 @@ with open("units.json", "r") as output:
     units = json.load(output)
 
 
-onto = get_ontology("http://test.org/onto.owl#")
+onto = get_ontology("http://test.org/handbook.owl/")
 
 
 def extract_units(list_of_units):
@@ -41,55 +43,40 @@ with onto:
     class Unit(Thing):
         pass
 
-    class Name(Thing):
+    class Outcome(Thing):
         pass
 
-    class Grouping(Thing):
-        pass
-
-    class Title(Unit):
-        pass
-
-    class Description(Major):
-        pass
-
-    class Outcome(Major):
-        pass
-
-    class Credit(Unit):
-        pass
-
-    class Level(Unit):
-        pass
-
-    # class has_level_one_units(Unit >> Title):
-    #     pass
-
-    # class has_level_two_units(Unit >> Title):
-    #     pass
-
-    # class has_level_three_units(Unit >> Title):
-    #     pass
-
-    class has_name(FunctionalProperty):
+    class has_level_one_units(ObjectProperty):
         domain = [Major]
-        range = [Name]
+        range = [Unit]
 
-    class has_description(FunctionalProperty):
+    class has_level_two_units(ObjectProperty):
         domain = [Major]
-        range = [Title]
+        range = [Unit]
+
+    class has_level_three_units(ObjectProperty):
+        domain = [Major]
+        range = [Unit]
+
+    class has_name(DataProperty, FunctionalProperty):
+        domain = [Or([Major, Unit])]
+        range = [str]
+
+    class has_description(DataProperty, FunctionalProperty):
+        domain = [Or([Major, Unit])]
+        range = [str]
 
     class has_outcome(FunctionalProperty):
-        domain = [Major]
-        range = [Title]
+        domain = [Or([Major, Unit])]
+        range = [Outcome]
 
-    class has_pre_requisites(Unit >> Unit, TransitiveProperty):
+    class has_pre_requisites(Unit >> Unit, ObjectProperty, TransitiveProperty):
         pass
 
-    class has_credit_points(Unit >> Credit, FunctionalProperty):
+    class has_credit_points(Unit >> int, FunctionalProperty):
         pass
 
-    class has_level(Unit >> Level, FunctionalProperty):
+    class has_level(Unit >> int, FunctionalProperty):
         pass
 
     for unit in units.items():
@@ -98,11 +85,11 @@ with onto:
         prereqs = extract_units(unit[1].get("Prerequisites", ""))
         unit_mod = Unit(
             unit[0],
-            has_name=Name(unit[1]["title"]),
-            has_credit_points=Credit(unit[1]["Credit"]),
-            has_description=Description(unit[1]["Description"]),
+            has_name=unit[1]["title"],
+            has_credit_points=unit[1]["Credit"],
+            has_description=unit[1]["Description"],
             has_outcome=Outcome(handle_outcomes(unit[1]["Outcomes"])),
-            has_level=Level(unit[1]["level"]),
+            has_level=unit[1]["level"],
             has_pre_requisites=prereqs
         )
 
@@ -125,8 +112,8 @@ with onto:
         units_level_one = extract_units(major[1]["Level1Units"])
         units_level_two = extract_units(major[1]["Level2Units"])
         units_level_three = extract_units(major[1]["Level3Units"])
-        name = Name(major[1]["Name"])
-        desc = Description(major[1]["Description"])
+        name = major[1]["Name"]
+        desc = major[1]["Description"]
         outcome = Outcome(handle_outcomes(major[1]["Outcomes"]))
         major_owl = Major(
             major[0],
@@ -143,4 +130,4 @@ with onto:
 # print(unit_owl.__class__)
 print(major_owl.__class__)
 # print(list(onto.inconsistent_classes()))
-onto.save(file="majors.owl")
+onto.save(file="handbook.owl")
