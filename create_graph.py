@@ -72,7 +72,7 @@ for instance in major_dump.items():
 
 
 # Units
-with open("./units.json", "r") as file:
+with open("./scraping_results/units.json", "r") as file:
     unit_dump = json.load(file)
 
 for instance in unit_dump.items():

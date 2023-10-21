@@ -1,19 +1,35 @@
 # Book-of-Knowledge
 
-## How to run uni crawler
-python is a pre-requisites to run file.
+## How to run web crawlers
 
-1. Make venv 
+1. Make a python virtual environment
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 2. install dependencies
 ```bash
 pip install -r requirements.txt
 ```
-3. pick units that you want to analyse and fill in the unit-codes.txt file
-4. run crawler
+3. Navigate to the scraping_results folder
 ```bash
-python unit-crawler.py
+cd scraping_results
 ```
-5. all output will be placed in units.json
+4. run major crawler 
+```bash
+python3 unit-crawler.py
+```
+5. run unit crawler 
+```bash
+python3 unit-crawler.py
+```
+
+## How to create the knowledge graph
+1. Navigate back to the root directory of the project
+```bash
+cd ..
+```
+2. Run the create graph file
+```bash
+python3 create_graph.py
+```
+Upon successful completion this will create the handbook.ttl file in the root directory of the project.

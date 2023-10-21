@@ -1,5 +1,4 @@
 import requests
-import lxml
 import re
 import json
 from bs4 import BeautifulSoup
@@ -33,7 +32,8 @@ def get_units(soup, level):
 # set url and headers
 url = "https://handbooks.uwa.edu.au/majors"
 headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 QIHU 360SE"
+    "User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 \
+      (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 QIHU 360SE"
 }
 
 majors = {}
