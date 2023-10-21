@@ -26,6 +26,8 @@ with open("scraping_results/majors.json", "r", encoding='utf-8') as file:
 with open("scraping_results/units.json", "r", encoding='utf-8') as output:
     units = json.load(output)
 
+
+# Add Units to ontology
 for unit in units.items():
     # Extract Data
     prereqs = extract_units(unit[1].get("Prerequisites", ""))
@@ -41,8 +43,8 @@ for unit in units.items():
     name = re.sub(r"[\u0080-\uffff]", "_", name)
     desc = re.sub(r"['\t\\\n\r\"]", "", str(unit[1]["Description"]))
     desc = re.sub(r"[\u0080-\uffff]", "_", desc)
-
     assessments = [str(assessment.replace("—", "").replace("–", "").replace("\n", "").replace("'", "")) for assessment in unit[1]["Assessment"]]
+    
     # Add unit to ontology
     unit_mod = onto.Unit(
         unit[0],
@@ -56,7 +58,7 @@ for unit in units.items():
         has_text=texts,
     )
 
-
+# Add majors to ontology
 for major in majors.items():
     # Extract data
     units_level_one = extract_units(major[1]["Level1Units"])
@@ -80,11 +82,11 @@ for major in majors.items():
         has_description=desc,
     )
 
-    out = [
+    outcomes = [
         onto.Outcome(out.replace(" ", "_").replace("\n", "_"))
         for out in major[1]["Outcomes"]
     ]
-    major_owl.has_outcome.extend(out)
+    major_owl.has_outcome.extend(outcomes)
 
 sync_reasoner_pellet(onto, infer_property_values=True, infer_data_property_values=True, debug=2)
 
