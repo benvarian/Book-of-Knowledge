@@ -1,6 +1,7 @@
 from owlready2 import (
     get_ontology,
-    sync_reasoner_pellet
+    sync_reasoner_pellet,
+    sync_reasoner
 )
 import json
 
@@ -67,6 +68,6 @@ for major in majors.items():
     out = [onto.Outcome(out.replace(" ", "_").replace("\n", "_")) for out in major[1]["Outcomes"]]
     major_owl.has_outcome.extend(out)
 
-sync_reasoner_pellet(onto, infer_property_values=True, debug=2)
+sync_reasoner(onto, infer_property_values=True)
     
 onto.save("handbook_populated.owl")
