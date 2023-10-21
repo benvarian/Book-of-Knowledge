@@ -3,10 +3,13 @@ import re
 import json
 from bs4 import BeautifulSoup
 
+# Contributors
+#  Ben Varian 23215049
+#  Mitchell Otley 23475725
+
+
 # Get the units of a specific level from the html soup
 # Return a list of the unit codes
-
-
 def get_units(soup, level):
     units = soup.find('h4', {'id': f"dsmlevel{level}"})
     yearcodes = []

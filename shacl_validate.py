@@ -1,6 +1,10 @@
 from pyshacl import validate
 from pathlib import PurePath
 
+# Contributors
+#  Ben Varian 23215049
+#  Mitchell Otley 23475725
+
 if __name__ == "__main__":
     # Assuming graph in same directory
     handbook = str(PurePath("handbook.ttl"))

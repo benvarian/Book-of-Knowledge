@@ -3,6 +3,10 @@ import re
 import json
 from bs4 import BeautifulSoup
 
+# Contributors
+#  Ben Varian 23215049
+#  Mitchell Otley 23475725
+
 
 def get_contact(html):
     weekly_keywords = [

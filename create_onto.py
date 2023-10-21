@@ -9,6 +9,9 @@ from owlready2 import (
     Imp,
 )
 
+# Contributors
+#  Ben Varian 23215049
+#  Mitchell Otley 23475725
 
 onto = get_ontology("http://test.org/handbook.owl/")
 

@@ -1,6 +1,10 @@
 from rdflib import Graph, Namespace, Literal, RDF
 import json
 
+# Contributors
+#  Ben Varian 23215049
+#  Mitchell Otley 23475725
+
 g = Graph()
 
 uwa = Namespace("https://uwa.handbook/")

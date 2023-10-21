@@ -1,6 +1,10 @@
 from owlready2 import get_ontology, sync_reasoner_pellet
 import json
 
+# Contributors
+#  Ben Varian 23215049
+#  Mitchell Otley 23475725
+
 
 # Function to convert a list of unit codes
 # from a string to the ontology Unit class
