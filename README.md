@@ -64,3 +64,9 @@ All of our queries are stored in one file and will print the results to the stan
 ```bash
 python3 queries.py
 ```
+
+## How to run SHACL validation 
+The commands for the shacl validation are stored in the `shacl_validate.py` file. To run this file please run
+``` bash 
+python3 shacl_validate.py
+```
