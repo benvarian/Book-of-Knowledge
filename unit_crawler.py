@@ -1,5 +1,4 @@
 import requests
-import lxml
 import re
 import json
 from bs4 import BeautifulSoup
@@ -17,8 +16,10 @@ def get_contact(html):
     classes = {}
     contact_list = html.find_all("br")
     if not contact_list:  # no <i> flag inside html string
-        for d, h in list(zip(contact_list, re.findall(r"(\d+)", html.get_text()))):
-            if any(keyword in d.getText().upper() for keyword in weekly_keywords):
+        for d, h in list(zip(contact_list, re.findall(r"(\d+)",
+                                                      html.get_text()))):
+            if any(keyword in d.getText().upper() for keyword
+                   in weekly_keywords):
                 classes[d.getText()] = int(h) * 12
             else:
                 classes[d.getText()] = int(h)
@@ -28,7 +29,8 @@ def get_contact(html):
         for d, h in list(
             zip(contact_list, re.findall(r"(\d+\s*x\s*\d+)", html.get_text()))
         ):
-            if any(keyword in d.getText().upper() for keyword in weekly_keywords):
+            if any(keyword in d.getText().upper() for keyword
+                   in weekly_keywords):
                 semester_hours = int(h[0]) * int(h[-1]) * 12
                 classes[d.getText()] = semester_hours
                 # print(d.getText(), semester_hours)
@@ -36,10 +38,12 @@ def get_contact(html):
                 semester_hours = int(h[0]) * int(h[-1])
                 classes[d.getText()] = semester_hours
         # If there is a set of hours in the format 'a hours'
-        for d, h in list(zip(contact_list, re.findall(r"(\d+)", html.get_text()))):
+        for d, h in list(zip(contact_list, re.findall(r"(\d+)",
+                                                      html.get_text()))):
             if d.getText() not in classes:
                 if (
-                    any(keyword in d.getText().upper() for keyword in weekly_keywords)
+                    any(keyword in d.getText().upper() for keyword
+                        in weekly_keywords)
                     and int(h) <= 5
                 ):
                     hours = int(h) * 12
@@ -60,7 +64,8 @@ def get_contact(html):
 # set url and headers
 url = "https://handbooks.uwa.edu.au/unitdetails?code="
 headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 QIHU 360SE"
+    "User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 \
+    (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 QIHU 360SE"
 }
 
 unit_code = []
@@ -111,7 +116,8 @@ for code in unit_code:
         elif key == "Offering":
             offer = {}
             for row in value.find_all("tbody tr"):
-                for h, d in list(zip(value.find_all("thead th"), row.find_all("td"))):
+                for h, d in list(zip(value.find_all("thead th"),
+                                     row.find_all("td"))):
                     offer[h.get_text().strip()] = d.get_text().strip()
             unit[key] = offer
         # Find Majors in which the course appears (note, only name, not code is
@@ -128,7 +134,8 @@ for code in unit_code:
         elif key == "Assessment":
             assessments = value.get_text().strip()
             assessments = re.findall(r"\d\)([^\(;.]*)", assessments)
-            unit[key] = [assessment.strip().capitalize() for assessment in assessments]
+            unit[key] = [assessment.strip().capitalize() for assessment
+                         in assessments]
         # find Unit Coordinator name
         elif key == "Unit Coordinator":
             unit[key] = value.get_text().strip()
@@ -142,7 +149,8 @@ for code in unit_code:
         # Will accept as disjunct.
         elif key == "Unit rules":
             for k, v in list(zip(value.find_all("dt"), value.find_all("dd"))):
-                prereqs = list(map(lambda x: x.get_text().strip(), v.find_all("a")))
+                prereqs = list(map(lambda x: x.get_text().strip(),
+                                   v.find_all("a")))
                 cleaned_prereqs = []
                 for prereq in prereqs:
                     if (
@@ -157,7 +165,8 @@ for code in unit_code:
         # textbooks
         elif key == "Texts":
             texts = list(
-                map(lambda x: x.get_text().strip().capitalize(), value.find_all("p"))
+                map(lambda x: x.get_text().strip().capitalize(),
+                    value.find_all("p"))
             )
             for text in texts.copy():
                 if text == "":

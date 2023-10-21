@@ -6,6 +6,8 @@ from bs4 import BeautifulSoup
 
 # Get the units of a specific level from the html soup
 # Return a list of the unit codes
+
+
 def get_units(soup, level):
     units = soup.find('h4', {'id': f"dsmlevel{level}"})
     yearcodes = []
@@ -16,16 +18,17 @@ def get_units(soup, level):
             if (line.find('a', recursive=False)):
                 yearcodes.append(line.getText(separator=""))
     else:
-        ## EDGE CASE: https://handbooks.uwa.edu.au/majordetails?code=MJS-ARCTB
-        ## Uses id of smlevel_ instead of dsmlevel_
+        # EDGE CASE: https://handbooks.uwa.edu.au/majordetails?code=MJS-ARCTB
+        # Uses id of smlevel_ instead of dsmlevel_
         units = soup.find('h4', {'id': f"smlevel{level}"})
-        if(units):
+        if (units):
             units = units.findNext('tbody')
             units = units.findChildren(name='td')
             for line in units:
                 if (line.find('a', recursive=False)):
                     yearcodes.append(line.getText(separator=""))
     return yearcodes
+
 
 # set url and headers
 url = "https://handbooks.uwa.edu.au/majors"
@@ -64,7 +67,8 @@ for major in major_dict.keys():
     # Outcomes
     outcomes = soup.find('dt', string="Outcomes")
     outcomes = outcomes.findNext('p').getText(separator="")
-    # major_dict[major]["Outcomes"] = outcomes # UNCOMMENT TO ADD OUTCOMES AS ONE STRING
+    # major_dict[major]["Outcomes"] = outcomes # UNCOMMENT TO ADD OUTCOMES AS
+    # ONE STRING
 
     newstring = outcomes.replace("Students are able to ", "")
     pattern = r"\(\d+\)"
@@ -83,7 +87,7 @@ for major in major_dict.keys():
     # Prerequisites
     prereq = soup.find('dl', {'class': "columns ruled"})
     prereq = prereq.find(name='dt', string="Prerequisites")
-    if(prereq):
+    if (prereq):
         prereq = prereq.find_next(name='p').getText(separator="")
         major_dict[major]["Prerequisites"] = prereq
     # First Year Units

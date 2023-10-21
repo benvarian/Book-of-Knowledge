@@ -7,9 +7,10 @@ from owlready2 import (
     Or,
     DataProperty,
     Imp,
-    sync_reasoner
+    sync_reasoner,
 )
 import json
+
 
 def extract_units(list_of_units):
     units = []
@@ -17,10 +18,12 @@ def extract_units(list_of_units):
         units.append(onto.Unit(unit))
     return units
 
+
 onto = get_ontology("http://test.org/handbook.owl/")
 
 # Add to ontology
 with onto:
+
     class Major(Thing):
         pass
 
@@ -68,8 +71,9 @@ with onto:
 
     axiom = Imp()
     axiom.set_as_rule(
-        "has_level_one_units(?m, ?u), has_outcome(?u, ?o) -> has_outcome(?m, ?o)"
-        )
+        "has_level_one_units(?m, ?u), has_outcome(?u, ?o) -> \
+            has_outcome(?m, ?o)"
+    )
 
 
 with open("majors.json", "r") as file:

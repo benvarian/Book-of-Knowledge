@@ -1,4 +1,5 @@
 from rdflib import Graph
+
 # Create a Graph
 g = Graph()
 
