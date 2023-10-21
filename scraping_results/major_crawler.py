@@ -66,13 +66,13 @@ for major in major_dict.keys():
         desc = desc.findNext('p').getText(separator="")
     else:
         desc = desc.getText(separator="")
+    desc = re.sub(r"[\u0080-\u00ff]", "_", desc)
     major_dict[major]["Description"] = desc
     # Outcomes
     outcomes = soup.find('dt', string="Outcomes")
     outcomes = outcomes.findNext('p').getText(separator="")
-    # major_dict[major]["Outcomes"] = outcomes # UNCOMMENT TO ADD OUTCOMES AS
-    # ONE STRING
-
+    # UNCOMMENT TO ADD OUTCOMES AS ONE STRING
+    # major_dict[major]["Outcomes"] = outcomes 
     newstring = outcomes.replace("Students are able to ", "")
     pattern = r"\(\d+\)"
     num_matches = re.findall(pattern, newstring)
@@ -102,5 +102,5 @@ for major in major_dict.keys():
     # Fourth Year Units
     major_dict[major]["Level4Units"] = get_units(soup, 4)
 
-with open("majors.json", "w") as file:
+with open("majors.json", "w", encoding='utf-8') as file:
     json.dump(major_dict, file, indent=4)

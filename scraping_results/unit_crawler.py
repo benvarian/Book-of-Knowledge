@@ -2,6 +2,7 @@ import requests
 import re
 import json
 from bs4 import BeautifulSoup
+from pathlib import PurePath
 
 # Contributors
 #  Ben Varian 23215049
@@ -75,7 +76,7 @@ headers = {
 unit_code = []
 
 # reading in majors
-code = open("majors.json", "r")
+code = open("scraping_results/majors.json", "r", encoding='utf-8')
 dump = json.load(code)
 code.close()
 
@@ -178,9 +179,8 @@ for code in unit_code:
             if texts:
                 unit[key] = texts
     units[code] = unit
-    # code = codes.readline().strip()
 
 
-out = open("units.json", "w")
+out = open("units.json", "w", encoding='utf-8')
 # write to file with indent set to 4.
 json.dump(units, out, indent=4)

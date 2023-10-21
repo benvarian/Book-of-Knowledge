@@ -1,5 +1,6 @@
 from owlready2 import get_ontology, sync_reasoner_pellet
 import json
+import re
 
 # Contributors
 #  Ben Varian 23215049
@@ -19,10 +20,10 @@ onto = get_ontology("./handbook.owl")
 loaded = onto.load()
 
 # Load Data into ontology
-with open("scraping_results/majors.json", "r") as file:
+with open("scraping_results/majors.json", "r", encoding='utf-8') as file:
     majors = json.load(file)
 
-with open("scraping_results/units.json", "r") as output:
+with open("scraping_results/units.json", "r", encoding='utf-8') as output:
     units = json.load(output)
 
 for unit in units.items():
@@ -36,15 +37,20 @@ for unit in units.items():
         onto.Text(text.replace(" ", "_").replace("\n", "_"))
         for text in unit[1].get("Texts", "")
     ]
+    name = re.sub(r"[ ']", "_", str(unit[1]["title"]))
+    name = re.sub(r"[\u0080-\uffff]", "_", name)
+    desc = re.sub(r"['\t\\\n\r\"]", "", str(unit[1]["Description"]))
+    desc = re.sub(r"[\u0080-\uffff]", "_", desc)
 
+    assessments = [str(assessment.replace("—", "").replace("–", "").replace("\n", "").replace("'", "")) for assessment in unit[1]["Assessment"]]
     # Add unit to ontology
     unit_mod = onto.Unit(
         unit[0],
-        has_name=unit[1]["title"].replace(" ", "_"),
-        has_description=unit[1]["Description"].replace(" ", "_"),
+        has_name=name,
+        has_description=desc,
         has_credit_points=int(unit[1]["Credit"]),
         has_pre_requisites=prereqs,
-        has_assessment=unit[1]["Assessment"],
+        has_assessment=assessments,
         has_contact_hours=unit[1].get("Contact hours"),
         has_outcome=outcomes,
         has_text=texts,
@@ -57,8 +63,11 @@ for major in majors.items():
     units_level_two = extract_units(major[1]["Level2Units"])
     units_level_three = extract_units(major[1]["Level3Units"])
     units_level_four = extract_units(major[1].get("Level4Units", ""))
-    name = major[1]["Name"].replace(" ", "_")
-    desc = major[1]["Description"].replace(" ", "_")
+    name = str(major[1]["Name"].replace(" ", "_").replace("'", ""))
+    name = re.sub(r"[ ']", "_", str(major[1]["Name"]))
+    name = re.sub(r"[\u0080-\uffff]", "_", name)
+    desc = re.sub(r"['\t\\\n\r\"]", "", str(unit[1]["Description"]))
+    desc = re.sub(r"[\u0080-\uffff]", "_", desc)
 
     # Add major and its details to ontology
     major_owl = onto.Major(
@@ -77,6 +86,6 @@ for major in majors.items():
     ]
     major_owl.has_outcome.extend(out)
 
-sync_reasoner_pellet(onto, infer_property_values=True)
+sync_reasoner_pellet(onto, infer_property_values=True, infer_data_property_values=True, debug=2)
 
 onto.save("handbook_populated.owl")

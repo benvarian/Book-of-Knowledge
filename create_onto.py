@@ -63,8 +63,9 @@ with onto:
     class has_level(Unit >> int, FunctionalProperty):
         pass
 
-    class has_assessment(Unit >> str):
-        pass
+    class has_assessment(DataProperty):
+        domain = [Or([Major, Unit])]
+        range = [str]
 
     class has_contact_hours(Unit >> int, FunctionalProperty):
         pass
@@ -114,6 +115,26 @@ with onto:
     text_axiom4 = Imp()
     text_axiom4.set_as_rule(
         "has_level_four_units(?m, ?u), has_text(?u, ?t) -> has_text(?m, ?t)"
+    )
+
+    assess_axiom1 = Imp()
+    assess_axiom1.set_as_rule(
+        "has_level_one_units(?m, ?u), has_assessment(?u, ?a) -> has_assessment(?m, ?a)"
+    )
+
+    assess_axiom2 = Imp()
+    assess_axiom2.set_as_rule(
+        "has_level_two_units(?m, ?u), has_assessment(?u, ?a) -> has_assessment(?m, ?a)"
+    )
+
+    assess_axiom3 = Imp()
+    assess_axiom3.set_as_rule(
+        "has_level_three_units(?m, ?u), has_assessment(?u, ?a) -> has_assessment(?m, ?a)"
+    )
+
+    assess_axiom4 = Imp()
+    assess_axiom4.set_as_rule(
+        "has_level_four_units(?m, ?u), has_assessment(?u, ?a) -> has_assessment(?m, ?a)"
     )
 
 onto.save(file="handbook.owl")
