@@ -145,7 +145,10 @@ for code in unit_code:
                 prereqs = list(map(lambda x: x.get_text().strip(), v.find_all("a")))
                 cleaned_prereqs = []
                 for prereq in prereqs:
-                    if (re.search("[A-Z]{4}\d{4}$", prereq) is not None and len(prereq) == 8):
+                    if (
+                        re.search("[A-Z]{4}\d{4}$", prereq) is not None
+                        and len(prereq) == 8
+                    ):
                         cleaned_prereqs.append(prereq)
                     else:
                         pass
@@ -153,11 +156,14 @@ for code in unit_code:
                     unit[k.get_text().strip()] = cleaned_prereqs
         # textbooks
         elif key == "Texts":
-            texts = list(map(lambda x: x.get_text().strip().capitalize(), value.find_all("p")))
+            texts = list(
+                map(lambda x: x.get_text().strip().capitalize(), value.find_all("p"))
+            )
             for text in texts.copy():
-                if text == "": 
+                if text == "":
                     texts.remove(text)
-            if(texts): unit[key] = texts
+            if texts:
+                unit[key] = texts
     units[code] = unit
     # code = codes.readline().strip()
 
