@@ -1,5 +1,9 @@
 # Book-of-Knowledge
 
+## Team 
+- Ben Varian: 23210549 
+- Mitchell Otley: 23475725
+
 ## How to run web crawlers
 
 1. Make a python virtual environment
@@ -23,7 +27,7 @@ python3 unit-crawler.py
 python3 unit-crawler.py
 ```
 
-## How to create the knowledge graph
+## How to create the knowledge graph + OWL file
 1. Navigate back to the root directory of the project
 ```bash
 cd ..
@@ -33,3 +37,12 @@ cd ..
 python3 create_graph.py
 ```
 Upon successful completion this will create the handbook.ttl file in the root directory of the project.
+
+3. Populate the owl file with the rules and axioms
+```bash
+python3 create_onto.py
+```
+4. Load all the data into the ontology
+```bash
+python3 load_onto.py
+```
