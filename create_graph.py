@@ -1,4 +1,4 @@
-from rdflib import Graph, Namespace, Literal, RDF, URIRef
+from rdflib import Graph, Namespace, Literal, RDF
 import json
 
 g = Graph()
