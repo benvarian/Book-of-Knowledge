@@ -1,11 +1,11 @@
 from owlready2 import (
     get_ontology,
-    sync_reasoner,
     sync_reasoner_pellet
 )
 import json
 
-
+# Function to convert a list of unit codes
+# from a string to the ontology Unit class
 def extract_units(list_of_units):
     units = []
     for unit in list_of_units:

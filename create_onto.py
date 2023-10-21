@@ -108,6 +108,4 @@ with onto:
         "has_level_four_units(?m, ?u), has_text(?u, ?t) -> has_text(?m, ?t)"
     )
 
-
-
 onto.save(file="handbook.owl")
