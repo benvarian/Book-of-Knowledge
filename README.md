@@ -4,8 +4,7 @@
 - Ben Varian: 23210549 
 - Mitchell Otley: 23475725
 
-## How to run web crawlers
-
+## Setup python environment
 1. Make a python virtual environment
 ```bash
 python3 -m venv venv
@@ -14,15 +13,26 @@ python3 -m venv venv
 ```bash
 pip install -r requirements.txt
 ```
-3. Navigate to the scraping_results folder
+3. Activate environment (Linux + MacOS)
+```bash
+source venv/bin/activate
+```
+4. Activate environemnt (Windows)
+```powershell
+venv\Scripts\Activate.ps1
+```
+
+## How to run web crawlers
+
+1. Navigate to the scraping_results folder
 ```bash
 cd scraping_results
 ```
-4. run major crawler 
+2. run major crawler 
 ```bash
 python3 unit-crawler.py
 ```
-5. run unit crawler 
+3. run unit crawler 
 ```bash
 python3 unit-crawler.py
 ```
@@ -45,4 +55,12 @@ python3 create_onto.py
 4. Load all the data into the ontology
 ```bash
 python3 load_onto.py
+```
+
+## How to run queries 
+
+All of our queries are stored in one file and will print the results to the standard output.
+
+```bash
+python3 queries.py
 ```
