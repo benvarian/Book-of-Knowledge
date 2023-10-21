@@ -26,7 +26,6 @@ title = rel["Title"]
 credit = rel["Credit"]
 level = rel["Level"]
 assess = rel["Assessment"]
-in_major = rel["inMajor"]
 contact = rel["ContactHours"]
 coreq = rel["Corequisite"]
 incomp = rel["Incompatability"]
@@ -90,9 +89,6 @@ for instance in unit_dump.items():
         g.add((unit_URI, desc, Literal(instance[1]["Description"])))
     if "Credit" in instance[1]:
         g.add((unit_URI, credit, Literal(int(instance[1]["Credit"]))))
-    if "Majors" in instance[1]:
-        for i in instance[1]["Majors"]:
-            g.add((unit_URI, in_major, Literal(i)))
     if "Outcomes" in instance[1]:
         for i in instance[1]["Outcomes"]:
             g.add((unit_URI, outcome, Literal(i.strip().capitalize())))
