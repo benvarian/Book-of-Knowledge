@@ -70,3 +70,63 @@ schema:ContactShape a sh:NodeShape ;
             HAVING (SUM (?hours) / ?semesters > 40)
         """ ;
     ] .
+
+schema:PrereqShape a sh:NodeShape ;
+    sh:targetClass uwa:unit ;
+    sh:message "The units level must range between 1 and 4 and must occur once" ;
+    sh:property [
+        sh:path rel:Level ;
+        sh:datatype xsd:integer ;
+        sh:minInclusive 1 ;
+        sh:maxInclusive 5 ;
+        sh:maxCount 1 ;
+    ] .
+
+schema:PrereqShape a sh:NodeShape ;
+    sh:targetClass uwa:major ;
+    sh:message "A major must have a unit in each level" ;
+    sh:and (
+        [
+            sh:property [
+                sh:path rel:L1Unit ;
+                sh:minCount 1 ;
+            ]
+        ]
+        [
+            sh:property [
+                sh:path rel:L2Unit ;
+                sh:minCount 1 ;
+            ]
+        ]
+        [
+            sh:property [
+                sh:path rel:L3Unit ;
+                sh:minCount 1 ;
+            ]
+        ]
+        [
+            sh:property [
+                sh:path rel:L4Unit ;
+                sh:minCount 0 ;
+            ]
+        ]
+    ) .
+
+
+
+schema:PrereqShape a sh:NodeShape ;
+    sh:targetClass uwa:unit ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:message "A prerequisite cannot also be an incompatibility." ;
+        sh:prefix rel: ;
+        sh:prefix uwa: ;
+        sh:select """
+            SELECT $this 
+            WHERE {
+                $this a uwa:unit .
+                $this rel:Prerequisite ?p .
+                $this rel:Incompatability ?p .
+            }
+        """ ;
+    ] .
