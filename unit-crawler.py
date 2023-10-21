@@ -4,6 +4,59 @@ import re
 import json
 from bs4 import BeautifulSoup
 
+
+def get_contact(html):
+    weekly_keywords = [
+        "PER WEEK",
+        "WEEKLY",
+        "LECTURE",
+        "WORKSHOP",
+        "TUTORIAL",
+        "SEMINAR",
+    ]
+    classes = {}
+    contact_list = html.find_all("br")
+    if not contact_list:  # no <i> flag inside html string
+        for d, h in list(zip(contact_list, re.findall(r"(\d+)", html.get_text()))):
+            if any(keyword in d.getText().upper() for keyword in weekly_keywords):
+                classes[d.getText()] = int(h) * 12
+            else:
+                classes[d.getText()] = int(h)
+    else:
+        contact_list = [i.find_previous() for i in contact_list]
+        # If there is a set of hours in the format 'a x b' hours
+        for d, h in list(
+            zip(contact_list, re.findall(r"(\d+\s*x\s*\d+)", html.get_text()))
+        ):
+            if any(keyword in d.getText().upper() for keyword in weekly_keywords):
+                semester_hours = int(h[0]) * int(h[-1]) * 12
+                classes[d.getText()] = semester_hours
+                # print(d.getText(), semester_hours)
+            else:
+                semester_hours = int(h[0]) * int(h[-1])
+                classes[d.getText()] = semester_hours
+        # If there is a set of hours in the format 'a hours'
+        for d, h in list(zip(contact_list, re.findall(r"(\d+)", html.get_text()))):
+            if d.getText() not in classes:
+                if (
+                    any(keyword in d.getText().upper() for keyword in weekly_keywords)
+                    and int(h) <= 5
+                ):
+                    hours = int(h) * 12
+                    classes[d.getText()] = hours
+                    # print(d.getText(), int(h)*12)
+                else:
+                    classes[d.getText()] = int(h)
+                    # print(d.getText(), int(h))
+
+    # Sum all hours to get semester contact hours
+    sum = 0
+    for value in classes.values():
+        sum += value
+
+    return sum
+
+
 # set url and headers
 url = "https://handbooks.uwa.edu.au/unitdetails?code="
 headers = {
@@ -14,23 +67,18 @@ unit_code = []
 
 # reading in majors
 code = open("majors.json", "r")
-code = json.load(code)
+dump = json.load(code)
+code.close()
 
-for j in code.items():
+for i in dump.items():
     for level in range(1, 5):
         key = f"Level{level}Units"
-        for unit in j[1][key]:
-            print(unit)
+        for unit in i[1][key]:
             if unit not in unit_code:
                 unit_code.append(unit)
-        # print(level)
 
-print(unit_code)
-# # unit codes is a textfile containing the 8 character unit codes, 1 to a line.
-# # test only with small lists of units (e.g. CITS units)
-# codes = open("unit-codes.txt", "r")
 
-# # the unit currently being crawled
+# the unit currently being crawled
 # code = codes.readline().strip()
 
 # the dictionary of units.
@@ -42,7 +90,6 @@ for code in unit_code:
 
     soup = BeautifulSoup(page.content, "lxml")
     # put all data into units dictionary
-
     # specify code
     unit = {"code": code}
     # take title (dropping off code at the end)
@@ -64,8 +111,7 @@ for code in unit_code:
         elif key == "Offering":
             offer = {}
             for row in value.find_all("tbody tr"):
-                for h, d in list(
-                        zip(value.find_all("thead th"), row.find_all("td"))):
+                for h, d in list(zip(value.find_all("thead th"), row.find_all("td"))):
                     offer[h.get_text().strip()] = d.get_text().strip()
             unit[key] = offer
         # Find Majors in which the course appears (note, only name, not code is
@@ -76,40 +122,42 @@ for code in unit_code:
         # Extract list of outcomes using a regexp
         elif key == "Outcomes":
             outcomes = value.get_text().strip()
-            unit[key] = re.findall(r"\d\)([^\(;]*)", outcomes)
+            outcomes = re.findall(r"\d\)([^\(;]*)", outcomes)
+            unit[key] = [outcome.strip().capitalize() for outcome in outcomes]
         # Extract description of assessment items
         elif key == "Assessment":
             assessments = value.get_text().strip()
-            unit[key] = re.findall(r"\d\)([^\(;.]*)", assessments)
+            assessments = re.findall(r"\d\)([^\(;.]*)", assessments)
+            unit[key] = [assessment.strip().capitalize() for assessment in assessments]
         # find Unit Coordinator name
         elif key == "Unit Coordinator":
             unit[key] = value.get_text().strip()
         # find description of contact hours with class type and time per week
-        # (working?)
         elif key == "Contact hours":
-            classes = {}
-            for d, h in list(
-                zip(value.find_all("i"), re.findall(r"(\d)", value.get_text()))
-            ):  
-                print(f"\n{d},{h}\n")
-                classes[desc[i]] = classes[h[i]]
-            unit["Contact"] = classes
+            classes = get_contact(value)
+            unit[key] = classes
+
         # find prerequisites. Format is vague, should probably convert to CNF.
         # deeply unsatisfactory. Should aim to capture the Boolean rules here.
         # Will accept as disjunct.
-        elif (key == "Unit rules"):
+        elif key == "Unit rules":
             for k, v in list(zip(value.find_all("dt"), value.find_all("dd"))):
-                unit[k.get_text().strip()] = list(
-                    map(lambda x: x.get_text().strip(), v.find_all("a"))
-                )
+                prereqs = list(map(lambda x: x.get_text().strip(), v.find_all("a")))
+                cleaned_prereqs = []
+                for prereq in prereqs:
+                    if (re.search("[A-Z]{4}\d{4}$", prereq) is not None and len(prereq) == 8):
+                        cleaned_prereqs.append(prereq)
+                    else:
+                        pass
+                if cleaned_prereqs:
+                    unit[k.get_text().strip()] = cleaned_prereqs
         # textbooks
         elif key == "Texts":
-            texts = list(
-                map(lambda x: x.get_text().strip(), value.find_all("p")))
+            texts = list(map(lambda x: x.get_text().strip(), value.find_all("p")))
     units[code] = unit
     # code = codes.readline().strip()
 
-# codes.close()
+
 out = open("units.json", "w")
-# # write to file with indent set to 2.
+# write to file with indent set to 2.
 json.dump(units, out, indent=4)
