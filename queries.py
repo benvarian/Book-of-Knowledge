@@ -1,5 +1,4 @@
-from rdflib import Graph, Literal, BNode, Namespace, RDF, URIRef
-
+from rdflib import Graph
 # Create a Graph
 g = Graph()
 
@@ -13,19 +12,22 @@ Prefix rel: <https://uwa.handbook/relation/>
 Prefix uwa: <https://uwa.handbook/>
 Prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 
-SELECT ?Title (COUNT(?Outcome) AS ?count)
+SELECT ?code (COUNT(?Outcome) AS ?count)
 WHERE {
 ?p a uwa:unit.
-?p rel:Title ?Title.
 ?p rel:Outcome ?Outcome.
+BIND(REPLACE(STR(?p), "https://uwa.handbook/code/", "") AS ?code).
 }
-GROUP BY ?Title
+GROUP BY ?code
 HAVING (COUNT(?Outcome) > 6)
 """
-# for i in g.query(query1):
-#     title = i["Title"]
-#     count = i["count"]
-#     print(f"{title}, {count}")
+print("--QUERY 1 START--")
+for i in g.query(query1):
+    count = i["count"]
+    code = i["code"]
+    print(f"{code},{count}")
+print("--QUERY 1 END--\n\n")
+
 
 # query 2
 # Find all level 3 units that do not have an exam,
@@ -55,8 +57,10 @@ WHERE {
 }
 GROUP BY ?code
 """
+print("--QUERY 2 START--")
 for i in g.query(query2):
     print(i["code"])
+print("--QUERY 2 END--\n\n")
 # query 3
 # Find all units that appear in more than 3 majors.
 query3 = """
@@ -77,10 +81,12 @@ WHERE {
 GROUP BY ?unit
 HAVING (COUNT(?unit) > 3)
 """
-# for i in g.query(query3):
-#     name = i["code"]
-#     count = i["count"]
-#     print(f"{name} appears in {count} majors")
+print("--QUERY 3 START--")
+for i in g.query(query3):
+    name = i["code"]
+    count = i["count"]
+    print(f"{name} appears in {count} majors")
+print("--QUERY 3 END--\n\n")
 # query 4
 # Basic search functionality: Given a query string
 # (eg "environmental policy"), can you find the units
@@ -91,16 +97,18 @@ Prefix rel: <https://uwa.handbook/relation/>
 Prefix uwa: <https://uwa.handbook/>
 Prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 
-SELECT DISTINCT ?Title
+SELECT DISTINCT ?code
 WHERE {
 ?p a uwa:unit.
-?p rel:Title ?Title.
 ?p rel:Description ?Description.
 ?p rel:Outcome ?Outcome.
+BIND(REPLACE(STR(?p), "https://uwa.handbook/code/", "") AS ?code).
 FILTER(REGEX(?Description, "environmental policy") ||
 REGEX(?Outcome, "environmental policy")).
 }
 """
-# for i in g.query(query4):
-#     title = i["Title"]
-#     print(f"{title}")
+print("--QUERY 4 START--")
+for i in g.query(query4):
+    code = i["code"]
+    print(f"{code}")
+print("--QUERY 4 END--\n\n")
