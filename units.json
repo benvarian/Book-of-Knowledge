@@ -27,7 +27,10 @@
         "Incompatibility": [
             "ACCT1101"
         ],
-        "Contact hours": 36
+        "Contact hours": 36,
+        "Texts": [
+            "Accounting:\u00a0business reporting for decision making, 7th edition (birt, bond, chalmers, brooks, oliver)"
+        ]
     },
     "AGRI1001": {
         "code": "AGRI1001",
@@ -77,7 +80,10 @@
             "Tests",
             "Participation"
         ],
-        "Contact hours": 36
+        "Contact hours": 36,
+        "Texts": [
+            "Tba"
+        ]
     },
     "MKTG1203": {
         "code": "MKTG1203",
@@ -313,7 +319,11 @@
             "Assignments and",
             "Examination"
         ],
-        "Contact hours": 60
+        "Contact hours": 60,
+        "Texts": [
+            "Carter c. a. futures and options markets: an introduction: prentice-hall 2003",
+            "Koo, w. w. and lynn, k. p. international trade and agriculture: theories and practices: wiley-blackwell 2005"
+        ]
     },
     "MKTG3302": {
         "code": "MKTG3302",
@@ -564,7 +574,12 @@
             "MATH1720",
             "MATX1720"
         ],
-        "Contact hours": 65
+        "Contact hours": 65,
+        "Texts": [
+            "Recommended texts (i.e. not compulsory) available in the unit's reading list (week 1):",
+            "Bowater, l. & yeoman, k. (2012). science communication: a practical guide for scientists. new york, usa: wiley-blackwell.",
+            "Cormick, c. (2019). the science of communicating science: the ultimate guide. collingwood, australia: csiro publishing."
+        ]
     },
     "ENVT2236": {
         "code": "ENVT2236",
@@ -975,7 +990,13 @@
             "Assignments",
             "A final two-hour examination"
         ],
-        "Contact hours": 36
+        "Contact hours": 36,
+        "Texts": [
+            "Different journal articles are provided through the lms (learning management system). the following textbooks have been recommended for this unit and the first one is the required text which has been ordered through the university\u00a0co-operative bookshop as well.",
+            "1. harris, j.m. and roach, b. (2018). environmental and natural resource economics - a contemporary approach, 4th ed., routledge, new york.",
+            "2. tietenberg, t. and lewis, l. (2015). environmental and natural resource economics, 10th ed (global edition): pearson education, sydney.",
+            "3. hanley, n., shogren, j., and white, b. (2013). introduction to environmental economics, 2nd ed., oxford university press, oxford."
+        ]
     },
     "ENVT2221": {
         "code": "ENVT2221",
@@ -1072,7 +1093,12 @@
             "ECON2234",
             "ECON2245"
         ],
-        "Contact hours": 36
+        "Contact hours": 36,
+        "Texts": [
+            "Lesourd, j-b. and schilizzi, s. the environment in corporate management: new directions and economic insights: edward elgar publishing 2001, 2003*",
+            "An additional reference book is:",
+            "Brueckner, m. the business with the environment: a different reader, 2nd edn: cengage learning 2011"
+        ]
     },
     "ENVT3362": {
         "code": "ENVT3362",
@@ -1137,7 +1163,10 @@
             "Practical exercise or practical report for each of 5 practical's total to take place approximately one every two weeks, with one in the first two weeks",
             "A research report based on interpreting land surface data from a key australian ecosystem"
         ],
-        "Contact hours": 48
+        "Contact hours": 48,
+        "Texts": [
+            "Online material including ipcc report."
+        ]
     },
     "ENVT2251": {
         "code": "ENVT2251",
@@ -1174,7 +1203,11 @@
             "GEOG1103",
             "GENG1014"
         ],
-        "Contact hours": 26
+        "Contact hours": 26,
+        "Texts": [
+            "Ward, a. d. and trimble, s. w. environmental hydrology, 3rd edn: lewis publishers 2014",
+            "Gordon, n. d. et al.\u00a0stream hydrology: an introduction for ecologists, 2nd edn:\u00a0wiley publishers\u00a02004"
+        ]
     },
     "ENVT3338": {
         "code": "ENVT3338",
@@ -1300,7 +1333,10 @@
         "Prerequisites": [
             "BIOL1131"
         ],
-        "Contact hours": 27
+        "Contact hours": 27,
+        "Texts": [
+            "Hickman, r., keen, e., larson a. and l\u2019anson h. integrated principles of zoology: mcgrawhill (any edition from 15th onwards)"
+        ]
     },
     "ENVT2250": {
         "code": "ENVT2250",
@@ -1370,7 +1406,10 @@
             "SCIE1106",
             "SCIX1106"
         ],
-        "Contact hours": 27
+        "Contact hours": 27,
+        "Texts": [
+            "Majer, s and burrows, g. botanical field guide:\u00a0aracaria guides, mullumbimby, nsw, 2011."
+        ]
     },
     "ENVT3363": {
         "code": "ENVT3363",
@@ -2588,7 +2627,10 @@
             "MUSC1741",
             "MUSC1341"
         ],
-        "Contact hours": 12
+        "Contact hours": 12,
+        "Texts": [
+            "Students are strongly encouraged to procure a simple 61-note electronic (piano) keyboard, digital piano, or piano"
+        ]
     },
     "MUSC1350": {
         "code": "MUSC1350",
@@ -2768,7 +2810,10 @@
         "Prerequisites": [
             "MUSC2273"
         ],
-        "Contact hours": 36
+        "Contact hours": 36,
+        "Texts": [
+            "Iphone / android app called touchosc\r\n$7.99 from the apple store or android.\u00a0\r\nlink here:\r\nhttps://apps.apple.com/au/app/touchosc/id288120394"
+        ]
     },
     "MUSC2455": {
         "code": "MUSC2455",
@@ -2796,7 +2841,10 @@
         "Co-requisites": [
             "MUSC1592"
         ],
-        "Contact hours": 12
+        "Contact hours": 12,
+        "Texts": [
+            "Students are strongly encouraged to procure a simple 61-note electronic (piano) keyboard, digital piano, or piano"
+        ]
     },
     "MUSC2520": {
         "code": "MUSC2520",
@@ -3558,7 +3606,10 @@
             "MATH1721",
             "MATX1721"
         ],
-        "Contact hours": 98
+        "Contact hours": 98,
+        "Texts": [
+            "Weiss, m. a. data structures and problem solving using java, 4th edn: addison-wesley 2010\n\r\ncormen, t. h. et al. introduction to algorithms, 3rd edn: mit press 2009"
+        ]
     },
     "ELEC2311": {
         "code": "ELEC2311",
@@ -4451,7 +4502,10 @@
         "Incompatibility": [
             "ENSC3003"
         ],
-        "Contact hours": 28
+        "Contact hours": 28,
+        "Texts": [
+            "Bird, r. b. et al. transport phenomena, 2nd edn: john wiley\u00a0& sons 2006\n\r\nfox, r. w. et al. introduction to fluid mechanics, 7th edn:\u00a0 john wiley\u00a0& sons 2008\n\r\nmunson, b. r. et al. fundamentals of fluid mechanics, 6th edn: john wiley &\u00a0sons 2009"
+        ]
     },
     "MECH2002": {
         "code": "MECH2002",
@@ -4910,7 +4964,11 @@
         "Advisable prior study": [
             "GENG2003"
         ],
-        "Contact hours": 39
+        "Contact hours": 39,
+        "Texts": [
+            "Coulson, j. m. et al.\u00a0chemical engineering volume 1: fluid flow, heat transfer and mass transfer, 6th edn: elsevier butterworth heinemann 1999",
+            "Incropera, f. p. et al. fundamentals of heat and mass transfer, 7th edn: john wiley & sons 2011"
+        ]
     },
     "CHPR2018": {
         "code": "CHPR2018",
@@ -4979,7 +5037,10 @@
         "Incompatibility": [
             "ENSC3018"
         ],
-        "Contact hours": 36
+        "Contact hours": 36,
+        "Texts": [
+            "Towler, g. and sinnott, r. k. chemical engineering design: principles, practice and economics:\u00a0butterworth-heinemann 2008\u00a0\n\r\nkemp, i. c.\u00a0pinch analysis and process integration:\u00a0\u00a0a user guide on process integration for the efficient use of energy, 2nd edn:\u00a0\u00a0butterworth-heinemann 2006"
+        ]
     },
     "CHPR3019": {
         "code": "CHPR3019",
@@ -5039,7 +5100,10 @@
         "Incompatibility": [
             "CHPR4404"
         ],
-        "Contact hours": 38
+        "Contact hours": 38,
+        "Texts": [
+            "Assael, m. j. et al. thermophysical properties of fluids: an introduction to their prediction: imperial college press 1996\n\r\nprausnitz, j. m. et al. molecular thermodynamics of fluid-phase equilibria, 3rd edn: prentice-hall ptr 1999"
+        ]
     },
     "CHPR3405": {
         "code": "CHPR3405",
@@ -5096,7 +5160,10 @@
         "Incompatibility": [
             "CHPR4406"
         ],
-        "Contact hours": 38
+        "Contact hours": 38,
+        "Texts": [
+            "Levenspiel, o.\u00a0chemical reaction engineering, 3rd edn: wiley c.1999\n\r\nfogler, s.\u00a0elements of chemical reaction engineering, 3rd edn: prentice-hall 1999"
+        ]
     },
     "CHPR3407": {
         "code": "CHPR3407",
@@ -5247,7 +5314,10 @@
         "Incompatibility": [
             "ENSC3008"
         ],
-        "Contact hours": 50
+        "Contact hours": 50,
+        "Texts": [
+            "All notes are provided."
+        ]
     },
     "CIVL2551": {
         "code": "CIVL2551",
@@ -5308,7 +5378,10 @@
         "Incompatibility": [
             "ENSC3009"
         ],
-        "Contact hours": 40
+        "Contact hours": 40,
+        "Texts": [
+            "Atkinson, j. the mechanics of soils and foundations, 2nd edn: taylor & francis 2007\n\r\nwhitlow, r. basic soil mechanics, 4th edn: longman scientific and technical 2001\n\r\nbolton, m. d. a guide to soil mechanics: macmillan press 1979"
+        ]
     },
     "GENG2010": {
         "code": "GENG2010",
@@ -5427,7 +5500,10 @@
         "Incompatibility": [
             "CIVL4402"
         ],
-        "Contact hours": 40
+        "Contact hours": 40,
+        "Texts": [
+            "Munson, b. r.,\u00a0young, d. f. and okiishi, t. h.\u00a0fundamentals of fluid mechanics, 4th edn: john wiley & sons inc. 2002\n\r\nnalluri, c.\u00a0and featherstone, r. e. civil engineering hydraulics, 4th edn: blackwell science 2001"
+        ]
     },
     "CIVL3403": {
         "code": "CIVL3403",
@@ -5490,7 +5566,10 @@
         "Incompatibility": [
             "CIVL4404"
         ],
-        "Contact hours": 38
+        "Contact hours": 38,
+        "Texts": [
+            "Gorenc, b.,\u00a0tinyou, r.\u00a0and\u00a0syam, a. steel designers' handbook, 7th edn: university of new south wales press ltd 2005\n\r\naustralian standards as4100"
+        ]
     },
     "GENG3405": {
         "code": "GENG3405",
@@ -5586,7 +5665,13 @@
         "Incompatibility": [
             "PHYS2001"
         ],
-        "Contact hours": 225
+        "Contact hours": 225,
+        "Texts": [
+            "This unit will be based on a number of recommended texts including:",
+            "Physics,\u00a0douglas c. giancoli",
+            "Fundamentals of physics,\u00a0david halliday, jearl walker, and robert resnick",
+            "Essential quantum mechanics for electrical engineers, peter deak"
+        ]
     },
     "STAT2063": {
         "code": "STAT2063",
@@ -5619,7 +5704,12 @@
         "Incompatibility": [
             "STAT2062"
         ],
-        "Contact hours": 48
+        "Contact hours": 48,
+        "Texts": [
+            "This unit will be based on a number of recommended texts including:",
+            "Probability, statistics, and random processes for electrical engineering, alberto leon garcia",
+            "Introduction to probability, jessica hwang and joseph k. blitzstein"
+        ]
     },
     "ELEC3014": {
         "code": "ELEC3014",
@@ -6074,6 +6164,9 @@
         ],
         "Incompatibility": [
             "ENVE4405"
+        ],
+        "Texts": [
+            "Jorgensen, s. e. introduction to systems ecology: crc press c.2012\u00a0\n\r\nnewman, e. i. applied ecology and\u00a0environmental management, 2nd edn: blackwell science c.2000"
         ]
     },
     "ENVE3608": {
@@ -6389,7 +6482,10 @@
             "ENSC2004",
             "MECH2004"
         ],
-        "Contact hours": 0
+        "Contact hours": 0,
+        "Texts": [
+            "Lecture notes: pan, j. dynamics, vibration and sound: uwa school of mechanical engineering\n\r\nnorton, m. p. fundamentals of noise and vibration analysis for engineers: cup 1996"
+        ]
     },
     "MECH4429": {
         "code": "MECH4429",
@@ -6890,7 +6986,10 @@
             "A laboratory examination",
             "A practical assessment"
         ],
-        "Contact hours": 27
+        "Contact hours": 27,
+        "Texts": [
+            "Ackland, t. et al. applied anatomy and biomechanics in sport, 2nd edn: human kinetics 2009\r\nackland, t.\u00a0sseh1101 gross anatomy laboratory manual\r\nsaladin, k. s. anatomy and physiology,\u00a07th edn: mcgraw-hill 2015"
+        ]
     },
     "SSEH1102": {
         "code": "SSEH1102",
@@ -6914,7 +7013,10 @@
             "Assignment",
             "Practical test"
         ],
-        "Contact hours": 26
+        "Contact hours": 26,
+        "Texts": [
+            "Ackland, t.\u00a0et al.\u00a0applied anatomy and biomechanics in sport, 2nd edn:\u00a0human kinetics 2007\n\r\nlanders, g. sseh1102 applied anatomy and athletic performance course manual: 2015"
+        ]
     },
     "SSEH1103": {
         "code": "SSEH1103",
@@ -7008,7 +7110,12 @@
         "Advisable prior study": [
             "SSEH2260"
         ],
-        "Contact hours": 26
+        "Contact hours": 26,
+        "Texts": [
+            "Recommended: essa's student manual for exercise prescrioption, delivery and adherence. coombes, burton and beckman.",
+            "Recommended:\u00a0essa's student manual for health, exercise and sport assessment. coombes and skinner.\u00a0 2nd edition.",
+            "Complulsory: sseh3301 laboratoy manual"
+        ]
     },
     "SSEH3375": {
         "code": "SSEH3375",
@@ -7051,7 +7158,11 @@
         "Advisable prior study": [
             "SSEH1103"
         ],
-        "Contact hours": 25
+        "Contact hours": 25,
+        "Texts": [
+            "Ainsworth, b. e and macera, c. a.\u00a0physical activity and public health practice: crc press\u00a02012",
+            "Bouchard, c. et al.\u00a0physical activity and health: human kinetics 2007\n\r\nbauman, a. et al. getting australia active: towards best practice for the promotion of physical activity: commonwealth department of health and aged care 2002 (downloadable from national public health partnership\u00a0or available on lms (learning management system)\n\r\nall other recommended readings are listed on\u00a0lms."
+        ]
     },
     "MATH1720": {
         "code": "MATH1720",
@@ -7598,7 +7709,10 @@
             "ANHB1101",
             "ANHB1101"
         ],
-        "Contact hours": 48
+        "Contact hours": 48,
+        "Texts": [
+            "Current human biology ii unit manual\n\r\na list of recommended texts is available in the unit outline"
+        ]
     },
     "SCIE1106": {
         "code": "SCIE1106",
@@ -7715,7 +7829,10 @@
             "IMED1001",
             "IMED1002"
         ],
-        "Contact hours": 60
+        "Contact hours": 60,
+        "Texts": [
+            "Crowley\u2019s an introduction to human disease (pathology & pathophysiology correlations), 10th edition by emily g. reisner & howard m. reisner."
+        ]
     },
     "PATH2211": {
         "code": "PATH2211",
@@ -7779,7 +7896,14 @@
         "Advisable prior study": [
             "SCIE1106"
         ],
-        "Contact hours": 60
+        "Contact hours": 60,
+        "Texts": [
+            "The following textbooks complement the lecture material and will be a valuable educational resource.",
+            "Pathology at a glance \u2013 c. finlayson & b. newell, 1st ed. publisher: wiley-blackwell",
+            "Immunology at a glance \u2013 j.h.l playfair and b .m. chain, 10th ed. publisher: wiley-blackwell",
+            "Haematology at a glance \u2013 a. mehta and v. hoffbrand, 4th ed. publisher: wiley-blackwell",
+            "Medical genetics at a glance \u2013 d.j. pritchard and b.r. korf, 3rd ed. publisher: wiley-blackwell"
+        ]
     },
     "MICR3305": {
         "code": "MICR3305",
@@ -7980,7 +8104,10 @@
             "PUBH1102",
             "IMED1108"
         ],
-        "Contact hours": 0
+        "Contact hours": 0,
+        "Texts": [
+            "Carson, b. et al. eds social determinants of indigenous health: allen & unwin 2007\n\r\ncouzos, s.\u00a0and murray, r.\u00a0aboriginal primary health care: an evidence-based approach, 3rd edn: melbourne\u00a0oup\u00a02008\n\r\nnational aboriginal health strategy working party: national aboriginal health strategy 1989\n\r\nsaggers, s.\u00a0and gray, d.\u00a0aboriginal health and society: the traditional and contemporary aboriginal struggle for better health: allen & unwin 1991\n\r\nsee the lms (learning management system) and unit cd and guidebook for a more detailed list of references."
+        ]
     },
     "PUBH2203": {
         "code": "PUBH2203",
@@ -8062,7 +8189,10 @@
             "ANTH1001",
             "ANTH1002"
         ],
-        "Contact hours": 48
+        "Contact hours": 48,
+        "Texts": [
+            "Schneider, m. j. introduction to public health, 4th edn: jones and bartlett publication\u00a02013"
+        ]
     },
     "PUBH2216": {
         "code": "PUBH2216",
@@ -8286,7 +8416,10 @@
             "Short answer final examination",
             "Lab participation and assessment"
         ],
-        "Contact hours": 13
+        "Contact hours": 13,
+        "Texts": [
+            "Hamill, j. and knutzen, k. biomechanical basis of human movement,\u00a03rd edn: williams & wilkins 2009\n\r\nrichards, j. biomechanics in clinic\u00a0and research: churchill livingstone 2008"
+        ]
     },
     "SSEH2295": {
         "code": "SSEH2295",
@@ -8332,7 +8465,14 @@
         "Prerequisites": [
             "SSEH2250"
         ],
-        "Contact hours": 26
+        "Contact hours": 26,
+        "Texts": [
+            "No formally prescribed text but recommended texts include:",
+            "Bartlett, r.\u00a0sports biomechanics: preventing injury and improving performance: taylor & francis 1999",
+            "Peyton, c. and\u00a0bartlett, r.\u00a0biomechanical evaluation of movement in sport and exercise: the british association of sport and exercise sciences guidelines.\u00a0tj international ltd 2008",
+            "Hong, y. and\u00a0bartlett, r.\u00a0routledge handbook of biomechanics and human movement science: routledge 2010",
+            "Winter, d. a.\u00a0biomechanics of human movement, 2nd edn:\u00a0john wiley & son\u00a01990"
+        ]
     },
     "SSEH3365": {
         "code": "SSEH3365",
@@ -8354,7 +8494,10 @@
         "Prerequisites": [
             "SSEH2260"
         ],
-        "Contact hours": 36
+        "Contact hours": 36,
+        "Texts": [
+            "Course notes manual"
+        ]
     },
     "SSEH3394": {
         "code": "SSEH3394",
@@ -8526,7 +8669,10 @@
             "MATH1721",
             "MATX1721"
         ],
-        "Contact hours": 2
+        "Contact hours": 2,
+        "Texts": [
+            "Lehman, e., leighton, f. t. and meyer, a. r. mathematics for computer science: mit\u00a02014"
+        ]
     },
     "CITS3002": {
         "code": "CITS3002",
@@ -9380,6 +9526,9 @@
         "Incompatibility": [
             "CITS3402",
             "SHPC4002"
+        ],
+        "Texts": [
+            "To be advised by the school of computer science and software engineering."
         ]
     },
     "ACCT1101": {
@@ -9753,7 +9902,10 @@
             "STAX1520",
             "ECON1111"
         ],
-        "Contact hours": 36
+        "Contact hours": 36,
+        "Texts": [
+            "Wooldridge, j.\u00a0introductory econometrics.\u00a01st ed.:\u00a0cengage 2012"
+        ]
     },
     "FINA2207": {
         "code": "FINA2207",
@@ -10842,7 +10994,10 @@
             "Online assessment",
             "End of semester exam"
         ],
-        "Contact hours": 53
+        "Contact hours": 53,
+        "Texts": [
+            "Current human biology i unit manual\n\r\na list of recommended textbooks is available in the unit outline."
+        ]
     },
     "ANHB2212": {
         "code": "ANHB2212",
@@ -10919,7 +11074,10 @@
             "ANHB1101",
             "ANHB1102"
         ],
-        "Contact hours": 26
+        "Contact hours": 26,
+        "Texts": [
+            "Mescher al (2021) junqueira's basic histology: text & atlas. mcgrawhill. isbn: 9781260462982."
+        ]
     },
     "ANHB2215": {
         "code": "ANHB2215",
@@ -10951,7 +11109,10 @@
             "ANTH1001",
             "ANTH1002"
         ],
-        "Contact hours": 48
+        "Contact hours": 48,
+        "Texts": [
+            "Two ethnographies are required:\u00a0 nisa (m. shostak author) and yanomamo (n. chagnon, author). other required reading is provided on-line or in the cmo system at the uwa library."
+        ]
     },
     "ANHB2216": {
         "code": "ANHB2216",
@@ -10995,7 +11156,10 @@
             "SCIE1106",
             "ANHB1101"
         ],
-        "Contact hours": 48
+        "Contact hours": 48,
+        "Texts": [
+            "Heffner, l. j. and schust, d. j. the reproductive system at a glance,\u00a03rd edn: blackwell publishing 2010 or\n\r\njohnson, m. h. essential reproduction, 7th edn: wiley-blackwell science 2013 or\n\r\npinon, r.\u00a0biology of human reproduction: university science books 2002"
+        ]
     },
     "ANHB3310": {
         "code": "ANHB3310",
@@ -11226,7 +11390,10 @@
             "ANHB2214",
             "ANHB2217"
         ],
-        "Contact hours": 2
+        "Contact hours": 2,
+        "Texts": [
+            "See unit outline for information on recommended text books."
+        ]
     },
     "BIOC2001": {
         "code": "BIOC2001",
@@ -12573,7 +12740,11 @@
             "Earth science reports",
             "Presentation project"
         ],
-        "Contact hours": 48
+        "Contact hours": 48,
+        "Texts": [
+            "An interactive e-textbook is provided through lms as part of enrolment in this unit.",
+            "Grotzinger, j. and jordan, t. \u00a0understanding earth, 7th edn:\u00a0 w. h. freeman\u00a0& co., 2014"
+        ]
     },
     "CHEM2001": {
         "code": "CHEM2001",
@@ -12711,7 +12882,10 @@
         "Prerequisites": [
             "EART1104"
         ],
-        "Contact hours": 38
+        "Contact hours": 38,
+        "Texts": [
+            "A comprehensive reading list is given out at the start of the unit."
+        ]
     },
     "CHEM3001": {
         "code": "CHEM3001",
@@ -12869,7 +13043,10 @@
             "EART2231",
             "EART2234"
         ],
-        "Contact hours": 74
+        "Contact hours": 74,
+        "Texts": [
+            "A comprehensive reading list is given at the beginning of the unit."
+        ]
     },
     "EART3344": {
         "code": "EART3344",
@@ -14018,7 +14195,11 @@
             "IMED1001",
             "IMED1002"
         ],
-        "Contact hours": 151
+        "Contact hours": 151,
+        "Texts": [
+            "Flower rj, henderson g, loke yk, macewan dj, rang hp, ritter j (2019) rang and dale's pharmacology. 9th edn.",
+            "An earlier edition is suitable - dale mm, flower rj, henderson g, rang hp (2016) rang & dale's pharmacology. 8th edn."
+        ]
     },
     "PHAR2220": {
         "code": "PHAR2220",
@@ -14047,7 +14228,11 @@
             "PHAR2210",
             "IMED2002"
         ],
-        "Contact hours": 31
+        "Contact hours": 31,
+        "Texts": [
+            "Flower rj, henderson g, loke yk, macewan dj, rang hp, ritter j (2019) rang and dale's pharmacology. 9th edn.",
+            "An earlier edition is also suitable - dale mm, flower rj, henderson g, rang hp (2016) rang & dale's ppharmacology. 8th edn."
+        ]
     },
     "PHAR3310": {
         "code": "PHAR3310",
@@ -14698,7 +14883,10 @@
             "Tutorial assignments",
             "Essay"
         ],
-        "Contact hours": 36
+        "Contact hours": 36,
+        "Texts": [
+            "Renfrew, colin and paul bahn. 2016. archaeology: theories, method and practice,\u00a07th edn: london: thames & hudson. available from booktopia and reid library."
+        ]
     },
     "ARCY1002": {
         "code": "ARCY1002",
@@ -14766,7 +14954,14 @@
             "Test",
             "Tutorial assignments"
         ],
-        "Contact hours": 24
+        "Contact hours": 24,
+        "Texts": [
+            "Optional but recommended:",
+            "Mcdonald, j. & veth, p. 2012. a companion to rock art. chichester: wiley-blackwell.",
+            "Smith, b. w., helskog, k. & morris, d. 2012. working with rock art: recording, presenting and understanding rock art using indigenous knowledge. johannesburg: wits university press.",
+            "Whitley, d. s. 2001. rock art and rock art research in worldwide perspective,\u00a0in\u00a0whitley, d. s. (ed.), handbook of rock art research: 7\u201351. lanham, ca: altamira press.",
+            "Copies of these books in the\u00a0 reid library"
+        ]
     },
     "ARCY2005": {
         "code": "ARCY2005",
@@ -14793,7 +14988,13 @@
         "Prerequisites": [
             "ARCY2004"
         ],
-        "Contact hours": 10
+        "Contact hours": 10,
+        "Texts": [
+            "Optional but recommended:",
+            "Mcdonald, j. & veth, p. 2012.\u00a0 a companion to rock art: london\" wiley-blackwell.",
+            "Mulvaney, k. 2015.\u00a0 murujuga marni: the rock art of the macropod hunters and the mollusc harvesters: perth. uwa press.",
+            "Books are available in the reid library"
+        ]
     },
     "ARCY2006": {
         "code": "ARCY2006",
@@ -14841,7 +15042,19 @@
             "Module tests",
             "Continual assessment"
         ],
-        "Contact hours": 200
+        "Contact hours": 200,
+        "Texts": [
+            "The recommended text book is not a compulsory purchase. hard copies can be borrowed from the science library (closed reserve) or students can access the online version via the uwa library system (student log-on credentials are required).",
+            "Houck, m. m\u00a0and siegel, j. a. fundamentals of forensic science,\u00a02nd edn:\u00a0oxford\u00a0academic press\u00a02010",
+            "Additional information sources:",
+            "More information can be found in the following textbooks which are available in closed reserve in the science library:",
+            "Goff, m. l. a fly for the prosecution: how insect evidence helps solve crimes:\u00a0harvard university press\u00a02001",
+            "Haglund, w. d. and sorg, m. h. eds\u00a0forensic taphonomy: the post-mortem fate of human remains: boca raton\u00a0crc press\u00a01996",
+            "Hunter, j., roberts, c.\u00a0and martin, a. eds\u00a0studies in crime: an introduction to forensic archaeology: batsford\u00a01996",
+            "Freckelton, i. the trial of the expert: a study of expert evidence and forensic experts: oxford university press\u00a01987",
+            "Rathburn, t. a. and buikstra, j. e. eds\u00a0human identification: case studies in forensic anthropology: charles c thomas pub ltd\u00a01987",
+            "Saferstein, r.\u00a0criminalistics: an introduction to forensic science,\u00a07th edn: prentice hall\u00a02000"
+        ]
     },
     "ARCY3002": {
         "code": "ARCY3002",
@@ -14866,7 +15079,11 @@
             "Report of field diary",
             "Weekly group assignments"
         ],
-        "Contact hours": 9
+        "Contact hours": 9,
+        "Texts": [
+            "Burke, heather, michael morrison\u00a0 and claire smith. 2017. the archaeologist's field handbook. crow's nest: allen & unwin.",
+            "Book is available in electronic and hard copy in reid library."
+        ]
     },
     "ARCY3003": {
         "code": "ARCY3003",
@@ -14887,7 +15104,11 @@
             "Laboratory assignments",
             "Quizzes"
         ],
-        "Contact hours": 3
+        "Contact hours": 3,
+        "Texts": [
+            "Balme, j. and a. g. paterson (eds). 2014. archaeology in practice: a student guide to archaeological analyses. 2nd ed. chichester: wiley blackwell.",
+            "This book is available in electronic and hard copy at the reid libray."
+        ]
     },
     "ASIA1001": {
         "code": "ASIA1001",
@@ -15158,7 +15379,10 @@
             "Written assignments",
             "Examination"
         ],
-        "Contact hours": 0
+        "Contact hours": 0,
+        "Texts": [
+            "There is no textbook for this unit. students will be advised of essential readings in the unit outline."
+        ]
     },
     "ASIA3006": {
         "code": "ASIA3006",
@@ -15211,7 +15435,10 @@
             "Quizzes",
             "Examination"
         ],
-        "Contact hours": 36
+        "Contact hours": 36,
+        "Texts": [
+            "Concise australian commercial law, clive turner, roger gamble, john trone,thomson reuters, 5th edition 2019"
+        ]
     },
     "LAWS2201": {
         "code": "LAWS2201",
@@ -16509,7 +16736,10 @@
         "Prerequisites": [
             "LAWS1110"
         ],
-        "Contact hours": 36
+        "Contact hours": 36,
+        "Texts": [
+            "Natarajan, m. (ed.). (2019).\u00a0international and transnational crime and justice\u00a0(2nd ed.). cambridge: cambridge university press. doi:10.1017/9781108597296"
+        ]
     },
     "PSYC2203": {
         "code": "PSYC2203",
@@ -16975,7 +17205,16 @@
         "Prerequisites": [
             "ECON2271"
         ],
-        "Contact hours": 36
+        "Contact hours": 36,
+        "Texts": [
+            "Reccomended",
+            "Angrist, j. & pischke j. (2014), mastering 'metrics: the pathe from cause to effect, princeton university press.",
+            "Angrist, j. & pischke j. (2009), mostly harmless econometrics: an empiricist's companion, princeton university press.",
+            "Wooldrigde, j. (2013), introductory econometrics: a modern approach, 5th edition, south-west cengage learning.",
+            "Other",
+            "Davidson, j (2017), an introduction to econometric theory, cambridge university press.",
+            "Magnuss, j (2017), introduction to the theory of econometrics, vu university press."
+        ]
     },
     "ECON3395": {
         "code": "ECON3395",
@@ -17149,7 +17388,18 @@
             "Project",
             "Participation"
         ],
-        "Contact hours": 36
+        "Contact hours": 36,
+        "Texts": [
+            "The following jane austen textbooks are required for this unit:",
+            "Sense and sensibility",
+            "Pride and prejudice",
+            "Emma",
+            "Persuasion",
+            "The following adaptations of austen are also required:",
+            "Sense and sensibility (film)",
+            "Clueless (film)",
+            "Miss austen regrets (film)"
+        ]
     },
     "ENGL2210": {
         "code": "ENGL2210",
@@ -17586,7 +17836,10 @@
         "Prerequisites": [
             "FREN2408"
         ],
-        "Contact hours": 2
+        "Contact hours": 2,
+        "Texts": [
+            "Edito c1, didier, m\u00e9thode de francais [isbn 978 2 278 09096 9] and cahier d\u2019activit\u00e9s.[978 2 278 09097 6] [electronic or print version, video et audio], 2018, didier distributed by intext book company, [email\u00a0protected] ["
+        ]
     },
     "FREN3813": {
         "code": "FREN3813",
@@ -17776,7 +18029,10 @@
             "Participation",
             "An examination"
         ],
-        "Contact hours": 14
+        "Contact hours": 14,
+        "Texts": [
+            "List of texts are available from booktopia."
+        ]
     },
     "FREN3405": {
         "code": "FREN3405",
@@ -18240,7 +18496,10 @@
             "Oral tasks",
             "An end-of-semester examination"
         ],
-        "Contact hours": 1
+        "Contact hours": 1,
+        "Texts": [
+            "Students do not need to purchase any texts for this unit. all materials will be provided via the lms."
+        ]
     },
     "GRMN1402": {
         "code": "GRMN1402",
@@ -18266,7 +18525,10 @@
         "Prerequisites": [
             "GRMN1401"
         ],
-        "Contact hours": 0
+        "Contact hours": 0,
+        "Texts": [
+            "Students do not need to purchase any texts for this unit. all materials will be provided via the lms."
+        ]
     },
     "GRMN2002": {
         "code": "GRMN2002",
@@ -18294,7 +18556,10 @@
         "Co-requisites": [
             "GRMN2403"
         ],
-        "Contact hours": 2
+        "Contact hours": 2,
+        "Texts": [
+            "No textbooks required."
+        ]
     },
     "GRMN2403": {
         "code": "GRMN2403",
@@ -18900,7 +19165,13 @@
             "Research essay",
             "Tutorial participation"
         ],
-        "Contact hours": 0
+        "Contact hours": 0,
+        "Texts": [
+            "William shakespeare,\u00a0the tempest",
+            "Sigmund freud, civilisation and its discontents",
+            "Fyodor dostoevsky, notes from underground",
+            "Thomas mann, death in venice and seven other stories"
+        ]
     },
     "HIST2224": {
         "code": "HIST2224",
@@ -20310,7 +20581,12 @@
         "Prerequisites": [
             "INDO1401"
         ],
-        "Contact hours": 48
+        "Contact hours": 48,
+        "Texts": [
+            "Rafferty, e.\u00a0et al. let\u2019s speak indonesian/ayo berbahasa indonesia, vol.\u00a01: nus press\u00a0singapore\u00a02014",
+            "Rafferty, e.\u00a0et al. let\u2019s speak indonesian/ayo berbahasa indonesia, vol.\u00a02: nus press\u00a0singapore\u00a02014",
+            "Rafferty, e.\u00a0et al. indonesian grammar in context/asyik berbahasa indonesia, vol.\u00a02: nus press\u00a0singapore 2014"
+        ]
     },
     "INDO2001": {
         "code": "INDO2001",
@@ -20685,7 +20961,10 @@
             "Class tests",
             "Class contribution and participation"
         ],
-        "Contact hours": 3
+        "Contact hours": 3,
+        "Texts": [
+            "Lists of texts are available from the european languages and studies web page."
+        ]
     },
     "ITAL1406": {
         "code": "ITAL1406",
@@ -20712,7 +20991,10 @@
         "Prerequisites": [
             "ITAL1405"
         ],
-        "Contact hours": 3
+        "Contact hours": 3,
+        "Texts": [
+            "Lists of texts are available from the european languages and studies web page."
+        ]
     },
     "ITAL2407": {
         "code": "ITAL2407",
@@ -20738,7 +21020,10 @@
         "Prerequisites": [
             "ITAL1406"
         ],
-        "Contact hours": 3
+        "Contact hours": 3,
+        "Texts": [
+            "Lists of texts are available from the european languages and studies web page."
+        ]
     },
     "ITAL2408": {
         "code": "ITAL2408",
@@ -20764,7 +21049,10 @@
         "Prerequisites": [
             "ITAL2407"
         ],
-        "Contact hours": 3
+        "Contact hours": 3,
+        "Texts": [
+            "Lists of texts are available from the european languages and studies web page."
+        ]
     },
     "ITAL2812": {
         "code": "ITAL2812",
@@ -20820,7 +21108,10 @@
             "ITAL2408",
             "ITAL3408"
         ],
-        "Contact hours": 3
+        "Contact hours": 3,
+        "Texts": [
+            "Lists of texts are available from the european languages and studies web page."
+        ]
     },
     "ITAL3410": {
         "code": "ITAL3410",
@@ -20847,7 +21138,10 @@
         "Prerequisites": [
             "ITAL3409"
         ],
-        "Contact hours": 3
+        "Contact hours": 3,
+        "Texts": [
+            "Lists of texts are available from the european languages and studies web page."
+        ]
     },
     "ITAL1401": {
         "code": "ITAL1401",
@@ -20925,7 +21219,10 @@
         "Prerequisites": [
             "ITAL1402"
         ],
-        "Contact hours": 3
+        "Contact hours": 3,
+        "Texts": [
+            "Lists of texts are available from the european languages and studies web page."
+        ]
     },
     "ITAL2404": {
         "code": "ITAL2404",
@@ -20955,7 +21252,10 @@
         "Prerequisites": [
             "ITAL2403"
         ],
-        "Contact hours": 3
+        "Contact hours": 3,
+        "Texts": [
+            "Lists of texts are available from the european languages and studies web page."
+        ]
     },
     "ITAL2811": {
         "code": "ITAL2811",
@@ -21013,7 +21313,10 @@
         "Prerequisites": [
             "ITAL2404"
         ],
-        "Contact hours": 3
+        "Contact hours": 3,
+        "Texts": [
+            "Lists of texts are available from european languages and studies web page."
+        ]
     },
     "ITAL3406": {
         "code": "ITAL3406",
@@ -21040,7 +21343,10 @@
         "Prerequisites": [
             "ITAL3405"
         ],
-        "Contact hours": 3
+        "Contact hours": 3,
+        "Texts": [
+            "Lists of texts are available from the european languages and studies web page."
+        ]
     },
     "ITAL1403": {
         "code": "ITAL1403",
@@ -21067,7 +21373,10 @@
             "Assignments",
             "Participation"
         ],
-        "Contact hours": 3
+        "Contact hours": 3,
+        "Texts": [
+            "Lists of texts are available from the european languages and studies web page."
+        ]
     },
     "ITAL1404": {
         "code": "ITAL1404",
@@ -21097,7 +21406,10 @@
         "Prerequisites": [
             "ITAL1403"
         ],
-        "Contact hours": 3
+        "Contact hours": 3,
+        "Texts": [
+            "Lists of texts are available from the european languages and studies web page."
+        ]
     },
     "ITAL2405": {
         "code": "ITAL2405",
@@ -21124,7 +21436,10 @@
         "Prerequisites": [
             "ITAL1404"
         ],
-        "Contact hours": 3
+        "Contact hours": 3,
+        "Texts": [
+            "Lists of texts are available from the european languages and studies web page."
+        ]
     },
     "ITAL2406": {
         "code": "ITAL2406",
@@ -21151,7 +21466,10 @@
         "Prerequisites": [
             "ITAL2405"
         ],
-        "Contact hours": 3
+        "Contact hours": 3,
+        "Texts": [
+            "Lists of texts are available from the european languages and studies web page."
+        ]
     },
     "ITAL3407": {
         "code": "ITAL3407",
@@ -21178,7 +21496,10 @@
             "ITAL2406",
             "ITAL3406"
         ],
-        "Contact hours": 3
+        "Contact hours": 3,
+        "Texts": [
+            "Lists of texts are available from the european languages and studies web page."
+        ]
     },
     "ITAL3408": {
         "code": "ITAL3408",
@@ -21204,7 +21525,10 @@
         "Prerequisites": [
             "ITAL3407"
         ],
-        "Contact hours": 3
+        "Contact hours": 3,
+        "Texts": [
+            "Lists of texts are available from the european languages and studies web page."
+        ]
     },
     "JAPN1401": {
         "code": "JAPN1401",
@@ -22171,7 +22495,10 @@
             "Problem set",
             "Examination"
         ],
-        "Contact hours": 72
+        "Contact hours": 72,
+        "Texts": [
+            "Open-access book 'a concise introduction to logic'\u00a0by craig delancey"
+        ]
     },
     "PHIL2003": {
         "code": "PHIL2003",
@@ -22934,7 +23261,10 @@
         "Incompatibility": [
             "PSYC3312"
         ],
-        "Contact hours": 48
+        "Contact hours": 48,
+        "Texts": [
+            "Current textbook information is available in the school of psychological science textbooks list."
+        ]
     },
     "PSYC2213": {
         "code": "PSYC2213",
@@ -23117,7 +23447,10 @@
         "Incompatibility": [
             "PSYC2209"
         ],
-        "Contact hours": 32
+        "Contact hours": 32,
+        "Texts": [
+            "Current textbook information is available in the school of psychological science textbooks list."
+        ]
     },
     "PSYC3310": {
         "code": "PSYC3310",
@@ -23147,7 +23480,10 @@
             "PSYC1102",
             "PSYC2203"
         ],
-        "Contact hours": 42
+        "Contact hours": 42,
+        "Texts": [
+            "Readings as outlined by the lecturers."
+        ]
     },
     "SCOM3319": {
         "code": "SCOM3319",
@@ -23437,7 +23773,10 @@
             "AHEA2201",
             "INDG2300"
         ],
-        "Contact hours": 0
+        "Contact hours": 0,
+        "Texts": [
+            "Carson, b. et al. eds social determinants of indigenous health: allen & unwin 2007\n\r\ncouzos, s. and murray, r. aboriginal primary health care: an evidence-based approach, 3rd edn: oup 2008\n\r\nnational aboriginal health strategy working party: national aboriginal health strategy 1989\n\r\nsaggers, s. and gray, d. aboriginal health and society: the traditional and contemporary aboriginal struggle for better health: allen & unwin 1991\n\r\nsee the lms (learning management system) and unit cd and guidebook for a more detailed list of references."
+        ]
     },
     "AHEA3300": {
         "code": "AHEA3300",
