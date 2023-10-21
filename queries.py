@@ -1,4 +1,9 @@
 from rdflib import Graph
+
+# Contributors
+#  Ben Varian 23215049
+#  Mitchell Otley 23475725
+
 # Create a Graph
 g = Graph()
 
