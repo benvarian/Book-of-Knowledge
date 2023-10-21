@@ -21,12 +21,13 @@ l4unit = rel["L4Unit"]
 title =      rel["Title"]
 credit =     rel["Credit"]
 level =      rel["Level"]
-ass =        rel["Assessment"]
+assess =     rel["Assessment"]
 in_major =   rel["inMajor"]
 contact =    rel["ContactHours"]
 coreq =      rel["Corequisite"]
 incomp =     rel["Incompatability"]
 priorStudy = rel["AdvisablePriorStudy"]
+text =      rel["Texts"]
 
 # Major and units relations
 outcome = rel["Outcome"]
@@ -93,7 +94,7 @@ for instance in unit_dump.items():
             g.add((unit_URI, outcome, Literal(i.strip().capitalize())))
     if('Assessment' in instance[1]):
         for i in instance[1]['Assessment']:
-            g.add((unit_URI, ass, Literal(i.strip().capitalize())))
+            g.add((unit_URI, assess, Literal(i.strip().capitalize())))
     if('Prerequisites' in instance[1]):
         for i in instance[1]['Prerequisites']:
             g.add((unit_URI, prereq, code[i]))
@@ -108,6 +109,9 @@ for instance in unit_dump.items():
             g.add((unit_URI, priorStudy, code[i]))
     if('Contact hours' in instance[1]):
         g.add((unit_URI, contact, Literal(int(instance[1]['Contact hours']))))
+    if('Texts' in instance[1]):
+        for i in instance[1]['Texts']:
+            g.add((unit_URI, text, Literal(i)))
     
 
 if(__name__ == "__main__"):
