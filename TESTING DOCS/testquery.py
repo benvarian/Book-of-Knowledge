@@ -1,12 +1,10 @@
-from rdflib import Graph, Literal, BNode, Namespace, RDF, URIRef
+from rdflib import Graph
 
 # Create a Graph
 g = Graph()
 
 g.parse("handbook.ttl")
 
-# 
-                
 query = """
             Prefix rel: <https://uwa.handbook/relation/>
             Prefix uwa: <https://uwa.handbook/>

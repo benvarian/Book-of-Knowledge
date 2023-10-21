@@ -1,4 +1,5 @@
-from owlready2 import *
+from owlready2 import onto_path, get_ontology, Thing, FunctionalProperty
+
 onto_path.append("./")
 onto = get_ontology("http://test.org/onto.owl#")
 
@@ -34,11 +35,11 @@ with onto:
     class has_rare_shape(has_shape):
         pass
 
+
 isolated = Isolated()
 my_bacterium = Bacterium(
     "my_bacterium", gram_positive=True, has_shape=Rod(),
     has_grouping=[isolated]
 )
 my_bacterium.has_grouping.append(inPair())
-print(my_bacterium.has_grouping)
 onto.save()

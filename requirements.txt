@@ -12,6 +12,7 @@ isodate==0.6.1
 isort==5.12.0
 lxml==4.9.3
 mccabe==0.7.0
+owlready2==0.44
 owlrl==6.0.2
 packaging==23.2
 platformdirs==3.11.0

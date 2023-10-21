@@ -1,9 +1,6 @@
-from owlready2 import (
-    get_ontology,
-    sync_reasoner_pellet,
-    sync_reasoner
-)
+from owlready2 import get_ontology, sync_reasoner_pellet
 import json
+
 
 # Function to convert a list of unit codes
 # from a string to the ontology Unit class
@@ -13,14 +10,15 @@ def extract_units(list_of_units):
         units.append(onto.Unit(unit))
     return units
 
+
 onto = get_ontology("./handbook.owl")
 loaded = onto.load()
 
-## Load Data into ontology
-with open("majors.json", "r") as file:
+# Load Data into ontology
+with open("scraping_results/majors.json", "r") as file:
     majors = json.load(file)
 
-with open("units.json", "r") as output:
+with open("scraping_results/units.json", "r") as output:
     units = json.load(output)
 
 for unit in units.items():
@@ -28,22 +26,26 @@ for unit in units.items():
     prereqs = extract_units(unit[1].get("Prerequisites", ""))
     outcomes = []
     for outcome in unit[1]["Outcomes"]:
-        outcomes.append(onto.Outcome(outcome.replace(" ", "_").replace("\n", "_")))
-    texts = [onto.Text(text.replace(" ", "_").replace("\n", "_")) for text in unit[1].get("Texts", "")]
+        outcomes.append(onto.Outcome(outcome.replace(" ", "_").replace("\n",
+                                                                       "_")))
+    texts = [
+        onto.Text(text.replace(" ", "_").replace("\n", "_"))
+        for text in unit[1].get("Texts", "")
+    ]
 
     # Add unit to ontology
-    unit_mod = onto.Unit(unit[0],
-                         has_name=unit[1]["title"].replace(" ", "_"),
-                         has_description=unit[1]["Description"].replace(" ", "_"),
-                         has_credit_points=int(unit[1]["Credit"]),
-                         has_pre_requisites=prereqs,
-                         has_assessment=unit[1]["Assessment"],
-                         has_contact_hours=unit[1].get('Contact hours'),
-                         has_outcome=outcomes,
-                         has_text=texts
-                         )
-    
-    
+    unit_mod = onto.Unit(
+        unit[0],
+        has_name=unit[1]["title"].replace(" ", "_"),
+        has_description=unit[1]["Description"].replace(" ", "_"),
+        has_credit_points=int(unit[1]["Credit"]),
+        has_pre_requisites=prereqs,
+        has_assessment=unit[1]["Assessment"],
+        has_contact_hours=unit[1].get("Contact hours"),
+        has_outcome=outcomes,
+        has_text=texts,
+    )
+
 
 for major in majors.items():
     # Extract data
@@ -62,12 +64,15 @@ for major in majors.items():
         has_level_three_units=units_level_three,
         has_level_four_units=units_level_four,
         has_name=name,
-        has_description=desc
+        has_description=desc,
     )
 
-    out = [onto.Outcome(out.replace(" ", "_").replace("\n", "_")) for out in major[1]["Outcomes"]]
+    out = [
+        onto.Outcome(out.replace(" ", "_").replace("\n", "_"))
+        for out in major[1]["Outcomes"]
+    ]
     major_owl.has_outcome.extend(out)
 
-sync_reasoner(onto, infer_property_values=True)
-    
+sync_reasoner_pellet(onto, infer_property_values=True)
+
 onto.save("handbook_populated.owl")

@@ -6,7 +6,7 @@ from owlready2 import (
     TransitiveProperty,
     Or,
     DataProperty,
-    Imp
+    Imp,
 )
 
 
@@ -14,6 +14,7 @@ onto = get_ontology("http://test.org/handbook.owl/")
 
 # Add to ontology
 with onto:
+
     class Major(Thing):
         pass
 
@@ -70,24 +71,28 @@ with onto:
 
     outcome_axiom1 = Imp()
     outcome_axiom1.set_as_rule(
-        "has_level_one_units(?m, ?u), has_outcome(?u, ?o) -> has_outcome(?m, ?o)"
-        )
-    
+        "has_level_one_units(?m, ?u), has_outcome(?u, ?o) -> has_outcome(?m, \
+        ?o)"
+    )
+
     outcome_axiom2 = Imp()
     outcome_axiom2.set_as_rule(
-        "has_level_two_units(?m, ?u), has_outcome(?u, ?o) -> has_outcome(?m, ?o)"
-        )
-    
+        "has_level_two_units(?m, ?u), has_outcome(?u, ?o) -> has_outcome(?m, \
+        ?o)"
+    )
+
     outcome_axiom3 = Imp()
     outcome_axiom3.set_as_rule(
-        "has_level_three_units(?m, ?u), has_outcome(?u, ?o) -> has_outcome(?m, ?o)"
-        )
-    
+        "has_level_three_units(?m, ?u), has_outcome(?u, ?o) -> has_outcome(?m,\
+         ?o)"
+    )
+
     outcome_axiom4 = Imp()
     outcome_axiom4.set_as_rule(
-        "has_level_four_units(?m, ?u), has_outcome(?u, ?o) -> has_outcome(?m, ?o)"
-        )
-    
+        "has_level_four_units(?m, ?u), has_outcome(?u, ?o) -> has_outcome(?m, \
+        ?o)"
+    )
+
     text_axiom1 = Imp()
     text_axiom1.set_as_rule(
         "has_level_one_units(?m, ?u), has_text(?u, ?t) -> has_text(?m, ?t)"
